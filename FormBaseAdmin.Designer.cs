@@ -32,7 +32,7 @@
             btnSalir = new Button();
             panelSalir = new Panel();
             btnCerrarSesion = new Button();
-            btnProductos = new Button();
+            btnAltasYBajas = new Button();
             btnExtra = new Button();
             btnGraficas = new Button();
             panelBotones = new Panel();
@@ -89,21 +89,22 @@
             btnCerrarSesion.UseVisualStyleBackColor = false;
             btnCerrarSesion.Click += btnCerrarSesion_Click;
             // 
-            // btnProductos
+            // btnAltasYBajas
             // 
-            btnProductos.BackColor = Color.FromArgb(24, 30, 54);
-            btnProductos.BackgroundImageLayout = ImageLayout.None;
-            btnProductos.FlatAppearance.BorderSize = 2;
-            btnProductos.FlatStyle = FlatStyle.Flat;
-            btnProductos.ForeColor = Color.FromArgb(70, 150, 250);
-            btnProductos.Image = Properties.Resources.IconoAltasBajas;
-            btnProductos.Location = new Point(14, 13);
-            btnProductos.Name = "btnProductos";
-            btnProductos.Size = new Size(151, 43);
-            btnProductos.TabIndex = 1;
-            btnProductos.Text = "Altas / Bajas";
-            btnProductos.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnProductos.UseVisualStyleBackColor = false;
+            btnAltasYBajas.BackColor = Color.FromArgb(24, 30, 54);
+            btnAltasYBajas.BackgroundImageLayout = ImageLayout.None;
+            btnAltasYBajas.FlatAppearance.BorderSize = 2;
+            btnAltasYBajas.FlatStyle = FlatStyle.Flat;
+            btnAltasYBajas.ForeColor = Color.FromArgb(70, 150, 250);
+            btnAltasYBajas.Image = Properties.Resources.IconoAltasBajas;
+            btnAltasYBajas.Location = new Point(14, 13);
+            btnAltasYBajas.Name = "btnAltasYBajas";
+            btnAltasYBajas.Size = new Size(151, 43);
+            btnAltasYBajas.TabIndex = 1;
+            btnAltasYBajas.Text = "Altas";
+            btnAltasYBajas.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnAltasYBajas.UseVisualStyleBackColor = false;
+            btnAltasYBajas.Click += btnAltasYBajas_Click;
             // 
             // btnExtra
             // 
@@ -116,8 +117,9 @@
             btnExtra.Name = "btnExtra";
             btnExtra.Size = new Size(151, 43);
             btnExtra.TabIndex = 2;
-            btnExtra.Text = "Etcetera...";
+            btnExtra.Text = "Bajas";
             btnExtra.UseVisualStyleBackColor = false;
+            btnExtra.Click += btnExtra_Click;
             // 
             // btnGraficas
             // 
@@ -134,6 +136,7 @@
             btnGraficas.Text = "Graficas";
             btnGraficas.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnGraficas.UseVisualStyleBackColor = false;
+            btnGraficas.Click += btnGraficas_Click;
             // 
             // panelBotones
             // 
@@ -141,7 +144,7 @@
             panelBotones.Controls.Add(btnModificaciones);
             panelBotones.Controls.Add(btnExtra);
             panelBotones.Controls.Add(btnGraficas);
-            panelBotones.Controls.Add(btnProductos);
+            panelBotones.Controls.Add(btnAltasYBajas);
             panelBotones.Location = new Point(222, 27);
             panelBotones.Name = "panelBotones";
             panelBotones.Size = new Size(729, 68);
@@ -162,6 +165,7 @@
             btnModificaciones.Text = "Modificaciones";
             btnModificaciones.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnModificaciones.UseVisualStyleBackColor = false;
+            btnModificaciones.Click += btnModificaciones_Click;
             // 
             // panelUsuario
             // 
@@ -192,11 +196,11 @@
             labelNomAdm.AutoSize = true;
             labelNomAdm.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             labelNomAdm.ForeColor = Color.FromArgb(70, 150, 250);
-            labelNomAdm.Location = new Point(49, 145);
+            labelNomAdm.Location = new Point(78, 143);
             labelNomAdm.Name = "labelNomAdm";
-            labelNomAdm.Size = new Size(124, 21);
+            labelNomAdm.Size = new Size(69, 21);
             labelNomAdm.TabIndex = 2;
-            labelNomAdm.Text = "Usuario Admin";
+            labelNomAdm.Text = "Usuario";
             // 
             // pictureBoxAdmin
             // 
@@ -204,6 +208,7 @@
             pictureBoxAdmin.Location = new Point(48, 15);
             pictureBoxAdmin.Name = "pictureBoxAdmin";
             pictureBoxAdmin.Size = new Size(125, 125);
+            pictureBoxAdmin.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBoxAdmin.TabIndex = 1;
             pictureBoxAdmin.TabStop = false;
             // 
@@ -243,7 +248,7 @@
         private Button btnCerrarSesion;
         private Button btnGraficas;
         private Button btnExtra;
-        private Button btnProductos;
+        private Button btnAltasYBajas;
         private Panel panelBotones;
         private Button btnModificaciones;
         private Panel panelUsuario;
