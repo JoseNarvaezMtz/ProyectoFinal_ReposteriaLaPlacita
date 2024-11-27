@@ -29,9 +29,10 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            button4 = new Button();
+            btnSonido = new Button();
+            btnInformacion = new Button();
             pictureBox1 = new PictureBox();
-            button3 = new Button();
+            btnSalirUs = new Button();
             btnCerrarSesionUs = new Button();
             labelNomUsuario = new Label();
             panel2 = new Panel();
@@ -47,9 +48,10 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(110, 80, 50);
-            panel1.Controls.Add(button4);
+            panel1.Controls.Add(btnSonido);
+            panel1.Controls.Add(btnInformacion);
             panel1.Controls.Add(pictureBox1);
-            panel1.Controls.Add(button3);
+            panel1.Controls.Add(btnSalirUs);
             panel1.Controls.Add(btnCerrarSesionUs);
             panel1.Controls.Add(labelNomUsuario);
             panel1.Dock = DockStyle.Top;
@@ -58,71 +60,83 @@
             panel1.Size = new Size(951, 95);
             panel1.TabIndex = 0;
             // 
-            // button4
+            // btnSonido
             // 
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button4.ForeColor = Color.AntiqueWhite;
-            button4.Image = Properties.Resources.Logo;
-            button4.Location = new Point(27, 16);
-            button4.Name = "button4";
-            button4.Size = new Size(266, 52);
-            button4.TabIndex = 3;
-            button4.Text = "C a f é   l a   p l a c i t a";
-            button4.TextAlign = ContentAlignment.MiddleRight;
-            button4.TextImageRelation = TextImageRelation.TextBeforeImage;
-            button4.UseVisualStyleBackColor = true;
-            button4.Click += button4_Click;
+            btnSonido.FlatStyle = FlatStyle.Flat;
+            btnSonido.Image = Properties.Resources.Sonido1;
+            btnSonido.Location = new Point(646, 8);
+            btnSonido.Name = "btnSonido";
+            btnSonido.Size = new Size(44, 38);
+            btnSonido.TabIndex = 0;
+            btnSonido.TextImageRelation = TextImageRelation.TextBeforeImage;
+            btnSonido.UseVisualStyleBackColor = true;
+            btnSonido.Click += btnSonido_Click;
+            // 
+            // btnInformacion
+            // 
+            btnInformacion.FlatStyle = FlatStyle.Flat;
+            btnInformacion.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnInformacion.ForeColor = Color.AntiqueWhite;
+            btnInformacion.Image = Properties.Resources.Logo;
+            btnInformacion.Location = new Point(10, 24);
+            btnInformacion.Name = "btnInformacion";
+            btnInformacion.Size = new Size(291, 52);
+            btnInformacion.TabIndex = 3;
+            btnInformacion.Text = "C a f é   l a   p l a c i t a";
+            btnInformacion.TextAlign = ContentAlignment.MiddleRight;
+            btnInformacion.TextImageRelation = TextImageRelation.TextBeforeImage;
+            btnInformacion.UseVisualStyleBackColor = true;
+            btnInformacion.Click += btnInformacion_Click;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.photoBase;
-            pictureBox1.Location = new Point(324, 0);
+            pictureBox1.Location = new Point(329, 0);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(344, 95);
+            pictureBox1.Size = new Size(311, 95);
             pictureBox1.TabIndex = 2;
             pictureBox1.TabStop = false;
             // 
-            // button3
+            // btnSalirUs
             // 
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.Font = new Font("Tempus Sans ITC", 8F, FontStyle.Bold);
-            button3.ForeColor = Color.AntiqueWhite;
-            button3.Location = new Point(925, 0);
-            button3.Name = "button3";
-            button3.Size = new Size(25, 25);
-            button3.TabIndex = 2;
-            button3.Text = "X";
-            button3.TextAlign = ContentAlignment.MiddleRight;
-            button3.TextImageRelation = TextImageRelation.ImageBeforeText;
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
+            btnSalirUs.FlatStyle = FlatStyle.Flat;
+            btnSalirUs.Font = new Font("Tempus Sans ITC", 8F, FontStyle.Bold);
+            btnSalirUs.ForeColor = Color.AntiqueWhite;
+            btnSalirUs.Location = new Point(925, 0);
+            btnSalirUs.Name = "btnSalirUs";
+            btnSalirUs.Size = new Size(25, 25);
+            btnSalirUs.TabIndex = 2;
+            btnSalirUs.Text = "X";
+            btnSalirUs.TextAlign = ContentAlignment.MiddleRight;
+            btnSalirUs.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnSalirUs.UseVisualStyleBackColor = true;
+            btnSalirUs.Click += btnSalirUs_Click;
             // 
             // btnCerrarSesionUs
             // 
             btnCerrarSesionUs.FlatStyle = FlatStyle.Flat;
             btnCerrarSesionUs.Font = new Font("Tempus Sans ITC", 10F, FontStyle.Bold);
             btnCerrarSesionUs.ForeColor = Color.AntiqueWhite;
-            btnCerrarSesionUs.Location = new Point(838, 57);
+            btnCerrarSesionUs.Location = new Point(829, 57);
             btnCerrarSesionUs.Name = "btnCerrarSesionUs";
-            btnCerrarSesionUs.Size = new Size(107, 28);
+            btnCerrarSesionUs.Size = new Size(112, 28);
             btnCerrarSesionUs.TabIndex = 1;
             btnCerrarSesionUs.Text = "Cerrar sesion";
             btnCerrarSesionUs.TextAlign = ContentAlignment.MiddleRight;
             btnCerrarSesionUs.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnCerrarSesionUs.UseVisualStyleBackColor = true;
-            btnCerrarSesionUs.Click += button2_Click;
+            btnCerrarSesionUs.Click += btnCerrarSesionUs_Click;
             // 
             // labelNomUsuario
             // 
             labelNomUsuario.AutoSize = true;
             labelNomUsuario.Font = new Font("Tempus Sans ITC", 11F, FontStyle.Bold);
             labelNomUsuario.ForeColor = Color.AntiqueWhite;
-            labelNomUsuario.Location = new Point(793, 35);
+            labelNomUsuario.Location = new Point(772, 35);
             labelNomUsuario.Name = "labelNomUsuario";
-            labelNomUsuario.Size = new Size(152, 19);
+            labelNomUsuario.Size = new Size(159, 19);
             labelNomUsuario.TabIndex = 0;
-            labelNomUsuario.Text = "Nombre de Usuario";
+            labelNomUsuario.Text = "Nombre Del Usuario";
             // 
             // panel2
             // 
@@ -224,7 +238,8 @@
         private PictureBox pictureBox1;
         private Panel PanelPrincipal;
         private Label label2;
-        private Button button3;
-        private Button button4;
+        private Button btnSalirUs;
+        private Button btnInformacion;
+        private Button btnSonido;
     }
 }
