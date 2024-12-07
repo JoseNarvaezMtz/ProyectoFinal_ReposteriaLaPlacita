@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\loren\\OneDrive\\Desktop\\WinFormsProyectoBase\\WinFormsProyectoBase\\",
+  "WorkspaceRootPath": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\loren\\onedrive\\desktop\\winformsproyectobase\\winformsproyectobase\\formbaseadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\julia\\source\\repos\\proyectofinal_reposterialaplacita\\formbaseadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formbaseadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\loren\\OneDrive\\Desktop\\WinFormsProyectoBase\\WinFormsProyectoBase\\formbaseadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\formbaseadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formbaseadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\loren\\OneDrive\\Desktop\\WinFormsProyectoBase\\WinFormsProyectoBase\\formbajas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\formbajas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formbajas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\loren\\OneDrive\\Desktop\\WinFormsProyectoBase\\WinFormsProyectoBase\\formaltas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\formaltas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formaltas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\loren\\onedrive\\desktop\\winformsproyectobase\\winformsproyectobase\\formbaseusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\julia\\source\\repos\\proyectofinal_reposterialaplacita\\formbaseusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formbaseusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\loren\\OneDrive\\Desktop\\WinFormsProyectoBase\\WinFormsProyectoBase\\formbaseusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\formbaseusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formbaseusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -57,12 +57,16 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "FormBaseAdmin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Desktop\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormBaseAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormBaseAdmin.cs",
               "RelativeDocumentMoniker": "FormBaseAdmin.cs",
-              "ToolTip": "C:\\Users\\loren\\OneDrive\\Desktop\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormBaseAdmin.cs [Design]",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormBaseAdmin.cs [Design]",
               "RelativeToolTip": "FormBaseAdmin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T18:01:31.156Z",
@@ -72,10 +76,10 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "FormBaseUsuario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Desktop\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormBaseUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormBaseUsuario.cs",
               "RelativeDocumentMoniker": "FormBaseUsuario.cs",
               "ToolTip": "C:\\Users\\analo\\OneDrive\\Escritorio\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormBaseUsuario.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\analo\\OneDrive\\Escritorio\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormBaseUsuario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\analo\\OneDrive\\Escritorio\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormBaseUsuario.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T18:01:29.053Z"
             },
@@ -83,9 +87,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "FormBaseUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Desktop\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormBaseUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormBaseUsuario.cs",
               "RelativeDocumentMoniker": "FormBaseUsuario.cs",
-              "ToolTip": "C:\\Users\\loren\\OneDrive\\Desktop\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormBaseUsuario.cs",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormBaseUsuario.cs",
               "RelativeToolTip": "FormBaseUsuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -95,9 +99,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "FormBaseAdmin.cs",
-              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Desktop\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormBaseAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormBaseAdmin.cs",
               "RelativeDocumentMoniker": "FormBaseAdmin.cs",
-              "ToolTip": "C:\\Users\\loren\\OneDrive\\Desktop\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormBaseAdmin.cs",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormBaseAdmin.cs",
               "RelativeToolTip": "FormBaseAdmin.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAABoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -108,10 +112,10 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "FormAltas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Desktop\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormAltas.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormAltas.cs",
               "RelativeDocumentMoniker": "FormAltas.cs",
               "ToolTip": "C:\\Users\\analo\\OneDrive\\Escritorio\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormAltas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\analo\\OneDrive\\Escritorio\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormAltas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\analo\\OneDrive\\Escritorio\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormAltas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T18:02:18.043Z"
             },
@@ -119,10 +123,10 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "FormBajas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Desktop\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormBajas.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormBajas.cs",
               "RelativeDocumentMoniker": "FormBajas.cs",
               "ToolTip": "C:\\Users\\analo\\OneDrive\\Escritorio\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormBajas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\analo\\OneDrive\\Escritorio\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormBajas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\analo\\OneDrive\\Escritorio\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormBajas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T18:18:55.745Z"
             }
