@@ -25,7 +25,7 @@ namespace WinFormsProyectoBase
             this.labelNomAdm.Location = new System.Drawing.Point(108 - (((nombreUs.Length) * 8) / 2), 145);
             this.panDisp = panDisp;
             this.postreDisp = postreDisp;
-            cargarForm(new FormAltas());
+            //cargarForm(new FormAltas());
         }
         public void cargarForm(object Form)
         {

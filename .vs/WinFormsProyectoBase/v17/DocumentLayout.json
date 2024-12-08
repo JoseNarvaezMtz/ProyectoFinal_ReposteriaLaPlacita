@@ -1,30 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\loren\\OneDrive\\Desktop\\WinFormsProyectoBase\\WinFormsProyectoBase\\",
+  "WorkspaceRootPath": "C:\\Users\\josen\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\loren\\onedrive\\desktop\\winformsproyectobase\\winformsproyectobase\\formbaseadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formbaseadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\josen\\source\\repos\\josenarvaezmtz\\proyectofinal_reposterialaplacita\\formmodificaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formmodificaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\loren\\OneDrive\\Desktop\\WinFormsProyectoBase\\WinFormsProyectoBase\\formbaseadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formbaseadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\josen\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\formmodificaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formmodificaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\loren\\OneDrive\\Desktop\\WinFormsProyectoBase\\WinFormsProyectoBase\\formbajas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formbajas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\loren\\OneDrive\\Desktop\\WinFormsProyectoBase\\WinFormsProyectoBase\\formaltas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formaltas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\loren\\onedrive\\desktop\\winformsproyectobase\\winformsproyectobase\\formbaseusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formbaseusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\loren\\OneDrive\\Desktop\\WinFormsProyectoBase\\WinFormsProyectoBase\\formbaseusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formbaseusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\josen\\source\\repos\\josenarvaezmtz\\proyectofinal_reposterialaplacita\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,73 +46,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormBaseAdmin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Desktop\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormBaseAdmin.cs",
-              "RelativeDocumentMoniker": "FormBaseAdmin.cs",
-              "ToolTip": "C:\\Users\\loren\\OneDrive\\Desktop\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormBaseAdmin.cs [Design]",
-              "RelativeToolTip": "FormBaseAdmin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T18:01:31.156Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FormBaseUsuario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Desktop\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormBaseUsuario.cs",
-              "RelativeDocumentMoniker": "FormBaseUsuario.cs",
-              "ToolTip": "C:\\Users\\analo\\OneDrive\\Escritorio\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormBaseUsuario.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\analo\\OneDrive\\Escritorio\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormBaseUsuario.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T18:01:29.053Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormBaseUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Desktop\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormBaseUsuario.cs",
-              "RelativeDocumentMoniker": "FormBaseUsuario.cs",
-              "ToolTip": "C:\\Users\\loren\\OneDrive\\Desktop\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormBaseUsuario.cs",
-              "RelativeToolTip": "FormBaseUsuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T06:25:26.112Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormBaseAdmin.cs",
-              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Desktop\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormBaseAdmin.cs",
-              "RelativeDocumentMoniker": "FormBaseAdmin.cs",
-              "ToolTip": "C:\\Users\\loren\\OneDrive\\Desktop\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormBaseAdmin.cs",
-              "RelativeToolTip": "FormBaseAdmin.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAABoAAAApAAAAAAAAAA==",
+              "Title": "FormModificaciones.cs",
+              "DocumentMoniker": "C:\\Users\\josen\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormModificaciones.cs",
+              "RelativeDocumentMoniker": "FormModificaciones.cs",
+              "ToolTip": "C:\\Users\\josen\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormModificaciones.cs",
+              "RelativeToolTip": "FormModificaciones.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAwFUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T05:57:32.271Z",
+              "WhenOpened": "2024-12-08T00:53:08.851Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormAltas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Desktop\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormAltas.cs",
-              "RelativeDocumentMoniker": "FormAltas.cs",
-              "ToolTip": "C:\\Users\\analo\\OneDrive\\Escritorio\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormAltas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\analo\\OneDrive\\Escritorio\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormAltas.cs [Dise\u00F1o]",
+              "DocumentIndex": 1,
+              "Title": "FormModificaciones.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\josen\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormModificaciones.cs",
+              "RelativeDocumentMoniker": "FormModificaciones.cs",
+              "ToolTip": "C:\\Users\\josen\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormModificaciones.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormModificaciones.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T18:02:18.043Z"
+              "WhenOpened": "2024-12-07T23:36:23.983Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FormBajas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Desktop\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormBajas.cs",
-              "RelativeDocumentMoniker": "FormBajas.cs",
-              "ToolTip": "C:\\Users\\analo\\OneDrive\\Escritorio\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormBajas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\analo\\OneDrive\\Escritorio\\WinFormsProyectoBase\\WinFormsProyectoBase\\FormBajas.cs [Dise\u00F1o]",
+              "Title": "Productos.cs",
+              "DocumentMoniker": "C:\\Users\\josen\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\Productos.cs",
+              "RelativeDocumentMoniker": "Productos.cs",
+              "ToolTip": "C:\\Users\\josen\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\Productos.cs",
+              "RelativeToolTip": "Productos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T18:18:55.745Z"
+              "WhenOpened": "2024-12-07T20:17:55.326Z"
             }
           ]
         }
