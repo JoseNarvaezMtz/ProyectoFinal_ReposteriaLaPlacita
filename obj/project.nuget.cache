@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "rsBjT2s7omY=",
   "success": true,
   "projectFilePath": "C:\\Users\\josen\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\WinFormsProyectoBase.csproj",
@@ -46,4 +47,11 @@
       ]
     }
   ]
+=======
+  "dgSpecHash": "Uho0/tSmTAU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\julia\\Source\\Repos\\ProyectoFinal_ReposteriaLaPlacita\\WinFormsProyectoBase.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+>>>>>>> fd6d23a1af934b17e8f1e8de22e2d9e6b7239611
 }

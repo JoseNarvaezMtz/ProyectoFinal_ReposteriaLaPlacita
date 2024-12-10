@@ -31,6 +31,7 @@
             textBoxId = new TextBox();
             textBox2 = new TextBox();
             panel2 = new Panel();
+<<<<<<< HEAD
             pictureBoxOldImg = new PictureBox();
             textBoxOldDes = new TextBox();
             textBoxOldCat = new TextBox();
@@ -48,10 +49,14 @@
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBoxOldImg).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxNew).BeginInit();
+=======
+            panelBase = new Panel();
+>>>>>>> fd6d23a1af934b17e8f1e8de22e2d9e6b7239611
             SuspendLayout();
             // 
             // textBoxId
             // 
+<<<<<<< HEAD
             textBoxId.Location = new Point(46, 76);
             textBoxId.Margin = new Padding(3, 4, 3, 4);
             textBoxId.Name = "textBoxId";
@@ -66,6 +71,26 @@
             textBox2.Enabled = false;
             textBox2.Location = new Point(46, 111);
             textBox2.Margin = new Padding(3, 4, 3, 4);
+=======
+            panel1.BackColor = Color.Silver;
+            panel1.Location = new Point(40, 50);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(117, 37);
+            panel1.TabIndex = 0;
+            // 
+            // textBox1
+            // 
+            textBox1.BackColor = Color.Silver;
+            textBox1.Location = new Point(173, 57);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(136, 23);
+            textBox1.TabIndex = 1;
+            // 
+            // textBox2
+            // 
+            textBox2.BackColor = Color.Silver;
+            textBox2.Location = new Point(40, 134);
+>>>>>>> fd6d23a1af934b17e8f1e8de22e2d9e6b7239611
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(305, 453);
@@ -86,6 +111,7 @@
             panel2.Size = new Size(366, 409);
             panel2.TabIndex = 1;
             // 
+<<<<<<< HEAD
             // pictureBoxOldImg
             // 
             pictureBoxOldImg.BackColor = SystemColors.ScrollBar;
@@ -221,12 +247,22 @@
             buttonMod.Text = "Realizar Modificacion";
             buttonMod.UseVisualStyleBackColor = true;
             buttonMod.Click += buttonMod_Click;
+=======
+            // panelBase
+            // 
+            panelBase.BackColor = Color.FromArgb(46, 51, 73);
+            panelBase.Location = new Point(0, -8);
+            panelBase.Name = "panelBase";
+            panelBase.Size = new Size(729, 504);
+            panelBase.TabIndex = 9;
+>>>>>>> fd6d23a1af934b17e8f1e8de22e2d9e6b7239611
             // 
             // FormModificaciones
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(46, 51, 73);
+<<<<<<< HEAD
             ClientSize = new Size(833, 635);
             Controls.Add(buttonMod);
             Controls.Add(pictureBoxNew);
@@ -239,6 +275,14 @@
             Controls.Add(panel2);
             Controls.Add(textBox2);
             Controls.Add(textBoxId);
+=======
+            ClientSize = new Size(729, 489);
+            Controls.Add(panel2);
+            Controls.Add(textBox2);
+            Controls.Add(textBox1);
+            Controls.Add(panel1);
+            Controls.Add(panelBase);
+>>>>>>> fd6d23a1af934b17e8f1e8de22e2d9e6b7239611
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 4, 3, 4);
             Name = "FormModificaciones";
@@ -257,6 +301,7 @@
         private TextBox textBoxId;
         private TextBox textBox2;
         private Panel panel2;
+<<<<<<< HEAD
         private TextBox textBoxNombre;
         private TextBox textBoxPrecio;
         private TextBox textBoxEx;
@@ -271,5 +316,8 @@
         private TextBox textBoxOldPre;
         private TextBox textBoxOldNom;
         private Button buttonMod;
+=======
+        private Panel panelBase;
+>>>>>>> fd6d23a1af934b17e8f1e8de22e2d9e6b7239611
     }
 }
