@@ -63,6 +63,7 @@
             // textBox2
             // 
             textBox2.BackColor = SystemColors.ScrollBar;
+            textBox2.Enabled = false;
             textBox2.Location = new Point(46, 111);
             textBox2.Margin = new Padding(3, 4, 3, 4);
             textBox2.Multiline = true;

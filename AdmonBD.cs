@@ -119,7 +119,7 @@ namespace WinFormsTareaBaseDatos
             int existencias;
             try
             {
-                string query = "SELECT * FROM productos where id=" + idp + ";";
+                string query = $"SELECT * FROM productos where id={idp};";
                 MySqlCommand command = new MySqlCommand(query, this.connection);
 
                 // Ejecutar la consulta y leer los resultados

@@ -26,34 +26,28 @@ namespace WinFormsProyectoBase
         public FormModificaciones()
         {
             InitializeComponent();
-            this.list = new List<Productos>();
-            AdmonBD admonBD = new AdmonBD();
-            this.list = admonBD.consulta();
         }
 
         private void textBoxId_TextChanged(object sender, EventArgs e)
         {
-            bool flag = false;
+            Productos productos;
+            AdmonBD admon = new AdmonBD();
+
             int aux=-1;
             if (this.textBoxId.Text != string.Empty)
                 aux = int.Parse(this.textBoxId.Text);
-            else
-                aux = -1;
-            foreach (Productos productos in list)
+
+            productos=admon.consultaUnRegistro(aux);
+            if (productos != null)
             {
-                if (productos.Id == aux)
-                {
-                    this.textBoxOldNom.Text = productos.Nombre;
-                    this.textBoxOldPre.Text = Convert.ToString(productos.Precio);
-                    this.textBoxOldEx.Text = Convert.ToString(productos.Existencias);
-                    this.textBoxOldCat.Text = Convert.ToString(productos.Categoria);
-                    this.textBoxOldDes.Text = productos.Descripcion;
-                    this.pictureBoxOldImg.ImageLocation = productos.Imagen;
-                    flag = true;
-                    break;
-                }
+                this.textBoxOldNom.Text = productos.Nombre;
+                this.textBoxOldPre.Text = Convert.ToString(productos.Precio);
+                this.textBoxOldEx.Text = Convert.ToString(productos.Existencias);
+                this.textBoxOldCat.Text = Convert.ToString(productos.Categoria);
+                this.textBoxOldDes.Text = productos.Descripcion;
+                this.pictureBoxOldImg.ImageLocation = productos.Imagen;
             }
-            if (!flag)
+            else
             {
                 this.textBoxOldNom.Text = string.Empty;
                 this.textBoxOldPre.Text = string.Empty;
@@ -78,15 +72,18 @@ namespace WinFormsProyectoBase
 
         private void buttonMod_Click(object sender, EventArgs e)
         {
-            Productos producto=null;
-            int aux = int.Parse(this.textBoxId.Text);
-            foreach (Productos productos in list)
+            AdmonBD admon = new AdmonBD();
+            int aux=-1;
+            if (this.textBoxId.Text != string.Empty)
+                aux = int.Parse(this.textBoxId.Text);
+            else
             {
-                if (productos.Id == aux)
-                {
-                    producto = productos;
-                }
+                MessageBox.Show("Porfavor introducir un id");
+                return;
             }
+
+            Productos producto=admon.consultaUnRegistro(aux);
+            
             if (producto == null)
             {
                 MessageBox.Show("El id presentado no es valido, buscar otro");
