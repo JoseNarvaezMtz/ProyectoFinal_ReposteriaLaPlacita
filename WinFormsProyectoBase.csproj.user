@@ -28,6 +28,12 @@
     <Compile Update="FormModificaciones.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormPagoCaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormPagoTarjeta.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FormPan.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -35,6 +41,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormPostres.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormTicket.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

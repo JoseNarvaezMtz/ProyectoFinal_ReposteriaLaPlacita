@@ -95,13 +95,13 @@ namespace WinFormsProyectoBase
                 switch (rand)
                 {
                     case 1:
-                        ReproducirSonido("Musica1.wav");
+                        ReproducirMusica("Musica1.wav");
                         break;
                     case 2:
-                        ReproducirSonido("Musica2.wav");
+                        ReproducirMusica("Musica2.wav");
                         break;
                     case 3:
-                        ReproducirSonido("Musica3.wav");
+                        ReproducirMusica("Musica3.wav");
                         break;
                 }
                 reproducida[rand] = true;
@@ -118,7 +118,7 @@ namespace WinFormsProyectoBase
                 sonido = true;
             }
         }
-        private void ReproducirSonido(string nombreArchivo)
+        private void ReproducirMusica(string nombreArchivo)
         {
             SoundPlayer ReproducirMusica = new SoundPlayer();
             string ruta = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "Music", nombreArchivo);

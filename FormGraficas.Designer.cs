@@ -33,6 +33,7 @@
             panel3 = new Panel();
             panel4 = new Panel();
             panel5 = new Panel();
+            panelBase = new Panel();
             SuspendLayout();
             // 
             // panel2
@@ -75,17 +76,26 @@
             panel5.Size = new Size(152, 54);
             panel5.TabIndex = 5;
             // 
+            // panelBase
+            // 
+            panelBase.BackColor = Color.FromArgb(46, 51, 73);
+            panelBase.Location = new Point(0, -8);
+            panelBase.Name = "panelBase";
+            panelBase.Size = new Size(729, 504);
+            panelBase.TabIndex = 12;
+            // 
             // FormGraficas
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(46, 51, 73);
-            ClientSize = new Size(713, 437);
+            ClientSize = new Size(729, 489);
             Controls.Add(panel5);
             Controls.Add(panel4);
             Controls.Add(panel3);
             Controls.Add(panel1);
             Controls.Add(panel2);
+            Controls.Add(panelBase);
             FormBorderStyle = FormBorderStyle.None;
             Name = "FormGraficas";
             Text = "FormGraficas";
@@ -99,5 +109,6 @@
         private Panel panel3;
         private Panel panel4;
         private Panel panel5;
+        private Panel panelBase;
     }
 }
