@@ -32,6 +32,7 @@
             textBox1 = new TextBox();
             textBox2 = new TextBox();
             panel2 = new Panel();
+            panelBase = new Panel();
             SuspendLayout();
             // 
             // panel1
@@ -44,6 +45,7 @@
             // 
             // textBox1
             // 
+            textBox1.BackColor = Color.Silver;
             textBox1.Location = new Point(173, 57);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(136, 23);
@@ -51,6 +53,7 @@
             // 
             // textBox2
             // 
+            textBox2.BackColor = Color.Silver;
             textBox2.Location = new Point(40, 134);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
@@ -65,16 +68,25 @@
             panel2.Size = new Size(320, 367);
             panel2.TabIndex = 1;
             // 
+            // panelBase
+            // 
+            panelBase.BackColor = Color.FromArgb(46, 51, 73);
+            panelBase.Location = new Point(0, -8);
+            panelBase.Name = "panelBase";
+            panelBase.Size = new Size(729, 504);
+            panelBase.TabIndex = 9;
+            // 
             // FormModificaciones
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(46, 51, 73);
-            ClientSize = new Size(729, 476);
+            ClientSize = new Size(729, 489);
             Controls.Add(panel2);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Controls.Add(panel1);
+            Controls.Add(panelBase);
             FormBorderStyle = FormBorderStyle.None;
             Name = "FormModificaciones";
             Text = "FormModificaciones";
@@ -88,5 +100,6 @@
         private TextBox textBox1;
         private TextBox textBox2;
         private Panel panel2;
+        private Panel panelBase;
     }
 }

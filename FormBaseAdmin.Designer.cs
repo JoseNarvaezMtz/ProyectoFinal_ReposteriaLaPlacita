@@ -32,12 +32,14 @@
             btnSalir = new Button();
             panelSalir = new Panel();
             btnCerrarSesion = new Button();
-            btnAltasYBajas = new Button();
-            btnExtra = new Button();
+            btnAltas = new Button();
+            btnBajas = new Button();
             btnGraficas = new Button();
             panelBotones = new Panel();
             btnModificaciones = new Button();
             panelUsuario = new Panel();
+            buttonRecargar = new Button();
+            btnModoImagen = new Button();
             labelCorreo = new Label();
             labelNomAdm = new Label();
             pictureBoxAdmin = new PictureBox();
@@ -89,37 +91,37 @@
             btnCerrarSesion.UseVisualStyleBackColor = false;
             btnCerrarSesion.Click += btnCerrarSesion_Click;
             // 
-            // btnAltasYBajas
+            // btnAltas
             // 
-            btnAltasYBajas.BackColor = Color.FromArgb(24, 30, 54);
-            btnAltasYBajas.BackgroundImageLayout = ImageLayout.None;
-            btnAltasYBajas.FlatAppearance.BorderSize = 2;
-            btnAltasYBajas.FlatStyle = FlatStyle.Flat;
-            btnAltasYBajas.ForeColor = Color.FromArgb(70, 150, 250);
-            btnAltasYBajas.Image = Properties.Resources.IconoAltasBajas;
-            btnAltasYBajas.Location = new Point(14, 13);
-            btnAltasYBajas.Name = "btnAltasYBajas";
-            btnAltasYBajas.Size = new Size(151, 43);
-            btnAltasYBajas.TabIndex = 1;
-            btnAltasYBajas.Text = "Altas";
-            btnAltasYBajas.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnAltasYBajas.UseVisualStyleBackColor = false;
-            btnAltasYBajas.Click += btnAltasYBajas_Click;
+            btnAltas.BackColor = Color.FromArgb(24, 30, 54);
+            btnAltas.BackgroundImageLayout = ImageLayout.None;
+            btnAltas.FlatAppearance.BorderSize = 2;
+            btnAltas.FlatStyle = FlatStyle.Flat;
+            btnAltas.ForeColor = Color.FromArgb(70, 150, 250);
+            btnAltas.Image = Properties.Resources.IconoAltasBajas;
+            btnAltas.Location = new Point(14, 13);
+            btnAltas.Name = "btnAltas";
+            btnAltas.Size = new Size(151, 43);
+            btnAltas.TabIndex = 1;
+            btnAltas.Text = "Altas";
+            btnAltas.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnAltas.UseVisualStyleBackColor = false;
+            btnAltas.Click += btnAltasYBajas_Click;
             // 
-            // btnExtra
+            // btnBajas
             // 
-            btnExtra.BackColor = Color.FromArgb(24, 30, 54);
-            btnExtra.BackgroundImageLayout = ImageLayout.None;
-            btnExtra.FlatAppearance.BorderSize = 2;
-            btnExtra.FlatStyle = FlatStyle.Flat;
-            btnExtra.ForeColor = Color.FromArgb(70, 150, 250);
-            btnExtra.Location = new Point(533, 13);
-            btnExtra.Name = "btnExtra";
-            btnExtra.Size = new Size(151, 43);
-            btnExtra.TabIndex = 2;
-            btnExtra.Text = "Bajas";
-            btnExtra.UseVisualStyleBackColor = false;
-            btnExtra.Click += btnExtra_Click;
+            btnBajas.BackColor = Color.FromArgb(24, 30, 54);
+            btnBajas.BackgroundImageLayout = ImageLayout.None;
+            btnBajas.FlatAppearance.BorderSize = 2;
+            btnBajas.FlatStyle = FlatStyle.Flat;
+            btnBajas.ForeColor = Color.FromArgb(70, 150, 250);
+            btnBajas.Location = new Point(533, 13);
+            btnBajas.Name = "btnBajas";
+            btnBajas.Size = new Size(151, 43);
+            btnBajas.TabIndex = 2;
+            btnBajas.Text = "Bajas";
+            btnBajas.UseVisualStyleBackColor = false;
+            btnBajas.Click += btnBajas_Click;
             // 
             // btnGraficas
             // 
@@ -136,15 +138,15 @@
             btnGraficas.Text = "Graficas";
             btnGraficas.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnGraficas.UseVisualStyleBackColor = false;
-            btnGraficas.Click += btnGraficas_Click;
+            btnGraficas.Click += btnGraficas_Click_1;
             // 
             // panelBotones
             // 
             panelBotones.BackColor = Color.FromArgb(36, 41, 63);
             panelBotones.Controls.Add(btnModificaciones);
-            panelBotones.Controls.Add(btnExtra);
+            panelBotones.Controls.Add(btnBajas);
             panelBotones.Controls.Add(btnGraficas);
-            panelBotones.Controls.Add(btnAltasYBajas);
+            panelBotones.Controls.Add(btnAltas);
             panelBotones.Location = new Point(222, 27);
             panelBotones.Name = "panelBotones";
             panelBotones.Size = new Size(729, 68);
@@ -165,11 +167,13 @@
             btnModificaciones.Text = "Modificaciones";
             btnModificaciones.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnModificaciones.UseVisualStyleBackColor = false;
-            btnModificaciones.Click += btnModificaciones_Click;
+            btnModificaciones.Click += btnModificaciones_Click_1;
             // 
             // panelUsuario
             // 
             panelUsuario.BackColor = Color.FromArgb(24, 30, 54);
+            panelUsuario.Controls.Add(buttonRecargar);
+            panelUsuario.Controls.Add(btnModoImagen);
             panelUsuario.Controls.Add(labelCorreo);
             panelUsuario.Controls.Add(labelNomAdm);
             panelUsuario.Controls.Add(pictureBoxAdmin);
@@ -179,6 +183,36 @@
             panelUsuario.Name = "panelUsuario";
             panelUsuario.Size = new Size(222, 550);
             panelUsuario.TabIndex = 7;
+            // 
+            // buttonRecargar
+            // 
+            buttonRecargar.BackColor = Color.FromArgb(24, 30, 54);
+            buttonRecargar.BackgroundImageLayout = ImageLayout.None;
+            buttonRecargar.FlatAppearance.BorderSize = 2;
+            buttonRecargar.FlatStyle = FlatStyle.Flat;
+            buttonRecargar.ForeColor = Color.FromArgb(70, 150, 250);
+            buttonRecargar.Location = new Point(32, 495);
+            buttonRecargar.Name = "buttonRecargar";
+            buttonRecargar.Size = new Size(151, 43);
+            buttonRecargar.TabIndex = 5;
+            buttonRecargar.Text = "Recargar modo";
+            buttonRecargar.UseVisualStyleBackColor = false;
+            buttonRecargar.Click += buttonRecargar_Click;
+            // 
+            // btnModoImagen
+            // 
+            btnModoImagen.BackColor = Color.FromArgb(24, 30, 54);
+            btnModoImagen.BackgroundImageLayout = ImageLayout.None;
+            btnModoImagen.FlatAppearance.BorderSize = 2;
+            btnModoImagen.FlatStyle = FlatStyle.Flat;
+            btnModoImagen.ForeColor = Color.FromArgb(70, 150, 250);
+            btnModoImagen.Location = new Point(33, 435);
+            btnModoImagen.Name = "btnModoImagen";
+            btnModoImagen.Size = new Size(151, 43);
+            btnModoImagen.TabIndex = 4;
+            btnModoImagen.Text = "Cambiar a modo claro";
+            btnModoImagen.UseVisualStyleBackColor = false;
+            btnModoImagen.Click += btnModoImagen_Click;
             // 
             // labelCorreo
             // 
@@ -205,18 +239,19 @@
             // pictureBoxAdmin
             // 
             pictureBoxAdmin.Image = Properties.Resources.IconoAdmin;
-            pictureBoxAdmin.Location = new Point(48, 15);
+            pictureBoxAdmin.Location = new Point(43, 15);
             pictureBoxAdmin.Name = "pictureBoxAdmin";
-            pictureBoxAdmin.Size = new Size(125, 125);
+            pictureBoxAdmin.Size = new Size(140, 125);
             pictureBoxAdmin.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBoxAdmin.TabIndex = 1;
             pictureBoxAdmin.TabStop = false;
             // 
             // panelBase
             // 
-            panelBase.Location = new Point(222, 101);
+            panelBase.BackColor = Color.FromArgb(46, 51, 73);
+            panelBase.Location = new Point(222, 88);
             panelBase.Name = "panelBase";
-            panelBase.Size = new Size(729, 476);
+            panelBase.Size = new Size(729, 489);
             panelBase.TabIndex = 7;
             // 
             // FormBaseAdmin
@@ -247,8 +282,8 @@
         private Panel panelSalir;
         private Button btnCerrarSesion;
         private Button btnGraficas;
-        private Button btnExtra;
-        private Button btnAltasYBajas;
+        private Button btnBajas;
+        private Button btnAltas;
         private Panel panelBotones;
         private Button btnModificaciones;
         private Panel panelUsuario;
@@ -256,5 +291,7 @@
         private Label labelCorreo;
         private Label labelNomAdm;
         private PictureBox pictureBoxAdmin;
+        private Button btnModoImagen;
+        private Button buttonRecargar;
     }
 }
