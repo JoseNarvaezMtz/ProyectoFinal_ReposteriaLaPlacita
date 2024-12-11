@@ -89,22 +89,27 @@ namespace WinFormsProyectoBase
                 {
                     case 0:
                         this.button1.Text = "Nada que eliminar";
+                        this.button1.ForeColor = Color.Red;
                         this.button1.Enabled = false;
                         break;
                     case 1:
                         this.button2.Text = "Nada que eliminar";
+                        this.button2.ForeColor = Color.Red;
                         this.button2.Enabled = false;
                         break;
                     case 2:
                         this.button3.Text = "Nada que eliminar";
+                        this.button3.ForeColor = Color.Red;
                         this.button3.Enabled = false;
                         break;
                     case 3:
                         this.button4.Text = "Nada que eliminar";
+                        this.button4.ForeColor = Color.Red;
                         this.button4.Enabled = false;
                         break;
                     case 4:
                         this.button5.Text = "Nada que eliminar";
+                        this.button5.ForeColor = Color.Red;
                         this.button5.Enabled = false;
                         break;
                 }
@@ -144,22 +149,27 @@ namespace WinFormsProyectoBase
                 {
                     case 0:
                         this.button6.Text = "Nada que eliminar";
+                        this.button6.ForeColor = Color.Red;
                         this.button6.Enabled = false;
                         break;
                     case 1:
                         this.button7.Text = "Nada que eliminar";
+                        this.button7.ForeColor = Color.Red;
                         this.button7.Enabled = false;
                         break;
                     case 2:
                         this.button8.Text = "Nada que eliminar";
+                        this.button8.ForeColor = Color.Red;
                         this.button8.Enabled = false;
                         break;
                     case 3:
                         this.button9.Text = "Nada que eliminar";
+                        this.button9.ForeColor = Color.Red;
                         this.button9.Enabled = false;
                         break;
                     case 4:
                         this.button10.Text = "Nada que eliminar";
+                        this.button10.ForeColor = Color.Red;
                         this.button10.Enabled = false;
                         break;
                 }

@@ -77,31 +77,31 @@ namespace WinFormsProyectoBase
                     case 0:
                         if (panes[contpan] != null)
                             this.button1.Text = "" + aux;
-                        this.button1.ForeColor = Color.LightBlue;
+                        this.button1.ForeColor = Color.Red;
                         this.button1.Enabled = false;
                         break;
                     case 1:
                         if (panes[contpan] != null)
                             this.button2.Text = "" + aux;
-                        this.button2.ForeColor = Color.LightBlue;
+                        this.button2.ForeColor = Color.Red;
                         this.button2.Enabled = false;
                         break;
                     case 2:
                         if (panes[contpan] != null)
                             this.button3.Text = "" + aux;
-                        this.button3.ForeColor = Color.LightBlue;
+                        this.button3.ForeColor = Color.Red;
                         this.button3.Enabled = false;
                         break;
                     case 3:
                         if (panes[contpan] != null)
                             this.button4.Text = "" + aux;
-                        this.button4.ForeColor = Color.LightBlue;
+                        this.button4.ForeColor = Color.Red;
                         this.button4.Enabled = false;
                         break;
                     case 4:
                         if (panes[contpan] != null)
                             this.button5.Text = "" + aux;
-                        this.button5.ForeColor = Color.LightBlue;
+                        this.button5.ForeColor = Color.Red;
                         this.button5.Enabled = false;
                         break;
                 }
@@ -137,31 +137,31 @@ namespace WinFormsProyectoBase
                     case 0:
                         if (postres[contpos] != null)
                             this.button6.Text = "" + aux;
-                        this.button6.ForeColor = Color.LightBlue;
+                        this.button6.ForeColor = Color.Red;
                         this.button6.Enabled = false;
                         break;
                     case 1:
                         if (postres[contpos] != null)
                             this.button7.Text = "" + aux;
-                        this.button7.ForeColor = Color.LightBlue;
+                        this.button7.ForeColor = Color.Red;
                         this.button7.Enabled = false;
                         break;
                     case 2:
                         if (postres[contpos] != null)
                             this.button8.Text = "" + aux;
-                        this.button8.ForeColor = Color.LightBlue;
+                        this.button8.ForeColor = Color.Red;
                         this.button8.Enabled = false;
                         break;
                     case 3:
                         if (postres[contpos] != null)
                             this.button9.Text = "" + aux;
-                        this.button9.ForeColor = Color.LightBlue;
+                        this.button9.ForeColor = Color.Red;
                         this.button9.Enabled = false;
                         break;
                     case 4:
                         if (postres[contpos] != null)
                             this.button10.Text = "" + aux;
-                        this.button10.ForeColor = Color.LightBlue;
+                        this.button10.ForeColor = Color.Red;
                         this.button10.Enabled = false;
                         break;
                 }

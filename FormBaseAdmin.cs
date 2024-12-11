@@ -50,16 +50,13 @@ namespace WinFormsProyectoBase
         {
             this.Close();
         }
-
-        private void btnAltasYBajas_Click(object sender, EventArgs e)
-        {
-            cargarForm(new FormAltas(this.Modo));
-        }
-
-
         private void btnModificaciones_Click(object sender, EventArgs e)
         {
             cargarForm(new FormModificaciones(this.Modo));
+        }
+        private void btnAltasYBajas_Click(object sender, EventArgs e)
+        {
+            cargarForm(new FormAltas(this.Modo));
         }
 
         private void btnGraficas_Click_1(object sender, EventArgs e)
@@ -106,8 +103,6 @@ namespace WinFormsProyectoBase
                 this.btnModoImagen.BackColor = Color.FromArgb(212, 200, 175);
                 this.btnModoImagen.ForeColor = Color.FromArgb(78, 78, 78);
                 this.btnModoImagen.Text = "Cambiar a modo oscuro";
-                this.buttonRecargar.BackColor = Color.FromArgb(212, 200, 175);
-                this.buttonRecargar.ForeColor = Color.FromArgb(78, 78, 78);
                 //Labels
                 this.labelCorreo.ForeColor = Color.FromArgb(78, 78, 78);
                 this.labelNomAdm.ForeColor = Color.FromArgb(78, 78, 78);
@@ -135,16 +130,10 @@ namespace WinFormsProyectoBase
                 this.btnModoImagen.BackColor = Color.FromArgb(24, 30, 54);
                 this.btnModoImagen.ForeColor = Color.FromArgb(70, 150, 250);
                 this.btnModoImagen.Text = "Cambiar a modo claro";
-                this.buttonRecargar.BackColor = Color.FromArgb(24, 30, 54);
-                this.buttonRecargar.ForeColor = Color.FromArgb(70, 150, 250);
                 //Labels
                 this.labelCorreo.ForeColor = Color.FromArgb(70, 150, 250);
                 this.labelNomAdm.ForeColor = Color.FromArgb(70, 150, 250);
             }
-        }
-
-        private void buttonRecargar_Click(object sender, EventArgs e)
-        {
             if (this.panelBase.Controls.Count > 0)
             {
                 Form formularioActual = this.panelBase.Controls[0] as Form;
@@ -174,5 +163,6 @@ namespace WinFormsProyectoBase
             }
         }
 
+        
     }
 }
