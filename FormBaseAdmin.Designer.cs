@@ -38,7 +38,6 @@
             panelBotones = new Panel();
             btnModificaciones = new Button();
             panelUsuario = new Panel();
-            buttonRecargar = new Button();
             btnModoImagen = new Button();
             labelCorreo = new Label();
             labelNomAdm = new Label();
@@ -172,7 +171,6 @@
             // panelUsuario
             // 
             panelUsuario.BackColor = Color.FromArgb(24, 30, 54);
-            panelUsuario.Controls.Add(buttonRecargar);
             panelUsuario.Controls.Add(btnModoImagen);
             panelUsuario.Controls.Add(labelCorreo);
             panelUsuario.Controls.Add(labelNomAdm);
@@ -184,21 +182,6 @@
             panelUsuario.Size = new Size(222, 550);
             panelUsuario.TabIndex = 7;
             // 
-            // buttonRecargar
-            // 
-            buttonRecargar.BackColor = Color.FromArgb(24, 30, 54);
-            buttonRecargar.BackgroundImageLayout = ImageLayout.None;
-            buttonRecargar.FlatAppearance.BorderSize = 2;
-            buttonRecargar.FlatStyle = FlatStyle.Flat;
-            buttonRecargar.ForeColor = Color.FromArgb(70, 150, 250);
-            buttonRecargar.Location = new Point(32, 495);
-            buttonRecargar.Name = "buttonRecargar";
-            buttonRecargar.Size = new Size(151, 43);
-            buttonRecargar.TabIndex = 5;
-            buttonRecargar.Text = "Recargar modo";
-            buttonRecargar.UseVisualStyleBackColor = false;
-            buttonRecargar.Click += buttonRecargar_Click;
-            // 
             // btnModoImagen
             // 
             btnModoImagen.BackColor = Color.FromArgb(24, 30, 54);
@@ -206,7 +189,7 @@
             btnModoImagen.FlatAppearance.BorderSize = 2;
             btnModoImagen.FlatStyle = FlatStyle.Flat;
             btnModoImagen.ForeColor = Color.FromArgb(70, 150, 250);
-            btnModoImagen.Location = new Point(33, 435);
+            btnModoImagen.Location = new Point(33, 487);
             btnModoImagen.Name = "btnModoImagen";
             btnModoImagen.Size = new Size(151, 43);
             btnModoImagen.TabIndex = 4;
@@ -292,6 +275,5 @@
         private Label labelNomAdm;
         private PictureBox pictureBoxAdmin;
         private Button btnModoImagen;
-        private Button buttonRecargar;
     }
 }

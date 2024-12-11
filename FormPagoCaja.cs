@@ -62,7 +62,15 @@ namespace WinFormsProyectoBase
 
         private void buttonPagar_Click(object sender, EventArgs e)
         {
+            FormTicket ticket = new FormTicket(/*ya sabes mandas lo que ocupes*/);
+            ticket.Show();
+            //this.close();
             //mandas todoooooooooo lo que necesites aqui y creas el constructor en el form de ticket
+        }
+
+        private void buttonCancelarCompra_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

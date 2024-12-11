@@ -63,6 +63,7 @@
             buttonCancelarCompra.TabIndex = 67;
             buttonCancelarCompra.Text = "Cancelar compra";
             buttonCancelarCompra.UseVisualStyleBackColor = false;
+            buttonCancelarCompra.Click += buttonCancelarCompra_Click;
             // 
             // textBoxCambio
             // 

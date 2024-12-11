@@ -142,3 +142,4 @@ C:\Users\julia\source\repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-w
 C:\Users\julia\source\repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\Resources\Music\Tecla.wav
 C:\Users\julia\source\repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormPagoTarjeta.resources
 C:\Users\julia\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormPagoCaja.resources
+C:\Users\julia\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormTicket.resources
