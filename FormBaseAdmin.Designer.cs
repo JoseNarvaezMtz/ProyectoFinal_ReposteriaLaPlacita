@@ -38,7 +38,6 @@
             panelBotones = new Panel();
             btnModificaciones = new Button();
             panelUsuario = new Panel();
-            buttonRecargar = new Button();
             btnModoImagen = new Button();
             labelCorreo = new Label();
             labelNomAdm = new Label();
@@ -56,9 +55,10 @@
             btnSalir.FlatStyle = FlatStyle.Flat;
             btnSalir.Font = new Font("Tempus Sans ITC", 8F, FontStyle.Bold);
             btnSalir.ForeColor = Color.FromArgb(50, 150, 250);
-            btnSalir.Location = new Point(925, 0);
+            btnSalir.Location = new Point(1057, 0);
+            btnSalir.Margin = new Padding(3, 4, 3, 4);
             btnSalir.Name = "btnSalir";
-            btnSalir.Size = new Size(26, 27);
+            btnSalir.Size = new Size(30, 36);
             btnSalir.TabIndex = 3;
             btnSalir.Text = "X";
             btnSalir.TextAlign = ContentAlignment.MiddleRight;
@@ -72,8 +72,9 @@
             panelSalir.Controls.Add(btnSalir);
             panelSalir.Dock = DockStyle.Top;
             panelSalir.Location = new Point(0, 0);
+            panelSalir.Margin = new Padding(3, 4, 3, 4);
             panelSalir.Name = "panelSalir";
-            panelSalir.Size = new Size(951, 27);
+            panelSalir.Size = new Size(1087, 36);
             panelSalir.TabIndex = 4;
             // 
             // btnCerrarSesion
@@ -83,9 +84,10 @@
             btnCerrarSesion.FlatAppearance.BorderSize = 0;
             btnCerrarSesion.FlatStyle = FlatStyle.Flat;
             btnCerrarSesion.ForeColor = Color.FromArgb(0, 126, 249);
-            btnCerrarSesion.Location = new Point(3, 211);
+            btnCerrarSesion.Location = new Point(3, 281);
+            btnCerrarSesion.Margin = new Padding(3, 4, 3, 4);
             btnCerrarSesion.Name = "btnCerrarSesion";
-            btnCerrarSesion.Size = new Size(216, 27);
+            btnCerrarSesion.Size = new Size(247, 36);
             btnCerrarSesion.TabIndex = 0;
             btnCerrarSesion.Text = "Cerrar Sesion";
             btnCerrarSesion.UseVisualStyleBackColor = false;
@@ -99,9 +101,10 @@
             btnAltas.FlatStyle = FlatStyle.Flat;
             btnAltas.ForeColor = Color.FromArgb(70, 150, 250);
             btnAltas.Image = Properties.Resources.IconoAltasBajas;
-            btnAltas.Location = new Point(14, 13);
+            btnAltas.Location = new Point(16, 17);
+            btnAltas.Margin = new Padding(3, 4, 3, 4);
             btnAltas.Name = "btnAltas";
-            btnAltas.Size = new Size(151, 43);
+            btnAltas.Size = new Size(173, 57);
             btnAltas.TabIndex = 1;
             btnAltas.Text = "Altas";
             btnAltas.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -115,9 +118,10 @@
             btnBajas.FlatAppearance.BorderSize = 2;
             btnBajas.FlatStyle = FlatStyle.Flat;
             btnBajas.ForeColor = Color.FromArgb(70, 150, 250);
-            btnBajas.Location = new Point(533, 13);
+            btnBajas.Location = new Point(609, 17);
+            btnBajas.Margin = new Padding(3, 4, 3, 4);
             btnBajas.Name = "btnBajas";
-            btnBajas.Size = new Size(151, 43);
+            btnBajas.Size = new Size(173, 57);
             btnBajas.TabIndex = 2;
             btnBajas.Text = "Bajas";
             btnBajas.UseVisualStyleBackColor = false;
@@ -131,9 +135,10 @@
             btnGraficas.FlatStyle = FlatStyle.Flat;
             btnGraficas.ForeColor = Color.FromArgb(70, 150, 250);
             btnGraficas.Image = Properties.Resources.IconoGrafica;
-            btnGraficas.Location = new Point(356, 13);
+            btnGraficas.Location = new Point(407, 17);
+            btnGraficas.Margin = new Padding(3, 4, 3, 4);
             btnGraficas.Name = "btnGraficas";
-            btnGraficas.Size = new Size(151, 43);
+            btnGraficas.Size = new Size(173, 57);
             btnGraficas.TabIndex = 3;
             btnGraficas.Text = "Graficas";
             btnGraficas.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -147,9 +152,10 @@
             panelBotones.Controls.Add(btnBajas);
             panelBotones.Controls.Add(btnGraficas);
             panelBotones.Controls.Add(btnAltas);
-            panelBotones.Location = new Point(222, 27);
+            panelBotones.Location = new Point(254, 36);
+            panelBotones.Margin = new Padding(3, 4, 3, 4);
             panelBotones.Name = "panelBotones";
-            panelBotones.Size = new Size(729, 68);
+            panelBotones.Size = new Size(833, 91);
             panelBotones.TabIndex = 6;
             // 
             // btnModificaciones
@@ -160,9 +166,10 @@
             btnModificaciones.FlatStyle = FlatStyle.Flat;
             btnModificaciones.ForeColor = Color.FromArgb(70, 150, 250);
             btnModificaciones.Image = Properties.Resources.IconoModificaciones;
-            btnModificaciones.Location = new Point(185, 13);
+            btnModificaciones.Location = new Point(211, 17);
+            btnModificaciones.Margin = new Padding(3, 4, 3, 4);
             btnModificaciones.Name = "btnModificaciones";
-            btnModificaciones.Size = new Size(151, 43);
+            btnModificaciones.Size = new Size(173, 57);
             btnModificaciones.TabIndex = 3;
             btnModificaciones.Text = "Modificaciones";
             btnModificaciones.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -172,32 +179,17 @@
             // panelUsuario
             // 
             panelUsuario.BackColor = Color.FromArgb(24, 30, 54);
-            panelUsuario.Controls.Add(buttonRecargar);
             panelUsuario.Controls.Add(btnModoImagen);
             panelUsuario.Controls.Add(labelCorreo);
             panelUsuario.Controls.Add(labelNomAdm);
             panelUsuario.Controls.Add(pictureBoxAdmin);
             panelUsuario.Controls.Add(btnCerrarSesion);
             panelUsuario.Dock = DockStyle.Left;
-            panelUsuario.Location = new Point(0, 27);
+            panelUsuario.Location = new Point(0, 36);
+            panelUsuario.Margin = new Padding(3, 4, 3, 4);
             panelUsuario.Name = "panelUsuario";
-            panelUsuario.Size = new Size(222, 550);
+            panelUsuario.Size = new Size(254, 733);
             panelUsuario.TabIndex = 7;
-            // 
-            // buttonRecargar
-            // 
-            buttonRecargar.BackColor = Color.FromArgb(24, 30, 54);
-            buttonRecargar.BackgroundImageLayout = ImageLayout.None;
-            buttonRecargar.FlatAppearance.BorderSize = 2;
-            buttonRecargar.FlatStyle = FlatStyle.Flat;
-            buttonRecargar.ForeColor = Color.FromArgb(70, 150, 250);
-            buttonRecargar.Location = new Point(32, 495);
-            buttonRecargar.Name = "buttonRecargar";
-            buttonRecargar.Size = new Size(151, 43);
-            buttonRecargar.TabIndex = 5;
-            buttonRecargar.Text = "Recargar modo";
-            buttonRecargar.UseVisualStyleBackColor = false;
-            buttonRecargar.Click += buttonRecargar_Click;
             // 
             // btnModoImagen
             // 
@@ -206,9 +198,10 @@
             btnModoImagen.FlatAppearance.BorderSize = 2;
             btnModoImagen.FlatStyle = FlatStyle.Flat;
             btnModoImagen.ForeColor = Color.FromArgb(70, 150, 250);
-            btnModoImagen.Location = new Point(33, 435);
+            btnModoImagen.Location = new Point(38, 663);
+            btnModoImagen.Margin = new Padding(3, 4, 3, 4);
             btnModoImagen.Name = "btnModoImagen";
-            btnModoImagen.Size = new Size(151, 43);
+            btnModoImagen.Size = new Size(173, 57);
             btnModoImagen.TabIndex = 4;
             btnModoImagen.Text = "Cambiar a modo claro";
             btnModoImagen.UseVisualStyleBackColor = false;
@@ -219,9 +212,9 @@
             labelCorreo.AutoSize = true;
             labelCorreo.Font = new Font("Segoe UI", 9F);
             labelCorreo.ForeColor = Color.FromArgb(100, 130, 250);
-            labelCorreo.Location = new Point(33, 175);
+            labelCorreo.Location = new Point(38, 233);
             labelCorreo.Name = "labelCorreo";
-            labelCorreo.Size = new Size(160, 15);
+            labelCorreo.Size = new Size(201, 20);
             labelCorreo.TabIndex = 3;
             labelCorreo.Text = "Correo Electronico (Revision)";
             // 
@@ -230,18 +223,19 @@
             labelNomAdm.AutoSize = true;
             labelNomAdm.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             labelNomAdm.ForeColor = Color.FromArgb(70, 150, 250);
-            labelNomAdm.Location = new Point(78, 143);
+            labelNomAdm.Location = new Point(89, 191);
             labelNomAdm.Name = "labelNomAdm";
-            labelNomAdm.Size = new Size(69, 21);
+            labelNomAdm.Size = new Size(84, 28);
             labelNomAdm.TabIndex = 2;
             labelNomAdm.Text = "Usuario";
             // 
             // pictureBoxAdmin
             // 
             pictureBoxAdmin.Image = Properties.Resources.IconoAdmin;
-            pictureBoxAdmin.Location = new Point(43, 15);
+            pictureBoxAdmin.Location = new Point(49, 20);
+            pictureBoxAdmin.Margin = new Padding(3, 4, 3, 4);
             pictureBoxAdmin.Name = "pictureBoxAdmin";
-            pictureBoxAdmin.Size = new Size(140, 125);
+            pictureBoxAdmin.Size = new Size(160, 167);
             pictureBoxAdmin.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBoxAdmin.TabIndex = 1;
             pictureBoxAdmin.TabStop = false;
@@ -249,22 +243,24 @@
             // panelBase
             // 
             panelBase.BackColor = Color.FromArgb(46, 51, 73);
-            panelBase.Location = new Point(222, 88);
+            panelBase.Location = new Point(254, 117);
+            panelBase.Margin = new Padding(3, 4, 3, 4);
             panelBase.Name = "panelBase";
-            panelBase.Size = new Size(729, 489);
+            panelBase.Size = new Size(833, 652);
             panelBase.TabIndex = 7;
             // 
             // FormBaseAdmin
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(46, 51, 73);
-            ClientSize = new Size(951, 577);
+            ClientSize = new Size(1087, 769);
             Controls.Add(panelBase);
             Controls.Add(panelBotones);
             Controls.Add(panelUsuario);
             Controls.Add(panelSalir);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "FormBaseAdmin";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
@@ -292,6 +288,5 @@
         private Label labelNomAdm;
         private PictureBox pictureBoxAdmin;
         private Button btnModoImagen;
-        private Button buttonRecargar;
     }
 }
