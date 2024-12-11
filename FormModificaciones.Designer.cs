@@ -31,13 +31,7 @@
             textBoxId = new TextBox();
             textBox2 = new TextBox();
             panel2 = new Panel();
-<<<<<<< HEAD
-            pictureBoxOldImg = new PictureBox();
-            textBoxOldDes = new TextBox();
-            textBoxOldCat = new TextBox();
-            textBoxOldEx = new TextBox();
-            textBoxOldPre = new TextBox();
-            textBoxOldNom = new TextBox();
+            panel1 = new Panel();
             textBoxNombre = new TextBox();
             textBoxPrecio = new TextBox();
             textBoxEx = new TextBox();
@@ -46,17 +40,19 @@
             buttonLoad = new Button();
             pictureBoxNew = new PictureBox();
             buttonMod = new Button();
+            pictureBoxOldImg = new PictureBox();
+            textBoxOldCat = new TextBox();
+            textBoxOldDes = new TextBox();
+            textBoxOldEx = new TextBox();
+            textBoxOldPre = new TextBox();
+            textBoxOldNom = new TextBox();
             panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBoxOldImg).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxNew).BeginInit();
-=======
-            panelBase = new Panel();
->>>>>>> fd6d23a1af934b17e8f1e8de22e2d9e6b7239611
+            ((System.ComponentModel.ISupportInitialize)pictureBoxOldImg).BeginInit();
             SuspendLayout();
             // 
             // textBoxId
             // 
-<<<<<<< HEAD
             textBoxId.Location = new Point(46, 76);
             textBoxId.Margin = new Padding(3, 4, 3, 4);
             textBoxId.Name = "textBoxId";
@@ -67,30 +63,10 @@
             // 
             // textBox2
             // 
-            textBox2.BackColor = SystemColors.ScrollBar;
+            textBox2.BackColor = Color.Silver;
             textBox2.Enabled = false;
             textBox2.Location = new Point(46, 111);
             textBox2.Margin = new Padding(3, 4, 3, 4);
-=======
-            panel1.BackColor = Color.Silver;
-            panel1.Location = new Point(40, 50);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(117, 37);
-            panel1.TabIndex = 0;
-            // 
-            // textBox1
-            // 
-            textBox1.BackColor = Color.Silver;
-            textBox1.Location = new Point(173, 57);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(136, 23);
-            textBox1.TabIndex = 1;
-            // 
-            // textBox2
-            // 
-            textBox2.BackColor = Color.Silver;
-            textBox2.Location = new Point(40, 134);
->>>>>>> fd6d23a1af934b17e8f1e8de22e2d9e6b7239611
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(305, 453);
@@ -100,77 +76,25 @@
             // 
             panel2.BackColor = Color.Silver;
             panel2.Controls.Add(pictureBoxOldImg);
-            panel2.Controls.Add(textBoxOldDes);
             panel2.Controls.Add(textBoxOldCat);
-            panel2.Controls.Add(textBoxOldEx);
-            panel2.Controls.Add(textBoxOldPre);
             panel2.Controls.Add(textBoxOldNom);
+            panel2.Controls.Add(textBoxOldDes);
+            panel2.Controls.Add(textBoxOldPre);
+            panel2.Controls.Add(textBoxOldEx);
             panel2.Location = new Point(411, 76);
             panel2.Margin = new Padding(3, 4, 3, 4);
             panel2.Name = "panel2";
             panel2.Size = new Size(366, 409);
             panel2.TabIndex = 1;
             // 
-<<<<<<< HEAD
-            // pictureBoxOldImg
+            // panel1
             // 
-            pictureBoxOldImg.BackColor = SystemColors.ScrollBar;
-            pictureBoxOldImg.Location = new Point(51, 259);
-            pictureBoxOldImg.Name = "pictureBoxOldImg";
-            pictureBoxOldImg.Size = new Size(262, 141);
-            pictureBoxOldImg.TabIndex = 10;
-            pictureBoxOldImg.TabStop = false;
-            // 
-            // textBoxOldDes
-            // 
-            textBoxOldDes.Location = new Point(14, 157);
-            textBoxOldDes.Margin = new Padding(3, 4, 3, 4);
-            textBoxOldDes.Multiline = true;
-            textBoxOldDes.Name = "textBoxOldDes";
-            textBoxOldDes.PlaceholderText = "Antigua Descripcion";
-            textBoxOldDes.ReadOnly = true;
-            textBoxOldDes.Size = new Size(334, 95);
-            textBoxOldDes.TabIndex = 10;
-            // 
-            // textBoxOldCat
-            // 
-            textBoxOldCat.Location = new Point(14, 122);
-            textBoxOldCat.Margin = new Padding(3, 4, 3, 4);
-            textBoxOldCat.Name = "textBoxOldCat";
-            textBoxOldCat.PlaceholderText = "Antigua Categoria";
-            textBoxOldCat.ReadOnly = true;
-            textBoxOldCat.Size = new Size(334, 27);
-            textBoxOldCat.TabIndex = 13;
-            // 
-            // textBoxOldEx
-            // 
-            textBoxOldEx.Location = new Point(14, 87);
-            textBoxOldEx.Margin = new Padding(3, 4, 3, 4);
-            textBoxOldEx.Name = "textBoxOldEx";
-            textBoxOldEx.PlaceholderText = "Antiguas Existencias";
-            textBoxOldEx.ReadOnly = true;
-            textBoxOldEx.Size = new Size(334, 27);
-            textBoxOldEx.TabIndex = 12;
-            // 
-            // textBoxOldPre
-            // 
-            textBoxOldPre.Location = new Point(14, 52);
-            textBoxOldPre.Margin = new Padding(3, 4, 3, 4);
-            textBoxOldPre.Name = "textBoxOldPre";
-            textBoxOldPre.PlaceholderText = "Antiguo Precio";
-            textBoxOldPre.ReadOnly = true;
-            textBoxOldPre.Size = new Size(334, 27);
-            textBoxOldPre.TabIndex = 11;
-            // 
-            // textBoxOldNom
-            // 
-            textBoxOldNom.Location = new Point(14, 17);
-            textBoxOldNom.Margin = new Padding(3, 4, 3, 4);
-            textBoxOldNom.Name = "textBoxOldNom";
-            textBoxOldNom.PlaceholderText = "Antiguo Nombre";
-            textBoxOldNom.ReadOnly = true;
-            textBoxOldNom.Size = new Size(334, 27);
-            textBoxOldNom.TabIndex = 10;
+            panel1.BackColor = Color.Silver;
+            panel1.Location = new Point(411, 76);
+            panel1.Margin = new Padding(3, 4, 3, 4);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(366, 409);
+            panel1.TabIndex = 1;
             // 
             // textBoxNombre
             // 
@@ -247,23 +171,68 @@
             buttonMod.Text = "Realizar Modificacion";
             buttonMod.UseVisualStyleBackColor = true;
             buttonMod.Click += buttonMod_Click;
-=======
-            // panelBase
             // 
-            panelBase.BackColor = Color.FromArgb(46, 51, 73);
-            panelBase.Location = new Point(0, -8);
-            panelBase.Name = "panelBase";
-            panelBase.Size = new Size(729, 504);
-            panelBase.TabIndex = 9;
->>>>>>> fd6d23a1af934b17e8f1e8de22e2d9e6b7239611
+            // pictureBoxOldImg
+            // 
+            pictureBoxOldImg.BackColor = SystemColors.ScrollBar;
+            pictureBoxOldImg.Location = new Point(14, 251);
+            pictureBoxOldImg.Name = "pictureBoxOldImg";
+            pictureBoxOldImg.Size = new Size(332, 141);
+            pictureBoxOldImg.TabIndex = 16;
+            pictureBoxOldImg.TabStop = false;
+            // 
+            // textBoxOldCat
+            // 
+            textBoxOldCat.Location = new Point(14, 114);
+            textBoxOldCat.Margin = new Padding(3, 4, 3, 4);
+            textBoxOldCat.Name = "textBoxOldCat";
+            textBoxOldCat.PlaceholderText = "Antigua Categoria";
+            textBoxOldCat.Size = new Size(332, 27);
+            textBoxOldCat.TabIndex = 15;
+            // 
+            // textBoxOldDes
+            // 
+            textBoxOldDes.Location = new Point(14, 149);
+            textBoxOldDes.Margin = new Padding(3, 4, 3, 4);
+            textBoxOldDes.Multiline = true;
+            textBoxOldDes.Name = "textBoxOldDes";
+            textBoxOldDes.PlaceholderText = "Antigua Descripcion";
+            textBoxOldDes.Size = new Size(332, 95);
+            textBoxOldDes.TabIndex = 14;
+            // 
+            // textBoxOldEx
+            // 
+            textBoxOldEx.Location = new Point(14, 79);
+            textBoxOldEx.Margin = new Padding(3, 4, 3, 4);
+            textBoxOldEx.Name = "textBoxOldEx";
+            textBoxOldEx.PlaceholderText = "Antiguas Existencias";
+            textBoxOldEx.Size = new Size(332, 27);
+            textBoxOldEx.TabIndex = 13;
+            // 
+            // textBoxOldPre
+            // 
+            textBoxOldPre.Location = new Point(14, 44);
+            textBoxOldPre.Margin = new Padding(3, 4, 3, 4);
+            textBoxOldPre.Name = "textBoxOldPre";
+            textBoxOldPre.PlaceholderText = "Antiguo Precio";
+            textBoxOldPre.Size = new Size(332, 27);
+            textBoxOldPre.TabIndex = 12;
+            // 
+            // textBoxOldNom
+            // 
+            textBoxOldNom.Location = new Point(14, 9);
+            textBoxOldNom.Margin = new Padding(3, 4, 3, 4);
+            textBoxOldNom.Name = "textBoxOldNom";
+            textBoxOldNom.PlaceholderText = "Antiguo Nombre";
+            textBoxOldNom.Size = new Size(332, 27);
+            textBoxOldNom.TabIndex = 11;
             // 
             // FormModificaciones
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(46, 51, 73);
-<<<<<<< HEAD
-            ClientSize = new Size(833, 635);
+            ClientSize = new Size(833, 652);
             Controls.Add(buttonMod);
             Controls.Add(pictureBoxNew);
             Controls.Add(buttonLoad);
@@ -272,25 +241,17 @@
             Controls.Add(textBoxEx);
             Controls.Add(textBoxPrecio);
             Controls.Add(textBoxNombre);
-            Controls.Add(panel2);
-            Controls.Add(textBox2);
             Controls.Add(textBoxId);
-=======
-            ClientSize = new Size(729, 489);
             Controls.Add(panel2);
             Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(panel1);
-            Controls.Add(panelBase);
->>>>>>> fd6d23a1af934b17e8f1e8de22e2d9e6b7239611
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 4, 3, 4);
             Name = "FormModificaciones";
             Text = "FormModificaciones";
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBoxOldImg).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxNew).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxOldImg).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -301,7 +262,6 @@
         private TextBox textBoxId;
         private TextBox textBox2;
         private Panel panel2;
-<<<<<<< HEAD
         private TextBox textBoxNombre;
         private TextBox textBoxPrecio;
         private TextBox textBoxEx;
@@ -309,15 +269,12 @@
         private TextBox textBoxCat;
         private Button buttonLoad;
         private PictureBox pictureBoxNew;
-        private PictureBox pictureBoxOldImg;
-        private TextBox textBoxOldDes;
-        private TextBox textBoxOldCat;
-        private TextBox textBoxOldEx;
-        private TextBox textBoxOldPre;
-        private TextBox textBoxOldNom;
         private Button buttonMod;
-=======
-        private Panel panelBase;
->>>>>>> fd6d23a1af934b17e8f1e8de22e2d9e6b7239611
+        private PictureBox pictureBoxOldImg;
+        private TextBox textBoxOldCat;
+        private TextBox textBoxOldNom;
+        private TextBox textBoxOldDes;
+        private TextBox textBoxOldPre;
+        private TextBox textBoxOldEx;
     }
 }

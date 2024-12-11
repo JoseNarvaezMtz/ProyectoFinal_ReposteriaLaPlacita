@@ -57,7 +57,7 @@ namespace WinFormsProyectoBase
         }
 
 
-        private void btnModificaciones_Click_1(object sender, EventArgs e)
+        private void btnModificaciones_Click(object sender, EventArgs e)
         {
             cargarForm(new FormModificaciones(this.Modo));
         }

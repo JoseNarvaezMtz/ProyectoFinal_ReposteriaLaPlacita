@@ -15,33 +15,32 @@ namespace WinFormsProyectoBase
 {
     public partial class FormAltas : Form
     {
-<<<<<<< HEAD
         List<Productos> list;
         Productos[] panes, postres;
         Button[] buttonsPan, buttonsPos;
         AdmonBD conexion;
-=======
         private bool Modo;
->>>>>>> fd6d23a1af934b17e8f1e8de22e2d9e6b7239611
-        public FormAltas()
+
+        public FormAltas(bool modo)
         {
             InitializeComponent();
-            List<Productos> list;
             this.panes = new Productos[5];
             this.postres = new Productos[5];
             this.buttonsPan = new Button[5];
             this.buttonsPos = new Button[5];
-            this.buttonsPan[0] = btnExtra;
-            this.buttonsPan[1] = button1;
-            this.buttonsPan[2] = button2;
-            this.buttonsPan[3] = button3;
-            this.buttonsPan[4] = button4;
-            this.buttonsPos[0] = button5;
-            this.buttonsPos[1] = button6;
-            this.buttonsPos[2] = button7;
-            this.buttonsPos[3] = button8;
-            this.buttonsPos[4] = button9;
+            this.buttonsPan[0] = button1;
+            this.buttonsPan[1] = button2;
+            this.buttonsPan[2] = button3;
+            this.buttonsPan[3] = button4;
+            this.buttonsPan[4] = button5;
+            this.buttonsPos[0] = button6;
+            this.buttonsPos[1] = button7;
+            this.buttonsPos[2] = button8;
+            this.buttonsPos[3] = button9;
+            this.buttonsPos[4] = button10;
             this.conexion = new AdmonBD();
+            this.Modo = modo;
+            this.Fondo();
             this.Llenar();
         }
 
@@ -77,33 +76,33 @@ namespace WinFormsProyectoBase
                 {
                     case 0:
                         if (panes[contpan] != null)
-                            this.btnExtra.Text = "" + aux;
-                        this.btnExtra.ForeColor = Color.LightBlue;
-                        this.btnExtra.Enabled = false;
-                        break;
-                    case 1:
-                        if (panes[contpan] != null)
                             this.button1.Text = "" + aux;
                         this.button1.ForeColor = Color.LightBlue;
                         this.button1.Enabled = false;
                         break;
-                    case 2:
+                    case 1:
                         if (panes[contpan] != null)
                             this.button2.Text = "" + aux;
                         this.button2.ForeColor = Color.LightBlue;
                         this.button2.Enabled = false;
                         break;
-                    case 3:
+                    case 2:
                         if (panes[contpan] != null)
                             this.button3.Text = "" + aux;
                         this.button3.ForeColor = Color.LightBlue;
                         this.button3.Enabled = false;
                         break;
-                    case 4:
+                    case 3:
                         if (panes[contpan] != null)
                             this.button4.Text = "" + aux;
                         this.button4.ForeColor = Color.LightBlue;
                         this.button4.Enabled = false;
+                        break;
+                    case 4:
+                        if (panes[contpan] != null)
+                            this.button5.Text = "" + aux;
+                        this.button5.ForeColor = Color.LightBlue;
+                        this.button5.Enabled = false;
                         break;
                 }
                 contpan++;
@@ -113,19 +112,19 @@ namespace WinFormsProyectoBase
                 switch (i)
                 {
                     case 0:
-                        this.btnExtra.Text = "Agregar :)";
-                        break;
-                    case 1:
                         this.button1.Text = "Agregar :)";
                         break;
-                    case 2:
+                    case 1:
                         this.button2.Text = "Agregar :)";
                         break;
-                    case 3:
+                    case 2:
                         this.button3.Text = "Agregar :)";
                         break;
-                    case 4:
+                    case 3:
                         this.button4.Text = "Agregar :)";
+                        break;
+                    case 4:
+                        this.button5.Text = "Agregar :)";
                         break;
                 }
             }
@@ -137,33 +136,33 @@ namespace WinFormsProyectoBase
                 {
                     case 0:
                         if (postres[contpos] != null)
-                            this.button5.Text = "" + aux;
-                        this.button5.ForeColor = Color.LightBlue;
-                        this.button5.Enabled = false;
-                        break;
-                    case 1:
-                        if (postres[contpos] != null)
                             this.button6.Text = "" + aux;
                         this.button6.ForeColor = Color.LightBlue;
                         this.button6.Enabled = false;
                         break;
-                    case 2:
+                    case 1:
                         if (postres[contpos] != null)
                             this.button7.Text = "" + aux;
                         this.button7.ForeColor = Color.LightBlue;
                         this.button7.Enabled = false;
                         break;
-                    case 3:
+                    case 2:
                         if (postres[contpos] != null)
                             this.button8.Text = "" + aux;
                         this.button8.ForeColor = Color.LightBlue;
                         this.button8.Enabled = false;
                         break;
-                    case 4:
+                    case 3:
                         if (postres[contpos] != null)
                             this.button9.Text = "" + aux;
                         this.button9.ForeColor = Color.LightBlue;
                         this.button9.Enabled = false;
+                        break;
+                    case 4:
+                        if (postres[contpos] != null)
+                            this.button10.Text = "" + aux;
+                        this.button10.ForeColor = Color.LightBlue;
+                        this.button10.Enabled = false;
                         break;
                 }
                 contpos++;
@@ -173,19 +172,19 @@ namespace WinFormsProyectoBase
                 switch (i)
                 {
                     case 0:
-                        this.button5.Text = "Agregar :)";
-                        break;
-                    case 1:
                         this.button6.Text = "Agregar :)";
                         break;
-                    case 2:
+                    case 1:
                         this.button7.Text = "Agregar :)";
                         break;
-                    case 3:
+                    case 2:
                         this.button8.Text = "Agregar :)";
                         break;
-                    case 4:
+                    case 3:
                         this.button9.Text = "Agregar :)";
+                        break;
+                    case 4:
+                        this.button10.Text = "Agregar :)";
                         break;
                 }
             }
@@ -198,12 +197,7 @@ namespace WinFormsProyectoBase
             this.Llenar();
         }
 
-        private void btnExtra_Click(object sender, EventArgs e) //Es el producto 1
-        {
-            this.Altas(1);
-        }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e) //Es el producto 1
         {
             this.Altas(1);
         }
@@ -225,7 +219,7 @@ namespace WinFormsProyectoBase
 
         private void button5_Click(object sender, EventArgs e)
         {
-            this.Altas(2);
+            this.Altas(1);
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -247,13 +241,10 @@ namespace WinFormsProyectoBase
         {
             this.Altas(2);
         }
-<<<<<<< HEAD
-=======
-        public FormAltas(bool Modo)
+
+        private void button10_Click(object sender, EventArgs e)
         {
-            this.Modo = Modo;
-            InitializeComponent();
-            Fondo();
+            this.Altas(2);
         }
         public void Fondo ()
         {
@@ -321,6 +312,5 @@ namespace WinFormsProyectoBase
                 
             }
         }
->>>>>>> fd6d23a1af934b17e8f1e8de22e2d9e6b7239611
     }
 }

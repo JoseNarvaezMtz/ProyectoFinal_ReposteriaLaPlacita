@@ -167,7 +167,7 @@
             btnModificaciones.Text = "Modificaciones";
             btnModificaciones.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnModificaciones.UseVisualStyleBackColor = false;
-            btnModificaciones.Click += btnModificaciones_Click_1;
+            btnModificaciones.Click += btnModificaciones_Click;
             // 
             // panelUsuario
             // 

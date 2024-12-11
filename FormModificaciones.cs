@@ -15,7 +15,6 @@ namespace WinFormsProyectoBase
 {
     public partial class FormModificaciones : Form
     {
-<<<<<<< HEAD
         List<Productos> list;
         private int id;
         private string nombre;
@@ -24,14 +23,14 @@ namespace WinFormsProyectoBase
         private string imagen;
         private float precio;
         private int existencias;
-=======
         private bool Modo;
->>>>>>> fd6d23a1af934b17e8f1e8de22e2d9e6b7239611
-        public FormModificaciones()
+
+        public FormModificaciones(bool Modo)
         {
+            this.Modo = Modo;
             InitializeComponent();
+            Fondo();
         }
-<<<<<<< HEAD
 
         private void textBoxId_TextChanged(object sender, EventArgs e)
         {
@@ -127,35 +126,34 @@ namespace WinFormsProyectoBase
             this.textBoxDes.Text = string.Empty;
             this.pictureBoxNew = null;
         }
-=======
-        public FormModificaciones(bool Modo)
-        {
-            this.Modo = Modo;
-            InitializeComponent();
-            Fondo();
-        }
+
         public void Fondo()
         {
             if (this.Modo == true)
             {
+                //Botones
+                this.BackColor = Color.FromArgb(244, 241, 235);
+                this.buttonLoad.BackColor = Color.FromArgb(212, 200, 175);
+                this.buttonLoad.ForeColor = Color.FromArgb(78, 78, 78);
+                this.buttonMod.BackColor = Color.FromArgb(212, 200, 175);
+                this.buttonMod.ForeColor = Color.FromArgb(78, 78, 78);
 
                 //Paneles
-                this.panelBase.BackColor = Color.FromArgb(244, 241, 235);
                 this.panel1.BackColor = Color.FromArgb(252, 251, 241);
                 this.panel2.BackColor = Color.FromArgb(252, 251, 241);
-                this.textBox1.BackColor = Color.FromArgb(252, 251, 241);
-                this.textBox2.BackColor = Color.FromArgb(252, 251, 241);
             }
             else
             {
+                //Botones
+                this.buttonLoad.BackColor = Color.FromArgb(24, 30, 54);
+                this.buttonLoad.ForeColor = Color.FromArgb(70, 150, 250);
+                this.buttonMod.BackColor = Color.FromArgb(24, 30, 54);
+                this.buttonMod.ForeColor = Color.FromArgb(70, 150, 250);
+
                 //Paneles
-                this.panelBase.BackColor = Color.FromArgb(46, 51, 73);
                 this.panel1.BackColor = Color.Silver;
                 this.panel2.BackColor = Color.Silver;
-                this.textBox1.BackColor = Color.Silver;
-                this.textBox2.BackColor = Color.Silver;
             }
         }
->>>>>>> fd6d23a1af934b17e8f1e8de22e2d9e6b7239611
     }
 }
