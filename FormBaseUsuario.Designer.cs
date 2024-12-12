@@ -28,7 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             panel1 = new Panel();
+            label2FechaHoraUsuario = new Label();
             btnSonido = new Button();
             btnInformacion = new Button();
             pictureBox1 = new PictureBox();
@@ -40,6 +42,7 @@
             btnPostres = new Button();
             btnPan = new Button();
             PanelPrincipal = new Panel();
+            timer2FechaHoraUsuario = new System.Windows.Forms.Timer(components);
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
@@ -48,6 +51,7 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(110, 80, 50);
+            panel1.Controls.Add(label2FechaHoraUsuario);
             panel1.Controls.Add(btnSonido);
             panel1.Controls.Add(btnInformacion);
             panel1.Controls.Add(pictureBox1);
@@ -56,17 +60,30 @@
             panel1.Controls.Add(labelNomUsuario);
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(951, 95);
+            panel1.Size = new Size(1087, 127);
             panel1.TabIndex = 0;
+            // 
+            // label2FechaHoraUsuario
+            // 
+            label2FechaHoraUsuario.AutoSize = true;
+            label2FechaHoraUsuario.Font = new Font("Tempus Sans ITC", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2FechaHoraUsuario.ForeColor = Color.AntiqueWhite;
+            label2FechaHoraUsuario.Location = new Point(818, 11);
+            label2FechaHoraUsuario.Name = "label2FechaHoraUsuario";
+            label2FechaHoraUsuario.Size = new Size(55, 22);
+            label2FechaHoraUsuario.TabIndex = 4;
+            label2FechaHoraUsuario.Text = "Fecha";
             // 
             // btnSonido
             // 
             btnSonido.FlatStyle = FlatStyle.Flat;
             btnSonido.Image = Properties.Resources.Sonido1;
-            btnSonido.Location = new Point(646, 8);
+            btnSonido.Location = new Point(738, 11);
+            btnSonido.Margin = new Padding(3, 4, 3, 4);
             btnSonido.Name = "btnSonido";
-            btnSonido.Size = new Size(44, 38);
+            btnSonido.Size = new Size(50, 51);
             btnSonido.TabIndex = 0;
             btnSonido.TextImageRelation = TextImageRelation.TextBeforeImage;
             btnSonido.UseVisualStyleBackColor = true;
@@ -78,9 +95,10 @@
             btnInformacion.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnInformacion.ForeColor = Color.AntiqueWhite;
             btnInformacion.Image = Properties.Resources.Logo;
-            btnInformacion.Location = new Point(10, 24);
+            btnInformacion.Location = new Point(11, 32);
+            btnInformacion.Margin = new Padding(3, 4, 3, 4);
             btnInformacion.Name = "btnInformacion";
-            btnInformacion.Size = new Size(291, 52);
+            btnInformacion.Size = new Size(333, 69);
             btnInformacion.TabIndex = 3;
             btnInformacion.Text = "C a f é   l a   p l a c i t a";
             btnInformacion.TextAlign = ContentAlignment.MiddleRight;
@@ -91,9 +109,10 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.photoBase;
-            pictureBox1.Location = new Point(329, 0);
+            pictureBox1.Location = new Point(376, 0);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(311, 95);
+            pictureBox1.Size = new Size(355, 127);
             pictureBox1.TabIndex = 2;
             pictureBox1.TabStop = false;
             // 
@@ -102,9 +121,10 @@
             btnSalirUs.FlatStyle = FlatStyle.Flat;
             btnSalirUs.Font = new Font("Tempus Sans ITC", 8F, FontStyle.Bold);
             btnSalirUs.ForeColor = Color.AntiqueWhite;
-            btnSalirUs.Location = new Point(925, 0);
+            btnSalirUs.Location = new Point(1057, 0);
+            btnSalirUs.Margin = new Padding(3, 4, 3, 4);
             btnSalirUs.Name = "btnSalirUs";
-            btnSalirUs.Size = new Size(25, 25);
+            btnSalirUs.Size = new Size(29, 33);
             btnSalirUs.TabIndex = 2;
             btnSalirUs.Text = "X";
             btnSalirUs.TextAlign = ContentAlignment.MiddleRight;
@@ -117,9 +137,10 @@
             btnCerrarSesionUs.FlatStyle = FlatStyle.Flat;
             btnCerrarSesionUs.Font = new Font("Tempus Sans ITC", 10F, FontStyle.Bold);
             btnCerrarSesionUs.ForeColor = Color.AntiqueWhite;
-            btnCerrarSesionUs.Location = new Point(829, 57);
+            btnCerrarSesionUs.Location = new Point(947, 76);
+            btnCerrarSesionUs.Margin = new Padding(3, 4, 3, 4);
             btnCerrarSesionUs.Name = "btnCerrarSesionUs";
-            btnCerrarSesionUs.Size = new Size(112, 28);
+            btnCerrarSesionUs.Size = new Size(128, 37);
             btnCerrarSesionUs.TabIndex = 1;
             btnCerrarSesionUs.Text = "Cerrar sesion";
             btnCerrarSesionUs.TextAlign = ContentAlignment.MiddleRight;
@@ -132,9 +153,9 @@
             labelNomUsuario.AutoSize = true;
             labelNomUsuario.Font = new Font("Tempus Sans ITC", 11F, FontStyle.Bold);
             labelNomUsuario.ForeColor = Color.AntiqueWhite;
-            labelNomUsuario.Location = new Point(772, 35);
+            labelNomUsuario.Location = new Point(880, 48);
             labelNomUsuario.Name = "labelNomUsuario";
-            labelNomUsuario.Size = new Size(159, 19);
+            labelNomUsuario.Size = new Size(195, 24);
             labelNomUsuario.TabIndex = 0;
             labelNomUsuario.Text = "Nombre Del Usuario";
             // 
@@ -144,9 +165,10 @@
             panel2.Controls.Add(label2);
             panel2.Controls.Add(btnPostres);
             panel2.Controls.Add(btnPan);
-            panel2.Location = new Point(0, 101);
+            panel2.Location = new Point(0, 135);
+            panel2.Margin = new Padding(3, 4, 3, 4);
             panel2.Name = "panel2";
-            panel2.Size = new Size(951, 40);
+            panel2.Size = new Size(1087, 53);
             panel2.TabIndex = 1;
             // 
             // label2
@@ -155,9 +177,9 @@
             label2.BackColor = Color.AntiqueWhite;
             label2.Font = new Font("Tempus Sans ITC", 14F, FontStyle.Bold);
             label2.ForeColor = Color.FromArgb(110, 80, 50);
-            label2.Location = new Point(436, 6);
+            label2.Location = new Point(498, 8);
             label2.Name = "label2";
-            label2.Size = new Size(80, 24);
+            label2.Size = new Size(98, 31);
             label2.TabIndex = 3;
             label2.Text = "Disfruta";
             // 
@@ -169,9 +191,10 @@
             btnPostres.Font = new Font("Tempus Sans ITC", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnPostres.ForeColor = Color.AntiqueWhite;
             btnPostres.Image = Properties.Resources.IconoPostre;
-            btnPostres.Location = new Point(526, 0);
+            btnPostres.Location = new Point(601, 0);
+            btnPostres.Margin = new Padding(3, 4, 3, 4);
             btnPostres.Name = "btnPostres";
-            btnPostres.Size = new Size(425, 40);
+            btnPostres.Size = new Size(486, 53);
             btnPostres.TabIndex = 1;
             btnPostres.Text = "P o s t r e s";
             btnPostres.TextAlign = ContentAlignment.MiddleRight;
@@ -188,8 +211,9 @@
             btnPan.ForeColor = Color.AntiqueWhite;
             btnPan.Image = Properties.Resources.IconoPan;
             btnPan.Location = new Point(0, 0);
+            btnPan.Margin = new Padding(3, 4, 3, 4);
             btnPan.Name = "btnPan";
-            btnPan.Size = new Size(425, 40);
+            btnPan.Size = new Size(486, 53);
             btnPan.TabIndex = 0;
             btnPan.Text = "P a n";
             btnPan.TextAlign = ContentAlignment.MiddleRight;
@@ -201,21 +225,30 @@
             // 
             PanelPrincipal.BackColor = Color.AntiqueWhite;
             PanelPrincipal.BorderStyle = BorderStyle.FixedSingle;
-            PanelPrincipal.Location = new Point(0, 135);
+            PanelPrincipal.Location = new Point(0, 180);
+            PanelPrincipal.Margin = new Padding(3, 4, 3, 4);
             PanelPrincipal.Name = "PanelPrincipal";
-            PanelPrincipal.Size = new Size(951, 444);
+            PanelPrincipal.Size = new Size(1087, 591);
             PanelPrincipal.TabIndex = 3;
+            // 
+            // timer2FechaHoraUsuario
+            // 
+            timer2FechaHoraUsuario.Enabled = true;
+            timer2FechaHoraUsuario.Interval = 1000;
+            timer2FechaHoraUsuario.Tag = "timer2FechaHoraUsuario";
+            timer2FechaHoraUsuario.Tick += timer2FechaHoraUsuario_Tick;
             // 
             // FormBaseUsuario
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.AntiqueWhite;
-            ClientSize = new Size(951, 577);
+            ClientSize = new Size(1087, 769);
             Controls.Add(PanelPrincipal);
             Controls.Add(panel2);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "FormBaseUsuario";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormUsuario";
@@ -241,5 +274,7 @@
         private Button btnSalirUs;
         private Button btnInformacion;
         private Button btnSonido;
+        private Label label2FechaHoraUsuario;
+        private System.Windows.Forms.Timer timer2FechaHoraUsuario;
     }
 }

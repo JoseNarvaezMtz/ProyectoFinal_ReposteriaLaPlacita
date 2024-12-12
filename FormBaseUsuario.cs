@@ -4,8 +4,8 @@ namespace WinFormsProyectoBase
 {
     public partial class FormBaseUsuario : Form
     {
-        public int []panDisp; //base de datos
-        public int []postreDisp; //base de datos
+        public int[] panDisp; //base de datos
+        public int[] postreDisp; //base de datos
         public string nombre; //base de datos
 
         Random Musica = new Random();      // Random para seleccionar musica aleatoriamente
@@ -13,7 +13,7 @@ namespace WinFormsProyectoBase
         private bool[] reproducida = new bool[4]; // Control de canciones reproducidas
         private bool sonido = false; // variable de control de mute/demute
 
-        public FormBaseUsuario(string nombreUs,int[] panDisp ,int[] postreDisp)
+        public FormBaseUsuario(string nombreUs, int[] panDisp, int[] postreDisp)
         {
             InitializeComponent();
             cargarForm(new FormInformacion());
@@ -109,7 +109,8 @@ namespace WinFormsProyectoBase
                 sonido = false;
                 btnSonido.Image = Properties.Resources.Sonido;
             }
-            else{
+            else
+            {
                 SoundPlayer ReproducirMusica = new SoundPlayer();
                 string ruta = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "Music", "Musica1.wav");
                 ReproducirMusica.SoundLocation = ruta;
@@ -124,6 +125,11 @@ namespace WinFormsProyectoBase
             string ruta = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "Music", nombreArchivo);
             ReproducirMusica.SoundLocation = ruta;
             ReproducirMusica.PlayLooping();
+        }
+
+        private void timer2FechaHoraUsuario_Tick(object sender, EventArgs e)
+        {
+            label2FechaHoraUsuario.Text = DateTime.Now.ToString();
         }
     }
 }

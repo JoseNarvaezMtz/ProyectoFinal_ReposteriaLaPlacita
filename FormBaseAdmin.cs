@@ -163,6 +163,9 @@ namespace WinFormsProyectoBase
             }
         }
 
-        
+        private void timer3FechaHoraAdmin_Tick(object sender, EventArgs e)
+        {
+            label3FechaHoraAdmin.Text = DateTime.Now.ToString();
+        }
     }
 }

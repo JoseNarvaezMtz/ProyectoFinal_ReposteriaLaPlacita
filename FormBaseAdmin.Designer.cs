@@ -29,6 +29,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             btnSalir = new Button();
             panelSalir = new Panel();
             btnCerrarSesion = new Button();
@@ -43,6 +44,8 @@
             labelNomAdm = new Label();
             pictureBoxAdmin = new PictureBox();
             panelBase = new Panel();
+            label3FechaHoraAdmin = new Label();
+            timer3FechaHoraAdmin = new System.Windows.Forms.Timer(components);
             panelSalir.SuspendLayout();
             panelBotones.SuspendLayout();
             panelUsuario.SuspendLayout();
@@ -179,6 +182,7 @@
             // panelUsuario
             // 
             panelUsuario.BackColor = Color.FromArgb(24, 30, 54);
+            panelUsuario.Controls.Add(label3FechaHoraAdmin);
             panelUsuario.Controls.Add(btnModoImagen);
             panelUsuario.Controls.Add(labelCorreo);
             panelUsuario.Controls.Add(labelNomAdm);
@@ -249,6 +253,23 @@
             panelBase.Size = new Size(833, 652);
             panelBase.TabIndex = 7;
             // 
+            // label3FechaHoraAdmin
+            // 
+            label3FechaHoraAdmin.AutoSize = true;
+            label3FechaHoraAdmin.ForeColor = Color.FromArgb(0, 126, 249);
+            label3FechaHoraAdmin.Location = new Point(49, 595);
+            label3FechaHoraAdmin.Name = "label3FechaHoraAdmin";
+            label3FechaHoraAdmin.Size = new Size(47, 20);
+            label3FechaHoraAdmin.TabIndex = 5;
+            label3FechaHoraAdmin.Text = "Fecha";
+            // 
+            // timer3FechaHoraAdmin
+            // 
+            timer3FechaHoraAdmin.Enabled = true;
+            timer3FechaHoraAdmin.Interval = 1000;
+            timer3FechaHoraAdmin.Tag = "timer3FechaHoraAdmin";
+            timer3FechaHoraAdmin.Tick += timer3FechaHoraAdmin_Tick;
+            // 
             // FormBaseAdmin
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -288,5 +309,7 @@
         private Label labelNomAdm;
         private PictureBox pictureBoxAdmin;
         private Button btnModoImagen;
+        private Label label3FechaHoraAdmin;
+        private System.Windows.Forms.Timer timer3FechaHoraAdmin;
     }
 }
