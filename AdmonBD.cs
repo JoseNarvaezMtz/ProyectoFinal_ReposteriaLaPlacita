@@ -4,8 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WinFormsProyectoBase;
 
-namespace WinFormsTareaBaseDatos
+namespace WinFormsProyectoBase
 {
     public class AdmonBD
     {
@@ -58,6 +59,16 @@ namespace WinFormsTareaBaseDatos
                     item = new Productos(id, nombre, categoria, descripcion, imagen, precio, existencias);
                     data.Add(item);
 
+                    //Agregar a las listas static de panes y postres
+                    if (item.Categoria == 1)
+                    {
+                        FormBaseUsuario.listaPanes.Add(item);
+                    }
+                    else if (item.Categoria == 2)
+                    {
+                        FormBaseUsuario.listaPostres.Add(item);
+                    }
+
                 }
                 reader.Close();
                 data.ForEach((p) =>
@@ -74,6 +85,58 @@ namespace WinFormsTareaBaseDatos
             }
             return data;
         }
+
+        public void agregarListas()
+        {
+            Productos item;
+            int id;
+            string nombre;
+            int categoria;
+            string descripcion;
+            string imagen;
+            float precio;
+            int existencias;
+            try
+            {
+                string query = "SELECT * FROM productos";
+                MySqlCommand command = new MySqlCommand(query, this.connection);
+
+                // Ejecutar la consulta y leer los resultados
+                MySqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    // Ejemplo: mostrar los datos de las columnas
+                    id = Convert.ToInt32(reader["id"]);
+                    nombre = Convert.ToString(reader["nombre"]) ?? "";
+                    categoria = Convert.ToInt32(reader["categoria"]);
+                    descripcion = Convert.ToString(reader["descripcion"]) ?? "";
+                    imagen = Convert.ToString(reader["imagen"]) ?? "";
+                    precio = Convert.ToSingle(reader["precio"]);
+                    existencias = Convert.ToInt32(reader["existencias"]);
+
+                    item = new Productos(id, nombre, categoria, descripcion, imagen, precio, existencias);
+                   
+                    //Agregar a las listas static de panes y postres
+                    if (item.Categoria == 1)
+                    {
+                        FormBaseUsuario.listaPanes.Add(item);
+                    }
+                    else if (item.Categoria == 2)
+                    {
+                        FormBaseUsuario.listaPostres.Add(item);
+                    }
+
+                }
+                reader.Close();
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al leer la tabla de la base de datos: " + ex.Message);
+                this.Disconnect();
+            }
+        }
+
 
         public void insertar(int idp, string nom, int categ, string descrip, string img, float prec, int exis)
         {
@@ -196,7 +259,7 @@ namespace WinFormsTareaBaseDatos
 
         public void Connect()
         {
-            string cadena = "Server=localhost; Port=3306; Database=cafeplacita; User=root; Password=; SslMode=none;";
+            string cadena = "Server=localhost; Port=33068; Database=cafeplacita; User=root; Password=; SslMode=none;";
             try
             {
                 connection = new MySqlConnection(cadena);

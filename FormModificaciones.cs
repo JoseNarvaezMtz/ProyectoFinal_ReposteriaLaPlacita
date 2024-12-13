@@ -9,7 +9,7 @@ using System.Runtime.Intrinsics.X86;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using WinFormsTareaBaseDatos;
+
 
 namespace WinFormsProyectoBase
 {

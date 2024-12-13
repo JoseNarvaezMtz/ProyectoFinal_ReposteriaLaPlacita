@@ -25,7 +25,7 @@ namespace WinFormsProyectoBase
             ConfigurarEventosTextBox();
         }
 
-        public FormPagoTarjeta(int cantidad /*, int id, string nombre, float precio*/)
+        public FormPagoTarjeta(int cantidad, int id, string nombre, float precio)
         {
             //IMPORTANTEEEEEEEEEEEEEEEEEEEEEEEEE
             //this.Id = id;

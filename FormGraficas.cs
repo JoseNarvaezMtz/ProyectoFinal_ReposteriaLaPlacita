@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace WinFormsProyectoBase
 {
@@ -16,7 +17,30 @@ namespace WinFormsProyectoBase
         public FormGraficas()
         {
             InitializeComponent();
+            // Crear el control Chart
+            Chart chart = new Chart();
+            chart.Size = new System.Drawing.Size(600, 400); // Ajustar tamaño
+            chart.Location = new System.Drawing.Point(10, 10); // Posición
+
+            // Agregar un área de gráfico
+            ChartArea chartArea = new ChartArea("Area1");
+            chart.ChartAreas.Add(chartArea);
+
+            // Crear una serie de datos
+            Series series = new Series("Datos");
+            series.ChartType = SeriesChartType.Bar; // Tipo de gráfico (barra)
+            series.Points.AddXY("Enero", 10); // (Categoría, Valor)
+            series.Points.AddXY("Febrero", 20);
+            series.Points.AddXY("Marzo", 30);
+            series.Points.AddXY("Abril", 40);
+
+            // Agregar la serie al Chart
+            chart.Series.Add(series);
+
+            // Agregar el control al formulario
+            this.Controls.Add(chart);
         }
+    
         public FormGraficas(bool Modo)
         {
             this.Modo = Modo;

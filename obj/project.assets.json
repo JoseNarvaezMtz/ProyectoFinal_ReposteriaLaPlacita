@@ -466,6 +466,20 @@
           }
         }
       },
+      "System.Windows.Forms.DataVisualization/1.0.0-prerelease.20110.1": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp3.0/System.Windows.Forms.DataVisualization.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Windows.Forms.DataVisualization.dll": {
+            "related": ".pdb"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.NETCore.App"
+        ]
+      },
       "ZstdSharp.Port/0.8.0": {
         "type": "package",
         "compile": {
@@ -1583,6 +1597,22 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "System.Windows.Forms.DataVisualization/1.0.0-prerelease.20110.1": {
+      "sha512": "1EdLFl/I5QobO4shpqUNslDGWTeRbpt3pLMSkiLQYzdWBDqf44/8TM5hXMtkA8ktHU80aVZYVEuxr8vJqcB1Ig==",
+      "type": "package",
+      "path": "system.windows.forms.datavisualization/1.0.0-prerelease.20110.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp3.0/System.Windows.Forms.DataVisualization.dll",
+        "lib/netcoreapp3.0/System.Windows.Forms.DataVisualization.pdb",
+        "ref/netcoreapp3.0/System.Windows.Forms.DataVisualization.dll",
+        "system.windows.forms.datavisualization.1.0.0-prerelease.20110.1.nupkg.sha512",
+        "system.windows.forms.datavisualization.nuspec"
+      ]
+    },
     "ZstdSharp.Port/0.8.0": {
       "sha512": "Z62eNBIu8E8YtbqlMy57tK3dV1+m2b9NhPeaYovB5exmLKvrGCqOhJTzrEUH5VyUWU6vwX3c1XHJGhW5HVs8dA==",
       "type": "package",
@@ -1605,28 +1635,24 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
-      "MySql.Data >= 9.1.0"
+      "MySql.Data >= 9.1.0",
+      "System.Windows.Forms.DataVisualization >= 1.0.0-prerelease.20110.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\josen\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\analo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josen\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\WinFormsProyectoBase.csproj",
+      "projectUniqueName": "C:\\Users\\analo\\Source\\Repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\WinFormsProyectoBase.csproj",
       "projectName": "WinFormsProyectoBase",
-      "projectPath": "C:\\Users\\josen\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\WinFormsProyectoBase.csproj",
-      "packagesPath": "C:\\Users\\josen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\josen\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\obj\\",
+      "projectPath": "C:\\Users\\analo\\Source\\Repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\WinFormsProyectoBase.csproj",
+      "packagesPath": "C:\\Users\\analo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\analo\\Source\\Repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\josen\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\analo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1650,9 +1676,8 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+        "auditMode": "direct"
+      }
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -1661,6 +1686,10 @@
           "MySql.Data": {
             "target": "Package",
             "version": "[9.1.0, )"
+          },
+          "System.Windows.Forms.DataVisualization": {
+            "target": "Package",
+            "version": "[1.0.0-prerelease.20110.1, )"
           }
         },
         "imports": [
@@ -1682,20 +1711,8 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "El paquete \"System.Text.Json\" 8.0.4 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-8g4q-xg66-9fp4",
-      "libraryId": "System.Text.Json",
-      "targetGraphs": [
-        "net8.0-windows7.0"
-      ]
-    }
-  ]
+  }
 }
