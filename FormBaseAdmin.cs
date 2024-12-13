@@ -7,26 +7,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WinFormsProyectoBase.Properties;
 
 namespace WinFormsProyectoBase
 {
     public partial class FormBaseAdmin : Form
     {
-        public int[] panDisp;           //base de datos
-        public int[] postreDisp;        //base de datos
+       /* public int[] panDisp;           //base de datos
+        public int[] postreDisp;*/        //base de datos
         private bool Modo = false;      //Variable para cambiar el Modo claro/oscuro del tema
         public FormBaseAdmin()
         {
             InitializeComponent();
         }
-        public FormBaseAdmin(string nombreUs, int[] panDisp, int[] postreDisp)
+
+        //public FormBaseAdmin(string nombreUs, int[] panDisp, int[] postreDisp)       
+        public FormBaseAdmin(string nombreUs)
         {
 
             InitializeComponent();
             this.labelNomAdm.Text = nombreUs;
             this.labelNomAdm.Location = new System.Drawing.Point(108 - (((nombreUs.Length) * 8) / 2), 145);
-            this.panDisp = panDisp;
-            this.postreDisp = postreDisp;
+           // this.panDisp = panDisp;
+            //this.postreDisp = postreDisp;
             //cargarForm(new FormAltas());
         }
         public void cargarForm(object Form)
@@ -106,6 +109,10 @@ namespace WinFormsProyectoBase
                 //Labels
                 this.labelCorreo.ForeColor = Color.FromArgb(78, 78, 78);
                 this.labelNomAdm.ForeColor = Color.FromArgb(78, 78, 78);
+                this.label3FechaHoraAdmin.ForeColor = Color.FromArgb(110, 80, 50);
+                //PictureBox
+                pictureBoxLogo.Image = Resources.logoClaro;
+                //Cambiar picture box picturebox.image=properties.resources.image.;-->cambiar a la oscura (o al revés? jaja)
             }
             else
             {
@@ -133,6 +140,12 @@ namespace WinFormsProyectoBase
                 //Labels
                 this.labelCorreo.ForeColor = Color.FromArgb(70, 150, 250);
                 this.labelNomAdm.ForeColor = Color.FromArgb(70, 150, 250);
+                this.label3FechaHoraAdmin.ForeColor = Color.FromArgb(0, 126, 249);
+                //Cambiar picture box picturebox.properties.image=cadena; -->cambiar a la clara
+                pictureBoxLogo.Image = Resources.logoOscuro;
+                //PictureBox
+
+
             }
             if (this.panelBase.Controls.Count > 0)
             {
@@ -166,6 +179,11 @@ namespace WinFormsProyectoBase
         private void timer3FechaHoraAdmin_Tick(object sender, EventArgs e)
         {
             label3FechaHoraAdmin.Text = DateTime.Now.ToString();
+        }
+
+        private void pictureBoxLogo_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

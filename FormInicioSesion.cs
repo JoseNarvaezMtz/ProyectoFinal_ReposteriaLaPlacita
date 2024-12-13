@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using WinFormsTareaBaseDatos;
 using static System.Windows.Forms.DataFormats;
 
 namespace WinFormsProyectoBase
@@ -17,8 +17,8 @@ namespace WinFormsProyectoBase
     {
         Random Musica = new Random();
 
-        public int[] panDisp = { 0, 2, 3, 5, 0 }; //base de datos
-        public int[] postreDisp = { 0, 2, 3, 5, 0 }; //base de datos
+       /* public int[] panDisp = { 0, 2, 3, 5, 0 }; //base de datos
+        public int[] postreDisp = { 0, 2, 3, 5, 0 }; //base de datos*/
         public FormInicioSesion()
         {
             InitializeComponent();
@@ -57,7 +57,8 @@ namespace WinFormsProyectoBase
 
             limpiar();
             obj.Disconnect();
-            FormBaseUsuario fU = new FormBaseUsuario(aux.NombreCompleto, panDisp, postreDisp); //sujeto a cambios por verificacion en base de datos
+            FormBaseUsuario fU = new FormBaseUsuario(aux.NombreCompleto); //sujeto a cambios por verificacion en base de datos
+            //FormBaseUsuario fU = new FormBaseUsuario(aux.NombreCompleto, panDisp, postreDisp);
             this.Hide();
             SoundPlayer ReproducirMusica = new SoundPlayer();
             string ruta = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "Music", "Musica2.wav");
@@ -99,7 +100,8 @@ namespace WinFormsProyectoBase
                 return;
             }
             limpiar();
-            FormBaseAdmin fA = new FormBaseAdmin(aux.NombreCompleto, panDisp, postreDisp);
+            //FormBaseAdmin fA = new FormBaseAdmin(aux.NombreCompleto, panDisp, postreDisp);
+            FormBaseAdmin fA = new FormBaseAdmin(aux.NombreCompleto);
             this.Hide();
             fA.ShowDialog();
             this.Show();
@@ -116,6 +118,49 @@ namespace WinFormsProyectoBase
         private void timerHoraFechaInicioSesion_Tick(object sender, EventArgs e)
         {
             label1FechaHora.Text = DateTime.Now.ToString();
+        }
+
+        private void buttonInvitado_Click(object sender, EventArgs e)
+        {
+            AdmonBDUsuario obj = new AdmonBDUsuario();
+            Usuarios aux = obj.consultaUnRegistro(this.textBoxNomUsuario.Text);
+
+            //Validación en el llenado de los campos
+            if (string.IsNullOrEmpty(textBoxNomUsuario.Text) || string.IsNullOrEmpty(textBoxContraseña.Text))
+            {
+                MessageBox.Show("Llene los espacios solicitados");
+                return;
+            }
+
+            if (aux != null) //Se hace una excepción en caso de que no se encuentre el dato en la base de datos
+            {
+                if (aux.Contrasena == textBoxContraseña.Text && aux.Categoria == 3)
+                {
+                    MessageBox.Show("Registro Localizado en la Base de Datos");
+                }
+                else
+                {
+                    MessageBox.Show("Datos de acceso incorrectos o categoría no válida");
+                    return;
+                }
+            }
+            else
+            {
+                MessageBox.Show("No se encontró al usuario en la Base de Datos");
+                return;
+            }
+
+            limpiar();
+            obj.Disconnect();
+            FormBaseUsuario fU = new FormBaseUsuario(aux.NombreCompleto); //sujeto a cambios por verificacion en base de datos
+            //FormBaseUsuario fU = new FormBaseUsuario(aux.NombreCompleto, panDisp, postreDisp);
+            this.Hide();
+            SoundPlayer ReproducirMusica = new SoundPlayer();
+            string ruta = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "Music", "Musica2.wav");
+            ReproducirMusica.SoundLocation = ruta;
+            ReproducirMusica.Play();
+            fU.ShowDialog();
+            this.Show();
         }
     }
 }

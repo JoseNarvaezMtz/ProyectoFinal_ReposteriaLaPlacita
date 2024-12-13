@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinFormsTareaBaseDatos
+namespace WinFormsProyectoBase
 {
     public class AdmonBDUsuario
     {
@@ -191,7 +191,7 @@ namespace WinFormsTareaBaseDatos
 
         public void Connect()
         {
-            string cadena = "Server=localhost; Port=33065; Database=cafeplacita; User=root; Password=; SslMode=none;";
+            string cadena = "Server=localhost; Port=33068; Database=cafeplacita; User=root; Password=; SslMode=none;";
             try
             {
                 connection = new MySqlConnection(cadena);

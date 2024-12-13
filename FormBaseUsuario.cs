@@ -4,6 +4,8 @@ namespace WinFormsProyectoBase
 {
     public partial class FormBaseUsuario : Form
     {
+        public static List<Productos> listaPanes = new List<Productos>();
+        public static List<Productos> listaPostres = new List<Productos>();
         public int[] panDisp; //base de datos
         public int[] postreDisp; //base de datos
         public string nombre; //base de datos
@@ -13,14 +15,16 @@ namespace WinFormsProyectoBase
         private bool[] reproducida = new bool[4]; // Control de canciones reproducidas
         private bool sonido = false; // variable de control de mute/demute
 
-        public FormBaseUsuario(string nombreUs, int[] panDisp, int[] postreDisp)
+        public FormBaseUsuario(string nombreUs)
         {
             InitializeComponent();
             cargarForm(new FormInformacion());
             this.labelNomUsuario.Text = nombreUs;
             this.labelNomUsuario.Location = new System.Drawing.Point(930 - ((nombreUs.Length) * 8), 35);
-            this.postreDisp = postreDisp;
-            this.panDisp = panDisp;
+            //this.postreDisp = postreDisp;
+            //this.panDisp = panDisp;
+            AdmonBD aux = new AdmonBD();
+            aux.agregarListas();
         }
 
         public void cargarForm(object Form)
@@ -57,12 +61,12 @@ namespace WinFormsProyectoBase
 
         private void btnPan_Click(object sender, EventArgs e)
         {
-            cargarForm(new FormPan(panDisp));
+            cargarForm(new FormPan());
         }
 
         private void btnPostres_Click(object sender, EventArgs e)
         {
-            cargarForm(new FormPostres(postreDisp));
+            cargarForm(new FormPostres());
         }
 
         private void btnInformacion_Click(object sender, EventArgs e)

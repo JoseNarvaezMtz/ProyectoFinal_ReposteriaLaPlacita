@@ -9,7 +9,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Org.BouncyCastle.Pqc.Crypto.Lms;
-using WinFormsTareaBaseDatos;
 
 namespace WinFormsProyectoBase
 {

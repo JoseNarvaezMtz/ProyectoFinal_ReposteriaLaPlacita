@@ -34,71 +34,80 @@
             panel4 = new Panel();
             panel5 = new Panel();
             panelBase = new Panel();
+            panelBase.SuspendLayout();
             SuspendLayout();
             // 
             // panel2
             // 
             panel2.BackColor = Color.Silver;
-            panel2.Location = new Point(396, 162);
+            panel2.Location = new Point(733, 171);
+            panel2.Margin = new Padding(3, 4, 3, 4);
             panel2.Name = "panel2";
-            panel2.Size = new Size(237, 237);
+            panel2.Size = new Size(69, 48);
             panel2.TabIndex = 2;
             // 
             // panel1
             // 
             panel1.BackColor = Color.Silver;
-            panel1.Location = new Point(56, 162);
+            panel1.Location = new Point(645, 171);
+            panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(237, 237);
+            panel1.Size = new Size(50, 49);
             panel1.TabIndex = 3;
             // 
             // panel3
             // 
             panel3.BackColor = Color.Silver;
-            panel3.Location = new Point(56, 45);
+            panel3.Location = new Point(64, 60);
+            panel3.Margin = new Padding(3, 4, 3, 4);
             panel3.Name = "panel3";
-            panel3.Size = new Size(152, 54);
+            panel3.Size = new Size(174, 72);
             panel3.TabIndex = 4;
             // 
             // panel4
             // 
             panel4.BackColor = Color.Silver;
-            panel4.Location = new Point(254, 45);
+            panel4.Location = new Point(290, 60);
+            panel4.Margin = new Padding(3, 4, 3, 4);
             panel4.Name = "panel4";
-            panel4.Size = new Size(152, 54);
+            panel4.Size = new Size(174, 72);
             panel4.TabIndex = 5;
             // 
             // panel5
             // 
             panel5.BackColor = Color.Silver;
-            panel5.Location = new Point(481, 45);
+            panel5.Location = new Point(550, 60);
+            panel5.Margin = new Padding(3, 4, 3, 4);
             panel5.Name = "panel5";
-            panel5.Size = new Size(152, 54);
+            panel5.Size = new Size(174, 72);
             panel5.TabIndex = 5;
             // 
             // panelBase
             // 
             panelBase.BackColor = Color.FromArgb(46, 51, 73);
-            panelBase.Location = new Point(0, -8);
+            panelBase.Controls.Add(panel2);
+            panelBase.Controls.Add(panel1);
+            panelBase.Location = new Point(0, -11);
+            panelBase.Margin = new Padding(3, 4, 3, 4);
             panelBase.Name = "panelBase";
-            panelBase.Size = new Size(729, 504);
+            panelBase.Size = new Size(833, 672);
             panelBase.TabIndex = 12;
             // 
             // FormGraficas
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(46, 51, 73);
-            ClientSize = new Size(729, 489);
+            ClientSize = new Size(833, 652);
             Controls.Add(panel5);
             Controls.Add(panel4);
             Controls.Add(panel3);
-            Controls.Add(panel1);
-            Controls.Add(panel2);
             Controls.Add(panelBase);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "FormGraficas";
             Text = "FormGraficas";
+            panelBase.ResumeLayout(false);
             ResumeLayout(false);
         }
 

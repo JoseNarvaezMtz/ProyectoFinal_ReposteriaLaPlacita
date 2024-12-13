@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "86iR06TkIw0=",
+  "dgSpecHash": "xNpkUEHf0Fg=",
   "success": true,
   "projectFilePath": "C:\\Users\\analo\\Source\\Repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\WinFormsProyectoBase.csproj",
   "expectedPackageFiles": [
@@ -32,6 +32,7 @@
     "C:\\Users\\analo\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\analo\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\analo\\.nuget\\packages\\system.windows.extensions\\8.0.0\\system.windows.extensions.8.0.0.nupkg.sha512",
+    "C:\\Users\\analo\\.nuget\\packages\\system.windows.forms.datavisualization\\1.0.0-prerelease.20110.1\\system.windows.forms.datavisualization.1.0.0-prerelease.20110.1.nupkg.sha512",
     "C:\\Users\\analo\\.nuget\\packages\\zstdsharp.port\\0.8.0\\zstdsharp.port.0.8.0.nupkg.sha512"
   ],
   "logs": []

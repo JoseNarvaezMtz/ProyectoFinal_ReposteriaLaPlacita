@@ -67,6 +67,7 @@ C:\Users\analo\Source\Repos\JoseNarvaezMtz\ProyectoFinal_ReposteriaLaPlacita\bin
 C:\Users\analo\Source\Repos\JoseNarvaezMtz\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
 C:\Users\analo\Source\Repos\JoseNarvaezMtz\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\MySql.Data.dll
 C:\Users\analo\Source\Repos\JoseNarvaezMtz\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\analo\Source\Repos\JoseNarvaezMtz\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\System.Windows.Forms.DataVisualization.dll
 C:\Users\analo\Source\Repos\JoseNarvaezMtz\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\ZstdSharp.dll
 C:\Users\analo\Source\Repos\JoseNarvaezMtz\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
 C:\Users\analo\Source\Repos\JoseNarvaezMtz\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll

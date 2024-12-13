@@ -28,262 +28,283 @@
         /// </summary>
         private void InitializeComponent()
         {
-            pictureBoxPanElote = new PictureBox();
-            panelPanElote = new Panel();
-            btnDescPanElote = new Button();
-            btnComprarPanElote = new Button();
-            panelPanNuez = new Panel();
-            btnComprarPanNuez = new Button();
-            btnDescPanNuez = new Button();
-            pictureBoxPanNuez = new PictureBox();
-            panel3 = new Panel();
-            btnDescPanEmpanada = new Button();
-            btnComprarPanEmpanada = new Button();
-            pictureBoxEmpanada = new PictureBox();
-            panel4 = new Panel();
-            btnComprarPanRol = new Button();
-            btnDescPanRol = new Button();
-            pictureBoxPanRol = new PictureBox();
-            panel5 = new Panel();
-            btnComprarPanCuernitos = new Button();
-            btnDescPanCuernitos = new Button();
-            pictureBoxPanCuernitos = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)pictureBoxPanElote).BeginInit();
-            panelPanElote.SuspendLayout();
-            panelPanNuez.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBoxPanNuez).BeginInit();
-            panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBoxEmpanada).BeginInit();
-            panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBoxPanRol).BeginInit();
-            panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBoxPanCuernitos).BeginInit();
+            pictureBoxPan1 = new PictureBox();
+            panelPan1 = new Panel();
+            btnDescPan1 = new Button();
+            btnComprarPan1 = new Button();
+            panelPan2 = new Panel();
+            btnComprarPan2 = new Button();
+            btnDescPan2 = new Button();
+            pictureBoxPan2 = new PictureBox();
+            panelPan3 = new Panel();
+            btnDescPan3 = new Button();
+            btnComprarPan3 = new Button();
+            pictureBoxPan3 = new PictureBox();
+            panelPan4 = new Panel();
+            btnComprarPan4 = new Button();
+            btnDescPan4 = new Button();
+            pictureBoxPan4 = new PictureBox();
+            panelPan5 = new Panel();
+            btnComprarPan5 = new Button();
+            btnDescPan5 = new Button();
+            pictureBoxPan5 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxPan1).BeginInit();
+            panelPan1.SuspendLayout();
+            panelPan2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxPan2).BeginInit();
+            panelPan3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxPan3).BeginInit();
+            panelPan4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxPan4).BeginInit();
+            panelPan5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxPan5).BeginInit();
             SuspendLayout();
             // 
-            // pictureBoxPanElote
+            // pictureBoxPan1
             // 
-            pictureBoxPanElote.Image = Properties.Resources.PanElote;
-            pictureBoxPanElote.Location = new Point(18, 16);
-            pictureBoxPanElote.Name = "pictureBoxPanElote";
-            pictureBoxPanElote.Size = new Size(165, 100);
-            pictureBoxPanElote.TabIndex = 3;
-            pictureBoxPanElote.TabStop = false;
+            pictureBoxPan1.Image = Properties.Resources.PanElote;
+            pictureBoxPan1.Location = new Point(18, 16);
+            pictureBoxPan1.Name = "pictureBoxPan1";
+            pictureBoxPan1.Size = new Size(165, 100);
+            pictureBoxPan1.TabIndex = 3;
+            pictureBoxPan1.TabStop = false;
+            pictureBoxPan1.Visible = false;
             // 
-            // panelPanElote
+            // panelPan1
             // 
-            panelPanElote.BackColor = Color.Bisque;
-            panelPanElote.Controls.Add(btnDescPanElote);
-            panelPanElote.Controls.Add(btnComprarPanElote);
-            panelPanElote.Controls.Add(pictureBoxPanElote);
-            panelPanElote.Location = new Point(89, 33);
-            panelPanElote.Name = "panelPanElote";
-            panelPanElote.Size = new Size(200, 185);
-            panelPanElote.TabIndex = 8;
+            panelPan1.BackColor = Color.Bisque;
+            panelPan1.Controls.Add(btnDescPan1);
+            panelPan1.Controls.Add(btnComprarPan1);
+            panelPan1.Controls.Add(pictureBoxPan1);
+            panelPan1.Location = new Point(89, 33);
+            panelPan1.Name = "panelPan1";
+            panelPan1.Size = new Size(200, 185);
+            panelPan1.TabIndex = 8;
+            panelPan1.Visible = false;
             // 
-            // btnDescPanElote
+            // btnDescPan1
             // 
-            btnDescPanElote.BackColor = Color.Bisque;
-            btnDescPanElote.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnDescPanElote.ForeColor = Color.FromArgb(110, 80, 50);
-            btnDescPanElote.Location = new Point(0, 121);
-            btnDescPanElote.Name = "btnDescPanElote";
-            btnDescPanElote.Size = new Size(200, 25);
-            btnDescPanElote.TabIndex = 5;
-            btnDescPanElote.Text = "Descripcion";
-            btnDescPanElote.UseVisualStyleBackColor = false;
+            btnDescPan1.BackColor = Color.Bisque;
+            btnDescPan1.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnDescPan1.ForeColor = Color.FromArgb(110, 80, 50);
+            btnDescPan1.Location = new Point(0, 121);
+            btnDescPan1.Name = "btnDescPan1";
+            btnDescPan1.Size = new Size(200, 25);
+            btnDescPan1.TabIndex = 5;
+            btnDescPan1.Text = "Descripcion";
+            btnDescPan1.UseVisualStyleBackColor = false;
+            btnDescPan1.Visible = false;
+            btnDescPan1.Click += btnDescPan1_Click;
             // 
-            // btnComprarPanElote
+            // btnComprarPan1
             // 
-            btnComprarPanElote.BackColor = Color.Sienna;
-            btnComprarPanElote.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnComprarPanElote.ForeColor = Color.White;
-            btnComprarPanElote.Location = new Point(0, 147);
-            btnComprarPanElote.Name = "btnComprarPanElote";
-            btnComprarPanElote.Size = new Size(200, 38);
-            btnComprarPanElote.TabIndex = 4;
-            btnComprarPanElote.Text = "Comprar";
-            btnComprarPanElote.UseVisualStyleBackColor = false;
-            btnComprarPanElote.Click += btnComprarPanElote_Click;
+            btnComprarPan1.BackColor = Color.Sienna;
+            btnComprarPan1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnComprarPan1.ForeColor = Color.White;
+            btnComprarPan1.Location = new Point(0, 147);
+            btnComprarPan1.Name = "btnComprarPan1";
+            btnComprarPan1.Size = new Size(200, 38);
+            btnComprarPan1.TabIndex = 4;
+            btnComprarPan1.Text = "Comprar";
+            btnComprarPan1.UseVisualStyleBackColor = false;
+            btnComprarPan1.Visible = false;
+            btnComprarPan1.Click += btnComprarPanElote_Click;
             // 
-            // panelPanNuez
+            // panelPan2
             // 
-            panelPanNuez.BackColor = Color.Bisque;
-            panelPanNuez.Controls.Add(btnComprarPanNuez);
-            panelPanNuez.Controls.Add(btnDescPanNuez);
-            panelPanNuez.Controls.Add(pictureBoxPanNuez);
-            panelPanNuez.Location = new Point(365, 33);
-            panelPanNuez.Name = "panelPanNuez";
-            panelPanNuez.Size = new Size(196, 185);
-            panelPanNuez.TabIndex = 9;
+            panelPan2.BackColor = Color.Bisque;
+            panelPan2.Controls.Add(btnComprarPan2);
+            panelPan2.Controls.Add(btnDescPan2);
+            panelPan2.Controls.Add(pictureBoxPan2);
+            panelPan2.Location = new Point(365, 33);
+            panelPan2.Name = "panelPan2";
+            panelPan2.Size = new Size(196, 185);
+            panelPan2.TabIndex = 9;
+            panelPan2.Visible = false;
             // 
-            // btnComprarPanNuez
+            // btnComprarPan2
             // 
-            btnComprarPanNuez.BackColor = Color.Sienna;
-            btnComprarPanNuez.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnComprarPanNuez.ForeColor = Color.White;
-            btnComprarPanNuez.Location = new Point(1, 147);
-            btnComprarPanNuez.Name = "btnComprarPanNuez";
-            btnComprarPanNuez.Size = new Size(193, 38);
-            btnComprarPanNuez.TabIndex = 6;
-            btnComprarPanNuez.Text = "Comprar";
-            btnComprarPanNuez.UseVisualStyleBackColor = false;
-            btnComprarPanNuez.Click += btnComprarPanNuez_Click;
+            btnComprarPan2.BackColor = Color.Sienna;
+            btnComprarPan2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnComprarPan2.ForeColor = Color.White;
+            btnComprarPan2.Location = new Point(1, 147);
+            btnComprarPan2.Name = "btnComprarPan2";
+            btnComprarPan2.Size = new Size(193, 38);
+            btnComprarPan2.TabIndex = 6;
+            btnComprarPan2.Text = "Comprar";
+            btnComprarPan2.UseVisualStyleBackColor = false;
+            btnComprarPan2.Visible = false;
+            btnComprarPan2.Click += btnComprarPanNuez_Click;
             // 
-            // btnDescPanNuez
+            // btnDescPan2
             // 
-            btnDescPanNuez.BackColor = Color.Bisque;
-            btnDescPanNuez.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnDescPanNuez.ForeColor = Color.FromArgb(110, 80, 50);
-            btnDescPanNuez.Location = new Point(2, 121);
-            btnDescPanNuez.Name = "btnDescPanNuez";
-            btnDescPanNuez.Size = new Size(193, 25);
-            btnDescPanNuez.TabIndex = 6;
-            btnDescPanNuez.Text = "Descripcion";
-            btnDescPanNuez.UseVisualStyleBackColor = false;
+            btnDescPan2.BackColor = Color.Bisque;
+            btnDescPan2.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnDescPan2.ForeColor = Color.FromArgb(110, 80, 50);
+            btnDescPan2.Location = new Point(2, 121);
+            btnDescPan2.Name = "btnDescPan2";
+            btnDescPan2.Size = new Size(193, 25);
+            btnDescPan2.TabIndex = 6;
+            btnDescPan2.Text = "Descripcion";
+            btnDescPan2.UseVisualStyleBackColor = false;
+            btnDescPan2.Visible = false;
             // 
-            // pictureBoxPanNuez
+            // pictureBoxPan2
             // 
-            pictureBoxPanNuez.Image = Properties.Resources.PanNuez;
-            pictureBoxPanNuez.Location = new Point(18, 16);
-            pictureBoxPanNuez.Name = "pictureBoxPanNuez";
-            pictureBoxPanNuez.Size = new Size(164, 100);
-            pictureBoxPanNuez.TabIndex = 3;
-            pictureBoxPanNuez.TabStop = false;
+            pictureBoxPan2.Image = Properties.Resources.PanNuez;
+            pictureBoxPan2.Location = new Point(18, 16);
+            pictureBoxPan2.Name = "pictureBoxPan2";
+            pictureBoxPan2.Size = new Size(164, 100);
+            pictureBoxPan2.TabIndex = 3;
+            pictureBoxPan2.TabStop = false;
+            pictureBoxPan2.Visible = false;
             // 
-            // panel3
+            // panelPan3
             // 
-            panel3.BackColor = Color.Bisque;
-            panel3.Controls.Add(btnDescPanEmpanada);
-            panel3.Controls.Add(btnComprarPanEmpanada);
-            panel3.Controls.Add(pictureBoxEmpanada);
-            panel3.Location = new Point(652, 33);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(196, 185);
-            panel3.TabIndex = 10;
+            panelPan3.BackColor = Color.Bisque;
+            panelPan3.Controls.Add(btnDescPan3);
+            panelPan3.Controls.Add(btnComprarPan3);
+            panelPan3.Controls.Add(pictureBoxPan3);
+            panelPan3.Location = new Point(652, 33);
+            panelPan3.Name = "panelPan3";
+            panelPan3.Size = new Size(196, 185);
+            panelPan3.TabIndex = 10;
+            panelPan3.Visible = false;
             // 
-            // btnDescPanEmpanada
+            // btnDescPan3
             // 
-            btnDescPanEmpanada.BackColor = Color.Bisque;
-            btnDescPanEmpanada.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnDescPanEmpanada.ForeColor = Color.FromArgb(110, 80, 50);
-            btnDescPanEmpanada.Location = new Point(3, 122);
-            btnDescPanEmpanada.Name = "btnDescPanEmpanada";
-            btnDescPanEmpanada.Size = new Size(193, 25);
-            btnDescPanEmpanada.TabIndex = 7;
-            btnDescPanEmpanada.Text = "Descripcion";
-            btnDescPanEmpanada.UseVisualStyleBackColor = false;
+            btnDescPan3.BackColor = Color.Bisque;
+            btnDescPan3.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnDescPan3.ForeColor = Color.FromArgb(110, 80, 50);
+            btnDescPan3.Location = new Point(3, 122);
+            btnDescPan3.Name = "btnDescPan3";
+            btnDescPan3.Size = new Size(193, 25);
+            btnDescPan3.TabIndex = 7;
+            btnDescPan3.Text = "Descripcion";
+            btnDescPan3.UseVisualStyleBackColor = false;
+            btnDescPan3.Visible = false;
             // 
-            // btnComprarPanEmpanada
+            // btnComprarPan3
             // 
-            btnComprarPanEmpanada.BackColor = Color.Sienna;
-            btnComprarPanEmpanada.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnComprarPanEmpanada.ForeColor = Color.White;
-            btnComprarPanEmpanada.Location = new Point(3, 144);
-            btnComprarPanEmpanada.Name = "btnComprarPanEmpanada";
-            btnComprarPanEmpanada.Size = new Size(193, 38);
-            btnComprarPanEmpanada.TabIndex = 7;
-            btnComprarPanEmpanada.Text = "Comprar";
-            btnComprarPanEmpanada.UseVisualStyleBackColor = false;
-            btnComprarPanEmpanada.Click += btnComprarPanPay_Click;
+            btnComprarPan3.BackColor = Color.Sienna;
+            btnComprarPan3.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnComprarPan3.ForeColor = Color.White;
+            btnComprarPan3.Location = new Point(3, 144);
+            btnComprarPan3.Name = "btnComprarPan3";
+            btnComprarPan3.Size = new Size(193, 38);
+            btnComprarPan3.TabIndex = 7;
+            btnComprarPan3.Text = "Comprar";
+            btnComprarPan3.UseVisualStyleBackColor = false;
+            btnComprarPan3.Visible = false;
+            btnComprarPan3.Click += btnComprarPanPay_Click;
             // 
-            // pictureBoxEmpanada
+            // pictureBoxPan3
             // 
-            pictureBoxEmpanada.Image = Properties.Resources.Empanada1;
-            pictureBoxEmpanada.Location = new Point(18, 16);
-            pictureBoxEmpanada.Name = "pictureBoxEmpanada";
-            pictureBoxEmpanada.Size = new Size(165, 100);
-            pictureBoxEmpanada.TabIndex = 3;
-            pictureBoxEmpanada.TabStop = false;
+            pictureBoxPan3.Image = Properties.Resources.Empanada1;
+            pictureBoxPan3.Location = new Point(18, 16);
+            pictureBoxPan3.Name = "pictureBoxPan3";
+            pictureBoxPan3.Size = new Size(165, 100);
+            pictureBoxPan3.TabIndex = 3;
+            pictureBoxPan3.TabStop = false;
+            pictureBoxPan3.Visible = false;
             // 
-            // panel4
+            // panelPan4
             // 
-            panel4.BackColor = Color.Bisque;
-            panel4.Controls.Add(btnComprarPanRol);
-            panel4.Controls.Add(btnDescPanRol);
-            panel4.Controls.Add(pictureBoxPanRol);
-            panel4.Location = new Point(235, 247);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(196, 185);
-            panel4.TabIndex = 10;
+            panelPan4.BackColor = Color.Bisque;
+            panelPan4.Controls.Add(btnComprarPan4);
+            panelPan4.Controls.Add(btnDescPan4);
+            panelPan4.Controls.Add(pictureBoxPan4);
+            panelPan4.Location = new Point(235, 247);
+            panelPan4.Name = "panelPan4";
+            panelPan4.Size = new Size(196, 185);
+            panelPan4.TabIndex = 10;
+            panelPan4.Visible = false;
             // 
-            // btnComprarPanRol
+            // btnComprarPan4
             // 
-            btnComprarPanRol.BackColor = Color.Sienna;
-            btnComprarPanRol.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnComprarPanRol.ForeColor = Color.White;
-            btnComprarPanRol.Location = new Point(3, 147);
-            btnComprarPanRol.Name = "btnComprarPanRol";
-            btnComprarPanRol.Size = new Size(193, 38);
-            btnComprarPanRol.TabIndex = 10;
-            btnComprarPanRol.Text = "Comprar";
-            btnComprarPanRol.UseVisualStyleBackColor = false;
-            btnComprarPanRol.Click += btnComprarPanRol_Click;
+            btnComprarPan4.BackColor = Color.Sienna;
+            btnComprarPan4.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnComprarPan4.ForeColor = Color.White;
+            btnComprarPan4.Location = new Point(3, 147);
+            btnComprarPan4.Name = "btnComprarPan4";
+            btnComprarPan4.Size = new Size(193, 38);
+            btnComprarPan4.TabIndex = 10;
+            btnComprarPan4.Text = "Comprar";
+            btnComprarPan4.UseVisualStyleBackColor = false;
+            btnComprarPan4.Visible = false;
+            btnComprarPan4.Click += btnComprarPanRol_Click;
             // 
-            // btnDescPanRol
+            // btnDescPan4
             // 
-            btnDescPanRol.BackColor = Color.Bisque;
-            btnDescPanRol.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnDescPanRol.ForeColor = Color.FromArgb(110, 80, 50);
-            btnDescPanRol.Location = new Point(3, 122);
-            btnDescPanRol.Name = "btnDescPanRol";
-            btnDescPanRol.Size = new Size(193, 25);
-            btnDescPanRol.TabIndex = 8;
-            btnDescPanRol.Text = "Descripcion";
-            btnDescPanRol.UseVisualStyleBackColor = false;
+            btnDescPan4.BackColor = Color.Bisque;
+            btnDescPan4.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnDescPan4.ForeColor = Color.FromArgb(110, 80, 50);
+            btnDescPan4.Location = new Point(3, 122);
+            btnDescPan4.Name = "btnDescPan4";
+            btnDescPan4.Size = new Size(193, 25);
+            btnDescPan4.TabIndex = 8;
+            btnDescPan4.Text = "Descripcion";
+            btnDescPan4.UseVisualStyleBackColor = false;
+            btnDescPan4.Visible = false;
             // 
-            // pictureBoxPanRol
+            // pictureBoxPan4
             // 
-            pictureBoxPanRol.Image = Properties.Resources.ChileMorron;
-            pictureBoxPanRol.Location = new Point(17, 16);
-            pictureBoxPanRol.Name = "pictureBoxPanRol";
-            pictureBoxPanRol.Size = new Size(164, 100);
-            pictureBoxPanRol.TabIndex = 3;
-            pictureBoxPanRol.TabStop = false;
+            pictureBoxPan4.Image = Properties.Resources.ChileMorron;
+            pictureBoxPan4.Location = new Point(17, 16);
+            pictureBoxPan4.Name = "pictureBoxPan4";
+            pictureBoxPan4.Size = new Size(164, 100);
+            pictureBoxPan4.TabIndex = 3;
+            pictureBoxPan4.TabStop = false;
+            pictureBoxPan4.Visible = false;
             // 
-            // panel5
+            // panelPan5
             // 
-            panel5.BackColor = Color.Bisque;
-            panel5.Controls.Add(btnComprarPanCuernitos);
-            panel5.Controls.Add(btnDescPanCuernitos);
-            panel5.Controls.Add(pictureBoxPanCuernitos);
-            panel5.Location = new Point(515, 247);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(196, 185);
-            panel5.TabIndex = 10;
+            panelPan5.BackColor = Color.Bisque;
+            panelPan5.Controls.Add(btnComprarPan5);
+            panelPan5.Controls.Add(btnDescPan5);
+            panelPan5.Controls.Add(pictureBoxPan5);
+            panelPan5.Location = new Point(515, 247);
+            panelPan5.Name = "panelPan5";
+            panelPan5.Size = new Size(196, 185);
+            panelPan5.TabIndex = 10;
+            panelPan5.Visible = false;
             // 
-            // btnComprarPanCuernitos
+            // btnComprarPan5
             // 
-            btnComprarPanCuernitos.BackColor = Color.Sienna;
-            btnComprarPanCuernitos.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnComprarPanCuernitos.ForeColor = Color.White;
-            btnComprarPanCuernitos.Location = new Point(3, 153);
-            btnComprarPanCuernitos.Name = "btnComprarPanCuernitos";
-            btnComprarPanCuernitos.Size = new Size(193, 38);
-            btnComprarPanCuernitos.TabIndex = 8;
-            btnComprarPanCuernitos.Text = "Comprar";
-            btnComprarPanCuernitos.UseVisualStyleBackColor = false;
-            btnComprarPanCuernitos.Click += btnComprarPanIndef_Click;
+            btnComprarPan5.BackColor = Color.Sienna;
+            btnComprarPan5.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnComprarPan5.ForeColor = Color.White;
+            btnComprarPan5.Location = new Point(3, 153);
+            btnComprarPan5.Name = "btnComprarPan5";
+            btnComprarPan5.Size = new Size(193, 38);
+            btnComprarPan5.TabIndex = 8;
+            btnComprarPan5.Text = "Comprar";
+            btnComprarPan5.UseVisualStyleBackColor = false;
+            btnComprarPan5.Visible = false;
+            btnComprarPan5.Click += btnComprarPanIndef_Click;
             // 
-            // btnDescPanCuernitos
+            // btnDescPan5
             // 
-            btnDescPanCuernitos.BackColor = Color.Bisque;
-            btnDescPanCuernitos.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnDescPanCuernitos.ForeColor = Color.FromArgb(110, 80, 50);
-            btnDescPanCuernitos.Location = new Point(3, 122);
-            btnDescPanCuernitos.Name = "btnDescPanCuernitos";
-            btnDescPanCuernitos.Size = new Size(193, 25);
-            btnDescPanCuernitos.TabIndex = 9;
-            btnDescPanCuernitos.Text = "Descripcion";
-            btnDescPanCuernitos.UseVisualStyleBackColor = false;
+            btnDescPan5.BackColor = Color.Bisque;
+            btnDescPan5.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnDescPan5.ForeColor = Color.FromArgb(110, 80, 50);
+            btnDescPan5.Location = new Point(3, 122);
+            btnDescPan5.Name = "btnDescPan5";
+            btnDescPan5.Size = new Size(193, 25);
+            btnDescPan5.TabIndex = 9;
+            btnDescPan5.Text = "Descripcion";
+            btnDescPan5.UseVisualStyleBackColor = false;
+            btnDescPan5.Visible = false;
             // 
-            // pictureBoxPanCuernitos
+            // pictureBoxPan5
             // 
-            pictureBoxPanCuernitos.Image = Properties.Resources.Cuernitos;
-            pictureBoxPanCuernitos.Location = new Point(17, 16);
-            pictureBoxPanCuernitos.Name = "pictureBoxPanCuernitos";
-            pictureBoxPanCuernitos.Size = new Size(164, 100);
-            pictureBoxPanCuernitos.TabIndex = 3;
-            pictureBoxPanCuernitos.TabStop = false;
+            pictureBoxPan5.Image = Properties.Resources.Cuernitos;
+            pictureBoxPan5.Location = new Point(17, 16);
+            pictureBoxPan5.Name = "pictureBoxPan5";
+            pictureBoxPan5.Size = new Size(164, 100);
+            pictureBoxPan5.TabIndex = 3;
+            pictureBoxPan5.TabStop = false;
+            pictureBoxPan5.Visible = false;
             // 
             // FormPan
             // 
@@ -291,48 +312,49 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.AntiqueWhite;
             ClientSize = new Size(951, 444);
-            Controls.Add(panel5);
-            Controls.Add(panel4);
-            Controls.Add(panel3);
-            Controls.Add(panelPanNuez);
-            Controls.Add(panelPanElote);
+            Controls.Add(panelPan5);
+            Controls.Add(panelPan4);
+            Controls.Add(panelPan3);
+            Controls.Add(panelPan2);
+            Controls.Add(panelPan1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "FormPan";
             Text = "FormPan";
-            ((System.ComponentModel.ISupportInitialize)pictureBoxPanElote).EndInit();
-            panelPanElote.ResumeLayout(false);
-            panelPanNuez.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBoxPanNuez).EndInit();
-            panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBoxEmpanada).EndInit();
-            panel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBoxPanRol).EndInit();
-            panel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBoxPanCuernitos).EndInit();
+            Load += FormPan_Load;
+            ((System.ComponentModel.ISupportInitialize)pictureBoxPan1).EndInit();
+            panelPan1.ResumeLayout(false);
+            panelPan2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBoxPan2).EndInit();
+            panelPan3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBoxPan3).EndInit();
+            panelPan4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBoxPan4).EndInit();
+            panelPan5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBoxPan5).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private PictureBox pictureBoxPanElote;
-        private Panel panelPanElote;
-        private Panel panelPanNuez;
-        private PictureBox pictureBoxPanNuez;
-        private Panel panel3;
-        private PictureBox pictureBoxEmpanada;
-        private Panel panel4;
-        private PictureBox pictureBoxPanRol;
-        private Panel panel5;
-        private PictureBox pictureBoxPanCuernitos;
-        private Button btnComprarPanElote;
-        private Button btnDescPanElote;
-        private Button btnComprarPanNuez;
-        private Button btnDescPanNuez;
-        private Button btnDescPanEmpanada;
-        private Button btnComprarPanEmpanada;
-        private Button btnComprarPanRol;
-        private Button btnDescPanRol;
-        private Button btnComprarPanCuernitos;
-        private Button btnDescPanCuernitos;
+        private PictureBox pictureBoxPan1;
+        private Panel panelPan1;
+        private Panel panelPan2;
+        private PictureBox pictureBoxPan2;
+        private Panel panelPan3;
+        private PictureBox pictureBoxPan3;
+        private Panel panelPan4;
+        private PictureBox pictureBoxPan4;
+        private Panel panelPan5;
+        private PictureBox pictureBoxPan5;
+        private Button btnComprarPan1;
+        private Button btnDescPan1;
+        private Button btnComprarPan2;
+        private Button btnDescPan2;
+        private Button btnDescPan3;
+        private Button btnComprarPan3;
+        private Button btnComprarPan4;
+        private Button btnDescPan4;
+        private Button btnComprarPan5;
+        private Button btnDescPan5;
     }
 }

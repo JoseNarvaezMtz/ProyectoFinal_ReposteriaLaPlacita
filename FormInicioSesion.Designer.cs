@@ -32,6 +32,7 @@
             btnUsuario = new Button();
             btnAdmin = new Button();
             panelInicioSesion = new Panel();
+            label1FechaHora = new Label();
             labelContraseña = new Label();
             labelUsuario = new Label();
             pictureBoxLogoGrande = new PictureBox();
@@ -45,7 +46,7 @@
             btnRedSocial1 = new Button();
             pictureBox1 = new PictureBox();
             timerHoraFechaInicioSesion = new System.Windows.Forms.Timer(components);
-            label1FechaHora = new Label();
+            buttonInvitado = new Button();
             panelInicioSesion.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBoxLogoGrande).BeginInit();
             panelFotoYRedes.SuspendLayout();
@@ -55,10 +56,9 @@
             // 
             // btnUsuario
             // 
-            btnUsuario.Location = new Point(269, 540);
-            btnUsuario.Margin = new Padding(3, 4, 3, 4);
+            btnUsuario.Location = new Point(223, 351);
             btnUsuario.Name = "btnUsuario";
-            btnUsuario.Size = new Size(155, 55);
+            btnUsuario.Size = new Size(136, 41);
             btnUsuario.TabIndex = 0;
             btnUsuario.Text = "Usuario";
             btnUsuario.UseVisualStyleBackColor = true;
@@ -66,10 +66,9 @@
             // 
             // btnAdmin
             // 
-            btnAdmin.Location = new Point(37, 540);
-            btnAdmin.Margin = new Padding(3, 4, 3, 4);
+            btnAdmin.Location = new Point(57, 351);
             btnAdmin.Name = "btnAdmin";
-            btnAdmin.Size = new Size(155, 55);
+            btnAdmin.Size = new Size(136, 41);
             btnAdmin.TabIndex = 1;
             btnAdmin.Text = "Administrador";
             btnAdmin.UseVisualStyleBackColor = true;
@@ -78,6 +77,7 @@
             // panelInicioSesion
             // 
             panelInicioSesion.BackColor = Color.FromArgb(110, 80, 50);
+            panelInicioSesion.Controls.Add(buttonInvitado);
             panelInicioSesion.Controls.Add(label1FechaHora);
             panelInicioSesion.Controls.Add(labelContraseña);
             panelInicioSesion.Controls.Add(labelUsuario);
@@ -87,20 +87,30 @@
             panelInicioSesion.Controls.Add(textBoxNomUsuario);
             panelInicioSesion.Controls.Add(btnAdmin);
             panelInicioSesion.Controls.Add(btnUsuario);
-            panelInicioSesion.Location = new Point(599, 0);
-            panelInicioSesion.Margin = new Padding(3, 4, 3, 4);
+            panelInicioSesion.Location = new Point(524, 0);
             panelInicioSesion.Name = "panelInicioSesion";
-            panelInicioSesion.Size = new Size(462, 708);
+            panelInicioSesion.Size = new Size(404, 531);
             panelInicioSesion.TabIndex = 2;
+            // 
+            // label1FechaHora
+            // 
+            label1FechaHora.AutoSize = true;
+            label1FechaHora.Font = new Font("Times New Roman", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1FechaHora.ForeColor = Color.AntiqueWhite;
+            label1FechaHora.Location = new Point(124, 485);
+            label1FechaHora.Name = "label1FechaHora";
+            label1FechaHora.Size = new Size(41, 16);
+            label1FechaHora.TabIndex = 10;
+            label1FechaHora.Text = "Fecha";
             // 
             // labelContraseña
             // 
             labelContraseña.AutoSize = true;
             labelContraseña.Font = new Font("Times New Roman", 14F, FontStyle.Bold);
             labelContraseña.ForeColor = Color.AntiqueWhite;
-            labelContraseña.Location = new Point(174, 377);
+            labelContraseña.Location = new Point(152, 251);
             labelContraseña.Name = "labelContraseña";
-            labelContraseña.Size = new Size(138, 26);
+            labelContraseña.Size = new Size(110, 22);
             labelContraseña.TabIndex = 9;
             labelContraseña.Text = "Contraseña:";
             // 
@@ -109,30 +119,29 @@
             labelUsuario.AutoSize = true;
             labelUsuario.Font = new Font("Times New Roman", 14F, FontStyle.Bold);
             labelUsuario.ForeColor = Color.AntiqueWhite;
-            labelUsuario.Location = new Point(191, 247);
+            labelUsuario.Location = new Point(167, 153);
             labelUsuario.Name = "labelUsuario";
-            labelUsuario.Size = new Size(101, 26);
+            labelUsuario.Size = new Size(79, 22);
             labelUsuario.TabIndex = 8;
             labelUsuario.Text = "Usuario:";
             // 
             // pictureBoxLogoGrande
             // 
             pictureBoxLogoGrande.Image = Properties.Resources.Logo_Grande;
-            pictureBoxLogoGrande.Location = new Point(23, 29);
-            pictureBoxLogoGrande.Margin = new Padding(3, 4, 3, 4);
+            pictureBoxLogoGrande.Location = new Point(20, 22);
             pictureBoxLogoGrande.Name = "pictureBoxLogoGrande";
-            pictureBoxLogoGrande.Size = new Size(95, 136);
+            pictureBoxLogoGrande.Size = new Size(83, 102);
             pictureBoxLogoGrande.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBoxLogoGrande.TabIndex = 7;
             pictureBoxLogoGrande.TabStop = false;
             // 
             // textBoxContraseña
             // 
-            textBoxContraseña.Location = new Point(105, 427);
-            textBoxContraseña.Margin = new Padding(3, 4, 3, 4);
+            textBoxContraseña.Location = new Point(92, 288);
             textBoxContraseña.Name = "textBoxContraseña";
+            textBoxContraseña.PasswordChar = '*';
             textBoxContraseña.PlaceholderText = "Max. 20 caracteres";
-            textBoxContraseña.Size = new Size(268, 27);
+            textBoxContraseña.Size = new Size(235, 23);
             textBoxContraseña.TabIndex = 6;
             // 
             // labelNombreEmpresa
@@ -140,20 +149,19 @@
             labelNombreEmpresa.AutoSize = true;
             labelNombreEmpresa.Font = new Font("Times New Roman", 20F, FontStyle.Bold);
             labelNombreEmpresa.ForeColor = Color.AntiqueWhite;
-            labelNombreEmpresa.Location = new Point(125, 81);
+            labelNombreEmpresa.Location = new Point(109, 61);
             labelNombreEmpresa.Name = "labelNombreEmpresa";
-            labelNombreEmpresa.Size = new Size(352, 38);
+            labelNombreEmpresa.Size = new Size(283, 31);
             labelNombreEmpresa.TabIndex = 5;
             labelNombreEmpresa.Text = "C a f é   l a   p l a c i t a";
             // 
             // textBoxNomUsuario
             // 
-            textBoxNomUsuario.Location = new Point(105, 303);
-            textBoxNomUsuario.Margin = new Padding(3, 4, 3, 4);
+            textBoxNomUsuario.Location = new Point(92, 195);
             textBoxNomUsuario.MaxLength = 25;
             textBoxNomUsuario.Name = "textBoxNomUsuario";
             textBoxNomUsuario.PlaceholderText = "Max. 25 caracteres";
-            textBoxNomUsuario.Size = new Size(268, 27);
+            textBoxNomUsuario.Size = new Size(235, 23);
             textBoxNomUsuario.TabIndex = 2;
             // 
             // panelFotoYRedes
@@ -162,9 +170,8 @@
             panelFotoYRedes.Controls.Add(panel3);
             panelFotoYRedes.Controls.Add(pictureBox1);
             panelFotoYRedes.Location = new Point(0, 1);
-            panelFotoYRedes.Margin = new Padding(3, 4, 3, 4);
             panelFotoYRedes.Name = "panelFotoYRedes";
-            panelFotoYRedes.Size = new Size(600, 711);
+            panelFotoYRedes.Size = new Size(525, 533);
             panelFotoYRedes.TabIndex = 3;
             // 
             // panel3
@@ -173,10 +180,9 @@
             panel3.Controls.Add(btnRedSocial3);
             panel3.Controls.Add(btnRedSocial2);
             panel3.Controls.Add(btnRedSocial1);
-            panel3.Location = new Point(37, 539);
-            panel3.Margin = new Padding(3, 4, 3, 4);
+            panel3.Location = new Point(32, 404);
             panel3.Name = "panel3";
-            panel3.Size = new Size(514, 113);
+            panel3.Size = new Size(450, 85);
             panel3.TabIndex = 1;
             // 
             // btnRedSocial3
@@ -186,10 +192,9 @@
             btnRedSocial3.FlatStyle = FlatStyle.Flat;
             btnRedSocial3.Font = new Font("Times New Roman", 14F, FontStyle.Bold);
             btnRedSocial3.ForeColor = Color.AntiqueWhite;
-            btnRedSocial3.Location = new Point(342, 0);
-            btnRedSocial3.Margin = new Padding(3, 4, 3, 4);
+            btnRedSocial3.Location = new Point(300, 0);
             btnRedSocial3.Name = "btnRedSocial3";
-            btnRedSocial3.Size = new Size(171, 113);
+            btnRedSocial3.Size = new Size(150, 85);
             btnRedSocial3.TabIndex = 12;
             btnRedSocial3.Text = "Red Social3";
             btnRedSocial3.UseVisualStyleBackColor = true;
@@ -201,10 +206,9 @@
             btnRedSocial2.FlatStyle = FlatStyle.Flat;
             btnRedSocial2.Font = new Font("Times New Roman", 14F, FontStyle.Bold);
             btnRedSocial2.ForeColor = Color.AntiqueWhite;
-            btnRedSocial2.Location = new Point(171, 0);
-            btnRedSocial2.Margin = new Padding(3, 4, 3, 4);
+            btnRedSocial2.Location = new Point(150, 0);
             btnRedSocial2.Name = "btnRedSocial2";
-            btnRedSocial2.Size = new Size(171, 113);
+            btnRedSocial2.Size = new Size(150, 85);
             btnRedSocial2.TabIndex = 11;
             btnRedSocial2.Text = "Red Social2";
             btnRedSocial2.UseVisualStyleBackColor = true;
@@ -217,9 +221,8 @@
             btnRedSocial1.Font = new Font("Times New Roman", 14F, FontStyle.Bold);
             btnRedSocial1.ForeColor = Color.AntiqueWhite;
             btnRedSocial1.Location = new Point(0, 0);
-            btnRedSocial1.Margin = new Padding(3, 4, 3, 4);
             btnRedSocial1.Name = "btnRedSocial1";
-            btnRedSocial1.Size = new Size(171, 113);
+            btnRedSocial1.Size = new Size(150, 85);
             btnRedSocial1.TabIndex = 10;
             btnRedSocial1.Text = "Red Social1";
             btnRedSocial1.UseVisualStyleBackColor = true;
@@ -228,10 +231,9 @@
             // 
             pictureBox1.BackColor = Color.FromArgb(110, 80, 50);
             pictureBox1.Image = Properties.Resources.photoBase;
-            pictureBox1.Location = new Point(41, 28);
-            pictureBox1.Margin = new Padding(3, 4, 3, 4);
+            pictureBox1.Location = new Point(36, 21);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(510, 476);
+            pictureBox1.Size = new Size(446, 357);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -243,26 +245,24 @@
             timerHoraFechaInicioSesion.Tag = "timerHoraFechaInicioSesion";
             timerHoraFechaInicioSesion.Tick += timerHoraFechaInicioSesion_Tick;
             // 
-            // label1FechaHora
+            // buttonInvitado
             // 
-            label1FechaHora.AutoSize = true;
-            label1FechaHora.Font = new Font("Times New Roman", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1FechaHora.ForeColor = Color.AntiqueWhite;
-            label1FechaHora.Location = new Point(142, 633);
-            label1FechaHora.Name = "label1FechaHora";
-            label1FechaHora.Size = new Size(49, 19);
-            label1FechaHora.TabIndex = 10;
-            label1FechaHora.Text = "Fecha";
+            buttonInvitado.Location = new Point(140, 417);
+            buttonInvitado.Name = "buttonInvitado";
+            buttonInvitado.Size = new Size(136, 41);
+            buttonInvitado.TabIndex = 11;
+            buttonInvitado.Text = "Invitado";
+            buttonInvitado.UseVisualStyleBackColor = true;
+            buttonInvitado.Click += buttonInvitado_Click;
             // 
             // FormInicioSesion
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1059, 707);
+            ClientSize = new Size(927, 530);
             Controls.Add(panelFotoYRedes);
             Controls.Add(panelInicioSesion);
             FormBorderStyle = FormBorderStyle.FixedSingle;
-            Margin = new Padding(3, 4, 3, 4);
             MaximizeBox = false;
             Name = "FormInicioSesion";
             ShowIcon = false;
@@ -297,5 +297,6 @@
         private Button btnRedSocial1;
         private Label label1FechaHora;
         private System.Windows.Forms.Timer timerHoraFechaInicioSesion;
+        private Button buttonInvitado;
     }
 }
