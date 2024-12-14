@@ -28,7 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             panel1 = new Panel();
+            buttonCancelar = new Button();
+            buttonPagar = new Button();
+            label2FechaHoraUsuario = new Label();
             btnSonido = new Button();
             btnInformacion = new Button();
             pictureBox1 = new PictureBox();
@@ -40,6 +44,7 @@
             btnPostres = new Button();
             btnPan = new Button();
             PanelPrincipal = new Panel();
+            timer2FechaHoraUsuario = new System.Windows.Forms.Timer(components);
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
@@ -48,6 +53,9 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(110, 80, 50);
+            panel1.Controls.Add(buttonCancelar);
+            panel1.Controls.Add(buttonPagar);
+            panel1.Controls.Add(label2FechaHoraUsuario);
             panel1.Controls.Add(btnSonido);
             panel1.Controls.Add(btnInformacion);
             panel1.Controls.Add(pictureBox1);
@@ -59,6 +67,45 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(951, 95);
             panel1.TabIndex = 0;
+            // 
+            // buttonCancelar
+            // 
+            buttonCancelar.FlatStyle = FlatStyle.Flat;
+            buttonCancelar.Font = new Font("Tempus Sans ITC", 10F, FontStyle.Bold);
+            buttonCancelar.ForeColor = Color.AntiqueWhite;
+            buttonCancelar.Location = new Point(738, 57);
+            buttonCancelar.Name = "buttonCancelar";
+            buttonCancelar.Size = new Size(77, 28);
+            buttonCancelar.TabIndex = 6;
+            buttonCancelar.Text = "Cancelar";
+            buttonCancelar.TextImageRelation = TextImageRelation.ImageBeforeText;
+            buttonCancelar.UseVisualStyleBackColor = true;
+            buttonCancelar.Click += buttonCancelar_Click;
+            // 
+            // buttonPagar
+            // 
+            buttonPagar.FlatStyle = FlatStyle.Flat;
+            buttonPagar.Font = new Font("Tempus Sans ITC", 10F, FontStyle.Bold);
+            buttonPagar.ForeColor = Color.AntiqueWhite;
+            buttonPagar.Location = new Point(646, 57);
+            buttonPagar.Name = "buttonPagar";
+            buttonPagar.Size = new Size(77, 28);
+            buttonPagar.TabIndex = 5;
+            buttonPagar.Text = "Pagar";
+            buttonPagar.TextImageRelation = TextImageRelation.ImageBeforeText;
+            buttonPagar.UseVisualStyleBackColor = true;
+            buttonPagar.Click += buttonPagar_Click;
+            // 
+            // label2FechaHoraUsuario
+            // 
+            label2FechaHoraUsuario.AutoSize = true;
+            label2FechaHoraUsuario.Font = new Font("Tempus Sans ITC", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2FechaHoraUsuario.ForeColor = Color.AntiqueWhite;
+            label2FechaHoraUsuario.Location = new Point(716, 8);
+            label2FechaHoraUsuario.Name = "label2FechaHoraUsuario";
+            label2FechaHoraUsuario.Size = new Size(46, 18);
+            label2FechaHoraUsuario.TabIndex = 4;
+            label2FechaHoraUsuario.Text = "Fecha";
             // 
             // btnSonido
             // 
@@ -132,7 +179,7 @@
             labelNomUsuario.AutoSize = true;
             labelNomUsuario.Font = new Font("Tempus Sans ITC", 11F, FontStyle.Bold);
             labelNomUsuario.ForeColor = Color.AntiqueWhite;
-            labelNomUsuario.Location = new Point(772, 35);
+            labelNomUsuario.Location = new Point(770, 36);
             labelNomUsuario.Name = "labelNomUsuario";
             labelNomUsuario.Size = new Size(159, 19);
             labelNomUsuario.TabIndex = 0;
@@ -206,6 +253,13 @@
             PanelPrincipal.Size = new Size(951, 444);
             PanelPrincipal.TabIndex = 3;
             // 
+            // timer2FechaHoraUsuario
+            // 
+            timer2FechaHoraUsuario.Enabled = true;
+            timer2FechaHoraUsuario.Interval = 1000;
+            timer2FechaHoraUsuario.Tag = "timer2FechaHoraUsuario";
+            timer2FechaHoraUsuario.Tick += timer2FechaHoraUsuario_Tick;
+            // 
             // FormBaseUsuario
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -241,5 +295,9 @@
         private Button btnSalirUs;
         private Button btnInformacion;
         private Button btnSonido;
+        private Label label2FechaHoraUsuario;
+        private System.Windows.Forms.Timer timer2FechaHoraUsuario;
+        private Button buttonCancelar;
+        private Button buttonPagar;
     }
 }

@@ -29,6 +29,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             btnSalir = new Button();
             panelSalir = new Panel();
             btnCerrarSesion = new Button();
@@ -38,14 +39,18 @@
             panelBotones = new Panel();
             btnModificaciones = new Button();
             panelUsuario = new Panel();
+            pictureBoxLogo = new PictureBox();
+            label3FechaHoraAdmin = new Label();
             btnModoImagen = new Button();
             labelCorreo = new Label();
             labelNomAdm = new Label();
             pictureBoxAdmin = new PictureBox();
             panelBase = new Panel();
+            timer3FechaHoraAdmin = new System.Windows.Forms.Timer(components);
             panelSalir.SuspendLayout();
             panelBotones.SuspendLayout();
             panelUsuario.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxLogo).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxAdmin).BeginInit();
             SuspendLayout();
             // 
@@ -166,11 +171,13 @@
             btnModificaciones.Text = "Modificaciones";
             btnModificaciones.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnModificaciones.UseVisualStyleBackColor = false;
-            btnModificaciones.Click += btnModificaciones_Click_1;
+            btnModificaciones.Click += btnModificaciones_Click;
             // 
             // panelUsuario
             // 
             panelUsuario.BackColor = Color.FromArgb(24, 30, 54);
+            panelUsuario.Controls.Add(pictureBoxLogo);
+            panelUsuario.Controls.Add(label3FechaHoraAdmin);
             panelUsuario.Controls.Add(btnModoImagen);
             panelUsuario.Controls.Add(labelCorreo);
             panelUsuario.Controls.Add(labelNomAdm);
@@ -182,6 +189,26 @@
             panelUsuario.Size = new Size(222, 550);
             panelUsuario.TabIndex = 7;
             // 
+            // pictureBoxLogo
+            // 
+            pictureBoxLogo.Image = Properties.Resources.logoOscuro;
+            pictureBoxLogo.Location = new Point(54, 267);
+            pictureBoxLogo.Name = "pictureBoxLogo";
+            pictureBoxLogo.Size = new Size(118, 145);
+            pictureBoxLogo.TabIndex = 6;
+            pictureBoxLogo.TabStop = false;
+            pictureBoxLogo.Click += pictureBoxLogo_Click;
+            // 
+            // label3FechaHoraAdmin
+            // 
+            label3FechaHoraAdmin.AutoSize = true;
+            label3FechaHoraAdmin.ForeColor = Color.FromArgb(0, 126, 249);
+            label3FechaHoraAdmin.Location = new Point(43, 446);
+            label3FechaHoraAdmin.Name = "label3FechaHoraAdmin";
+            label3FechaHoraAdmin.Size = new Size(38, 15);
+            label3FechaHoraAdmin.TabIndex = 5;
+            label3FechaHoraAdmin.Text = "Fecha";
+            // 
             // btnModoImagen
             // 
             btnModoImagen.BackColor = Color.FromArgb(24, 30, 54);
@@ -189,7 +216,7 @@
             btnModoImagen.FlatAppearance.BorderSize = 2;
             btnModoImagen.FlatStyle = FlatStyle.Flat;
             btnModoImagen.ForeColor = Color.FromArgb(70, 150, 250);
-            btnModoImagen.Location = new Point(33, 487);
+            btnModoImagen.Location = new Point(33, 497);
             btnModoImagen.Name = "btnModoImagen";
             btnModoImagen.Size = new Size(151, 43);
             btnModoImagen.TabIndex = 4;
@@ -237,6 +264,13 @@
             panelBase.Size = new Size(729, 489);
             panelBase.TabIndex = 7;
             // 
+            // timer3FechaHoraAdmin
+            // 
+            timer3FechaHoraAdmin.Enabled = true;
+            timer3FechaHoraAdmin.Interval = 1000;
+            timer3FechaHoraAdmin.Tag = "timer3FechaHoraAdmin";
+            timer3FechaHoraAdmin.Tick += timer3FechaHoraAdmin_Tick;
+            // 
             // FormBaseAdmin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -255,6 +289,7 @@
             panelBotones.ResumeLayout(false);
             panelUsuario.ResumeLayout(false);
             panelUsuario.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxLogo).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxAdmin).EndInit();
             ResumeLayout(false);
         }
@@ -275,5 +310,8 @@
         private Label labelNomAdm;
         private PictureBox pictureBoxAdmin;
         private Button btnModoImagen;
+        private Label label3FechaHoraAdmin;
+        private System.Windows.Forms.Timer timer3FechaHoraAdmin;
+        private PictureBox pictureBoxLogo;
     }
 }

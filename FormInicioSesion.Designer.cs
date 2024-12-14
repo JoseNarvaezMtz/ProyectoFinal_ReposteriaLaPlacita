@@ -28,9 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             btnUsuario = new Button();
             btnAdmin = new Button();
             panelInicioSesion = new Panel();
+            label1FechaHora = new Label();
             labelContraseña = new Label();
             labelUsuario = new Label();
             pictureBoxLogoGrande = new PictureBox();
@@ -43,6 +45,8 @@
             btnRedSocial2 = new Button();
             btnRedSocial1 = new Button();
             pictureBox1 = new PictureBox();
+            timerHoraFechaInicioSesion = new System.Windows.Forms.Timer(components);
+            buttonInvitado = new Button();
             panelInicioSesion.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBoxLogoGrande).BeginInit();
             panelFotoYRedes.SuspendLayout();
@@ -52,7 +56,7 @@
             // 
             // btnUsuario
             // 
-            btnUsuario.Location = new Point(237, 449);
+            btnUsuario.Location = new Point(223, 351);
             btnUsuario.Name = "btnUsuario";
             btnUsuario.Size = new Size(136, 41);
             btnUsuario.TabIndex = 0;
@@ -62,7 +66,7 @@
             // 
             // btnAdmin
             // 
-            btnAdmin.Location = new Point(34, 449);
+            btnAdmin.Location = new Point(57, 351);
             btnAdmin.Name = "btnAdmin";
             btnAdmin.Size = new Size(136, 41);
             btnAdmin.TabIndex = 1;
@@ -73,6 +77,8 @@
             // panelInicioSesion
             // 
             panelInicioSesion.BackColor = Color.FromArgb(110, 80, 50);
+            panelInicioSesion.Controls.Add(buttonInvitado);
+            panelInicioSesion.Controls.Add(label1FechaHora);
             panelInicioSesion.Controls.Add(labelContraseña);
             panelInicioSesion.Controls.Add(labelUsuario);
             panelInicioSesion.Controls.Add(pictureBoxLogoGrande);
@@ -86,12 +92,23 @@
             panelInicioSesion.Size = new Size(404, 531);
             panelInicioSesion.TabIndex = 2;
             // 
+            // label1FechaHora
+            // 
+            label1FechaHora.AutoSize = true;
+            label1FechaHora.Font = new Font("Times New Roman", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1FechaHora.ForeColor = Color.AntiqueWhite;
+            label1FechaHora.Location = new Point(124, 485);
+            label1FechaHora.Name = "label1FechaHora";
+            label1FechaHora.Size = new Size(41, 16);
+            label1FechaHora.TabIndex = 10;
+            label1FechaHora.Text = "Fecha";
+            // 
             // labelContraseña
             // 
             labelContraseña.AutoSize = true;
             labelContraseña.Font = new Font("Times New Roman", 14F, FontStyle.Bold);
             labelContraseña.ForeColor = Color.AntiqueWhite;
-            labelContraseña.Location = new Point(152, 283);
+            labelContraseña.Location = new Point(152, 251);
             labelContraseña.Name = "labelContraseña";
             labelContraseña.Size = new Size(110, 22);
             labelContraseña.TabIndex = 9;
@@ -102,7 +119,7 @@
             labelUsuario.AutoSize = true;
             labelUsuario.Font = new Font("Times New Roman", 14F, FontStyle.Bold);
             labelUsuario.ForeColor = Color.AntiqueWhite;
-            labelUsuario.Location = new Point(167, 185);
+            labelUsuario.Location = new Point(167, 153);
             labelUsuario.Name = "labelUsuario";
             labelUsuario.Size = new Size(79, 22);
             labelUsuario.TabIndex = 8;
@@ -120,8 +137,9 @@
             // 
             // textBoxContraseña
             // 
-            textBoxContraseña.Location = new Point(92, 320);
+            textBoxContraseña.Location = new Point(92, 288);
             textBoxContraseña.Name = "textBoxContraseña";
+            textBoxContraseña.PasswordChar = '*';
             textBoxContraseña.PlaceholderText = "Max. 20 caracteres";
             textBoxContraseña.Size = new Size(235, 23);
             textBoxContraseña.TabIndex = 6;
@@ -139,7 +157,7 @@
             // 
             // textBoxNomUsuario
             // 
-            textBoxNomUsuario.Location = new Point(92, 227);
+            textBoxNomUsuario.Location = new Point(92, 195);
             textBoxNomUsuario.MaxLength = 25;
             textBoxNomUsuario.Name = "textBoxNomUsuario";
             textBoxNomUsuario.PlaceholderText = "Max. 25 caracteres";
@@ -220,6 +238,23 @@
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
+            // timerHoraFechaInicioSesion
+            // 
+            timerHoraFechaInicioSesion.Enabled = true;
+            timerHoraFechaInicioSesion.Interval = 1000;
+            timerHoraFechaInicioSesion.Tag = "timerHoraFechaInicioSesion";
+            timerHoraFechaInicioSesion.Tick += timerHoraFechaInicioSesion_Tick;
+            // 
+            // buttonInvitado
+            // 
+            buttonInvitado.Location = new Point(140, 417);
+            buttonInvitado.Name = "buttonInvitado";
+            buttonInvitado.Size = new Size(136, 41);
+            buttonInvitado.TabIndex = 11;
+            buttonInvitado.Text = "Invitado";
+            buttonInvitado.UseVisualStyleBackColor = true;
+            buttonInvitado.Click += buttonInvitado_Click;
+            // 
             // FormInicioSesion
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -260,5 +295,8 @@
         private Button btnRedSocial3;
         private Button btnRedSocial2;
         private Button btnRedSocial1;
+        private Label label1FechaHora;
+        private System.Windows.Forms.Timer timerHoraFechaInicioSesion;
+        private Button buttonInvitado;
     }
 }

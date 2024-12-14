@@ -62,14 +62,26 @@ namespace WinFormsProyectoBase
 
         private void buttonPagar_Click(object sender, EventArgs e)
         {
-            FormTicket ticket = new FormTicket(/*ya sabes mandas lo que ocupes*/);
-            ticket.Show();
-            //this.close();
             //mandas todoooooooooo lo que necesites aqui y creas el constructor en el form de ticket
         }
 
         private void buttonCancelarCompra_Click(object sender, EventArgs e)
         {
+            if (FormBaseUsuario.productosSeleccionados.Count == 0)
+            {
+                MessageBox.Show("No hay ningun producto seleccionado!");
+                return;
+            }
+            foreach (ClassCompras var in FormBaseUsuario.productosSeleccionados)
+            {
+                if (var.producto.Categoria == 1)
+                {
+                    FormBaseUsuario.listaPanes[var.indice].Existencias += var.cantidad;
+                }
+                else FormBaseUsuario.listaPostres[var.indice].Existencias += var.cantidad;
+            }
+            FormBaseUsuario.productosSeleccionados.Clear();
+            MessageBox.Show("Sus productos se han eliminado de la lista correctamente!");
             this.Close();
         }
     }
