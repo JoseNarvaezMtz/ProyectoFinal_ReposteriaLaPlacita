@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\julia\\source\\repos\\proyectofinal_reposterialaplacita\\formpagotarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formpagotarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\formbaseusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formbaseusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\julia\\source\\repos\\proyectofinal_reposterialaplacita\\formbaseusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formbaseusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\formpagotarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formpagotarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\julia\\source\\repos\\proyectofinal_reposterialaplacita\\formbaseusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formbaseusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\julia\\source\\repos\\proyectofinal_reposterialaplacita\\formmetodospago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formmetodospago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\formmetodospago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formmetodospago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\julia\\source\\repos\\proyectofinal_reposterialaplacita\\formpagocaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,12 +27,28 @@
       "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formpagocaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\julia\\source\\repos\\proyectofinal_reposterialaplacita\\formmetodospago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formmetodospago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\julia\\source\\repos\\proyectofinal_reposterialaplacita\\formbaseusuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formbaseusuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\formmetodospago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formmetodospago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\julia\\source\\repos\\proyectofinal_reposterialaplacita\\formpostres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formpostres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\julia\\source\\repos\\proyectofinal_reposterialaplacita\\formpan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formpan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\julia\\source\\repos\\proyectofinal_reposterialaplacita\\admonbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:admonbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\julia\\source\\repos\\proyectofinal_reposterialaplacita\\formpagotarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formpagotarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\formpagotarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formpagotarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\formcantidadcomprar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -45,18 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\julia\\source\\repos\\proyectofinal_reposterialaplacita\\classcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:classcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\julia\\source\\repos\\proyectofinal_reposterialaplacita\\formpan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formpan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\julia\\source\\repos\\proyectofinal_reposterialaplacita\\formpostres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formpostres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\julia\\source\\repos\\proyectofinal_reposterialaplacita\\admonbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:admonbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\formpan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -74,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 21,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,19 +106,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 6,
+              "Title": "FormBaseUsuario.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormBaseUsuario.Designer.cs",
+              "RelativeDocumentMoniker": "FormBaseUsuario.Designer.cs",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormBaseUsuario.Designer.cs",
+              "RelativeToolTip": "FormBaseUsuario.Designer.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAD4vyAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T21:56:37.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "AdmonBD.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\AdmonBD.cs",
               "RelativeDocumentMoniker": "AdmonBD.cs",
               "ToolTip": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\AdmonBD.cs",
               "RelativeToolTip": "AdmonBD.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAuwD0AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAuwDcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T19:39:15.121Z"
+              "WhenOpened": "2024-12-14T19:39:15.121Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "ClassCompras.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\ClassCompras.cs",
               "RelativeDocumentMoniker": "ClassCompras.cs",
@@ -126,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "FormCantidadComprar.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormCantidadComprar.cs",
               "RelativeDocumentMoniker": "FormCantidadComprar.cs",
@@ -139,55 +157,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "FormCantidadComprar.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormCantidadComprar.cs",
               "RelativeDocumentMoniker": "FormCantidadComprar.cs",
-              "ToolTip": "C:\\Users\\julia\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormCantidadComprar.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormCantidadComprar.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormCantidadComprar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormCantidadComprar.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T19:18:18.568Z"
+              "WhenOpened": "2024-12-14T19:18:18.568Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "FormPan.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormPan.cs",
               "RelativeDocumentMoniker": "FormPan.cs",
               "ToolTip": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormPan.cs",
               "RelativeToolTip": "FormPan.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAQwIkAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAmwLAAAABuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-14T18:39:09.015Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "FormPan.cs [Dise\u00F1o]",
+              "DocumentIndex": 15,
+              "Title": "FormPan.cs [Design]",
               "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormPan.cs",
               "RelativeDocumentMoniker": "FormPan.cs",
-              "ToolTip": "C:\\Users\\julia\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormPan.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormPan.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormPan.cs [Design]",
+              "RelativeToolTip": "FormPan.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T20:04:24.819Z"
+              "WhenOpened": "2024-12-12T20:04:24.819Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "FormPagoTarjeta.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormPagoTarjeta.cs",
               "RelativeDocumentMoniker": "FormPagoTarjeta.cs",
               "ToolTip": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormPagoTarjeta.cs",
               "RelativeToolTip": "FormPagoTarjeta.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAmwI8AAABRAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAAEgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-13T08:43:24.342Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "FormPagoTarjeta.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormPagoTarjeta.cs",
               "RelativeDocumentMoniker": "FormPagoTarjeta.cs",
@@ -205,7 +225,7 @@
               "RelativeDocumentMoniker": "FormPagoCaja.cs",
               "ToolTip": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormPagoCaja.cs",
               "RelativeToolTip": "FormPagoCaja.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAmwFQAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAewFkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-14T19:18:55.555Z",
               "EditorCaption": ""
@@ -216,68 +236,71 @@
               "Title": "FormPagoCaja.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormPagoCaja.cs",
               "RelativeDocumentMoniker": "FormPagoCaja.cs",
-              "ToolTip": "C:\\Users\\julia\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormPagoCaja.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormPagoCaja.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormPagoCaja.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormPagoCaja.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T08:31:28.858Z"
+              "WhenOpened": "2024-12-13T08:31:28.858Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "FormPostres.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormPostres.cs",
               "RelativeDocumentMoniker": "FormPostres.cs",
               "ToolTip": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormPostres.cs",
               "RelativeToolTip": "FormPostres.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAowJIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAgwFgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-13T07:42:32.136Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "FormPostres.cs [Dise\u00F1o]",
+              "DocumentIndex": 16,
+              "Title": "FormPostres.cs [Design]",
               "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormPostres.cs",
               "RelativeDocumentMoniker": "FormPostres.cs",
-              "ToolTip": "C:\\Users\\julia\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormPostres.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormPostres.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormPostres.cs [Design]",
+              "RelativeToolTip": "FormPostres.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T07:44:01.288Z"
+              "WhenOpened": "2024-12-13T07:44:01.288Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "FormMetodosPago.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormMetodosPago.cs",
               "RelativeDocumentMoniker": "FormMetodosPago.cs",
               "ToolTip": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormMetodosPago.cs",
               "RelativeToolTip": "FormMetodosPago.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAIwCgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwB8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-13T06:20:31.127Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "FormMetodosPago.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormMetodosPago.cs",
               "RelativeDocumentMoniker": "FormMetodosPago.cs",
-              "ToolTip": "C:\\Users\\julia\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormMetodosPago.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormMetodosPago.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormMetodosPago.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormMetodosPago.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T06:20:27.47Z"
+              "WhenOpened": "2024-12-13T06:20:27.47Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "FormBaseUsuario.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormBaseUsuario.cs",
               "RelativeDocumentMoniker": "FormBaseUsuario.cs",
               "ToolTip": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormBaseUsuario.cs",
               "RelativeToolTip": "FormBaseUsuario.cs",
-              "ViewState": "AgIAAI8AAAAAAAAAAAAAAJUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAkwKAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T15:24:12.379Z",
               "EditorCaption": ""
@@ -291,7 +314,7 @@
               "ToolTip": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormBaseUsuario.cs [Dise\u00F1o]",
               "RelativeToolTip": "FormBaseUsuario.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T15:20:33.701Z",
+              "WhenOpened": "2024-12-14T22:24:00.569Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

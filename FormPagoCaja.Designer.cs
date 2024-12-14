@@ -277,6 +277,7 @@
             btnSalirMetPago.TabIndex = 74;
             btnSalirMetPago.Text = "X";
             btnSalirMetPago.UseVisualStyleBackColor = false;
+            btnSalirMetPago.Click += btnSalirMetPago_Click;
             // 
             // FormPagoCaja
             // 

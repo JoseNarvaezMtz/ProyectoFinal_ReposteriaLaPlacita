@@ -73,9 +73,10 @@
             buttonCancelar.FlatStyle = FlatStyle.Flat;
             buttonCancelar.Font = new Font("Tempus Sans ITC", 10F, FontStyle.Bold);
             buttonCancelar.ForeColor = Color.AntiqueWhite;
-            buttonCancelar.Location = new Point(738, 57);
+            buttonCancelar.Location = new Point(737, 57);
+            buttonCancelar.Margin = new Padding(3, 2, 3, 2);
             buttonCancelar.Name = "buttonCancelar";
-            buttonCancelar.Size = new Size(77, 28);
+            buttonCancelar.Size = new Size(79, 28);
             buttonCancelar.TabIndex = 6;
             buttonCancelar.Text = "Cancelar";
             buttonCancelar.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -88,8 +89,9 @@
             buttonPagar.Font = new Font("Tempus Sans ITC", 10F, FontStyle.Bold);
             buttonPagar.ForeColor = Color.AntiqueWhite;
             buttonPagar.Location = new Point(646, 57);
+            buttonPagar.Margin = new Padding(3, 2, 3, 2);
             buttonPagar.Name = "buttonPagar";
-            buttonPagar.Size = new Size(77, 28);
+            buttonPagar.Size = new Size(79, 27);
             buttonPagar.TabIndex = 5;
             buttonPagar.Text = "Pagar";
             buttonPagar.TextImageRelation = TextImageRelation.ImageBeforeText;

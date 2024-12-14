@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RcUZAC4g1OA=",
+  "dgSpecHash": "Bf5HjnJTBb0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\julia\\Source\\Repos\\ProyectoFinal_ReposteriaLaPlacita\\WinFormsProyectoBase.csproj",
+  "projectFilePath": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\WinFormsProyectoBase.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\julia\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\julia\\.nuget\\packages\\google.protobuf\\3.26.1\\google.protobuf.3.26.1.nupkg.sha512",

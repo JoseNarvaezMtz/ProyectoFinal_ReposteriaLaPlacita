@@ -57,7 +57,6 @@ namespace WinFormsProyectoBase
                     existencias = Convert.ToInt32(reader["existencias"]);
 
                     item = new Productos(id, nombre, categoria, descripcion, imagen, precio, existencias);
-                    data.Add(item);
                 }
                 reader.Close();
                 data.ForEach((p) =>

@@ -84,5 +84,10 @@ namespace WinFormsProyectoBase
             MessageBox.Show("Sus productos se han eliminado de la lista correctamente!");
             this.Close();
         }
+
+        private void btnSalirMetPago_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

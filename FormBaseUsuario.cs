@@ -16,7 +16,7 @@ namespace WinFormsProyectoBase
         private bool[] reproducida = new bool[4]; // Control de canciones reproducidas
         private bool sonido = false; // variable de control de mute/demute
 
-        public FormBaseUsuario(string nombreUs)
+        public FormBaseUsuario(string nombreUs,int[] panDisp ,int[] postreDisp)
         {
             InitializeComponent();
             cargarForm(new FormInformacion());
@@ -61,12 +61,12 @@ namespace WinFormsProyectoBase
 
         private void btnPan_Click(object sender, EventArgs e)
         {
-            cargarForm(new FormPan());
+            cargarForm(new FormPan(panDisp));
         }
 
         private void btnPostres_Click(object sender, EventArgs e)
         {
-            cargarForm(new FormPostres());
+            cargarForm(new FormPostres(postreDisp));
         }
 
         private void btnInformacion_Click(object sender, EventArgs e)
@@ -113,8 +113,7 @@ namespace WinFormsProyectoBase
                 sonido = false;
                 btnSonido.Image = Properties.Resources.Sonido;
             }
-            else
-            {
+            else{
                 SoundPlayer ReproducirMusica = new SoundPlayer();
                 string ruta = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "Music", "Musica1.wav");
                 ReproducirMusica.SoundLocation = ruta;
