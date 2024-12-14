@@ -100,20 +100,22 @@ namespace WinFormsProyectoBase
 
         private void buttonCancelarCompra_Click(object sender, EventArgs e)
         {
-            bool eliminado;
+            if (FormBaseUsuario.productosSeleccionados.Count == 0)
+            {
+                MessageBox.Show("No hay ningun producto seleccionado!");
+                return;
+            }
+            foreach (ClassCompras var in FormBaseUsuario.productosSeleccionados)
+            {
+                if (var.producto.Categoria == 1)
+                {
+                    FormBaseUsuario.listaPanes[var.indice].Existencias += var.cantidad;
+                }
+                else FormBaseUsuario.listaPostres[var.indice].Existencias += var.cantidad;
+            }
+            FormBaseUsuario.productosSeleccionados.Clear();
+            MessageBox.Show("Sus productos se han eliminado de la lista correctamente!");
             this.Close();
-            //SI ES QUE SE AÑADEN LISTAS ESTO SE TIENE QUE ELIMINAR AQUI TODO LO QUE TENGA LA LISTA ACTUAL
-            //Si no es con listas solamente hay que regresar el contador de productos para que no se cuenten y se mantengan los que deben de estar
-            eliminado = true;
-            //hay que ver como implementar esto para lo del contador
-            if (eliminado)
-            {
-                MessageBox.Show("Producto eliminado correctamente.");
-            }
-            else
-            {
-                MessageBox.Show("Hubo un error al eliminar el producto.");
-            }
         }
 
         private bool ValidarNumeroTarjeta(string numeroTarjeta)
@@ -152,6 +154,11 @@ namespace WinFormsProyectoBase
             //recorres un foreach que se va sumando a total += (NombreLista.precio + NombreLista.Precio * 0.06);
             //esa multiplicación es por lode intereses, tmb se va a hacer eso en los otros métodos
 
+        }
+
+        private void btnSalirMetPago_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

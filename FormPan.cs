@@ -121,7 +121,8 @@ namespace WinFormsProyectoBase
             string nombre = FormBaseUsuario.listaPanes[0].Nombre;
             int categoria = FormBaseUsuario.listaPanes[0].Categoria;
             float precio = FormBaseUsuario.listaPanes[0].Precio;
-            FormMetodosPago form = new FormMetodosPago(0, id, nombre, categoria, precio);
+            int existencias = FormBaseUsuario.listaPanes[0].Existencias;
+            FormCantidadComprar form = new FormCantidadComprar(0, id, nombre, categoria, precio, existencias);
             form.ShowDialog();
             verificarProdPan();
         }
@@ -133,7 +134,8 @@ namespace WinFormsProyectoBase
             string nombre = FormBaseUsuario.listaPanes[1].Nombre;
             int categoria = FormBaseUsuario.listaPanes[1].Categoria;
             float precio = FormBaseUsuario.listaPanes[1].Precio;
-            FormMetodosPago form = new FormMetodosPago(1, id, nombre, categoria, precio);
+            int existencias = FormBaseUsuario.listaPanes[1].Existencias;
+            FormCantidadComprar form = new FormCantidadComprar(1, id, nombre, categoria, precio, existencias);
             //FormMetodosPago form = new FormMetodosPago(panDisp, 1);
             form.ShowDialog();
             verificarProdPan();
@@ -145,7 +147,8 @@ namespace WinFormsProyectoBase
             string nombre = FormBaseUsuario.listaPanes[2].Nombre;
             int categoria = FormBaseUsuario.listaPanes[2].Categoria;
             float precio = FormBaseUsuario.listaPanes[2].Precio;
-            FormMetodosPago form = new FormMetodosPago(2, id, nombre, categoria, precio);
+            int existencias = FormBaseUsuario.listaPanes[2].Existencias;
+            FormCantidadComprar form = new FormCantidadComprar(2, id, nombre, categoria, precio, existencias);
             //FormMetodosPago form = new FormMetodosPago(panDisp, 2);
             form.ShowDialog();
             verificarProdPan();
@@ -157,7 +160,8 @@ namespace WinFormsProyectoBase
             string nombre = FormBaseUsuario.listaPanes[3].Nombre;
             int categoria = FormBaseUsuario.listaPanes[3].Categoria;
             float precio = FormBaseUsuario.listaPanes[3].Precio;
-            FormMetodosPago form = new FormMetodosPago(3, id, nombre, categoria, precio);
+            int existencias = FormBaseUsuario.listaPanes[3].Existencias;
+            FormCantidadComprar  form = new FormCantidadComprar(3, id, nombre, categoria, precio, existencias);
             //FormMetodosPago form = new FormMetodosPago(panDisp, 3);
             form.ShowDialog();
             verificarProdPan();
@@ -169,7 +173,8 @@ namespace WinFormsProyectoBase
             string nombre = FormBaseUsuario.listaPanes[4].Nombre;
             int categoria = FormBaseUsuario.listaPanes[4].Categoria;
             float precio = FormBaseUsuario.listaPanes[4].Precio;
-            FormMetodosPago form = new FormMetodosPago(4, id, nombre, categoria, precio);
+            int existencias = FormBaseUsuario.listaPanes[4].Existencias;
+            FormCantidadComprar form = new FormCantidadComprar(4, id, nombre, categoria, precio, existencias);
             //FormMetodosPago form = new FormMetodosPago(panDisp, 4);
             form.ShowDialog();
             verificarProdPan();

@@ -57,18 +57,6 @@ namespace WinFormsProyectoBase
                     existencias = Convert.ToInt32(reader["existencias"]);
 
                     item = new Productos(id, nombre, categoria, descripcion, imagen, precio, existencias);
-                    data.Add(item);
-
-                    //Agregar a las listas static de panes y postres
-                    if (item.Categoria == 1)
-                    {
-                        FormBaseUsuario.listaPanes.Add(item);
-                    }
-                    else if (item.Categoria == 2)
-                    {
-                        FormBaseUsuario.listaPostres.Add(item);
-                    }
-
                 }
                 reader.Close();
                 data.ForEach((p) =>

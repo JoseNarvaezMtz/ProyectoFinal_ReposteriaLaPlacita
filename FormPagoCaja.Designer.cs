@@ -47,6 +47,7 @@
             richTextBoxCantidadSelecc = new RichTextBox();
             richTextBoxProductosSelec = new RichTextBox();
             buttonCambio = new Button();
+            btnSalirMetPago = new Button();
             SuspendLayout();
             // 
             // buttonCancelarCompra
@@ -63,6 +64,7 @@
             buttonCancelarCompra.TabIndex = 67;
             buttonCancelarCompra.Text = "Cancelar compra";
             buttonCancelarCompra.UseVisualStyleBackColor = false;
+            buttonCancelarCompra.Click += buttonCancelarCompra_Click;
             // 
             // textBoxCambio
             // 
@@ -261,6 +263,22 @@
             buttonCambio.UseVisualStyleBackColor = false;
             buttonCambio.Click += buttonCambio_Click;
             // 
+            // btnSalirMetPago
+            // 
+            btnSalirMetPago.BackColor = Color.FromArgb(110, 80, 50);
+            btnSalirMetPago.FlatAppearance.BorderSize = 0;
+            btnSalirMetPago.FlatStyle = FlatStyle.Flat;
+            btnSalirMetPago.Font = new Font("Sans Serif Collection", 10F, FontStyle.Bold);
+            btnSalirMetPago.ForeColor = Color.AntiqueWhite;
+            btnSalirMetPago.Location = new Point(841, 36);
+            btnSalirMetPago.Margin = new Padding(3, 2, 3, 2);
+            btnSalirMetPago.Name = "btnSalirMetPago";
+            btnSalirMetPago.Size = new Size(37, 37);
+            btnSalirMetPago.TabIndex = 74;
+            btnSalirMetPago.Text = "X";
+            btnSalirMetPago.UseVisualStyleBackColor = false;
+            btnSalirMetPago.Click += btnSalirMetPago_Click;
+            // 
             // FormPagoCaja
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -268,6 +286,7 @@
             BackColor = Color.AntiqueWhite;
             ClientSize = new Size(914, 666);
             ControlBox = false;
+            Controls.Add(btnSalirMetPago);
             Controls.Add(buttonCambio);
             Controls.Add(richTextBoxProductosSelec);
             Controls.Add(richTextBoxCantidadSelecc);
@@ -318,5 +337,6 @@
         private RichTextBox richTextBoxCantidadSelecc;
         private RichTextBox richTextBoxProductosSelec;
         private Button buttonCambio;
+        private Button btnSalirMetPago;
     }
 }

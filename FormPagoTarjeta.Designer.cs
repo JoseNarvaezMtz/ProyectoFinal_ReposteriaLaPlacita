@@ -51,6 +51,7 @@
             labelProductosSelec = new Label();
             textBoxTotalCompra = new TextBox();
             labelTotalCompra = new Label();
+            btnSalirMetPago = new Button();
             SuspendLayout();
             // 
             // panel3
@@ -299,12 +300,29 @@
             labelTotalCompra.TabIndex = 78;
             labelTotalCompra.Text = "Cantidad";
             // 
+            // btnSalirMetPago
+            // 
+            btnSalirMetPago.BackColor = Color.FromArgb(110, 80, 50);
+            btnSalirMetPago.FlatAppearance.BorderSize = 0;
+            btnSalirMetPago.FlatStyle = FlatStyle.Flat;
+            btnSalirMetPago.Font = new Font("Sans Serif Collection", 10F, FontStyle.Bold);
+            btnSalirMetPago.ForeColor = Color.AntiqueWhite;
+            btnSalirMetPago.Location = new Point(841, 32);
+            btnSalirMetPago.Margin = new Padding(3, 2, 3, 2);
+            btnSalirMetPago.Name = "btnSalirMetPago";
+            btnSalirMetPago.Size = new Size(37, 37);
+            btnSalirMetPago.TabIndex = 79;
+            btnSalirMetPago.Text = "X";
+            btnSalirMetPago.UseVisualStyleBackColor = false;
+            btnSalirMetPago.Click += btnSalirMetPago_Click;
+            // 
             // FormPagoTarjeta
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.AntiqueWhite;
             ClientSize = new Size(914, 666);
+            Controls.Add(btnSalirMetPago);
             Controls.Add(labelTotalCompra);
             Controls.Add(textBoxTotalCompra);
             Controls.Add(richTextBoxProductosSelec);
@@ -360,5 +378,6 @@
         private Label labelProductosSelec;
         private TextBox textBoxTotalCompra;
         private Label labelTotalCompra;
+        private Button btnSalirMetPago;
     }
 }

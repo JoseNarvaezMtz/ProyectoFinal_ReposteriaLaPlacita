@@ -6,6 +6,7 @@ namespace WinFormsProyectoBase
     {
         public static List<Productos> listaPanes = new List<Productos>();
         public static List<Productos> listaPostres = new List<Productos>();
+        public static List<ClassCompras> productosSeleccionados = new List<ClassCompras>();
         public int[] panDisp; //base de datos
         public int[] postreDisp; //base de datos
         public string nombre; //base de datos
@@ -15,7 +16,7 @@ namespace WinFormsProyectoBase
         private bool[] reproducida = new bool[4]; // Control de canciones reproducidas
         private bool sonido = false; // variable de control de mute/demute
 
-        public FormBaseUsuario(string nombreUs)
+        public FormBaseUsuario(string nombreUs,int[] panDisp ,int[] postreDisp)
         {
             InitializeComponent();
             cargarForm(new FormInformacion());
@@ -24,7 +25,8 @@ namespace WinFormsProyectoBase
             //this.postreDisp = postreDisp;
             //this.panDisp = panDisp;
             AdmonBD aux = new AdmonBD();
-            aux.agregarListas();
+            if (FormBaseUsuario.listaPanes.Count == 0 || FormBaseUsuario.listaPostres.Count == 0)
+                aux.agregarListas();
         }
 
         public void cargarForm(object Form)
@@ -37,7 +39,6 @@ namespace WinFormsProyectoBase
             this.PanelPrincipal.Controls.Add(f);
             this.PanelPrincipal.Tag = f;
             f.Show();
-
         }
 
         private void btnCerrarSesionUs_Click(object sender, EventArgs e)
@@ -47,7 +48,6 @@ namespace WinFormsProyectoBase
             ReproducirMusica.SoundLocation = ruta;
             ReproducirMusica.Stop();
             this.Close();
-
         }
 
         private void btnSalirUs_Click(object sender, EventArgs e)
@@ -61,12 +61,12 @@ namespace WinFormsProyectoBase
 
         private void btnPan_Click(object sender, EventArgs e)
         {
-            cargarForm(new FormPan());
+            cargarForm(new FormPan(panDisp));
         }
 
         private void btnPostres_Click(object sender, EventArgs e)
         {
-            cargarForm(new FormPostres());
+            cargarForm(new FormPostres(postreDisp));
         }
 
         private void btnInformacion_Click(object sender, EventArgs e)
@@ -113,8 +113,7 @@ namespace WinFormsProyectoBase
                 sonido = false;
                 btnSonido.Image = Properties.Resources.Sonido;
             }
-            else
-            {
+            else{
                 SoundPlayer ReproducirMusica = new SoundPlayer();
                 string ruta = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "Music", "Musica1.wav");
                 ReproducirMusica.SoundLocation = ruta;
@@ -134,6 +133,38 @@ namespace WinFormsProyectoBase
         private void timer2FechaHoraUsuario_Tick(object sender, EventArgs e)
         {
             label2FechaHoraUsuario.Text = DateTime.Now.ToString();
+        }
+
+        private void buttonPagar_Click(object sender, EventArgs e)
+        {
+            if (FormBaseUsuario.productosSeleccionados.Count == 0)
+            {
+                MessageBox.Show("No hay ningun producto seleccionado!");
+                return;
+            }
+            FormMetodosPago metodo = new FormMetodosPago();
+            this.Hide();
+            metodo.ShowDialog();
+            this.Show();
+        }
+
+        private void buttonCancelar_Click(object sender, EventArgs e)
+        {
+            if (FormBaseUsuario.productosSeleccionados.Count == 0)
+            {
+                MessageBox.Show("No hay ningun producto seleccionado!");
+                return;
+            }
+            foreach (ClassCompras var in FormBaseUsuario.productosSeleccionados) 
+            {
+                if (var.producto.Categoria == 1)
+                {
+                    FormBaseUsuario.listaPanes[var.indice].Existencias += var.cantidad;   
+                }
+                else FormBaseUsuario.listaPostres[var.indice].Existencias += var.cantidad;
+            }
+            FormBaseUsuario.productosSeleccionados.Clear();
+            MessageBox.Show("Sus productos se han eliminado de la lista correctamente!");
         }
     }
 }

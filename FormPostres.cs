@@ -115,7 +115,8 @@ namespace WinFormsProyectoBase
             string nombre = FormBaseUsuario.listaPostres[0].Nombre;
             int categoria = FormBaseUsuario.listaPostres[0].Categoria;
             float precio = FormBaseUsuario.listaPostres[0].Precio;
-            FormMetodosPago form = new FormMetodosPago(0, id, nombre, categoria, precio);
+            int existencias = FormBaseUsuario.listaPostres[0].Existencias;
+            FormCantidadComprar form = new FormCantidadComprar(0, id, nombre, categoria, precio, existencias);
             form.ShowDialog();
             verificarProdPost();
         }
@@ -126,7 +127,8 @@ namespace WinFormsProyectoBase
             string nombre = FormBaseUsuario.listaPostres[1].Nombre;
             int categoria = FormBaseUsuario.listaPostres[1].Categoria;
             float precio = FormBaseUsuario.listaPostres[1].Precio;
-            FormMetodosPago form = new FormMetodosPago(1, id, nombre, categoria, precio);
+            int existencias = FormBaseUsuario.listaPostres[1].Existencias;
+            FormCantidadComprar form = new FormCantidadComprar(1, id, nombre, categoria, precio, existencias);
             form.ShowDialog();
             verificarProdPost();
         }
@@ -137,7 +139,8 @@ namespace WinFormsProyectoBase
             string nombre = FormBaseUsuario.listaPostres[2].Nombre;
             int categoria = FormBaseUsuario.listaPostres[2].Categoria;
             float precio = FormBaseUsuario.listaPostres[2].Precio;
-            FormMetodosPago form = new FormMetodosPago(2, id, nombre, categoria, precio);
+            int existencias = FormBaseUsuario.listaPostres[2].Existencias;
+            FormCantidadComprar form = new FormCantidadComprar(2, id, nombre, categoria, precio, existencias);
             form.ShowDialog();
             verificarProdPost();
         }
@@ -148,7 +151,8 @@ namespace WinFormsProyectoBase
             string nombre = FormBaseUsuario.listaPostres[3].Nombre;
             int categoria = FormBaseUsuario.listaPostres[3].Categoria;
             float precio = FormBaseUsuario.listaPostres[3].Precio;
-            FormMetodosPago form = new FormMetodosPago(3, id, nombre, categoria, precio);
+            int existencias = FormBaseUsuario.listaPostres[3].Existencias;
+            FormCantidadComprar form = new FormCantidadComprar(3, id, nombre, categoria, precio, existencias);
             form.ShowDialog();
             verificarProdPost();
         }
@@ -159,7 +163,8 @@ namespace WinFormsProyectoBase
             string nombre = FormBaseUsuario.listaPostres[4].Nombre;
             int categoria = FormBaseUsuario.listaPostres[4].Categoria;
             float precio = FormBaseUsuario.listaPostres[4].Precio;
-            FormMetodosPago form = new FormMetodosPago(4, id, nombre, categoria, precio);
+            int existencias = FormBaseUsuario.listaPostres[4].Existencias;
+            FormCantidadComprar form = new FormCantidadComprar(4, id, nombre, categoria, precio, existencias);
             form.ShowDialog();
             verificarProdPost();
         }
