@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\WinFormsProyectoBase.csproj": {}
+    "C:\\Users\\julia\\Source\\Repos\\ProyectoFinal_ReposteriaLaPlacita\\WinFormsProyectoBase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\WinFormsProyectoBase.csproj": {
+    "C:\\Users\\julia\\Source\\Repos\\ProyectoFinal_ReposteriaLaPlacita\\WinFormsProyectoBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\WinFormsProyectoBase.csproj",
+        "projectUniqueName": "C:\\Users\\julia\\Source\\Repos\\ProyectoFinal_ReposteriaLaPlacita\\WinFormsProyectoBase.csproj",
         "projectName": "WinFormsProyectoBase",
-        "projectPath": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\WinFormsProyectoBase.csproj",
+        "projectPath": "C:\\Users\\julia\\Source\\Repos\\ProyectoFinal_ReposteriaLaPlacita\\WinFormsProyectoBase.csproj",
         "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\julia\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\obj\\",
+        "outputPath": "C:\\Users\\julia\\Source\\Repos\\ProyectoFinal_ReposteriaLaPlacita\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
