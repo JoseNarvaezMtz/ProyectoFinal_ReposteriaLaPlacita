@@ -39,7 +39,6 @@ C:\Users\julia\source\repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-w
 C:\Users\julia\source\repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormPan.resources
 C:\Users\julia\source\repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormPortada.resources
 C:\Users\julia\source\repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormPostres.resources
-C:\Users\julia\source\repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormTicket.resources
 C:\Users\julia\source\repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.Properties.Resources.resources
 C:\Users\julia\source\repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.csproj.GenerateResource.cache
 C:\Users\julia\source\repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.GeneratedMSBuildEditorConfig.editorconfig
@@ -53,3 +52,4 @@ C:\Users\julia\source\repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-w
 C:\Users\julia\source\repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.pdb
 C:\Users\julia\source\repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.genruntimeconfig.cache
 C:\Users\julia\source\repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\ref\WinFormsProyectoBase.dll
+C:\Users\julia\source\repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormPagoOxxo.resources

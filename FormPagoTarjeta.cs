@@ -8,12 +8,8 @@ namespace WinFormsProyectoBase
     {
         private float total;
         private int cantidad;
-        //PARA BASE DE DATOOOOOOOOOOOOOOOOOOOOOOOOS SE NECESITA ESTOOOOOOO
-        private int Id;
-        private string Nombre;
-        private float Precio;  //YA NO SE OCUPA ESTO, RECUERDA QUE AHORA LO HACES CON LISTAS
         //Variables para ticket
-        private string NumTarjeta; //así es el numero es un string jshajhsajahjsjaahsjahsj, como quiera no se ocupa para nada, solo se va a mostrar en el ticket
+        private string NumTarjeta; 
         private string NombreTarjeta;
         private string codigoSeg;
         private int year;
@@ -23,21 +19,8 @@ namespace WinFormsProyectoBase
         {
             InitializeComponent();
             ConfigurarEventosTextBox();
+            ImprimirDatos();
         }
-
-        public FormPagoTarjeta(int cantidad, int id, string nombre, float precio)
-        {
-            //IMPORTANTEEEEEEEEEEEEEEEEEEEEEEEEE
-            //this.Id = id;
-            //this.Nombre = nombre;
-            //this.Precio = precio;
-            //YA NO SE OCUPA LO DE ARRIBA, O SI LO QUIERES MANEJAR CON ESO TU LO CHECAS, SI NO, ES INICIALIZAR LA LISTA
-            InitializeComponent();
-            ConfigurarEventosTextBox();
-            //esto quitalo nada mas era para que funcionara este constructor ya no debe de estar cantidad
-            this.cantidad = cantidad;
-        }
-
         private void ConfigurarEventosTextBox()
         {
             textBoxNombreTarjeta.TextChanged += ValidarCampos;
@@ -56,14 +39,6 @@ namespace WinFormsProyectoBase
 
         private void buttonPagar_Click(object sender, EventArgs e)
         {
-            //IMPORTANTEEEEEEEEEEEEEE JOSEEEEEEEEE/LORENAAAAAAAA
-            //Darle click a esto es que ya se pagó, entonces sube el importe o lo que se necesite a la base de datos y lo de abajo ya es pura estética del ticket
-            //IMPORTANTE PARA JULIÁN (YO JIJJIJI) / LORENA
-            //Al precionar este botón se abre otro form que muestre el reporte de pago, donde se ven todos los datos de la compra
-            //se supone que será el mismo form para los 3 métodos, solo que mandaremos diferentes firmas para que cada caso tenga su propio constructor
-
-            //aqui tienes que ahcer
-            //total += (NombreLista.precio + NombreLista.Precio * 0.06);
             this.NombreTarjeta = textBoxNombreTarjeta.Text;
             this.NumTarjeta = textBoxNumTarjeta.Text;
             this.codigoSeg = textBoxCodigo.Text;
@@ -139,21 +114,22 @@ namespace WinFormsProyectoBase
                 return false;
             }
         }
-        private void richTextBoxProductosSelec_TextChanged(object sender, EventArgs e)
-        {
-            //aqui debes de mostrar igual en un foreach cada producto de la lista
-        }
 
-        private void richTextBoxCantidadSelecc_TextChanged(object sender, EventArgs e)
+        private void ImprimirDatos()
         {
-            //Muestras en foreach o for dependiendo de como lo hiciste la cantidad
-        }
+            Font font = new Font(richTextBoxProductosSelec.Font.FontFamily, 14);
+            richTextBoxProductosSelec.Clear();
+            richTextBoxCantidadSelecc.Clear();
+            richTextBoxProductosSelec.Font = font;
+            richTextBoxCantidadSelecc.Font = font;
 
-        private void textBoxTotalCompra_TextChanged(object sender, EventArgs e)
-        {
-            //recorres un foreach que se va sumando a total += (NombreLista.precio + NombreLista.Precio * 0.06);
-            //esa multiplicación es por lode intereses, tmb se va a hacer eso en los otros métodos
-
+            foreach (ClassCompras var in FormBaseUsuario.productosSeleccionados)
+            {
+                richTextBoxProductosSelec.AppendText(var.producto.Nombre + Environment.NewLine);
+                richTextBoxCantidadSelecc.AppendText(var.cantidad.ToString() + Environment.NewLine);
+                this.total += var.costo() * 1.06f;
+            }
+            textBoxTotalCompra.Text = this.total.ToString("F2");
         }
 
         private void btnSalirMetPago_Click(object sender, EventArgs e)

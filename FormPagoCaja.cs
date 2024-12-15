@@ -12,54 +12,15 @@ namespace WinFormsProyectoBase
 {
     public partial class FormPagoCaja : Form
     {
-        //creas la variable list que va a usarse en tu constructor
-        //y dependiendo de como manejes cantidad seleccionada pones aqui la variable de eso, o si lo manejas en la propia lista ignora esto
         private float total;
         private float PagoCambio;
+        private float PagoCliente;
         public FormPagoCaja()
         {
             InitializeComponent();
+            ImprimirDatos();
+            buttonPagar.Enabled = false;
         }
-        //NO OLVIDES QUE AQUI TIENES QUE CREAR EL CONSTRUCTOR CON LA LISTA Y LO DEMÁS SI ES QUE HAY ALGO MAS
-
-        private void textBoxProducto_TextChanged(object sender, EventArgs e)
-        {
-            //aqui debe de mostrar los productos seleccionados dentro de un foreach
-        }
-
-        private void richTextBoxProductosSelec_TextChanged(object sender, EventArgs e)
-        {
-            //muestras las cantidades igual con un foreach si es con lista y solo muestras la cantidad, 
-            // recuerda el convert.ToString para que se muestre en la richTextBox
-        }
-        private void textBoxCantidadPagar_TextChanged(object sender, EventArgs e)
-        {
-            //recorres un foreach que se va sumando a total += (NombreLista.precio + NombreLista.Precio * 0.06);
-            //esa multiplicación es por lode intereses, tmb se va a hacer eso en los otros métodos
-        }
-        private void textBoxPagoTotal_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-        private void buttonCambio_Click(object sender, EventArgs e)
-        {
-            float PagoCliente;
-            float cambio;
-            float total;
-            PagoCliente = float.Parse(textBoxPagoTotal.Text);
-            total = this.total;
-            cambio = (total - PagoCliente);
-            if (cambio >= 0)
-            {
-                this.PagoCambio = cambio;
-                textBoxCambio.Text = PagoCliente.ToString();
-            }
-            else
-            {
-                MessageBox.Show("Ingrese un precio válido");
-            }
-        }
-
         private void buttonPagar_Click(object sender, EventArgs e)
         {
             //mandas todoooooooooo lo que necesites aqui y creas el constructor en el form de ticket
@@ -85,9 +46,51 @@ namespace WinFormsProyectoBase
             this.Close();
         }
 
+        private void ImprimirDatos()
+        {
+            Font font = new Font(richTextBoxProductosSelec.Font.FontFamily, 14);
+            richTextBoxProductosSelec.Clear();
+            richTextBoxCantidadSelecc.Clear();
+            richTextBoxProductosSelec.Font = font;
+            richTextBoxCantidadSelecc.Font = font;
+
+            foreach (ClassCompras var in FormBaseUsuario.productosSeleccionados)
+            {
+                richTextBoxProductosSelec.AppendText(var.producto.Nombre + Environment.NewLine);
+                richTextBoxCantidadSelecc.AppendText(var.cantidad.ToString() + Environment.NewLine);
+                this.total += var.costo() * 1.06f;
+            }
+            textBoxCantidadPagar.Text = this.total.ToString("F2");
+        }
+        private void Calcular()
+        {
+            this.PagoCliente = Convert.ToSingle(textBoxPagoCliente.Text);
+            textBoxCambio.Text = Convert.ToString(this.PagoCliente);
+        }
+
         private void btnSalirMetPago_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void textBoxPagoCliente_TextChanged(object sender, EventArgs e)
+        {
+            if (textBoxPagoCliente.Text == string.Empty)
+            {
+                this.textBoxCambio.Text = "0";
+                return;
+            }
+            float aux;
+            aux = Convert.ToSingle(textBoxPagoCliente.Text) - this.total;
+            if (aux < 0 )
+            {
+                this.textBoxCambio.Text = "0";
+                this.buttonPagar.Enabled = false;
+            }
+            else { 
+                this.textBoxCambio.Text = Convert.ToString(aux);
+                this.buttonPagar.Enabled = true;
+            }
         }
     }
 }
