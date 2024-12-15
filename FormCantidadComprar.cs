@@ -44,6 +44,10 @@ namespace WinFormsProyectoBase
             {
                 btnDismCompra.Enabled = true;
             }
+            if (nuevo > 0 && !buttonPago.Enabled)
+            {
+                buttonPago.Enabled = true;
+            }
             if (nuevo == existencias)
             {
                 btnAumCompra.Enabled = false;
@@ -65,7 +69,6 @@ namespace WinFormsProyectoBase
                 this.buttonPago.Enabled = false;
             }
         }
-        //uwu
         private void buttonOtroProducto_Click(object sender, EventArgs e)
         {
             ClassCompras obj;
@@ -74,25 +77,28 @@ namespace WinFormsProyectoBase
             {
                 obj = new ClassCompras(Convert.ToInt32(labelNumPorComprar.Text), FormBaseUsuario.listaPanes[indice], indice);
                 FormBaseUsuario.listaPanes[indice].Existencias -= Convert.ToInt32(labelNumPorComprar.Text);
+                foreach (ClassCompras var in FormBaseUsuario.productosSeleccionados)
+                {
+                    if (var.producto == FormBaseUsuario.listaPanes[indice])
+                    {
+                        var.cantidad += Convert.ToInt32(labelNumPorComprar.Text);
+                        flag = true;
+                        break;
+                    }
+                }
             }
             else
             {
                 obj = new ClassCompras(Convert.ToInt32(labelNumPorComprar.Text), FormBaseUsuario.listaPostres[indice], indice);
                 FormBaseUsuario.listaPostres[indice].Existencias -= Convert.ToInt32(labelNumPorComprar.Text);
-            }
-            foreach (ClassCompras var in FormBaseUsuario.productosSeleccionados)
-            {
-                if (var.producto == FormBaseUsuario.listaPanes[indice])
+                foreach (ClassCompras var in FormBaseUsuario.productosSeleccionados)
                 {
-                    var.cantidad += Convert.ToInt32(labelNumPorComprar.Text);
-                    flag = true;
-                    break;
-                }
-                else if (var.producto == FormBaseUsuario.listaPostres[indice])
-                {
-                    var.cantidad += Convert.ToInt32(labelNumPorComprar.Text);
-                    flag = true;
-                    break;
+                    if (var.producto == FormBaseUsuario.listaPostres[indice])
+                    {
+                        var.cantidad += Convert.ToInt32(labelNumPorComprar.Text);
+                        flag = true;
+                        break;
+                    }
                 }
             }
             if (!flag)
@@ -110,25 +116,28 @@ namespace WinFormsProyectoBase
             {
                 obj = new ClassCompras(Convert.ToInt32(labelNumPorComprar.Text), FormBaseUsuario.listaPanes[indice], indice);
                 FormBaseUsuario.listaPanes[indice].Existencias -= Convert.ToInt32(labelNumPorComprar.Text);
+                foreach (ClassCompras var in FormBaseUsuario.productosSeleccionados)
+                {
+                    if (var.producto == FormBaseUsuario.listaPanes[indice])
+                    {
+                        var.cantidad += Convert.ToInt32(labelNumPorComprar.Text);
+                        flag = true;
+                        break;
+                    }
+                }
             }
             else
             {
                 obj = new ClassCompras(Convert.ToInt32(labelNumPorComprar.Text), FormBaseUsuario.listaPostres[indice], indice);
                 FormBaseUsuario.listaPostres[indice].Existencias -= Convert.ToInt32(labelNumPorComprar.Text);
-            }
-            foreach (ClassCompras var in FormBaseUsuario.productosSeleccionados)
-            {
-                if (var.producto == FormBaseUsuario.listaPanes[indice])
+                foreach (ClassCompras var in FormBaseUsuario.productosSeleccionados)
                 {
-                    var.cantidad += Convert.ToInt32(labelNumPorComprar.Text);
-                    flag = true;
-                    break;
-                }
-                else if (var.producto == FormBaseUsuario.listaPostres[indice])
-                {
-                    var.cantidad += Convert.ToInt32(labelNumPorComprar.Text);
-                    flag = true;
-                    break;
+                    if (var.producto == FormBaseUsuario.listaPostres[indice])
+                    {
+                        var.cantidad += Convert.ToInt32(labelNumPorComprar.Text);
+                        flag = true;
+                        break;
+                    }
                 }
             }
             if (!flag)

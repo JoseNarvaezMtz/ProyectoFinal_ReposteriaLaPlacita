@@ -243,7 +243,6 @@
             richTextBoxProductosSelec.Size = new Size(551, 155);
             richTextBoxProductosSelec.TabIndex = 76;
             richTextBoxProductosSelec.Text = "";
-            richTextBoxProductosSelec.TextChanged += richTextBoxProductosSelec_TextChanged;
             // 
             // richTextBoxCantidadSelecc
             // 
@@ -254,7 +253,6 @@
             richTextBoxCantidadSelecc.Size = new Size(142, 155);
             richTextBoxCantidadSelecc.TabIndex = 75;
             richTextBoxCantidadSelecc.Text = "";
-            richTextBoxCantidadSelecc.TextChanged += richTextBoxCantidadSelecc_TextChanged;
             // 
             // labelCantidad
             // 
@@ -282,12 +280,13 @@
             // 
             textBoxTotalCompra.BackColor = Color.Tan;
             textBoxTotalCompra.BorderStyle = BorderStyle.None;
+            textBoxTotalCompra.Enabled = false;
             textBoxTotalCompra.Font = new Font("Sans Serif Collection", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             textBoxTotalCompra.Location = new Point(697, 319);
             textBoxTotalCompra.Name = "textBoxTotalCompra";
             textBoxTotalCompra.Size = new Size(142, 28);
             textBoxTotalCompra.TabIndex = 77;
-            textBoxTotalCompra.TextChanged += textBoxTotalCompra_TextChanged;
+            textBoxTotalCompra.TextAlign = HorizontalAlignment.Center;
             // 
             // labelTotalCompra
             // 

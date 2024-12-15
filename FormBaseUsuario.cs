@@ -16,7 +16,7 @@ namespace WinFormsProyectoBase
         private bool[] reproducida = new bool[4]; // Control de canciones reproducidas
         private bool sonido = false; // variable de control de mute/demute
 
-        public FormBaseUsuario(string nombreUs,int[] panDisp ,int[] postreDisp)
+        public FormBaseUsuario(string nombreUs)
         {
             InitializeComponent();
             cargarForm(new FormInformacion());
@@ -28,7 +28,6 @@ namespace WinFormsProyectoBase
             if (FormBaseUsuario.listaPanes.Count == 0 || FormBaseUsuario.listaPostres.Count == 0)
                 aux.agregarListas();
         }
-
         public void cargarForm(object Form)
         {
             if (this.PanelPrincipal.Controls.Count > 0)
@@ -47,6 +46,21 @@ namespace WinFormsProyectoBase
             string ruta = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "Music", "Musica1.wav");
             ReproducirMusica.SoundLocation = ruta;
             ReproducirMusica.Stop();
+            if (FormBaseUsuario.productosSeleccionados.Count == 0)
+            {
+                this.Close();
+                return;
+            }
+            foreach (ClassCompras var in FormBaseUsuario.productosSeleccionados)
+            {
+                if (var.producto.Categoria == 1)
+                {
+                    FormBaseUsuario.listaPanes[var.indice].Existencias += var.cantidad;
+                }
+                else FormBaseUsuario.listaPostres[var.indice].Existencias += var.cantidad;
+            }
+            FormBaseUsuario.productosSeleccionados.Clear();
+            MessageBox.Show("Sus productos se han eliminado de la lista correctamente!");
             this.Close();
         }
 
@@ -61,12 +75,12 @@ namespace WinFormsProyectoBase
 
         private void btnPan_Click(object sender, EventArgs e)
         {
-            cargarForm(new FormPan(panDisp));
+            cargarForm(new FormPan());
         }
 
         private void btnPostres_Click(object sender, EventArgs e)
         {
-            cargarForm(new FormPostres(postreDisp));
+            cargarForm(new FormPostres());
         }
 
         private void btnInformacion_Click(object sender, EventArgs e)

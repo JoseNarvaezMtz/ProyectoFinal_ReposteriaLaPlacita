@@ -52,7 +52,7 @@
     <Compile Update="FormPostres.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormTicket.cs">
+    <Compile Update="FormPagoOxxo.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

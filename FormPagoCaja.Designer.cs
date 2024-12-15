@@ -43,10 +43,8 @@
             panel1 = new Panel();
             panel2 = new Panel();
             textBoxCantidadPagar = new TextBox();
-            textBoxPagoTotal = new TextBox();
             richTextBoxCantidadSelecc = new RichTextBox();
             richTextBoxProductosSelec = new RichTextBox();
-            buttonCambio = new Button();
             btnSalirMetPago = new Button();
             SuspendLayout();
             // 
@@ -57,7 +55,7 @@
             buttonCancelarCompra.FlatStyle = FlatStyle.Flat;
             buttonCancelarCompra.Font = new Font("Sans Serif Collection", 12F, FontStyle.Bold);
             buttonCancelarCompra.ForeColor = Color.AntiqueWhite;
-            buttonCancelarCompra.Location = new Point(580, 575);
+            buttonCancelarCompra.Location = new Point(589, 575);
             buttonCancelarCompra.Margin = new Padding(3, 2, 3, 2);
             buttonCancelarCompra.Name = "buttonCancelarCompra";
             buttonCancelarCompra.Size = new Size(270, 44);
@@ -70,6 +68,7 @@
             // 
             textBoxCambio.BackColor = Color.Tan;
             textBoxCambio.BorderStyle = BorderStyle.None;
+            textBoxCambio.Enabled = false;
             textBoxCambio.Font = new Font("Sans Serif Collection", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             textBoxCambio.Location = new Point(60, 515);
             textBoxCambio.Name = "textBoxCambio";
@@ -120,10 +119,11 @@
             textBoxPagoCliente.BackColor = Color.Tan;
             textBoxPagoCliente.BorderStyle = BorderStyle.None;
             textBoxPagoCliente.Font = new Font("Sans Serif Collection", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBoxPagoCliente.Location = new Point(66, 439);
+            textBoxPagoCliente.Location = new Point(60, 439);
             textBoxPagoCliente.Name = "textBoxPagoCliente";
             textBoxPagoCliente.Size = new Size(354, 28);
             textBoxPagoCliente.TabIndex = 57;
+            textBoxPagoCliente.TextChanged += textBoxPagoCliente_TextChanged;
             // 
             // labelMontoPago
             // 
@@ -207,24 +207,11 @@
             textBoxCantidadPagar.BorderStyle = BorderStyle.None;
             textBoxCantidadPagar.Enabled = false;
             textBoxCantidadPagar.Font = new Font("Sans Serif Collection", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBoxCantidadPagar.Location = new Point(60, 341);
+            textBoxCantidadPagar.Location = new Point(60, 343);
             textBoxCantidadPagar.Name = "textBoxCantidadPagar";
             textBoxCantidadPagar.PlaceholderText = "Dinero a pagar";
             textBoxCantidadPagar.Size = new Size(360, 28);
             textBoxCantidadPagar.TabIndex = 68;
-            textBoxCantidadPagar.TextChanged += textBoxCantidadPagar_TextChanged;
-            // 
-            // textBoxPagoTotal
-            // 
-            textBoxPagoTotal.BackColor = Color.Tan;
-            textBoxPagoTotal.BorderStyle = BorderStyle.None;
-            textBoxPagoTotal.Enabled = false;
-            textBoxPagoTotal.Font = new Font("Sans Serif Collection", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBoxPagoTotal.Location = new Point(60, 439);
-            textBoxPagoTotal.Name = "textBoxPagoTotal";
-            textBoxPagoTotal.Size = new Size(354, 28);
-            textBoxPagoTotal.TabIndex = 69;
-            textBoxPagoTotal.TextChanged += textBoxPagoTotal_TextChanged;
             // 
             // richTextBoxCantidadSelecc
             // 
@@ -245,23 +232,6 @@
             richTextBoxProductosSelec.Size = new Size(551, 155);
             richTextBoxProductosSelec.TabIndex = 72;
             richTextBoxProductosSelec.Text = "";
-            richTextBoxProductosSelec.TextChanged += richTextBoxProductosSelec_TextChanged;
-            // 
-            // buttonCambio
-            // 
-            buttonCambio.BackColor = Color.FromArgb(110, 80, 50);
-            buttonCambio.FlatAppearance.BorderSize = 0;
-            buttonCambio.FlatStyle = FlatStyle.Flat;
-            buttonCambio.Font = new Font("Sans Serif Collection", 8.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            buttonCambio.ForeColor = Color.AntiqueWhite;
-            buttonCambio.Location = new Point(293, 510);
-            buttonCambio.Margin = new Padding(3, 2, 3, 2);
-            buttonCambio.Name = "buttonCambio";
-            buttonCambio.Size = new Size(127, 36);
-            buttonCambio.TabIndex = 73;
-            buttonCambio.Text = "Ver Cambio";
-            buttonCambio.UseVisualStyleBackColor = false;
-            buttonCambio.Click += buttonCambio_Click;
             // 
             // btnSalirMetPago
             // 
@@ -287,10 +257,8 @@
             ClientSize = new Size(914, 666);
             ControlBox = false;
             Controls.Add(btnSalirMetPago);
-            Controls.Add(buttonCambio);
             Controls.Add(richTextBoxProductosSelec);
             Controls.Add(richTextBoxCantidadSelecc);
-            Controls.Add(textBoxPagoTotal);
             Controls.Add(textBoxCantidadPagar);
             Controls.Add(buttonCancelarCompra);
             Controls.Add(textBoxCambio);
@@ -333,10 +301,8 @@
         private Panel panel1;
         private Panel panel2;
         private TextBox textBoxCantidadPagar;
-        private TextBox textBoxPagoTotal;
         private RichTextBox richTextBoxCantidadSelecc;
         private RichTextBox richTextBoxProductosSelec;
-        private Button buttonCambio;
         private Button btnSalirMetPago;
     }
 }

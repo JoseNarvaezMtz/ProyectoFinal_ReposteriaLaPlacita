@@ -33,9 +33,9 @@ namespace WinFormsProyectoBase
 
         private void buttonPagoOxxo_Click(object sender, EventArgs e)
         {
-            //FormPagoOxxo oxxo = new FormPagoOxxo();
-            //oxxo.Show();
-            //this.Close();
+            FormPagoOxxo oxxo = new FormPagoOxxo();
+            this.Close();
+            oxxo.Show();
         }
         private void btnSalirMetPago_Click(object sender, EventArgs e)
         {
