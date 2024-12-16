@@ -17,8 +17,8 @@ namespace WinFormsProyectoBase
     {
         Random Musica = new Random();
 
-       /* public int[] panDisp = { 0, 2, 3, 5, 0 }; //base de datos
-        public int[] postreDisp = { 0, 2, 3, 5, 0 }; //base de datos*/
+        /* public int[] panDisp = { 0, 2, 3, 5, 0 }; //base de datos
+         public int[] postreDisp = { 0, 2, 3, 5, 0 }; //base de datos*/
         public FormInicioSesion()
         {
             InitializeComponent();
@@ -161,6 +161,44 @@ namespace WinFormsProyectoBase
             ReproducirMusica.Play();
             fU.ShowDialog();
             this.Show();
+        }
+
+        private void btnRedSocial1_Click(object sender, EventArgs e)
+        {
+            string url = "https://www.youtube.com/watch?v=vjLAHupuE0k"; // facebook instagram etc
+            abrirEnlace(url);
+        }
+
+        private void btnRedSocial2_Click(object sender, EventArgs e)
+        {
+            string url = "https://www.youtube.com/watch?v=vjLAHupuE0k"; // facebook instagram etc
+            abrirEnlace(url);
+        }
+
+        private void btnRedSocial3_Click(object sender, EventArgs e)
+        {
+            string url = "https://www.youtube.com/watch?v=vjLAHupuE0k"; // facebook instagram etc
+            abrirEnlace(url);
+        }
+        private void abrirEnlace(string url)
+        {
+            try
+            {
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = url,
+                    UseShellExecute = true //Para abrir el navegador predeterminado
+                });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"No se pudo abrir el enlace: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnSalirUs_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

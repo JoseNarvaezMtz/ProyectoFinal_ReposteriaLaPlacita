@@ -283,6 +283,16 @@ namespace WinFormsProyectoBase.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap LogoUAA {
+            get {
+                object obj = ResourceManager.GetObject("LogoUAA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap NoSonido {
             get {
                 object obj = ResourceManager.GetObject("NoSonido", resourceCulture);

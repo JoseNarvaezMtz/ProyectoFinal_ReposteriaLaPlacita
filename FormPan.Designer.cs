@@ -148,6 +148,7 @@
             btnDescPan2.Text = "Descripcion";
             btnDescPan2.UseVisualStyleBackColor = false;
             btnDescPan2.Visible = false;
+            btnDescPan2.Click += btnDescPan2_Click;
             // 
             // pictureBoxPan2
             // 
@@ -183,6 +184,7 @@
             btnDescPan3.Text = "Descripcion";
             btnDescPan3.UseVisualStyleBackColor = false;
             btnDescPan3.Visible = false;
+            btnDescPan3.Click += btnDescPan3_Click;
             // 
             // btnComprarPan3
             // 
@@ -246,6 +248,7 @@
             btnDescPan4.Text = "Descripcion";
             btnDescPan4.UseVisualStyleBackColor = false;
             btnDescPan4.Visible = false;
+            btnDescPan4.Click += btnDescPan4_Click;
             // 
             // pictureBoxPan4
             // 
@@ -295,6 +298,7 @@
             btnDescPan5.Text = "Descripcion";
             btnDescPan5.UseVisualStyleBackColor = false;
             btnDescPan5.Visible = false;
+            btnDescPan5.Click += btnDescPan5_Click;
             // 
             // pictureBoxPan5
             // 

@@ -28,10 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormInformacion));
             pictureBox3 = new PictureBox();
             pictureBox2 = new PictureBox();
-            label1 = new Label();
             labelBienvenida = new Label();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -55,18 +56,6 @@
             pictureBox2.TabIndex = 10;
             pictureBox2.TabStop = false;
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.SeaShell;
-            label1.Font = new Font("Script MT Bold", 20F, FontStyle.Bold);
-            label1.ForeColor = Color.FromArgb(110, 80, 50);
-            label1.Location = new Point(228, 144);
-            label1.Name = "label1";
-            label1.Size = new Size(486, 165);
-            label1.TabIndex = 9;
-            label1.Text = " Lorem Ipsum Lorem Ipsum Lorem Ipsum\r\n Lorem Ipsum Lorem Ipsum Lorem Ipsum\r\n Lorem Ipsum Lorem Ipsum Lorem Ipsum\r\n Lorem Ipsum Lorem Ipsum Lorem Ipsum\r\n                         Lorem Ipsum";
-            // 
             // labelBienvenida
             // 
             labelBienvenida.AutoSize = true;
@@ -76,7 +65,19 @@
             labelBienvenida.Name = "labelBienvenida";
             labelBienvenida.Size = new Size(636, 48);
             labelBienvenida.TabIndex = 8;
-            labelBienvenida.Text = "¡ ¡ Bienvenid@ a nuestra aplicacion ! !";
+            labelBienvenida.Text = "¡ ¡ Bienvenid@ a nuestra aplicación ! !";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.SeaShell;
+            label1.Font = new Font("Script MT Bold", 20F, FontStyle.Bold);
+            label1.ForeColor = Color.FromArgb(110, 80, 50);
+            label1.Location = new Point(215, 140);
+            label1.Name = "label1";
+            label1.Size = new Size(520, 165);
+            label1.TabIndex = 12;
+            label1.Text = resources.GetString("label1.Text");
             // 
             // FormInformacion
             // 
@@ -84,9 +85,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.AntiqueWhite;
             ClientSize = new Size(951, 444);
+            Controls.Add(label1);
             Controls.Add(pictureBox3);
             Controls.Add(pictureBox2);
-            Controls.Add(label1);
             Controls.Add(labelBienvenida);
             FormBorderStyle = FormBorderStyle.None;
             Name = "FormInformacion";
@@ -101,7 +102,7 @@
 
         private PictureBox pictureBox3;
         private PictureBox pictureBox2;
-        private Label label1;
         private Label labelBienvenida;
+        private Label label1;
     }
 }

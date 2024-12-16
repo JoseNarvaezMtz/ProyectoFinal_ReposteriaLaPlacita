@@ -66,10 +66,9 @@
             panelPostre3.Controls.Add(btnDescPostre3);
             panelPostre3.Controls.Add(btnComprarPostre3);
             panelPostre3.Controls.Add(pictureBoxPostre3);
-            panelPostre3.Location = new Point(760, 52);
-            panelPostre3.Margin = new Padding(3, 4, 3, 4);
+            panelPostre3.Location = new Point(665, 39);
             panelPostre3.Name = "panelPostre3";
-            panelPostre3.Size = new Size(224, 247);
+            panelPostre3.Size = new Size(196, 185);
             panelPostre3.TabIndex = 11;
             panelPostre3.Visible = false;
             // 
@@ -78,24 +77,23 @@
             btnDescPostre3.BackColor = Color.Bisque;
             btnDescPostre3.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnDescPostre3.ForeColor = Color.FromArgb(110, 80, 50);
-            btnDescPostre3.Location = new Point(0, 163);
-            btnDescPostre3.Margin = new Padding(3, 4, 3, 4);
+            btnDescPostre3.Location = new Point(0, 122);
             btnDescPostre3.Name = "btnDescPostre3";
-            btnDescPostre3.Size = new Size(221, 33);
+            btnDescPostre3.Size = new Size(193, 25);
             btnDescPostre3.TabIndex = 8;
             btnDescPostre3.Text = "Descripcion";
             btnDescPostre3.UseVisualStyleBackColor = false;
             btnDescPostre3.Visible = false;
+            btnDescPostre3.Click += btnDescPostre3_Click;
             // 
             // btnComprarPostre3
             // 
             btnComprarPostre3.BackColor = Color.Sienna;
             btnComprarPostre3.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btnComprarPostre3.ForeColor = Color.White;
-            btnComprarPostre3.Location = new Point(0, 192);
-            btnComprarPostre3.Margin = new Padding(3, 4, 3, 4);
+            btnComprarPostre3.Location = new Point(0, 144);
             btnComprarPostre3.Name = "btnComprarPostre3";
-            btnComprarPostre3.Size = new Size(221, 51);
+            btnComprarPostre3.Size = new Size(193, 38);
             btnComprarPostre3.TabIndex = 9;
             btnComprarPostre3.Text = "Comprar";
             btnComprarPostre3.UseVisualStyleBackColor = false;
@@ -105,10 +103,9 @@
             // pictureBoxPostre3
             // 
             pictureBoxPostre3.Image = Properties.Resources.BrownieNavidad;
-            pictureBoxPostre3.Location = new Point(18, 21);
-            pictureBoxPostre3.Margin = new Padding(3, 4, 3, 4);
+            pictureBoxPostre3.Location = new Point(16, 16);
             pictureBoxPostre3.Name = "pictureBoxPostre3";
-            pictureBoxPostre3.Size = new Size(189, 133);
+            pictureBoxPostre3.Size = new Size(165, 100);
             pictureBoxPostre3.TabIndex = 3;
             pictureBoxPostre3.TabStop = false;
             pictureBoxPostre3.Visible = false;
@@ -119,10 +116,9 @@
             panelPostre2.Controls.Add(btnDescPostre2);
             panelPostre2.Controls.Add(btnComprarPostre2);
             panelPostre2.Controls.Add(pictureBoxPostre2);
-            panelPostre2.Location = new Point(419, 52);
-            panelPostre2.Margin = new Padding(3, 4, 3, 4);
+            panelPostre2.Location = new Point(367, 39);
             panelPostre2.Name = "panelPostre2";
-            panelPostre2.Size = new Size(224, 247);
+            panelPostre2.Size = new Size(196, 185);
             panelPostre2.TabIndex = 12;
             panelPostre2.Visible = false;
             // 
@@ -131,24 +127,23 @@
             btnDescPostre2.BackColor = Color.Bisque;
             btnDescPostre2.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnDescPostre2.ForeColor = Color.FromArgb(110, 80, 50);
-            btnDescPostre2.Location = new Point(3, 163);
-            btnDescPostre2.Margin = new Padding(3, 4, 3, 4);
+            btnDescPostre2.Location = new Point(3, 122);
             btnDescPostre2.Name = "btnDescPostre2";
-            btnDescPostre2.Size = new Size(221, 33);
+            btnDescPostre2.Size = new Size(193, 25);
             btnDescPostre2.TabIndex = 8;
             btnDescPostre2.Text = "Descripcion";
             btnDescPostre2.UseVisualStyleBackColor = false;
             btnDescPostre2.Visible = false;
+            btnDescPostre2.Click += btnDescPostre2_Click;
             // 
             // btnComprarPostre2
             // 
             btnComprarPostre2.BackColor = Color.Sienna;
             btnComprarPostre2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btnComprarPostre2.ForeColor = Color.White;
-            btnComprarPostre2.Location = new Point(3, 192);
-            btnComprarPostre2.Margin = new Padding(3, 4, 3, 4);
+            btnComprarPostre2.Location = new Point(3, 144);
             btnComprarPostre2.Name = "btnComprarPostre2";
-            btnComprarPostre2.Size = new Size(221, 51);
+            btnComprarPostre2.Size = new Size(193, 38);
             btnComprarPostre2.TabIndex = 9;
             btnComprarPostre2.Text = "Comprar";
             btnComprarPostre2.UseVisualStyleBackColor = false;
@@ -158,10 +153,9 @@
             // pictureBoxPostre2
             // 
             pictureBoxPostre2.Image = Properties.Resources.Cupcake;
-            pictureBoxPostre2.Location = new Point(18, 21);
-            pictureBoxPostre2.Margin = new Padding(3, 4, 3, 4);
+            pictureBoxPostre2.Location = new Point(16, 16);
             pictureBoxPostre2.Name = "pictureBoxPostre2";
-            pictureBoxPostre2.Size = new Size(189, 133);
+            pictureBoxPostre2.Size = new Size(165, 100);
             pictureBoxPostre2.TabIndex = 3;
             pictureBoxPostre2.TabStop = false;
             pictureBoxPostre2.Visible = false;
@@ -172,10 +166,9 @@
             panelPostre1.Controls.Add(btnDescPostre1);
             panelPostre1.Controls.Add(btnComprarPostre1);
             panelPostre1.Controls.Add(pictureBoxPostre1);
-            panelPostre1.Location = new Point(94, 52);
-            panelPostre1.Margin = new Padding(3, 4, 3, 4);
+            panelPostre1.Location = new Point(82, 39);
             panelPostre1.Name = "panelPostre1";
-            panelPostre1.Size = new Size(224, 247);
+            panelPostre1.Size = new Size(196, 185);
             panelPostre1.TabIndex = 12;
             panelPostre1.Visible = false;
             // 
@@ -184,24 +177,23 @@
             btnDescPostre1.BackColor = Color.Bisque;
             btnDescPostre1.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnDescPostre1.ForeColor = Color.FromArgb(110, 80, 50);
-            btnDescPostre1.Location = new Point(0, 163);
-            btnDescPostre1.Margin = new Padding(3, 4, 3, 4);
+            btnDescPostre1.Location = new Point(0, 122);
             btnDescPostre1.Name = "btnDescPostre1";
-            btnDescPostre1.Size = new Size(221, 33);
+            btnDescPostre1.Size = new Size(193, 25);
             btnDescPostre1.TabIndex = 8;
             btnDescPostre1.Text = "Descripcion";
             btnDescPostre1.UseVisualStyleBackColor = false;
             btnDescPostre1.Visible = false;
+            btnDescPostre1.Click += btnDescPostre1_Click;
             // 
             // btnComprarPostre1
             // 
             btnComprarPostre1.BackColor = Color.Sienna;
             btnComprarPostre1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btnComprarPostre1.ForeColor = Color.White;
-            btnComprarPostre1.Location = new Point(0, 192);
-            btnComprarPostre1.Margin = new Padding(3, 4, 3, 4);
+            btnComprarPostre1.Location = new Point(0, 144);
             btnComprarPostre1.Name = "btnComprarPostre1";
-            btnComprarPostre1.Size = new Size(221, 51);
+            btnComprarPostre1.Size = new Size(193, 38);
             btnComprarPostre1.TabIndex = 9;
             btnComprarPostre1.Text = "Comprar";
             btnComprarPostre1.UseVisualStyleBackColor = false;
@@ -211,10 +203,9 @@
             // pictureBoxPostre1
             // 
             pictureBoxPostre1.Image = Properties.Resources.Carlota;
-            pictureBoxPostre1.Location = new Point(18, 21);
-            pictureBoxPostre1.Margin = new Padding(3, 4, 3, 4);
+            pictureBoxPostre1.Location = new Point(16, 16);
             pictureBoxPostre1.Name = "pictureBoxPostre1";
-            pictureBoxPostre1.Size = new Size(189, 133);
+            pictureBoxPostre1.Size = new Size(165, 100);
             pictureBoxPostre1.TabIndex = 3;
             pictureBoxPostre1.TabStop = false;
             pictureBoxPostre1.Visible = false;
@@ -225,10 +216,9 @@
             panelPostre4.Controls.Add(btnDescPostre4);
             panelPostre4.Controls.Add(btnComprarPostre4);
             panelPostre4.Controls.Add(pictureBoxPostre4);
-            panelPostre4.Location = new Point(267, 329);
-            panelPostre4.Margin = new Padding(3, 4, 3, 4);
+            panelPostre4.Location = new Point(234, 247);
             panelPostre4.Name = "panelPostre4";
-            panelPostre4.Size = new Size(224, 247);
+            panelPostre4.Size = new Size(196, 185);
             panelPostre4.TabIndex = 12;
             panelPostre4.Visible = false;
             // 
@@ -237,24 +227,23 @@
             btnDescPostre4.BackColor = Color.Bisque;
             btnDescPostre4.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnDescPostre4.ForeColor = Color.FromArgb(110, 80, 50);
-            btnDescPostre4.Location = new Point(3, 163);
-            btnDescPostre4.Margin = new Padding(3, 4, 3, 4);
+            btnDescPostre4.Location = new Point(3, 122);
             btnDescPostre4.Name = "btnDescPostre4";
-            btnDescPostre4.Size = new Size(221, 33);
+            btnDescPostre4.Size = new Size(193, 25);
             btnDescPostre4.TabIndex = 10;
             btnDescPostre4.Text = "Descripcion";
             btnDescPostre4.UseVisualStyleBackColor = false;
             btnDescPostre4.Visible = false;
+            btnDescPostre4.Click += btnDescPostre4_Click;
             // 
             // btnComprarPostre4
             // 
             btnComprarPostre4.BackColor = Color.Sienna;
             btnComprarPostre4.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btnComprarPostre4.ForeColor = Color.White;
-            btnComprarPostre4.Location = new Point(3, 192);
-            btnComprarPostre4.Margin = new Padding(3, 4, 3, 4);
+            btnComprarPostre4.Location = new Point(3, 144);
             btnComprarPostre4.Name = "btnComprarPostre4";
-            btnComprarPostre4.Size = new Size(221, 51);
+            btnComprarPostre4.Size = new Size(193, 38);
             btnComprarPostre4.TabIndex = 11;
             btnComprarPostre4.Text = "Comprar";
             btnComprarPostre4.UseVisualStyleBackColor = false;
@@ -264,10 +253,9 @@
             // pictureBoxPostre4
             // 
             pictureBoxPostre4.Image = Properties.Resources.Pay;
-            pictureBoxPostre4.Location = new Point(18, 21);
-            pictureBoxPostre4.Margin = new Padding(3, 4, 3, 4);
+            pictureBoxPostre4.Location = new Point(16, 16);
             pictureBoxPostre4.Name = "pictureBoxPostre4";
-            pictureBoxPostre4.Size = new Size(189, 133);
+            pictureBoxPostre4.Size = new Size(165, 100);
             pictureBoxPostre4.TabIndex = 3;
             pictureBoxPostre4.TabStop = false;
             pictureBoxPostre4.Visible = false;
@@ -278,10 +266,9 @@
             panelPostre5.Controls.Add(btnDescPostre5);
             panelPostre5.Controls.Add(btnComprarPostre5);
             panelPostre5.Controls.Add(pictureBoxPostre5);
-            panelPostre5.Location = new Point(607, 329);
-            panelPostre5.Margin = new Padding(3, 4, 3, 4);
+            panelPostre5.Location = new Point(531, 247);
             panelPostre5.Name = "panelPostre5";
-            panelPostre5.Size = new Size(224, 247);
+            panelPostre5.Size = new Size(196, 185);
             panelPostre5.TabIndex = 12;
             panelPostre5.Visible = false;
             // 
@@ -290,24 +277,23 @@
             btnDescPostre5.BackColor = Color.Bisque;
             btnDescPostre5.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnDescPostre5.ForeColor = Color.FromArgb(110, 80, 50);
-            btnDescPostre5.Location = new Point(3, 163);
-            btnDescPostre5.Margin = new Padding(3, 4, 3, 4);
+            btnDescPostre5.Location = new Point(3, 122);
             btnDescPostre5.Name = "btnDescPostre5";
-            btnDescPostre5.Size = new Size(221, 33);
+            btnDescPostre5.Size = new Size(193, 25);
             btnDescPostre5.TabIndex = 12;
             btnDescPostre5.Text = "Descripcion";
             btnDescPostre5.UseVisualStyleBackColor = false;
             btnDescPostre5.Visible = false;
+            btnDescPostre5.Click += btnDescPostre5_Click;
             // 
             // btnComprarPostre5
             // 
             btnComprarPostre5.BackColor = Color.Sienna;
             btnComprarPostre5.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btnComprarPostre5.ForeColor = Color.White;
-            btnComprarPostre5.Location = new Point(3, 192);
-            btnComprarPostre5.Margin = new Padding(3, 4, 3, 4);
+            btnComprarPostre5.Location = new Point(3, 144);
             btnComprarPostre5.Name = "btnComprarPostre5";
-            btnComprarPostre5.Size = new Size(221, 51);
+            btnComprarPostre5.Size = new Size(193, 38);
             btnComprarPostre5.TabIndex = 13;
             btnComprarPostre5.Text = "Comprar";
             btnComprarPostre5.UseVisualStyleBackColor = false;
@@ -317,27 +303,25 @@
             // pictureBoxPostre5
             // 
             pictureBoxPostre5.Image = Properties.Resources.Pastel;
-            pictureBoxPostre5.Location = new Point(18, 21);
-            pictureBoxPostre5.Margin = new Padding(3, 4, 3, 4);
+            pictureBoxPostre5.Location = new Point(16, 16);
             pictureBoxPostre5.Name = "pictureBoxPostre5";
-            pictureBoxPostre5.Size = new Size(189, 133);
+            pictureBoxPostre5.Size = new Size(165, 100);
             pictureBoxPostre5.TabIndex = 3;
             pictureBoxPostre5.TabStop = false;
             pictureBoxPostre5.Visible = false;
             // 
             // FormPostres
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.AntiqueWhite;
-            ClientSize = new Size(1087, 592);
+            ClientSize = new Size(951, 444);
             Controls.Add(panelPostre5);
             Controls.Add(panelPostre4);
             Controls.Add(panelPostre1);
             Controls.Add(panelPostre2);
             Controls.Add(panelPostre3);
             FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(3, 4, 3, 4);
             Name = "FormPostres";
             Text = "FormPostres";
             panelPostre3.ResumeLayout(false);
