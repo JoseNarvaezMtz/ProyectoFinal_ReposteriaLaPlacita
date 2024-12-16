@@ -32,6 +32,8 @@
             btnUsuario = new Button();
             btnAdmin = new Button();
             panelInicioSesion = new Panel();
+            btnSalirUs = new Button();
+            buttonInvitado = new Button();
             label1FechaHora = new Label();
             labelContraseña = new Label();
             labelUsuario = new Label();
@@ -46,7 +48,6 @@
             btnRedSocial1 = new Button();
             pictureBox1 = new PictureBox();
             timerHoraFechaInicioSesion = new System.Windows.Forms.Timer(components);
-            buttonInvitado = new Button();
             panelInicioSesion.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBoxLogoGrande).BeginInit();
             panelFotoYRedes.SuspendLayout();
@@ -77,6 +78,7 @@
             // panelInicioSesion
             // 
             panelInicioSesion.BackColor = Color.FromArgb(110, 80, 50);
+            panelInicioSesion.Controls.Add(btnSalirUs);
             panelInicioSesion.Controls.Add(buttonInvitado);
             panelInicioSesion.Controls.Add(label1FechaHora);
             panelInicioSesion.Controls.Add(labelContraseña);
@@ -91,6 +93,31 @@
             panelInicioSesion.Name = "panelInicioSesion";
             panelInicioSesion.Size = new Size(404, 531);
             panelInicioSesion.TabIndex = 2;
+            // 
+            // btnSalirUs
+            // 
+            btnSalirUs.FlatStyle = FlatStyle.Flat;
+            btnSalirUs.Font = new Font("Tempus Sans ITC", 8F, FontStyle.Bold);
+            btnSalirUs.ForeColor = Color.AntiqueWhite;
+            btnSalirUs.Location = new Point(377, 0);
+            btnSalirUs.Name = "btnSalirUs";
+            btnSalirUs.Size = new Size(25, 25);
+            btnSalirUs.TabIndex = 12;
+            btnSalirUs.Text = "X";
+            btnSalirUs.TextAlign = ContentAlignment.MiddleRight;
+            btnSalirUs.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnSalirUs.UseVisualStyleBackColor = true;
+            btnSalirUs.Click += btnSalirUs_Click;
+            // 
+            // buttonInvitado
+            // 
+            buttonInvitado.Location = new Point(140, 417);
+            buttonInvitado.Name = "buttonInvitado";
+            buttonInvitado.Size = new Size(136, 41);
+            buttonInvitado.TabIndex = 11;
+            buttonInvitado.Text = "Invitado";
+            buttonInvitado.UseVisualStyleBackColor = true;
+            buttonInvitado.Click += buttonInvitado_Click;
             // 
             // label1FechaHora
             // 
@@ -128,7 +155,7 @@
             // pictureBoxLogoGrande
             // 
             pictureBoxLogoGrande.Image = Properties.Resources.Logo_Grande;
-            pictureBoxLogoGrande.Location = new Point(20, 22);
+            pictureBoxLogoGrande.Location = new Point(16, 26);
             pictureBoxLogoGrande.Name = "pictureBoxLogoGrande";
             pictureBoxLogoGrande.Size = new Size(83, 102);
             pictureBoxLogoGrande.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -149,7 +176,7 @@
             labelNombreEmpresa.AutoSize = true;
             labelNombreEmpresa.Font = new Font("Times New Roman", 20F, FontStyle.Bold);
             labelNombreEmpresa.ForeColor = Color.AntiqueWhite;
-            labelNombreEmpresa.Location = new Point(109, 61);
+            labelNombreEmpresa.Location = new Point(105, 66);
             labelNombreEmpresa.Name = "labelNombreEmpresa";
             labelNombreEmpresa.Size = new Size(283, 31);
             labelNombreEmpresa.TabIndex = 5;
@@ -198,6 +225,7 @@
             btnRedSocial3.TabIndex = 12;
             btnRedSocial3.Text = "Red Social3";
             btnRedSocial3.UseVisualStyleBackColor = true;
+            btnRedSocial3.Click += btnRedSocial3_Click;
             // 
             // btnRedSocial2
             // 
@@ -212,6 +240,7 @@
             btnRedSocial2.TabIndex = 11;
             btnRedSocial2.Text = "Red Social2";
             btnRedSocial2.UseVisualStyleBackColor = true;
+            btnRedSocial2.Click += btnRedSocial2_Click;
             // 
             // btnRedSocial1
             // 
@@ -226,6 +255,7 @@
             btnRedSocial1.TabIndex = 10;
             btnRedSocial1.Text = "Red Social1";
             btnRedSocial1.UseVisualStyleBackColor = true;
+            btnRedSocial1.Click += btnRedSocial1_Click;
             // 
             // pictureBox1
             // 
@@ -245,16 +275,6 @@
             timerHoraFechaInicioSesion.Tag = "timerHoraFechaInicioSesion";
             timerHoraFechaInicioSesion.Tick += timerHoraFechaInicioSesion_Tick;
             // 
-            // buttonInvitado
-            // 
-            buttonInvitado.Location = new Point(140, 417);
-            buttonInvitado.Name = "buttonInvitado";
-            buttonInvitado.Size = new Size(136, 41);
-            buttonInvitado.TabIndex = 11;
-            buttonInvitado.Text = "Invitado";
-            buttonInvitado.UseVisualStyleBackColor = true;
-            buttonInvitado.Click += buttonInvitado_Click;
-            // 
             // FormInicioSesion
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -262,7 +282,7 @@
             ClientSize = new Size(927, 530);
             Controls.Add(panelFotoYRedes);
             Controls.Add(panelInicioSesion);
-            FormBorderStyle = FormBorderStyle.FixedSingle;
+            FormBorderStyle = FormBorderStyle.None;
             MaximizeBox = false;
             Name = "FormInicioSesion";
             ShowIcon = false;
@@ -298,5 +318,6 @@
         private Label label1FechaHora;
         private System.Windows.Forms.Timer timerHoraFechaInicioSesion;
         private Button buttonInvitado;
+        private Button btnSalirUs;
     }
 }

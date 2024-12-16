@@ -121,9 +121,6 @@
   <data name="IconoAdmin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconoAdmin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CupcakeTematica2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CupcakeTematica2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="PanNuez" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PanNuez.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -136,14 +133,11 @@
   <data name="IconoGrafica" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconoGrafica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cuernitos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cuernitos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IconoPan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IconoPan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Empanada1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Empanada1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IconoModificaciones" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IconoModificaciones.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CupcakeTematica2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CupcakeTematica2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PagoTarjeta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PagoTarjeta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -153,6 +147,9 @@
   </data>
   <data name="logo_oscuro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo_oscuro.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PanElote" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PanElote.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Pastel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pastel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,8 +163,8 @@
   <data name="Cupcake" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cupcake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IconoPan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IconoPan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Cuernitos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cuernitos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Empanada" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Empanada.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -180,6 +177,9 @@
   </data>
   <data name="PagoOxxo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PagoOxxo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconoModificaciones" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IconoModificaciones.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BrownieNavidad" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BrownieNavidad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -196,6 +196,9 @@
   <data name="IconoPostre" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconoPostre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="QR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Sonido" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sonido.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -211,8 +214,8 @@
   <data name="Sonido1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sonido.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PanElote" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PanElote.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Empanada1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Empanada1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="OxxoLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OxxoLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -223,7 +226,7 @@
   <data name="ChileMorron" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ChileMorron.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="QR" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\QR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="LogoUAA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LogoUAA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

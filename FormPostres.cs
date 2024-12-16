@@ -168,5 +168,30 @@ namespace WinFormsProyectoBase
             form.ShowDialog();
             verificarProdPost();
         }
+
+        private void btnDescPostre1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"{FormBaseUsuario.listaPostres[0].Descripcion} \n\t\t Precio: {FormBaseUsuario.listaPostres[0].Precio}");
+        }
+
+        private void btnDescPostre2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"{FormBaseUsuario.listaPostres[1].Descripcion} \n\t\t Precio: {FormBaseUsuario.listaPostres[1].Precio}");
+        }
+
+        private void btnDescPostre3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"{FormBaseUsuario.listaPostres[2].Descripcion} \n\t\t Precio: {FormBaseUsuario.listaPostres[2].Precio}");
+        }
+
+        private void btnDescPostre4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"{FormBaseUsuario.listaPostres[3].Descripcion} \n\t\t Precio: {FormBaseUsuario.listaPostres[3].Precio}");
+        }
+
+        private void btnDescPostre5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"{FormBaseUsuario.listaPostres[4].Descripcion} \n\t\t Precio: {FormBaseUsuario.listaPostres[4].Precio}");
+        }
     }
 }

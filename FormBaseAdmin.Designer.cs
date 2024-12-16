@@ -195,6 +195,7 @@
             pictureBoxLogo.Location = new Point(54, 267);
             pictureBoxLogo.Name = "pictureBoxLogo";
             pictureBoxLogo.Size = new Size(118, 145);
+            pictureBoxLogo.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBoxLogo.TabIndex = 6;
             pictureBoxLogo.TabStop = false;
             pictureBoxLogo.Click += pictureBoxLogo_Click;
@@ -249,9 +250,9 @@
             // pictureBoxAdmin
             // 
             pictureBoxAdmin.Image = Properties.Resources.IconoAdmin;
-            pictureBoxAdmin.Location = new Point(43, 15);
+            pictureBoxAdmin.Location = new Point(43, 6);
             pictureBoxAdmin.Name = "pictureBoxAdmin";
-            pictureBoxAdmin.Size = new Size(140, 125);
+            pictureBoxAdmin.Size = new Size(140, 134);
             pictureBoxAdmin.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBoxAdmin.TabIndex = 1;
             pictureBoxAdmin.TabStop = false;

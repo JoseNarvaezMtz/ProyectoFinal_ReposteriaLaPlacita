@@ -161,7 +161,7 @@ namespace WinFormsProyectoBase
             int categoria = FormBaseUsuario.listaPanes[3].Categoria;
             float precio = FormBaseUsuario.listaPanes[3].Precio;
             int existencias = FormBaseUsuario.listaPanes[3].Existencias;
-            FormCantidadComprar  form = new FormCantidadComprar(3, id, nombre, categoria, precio, existencias);
+            FormCantidadComprar form = new FormCantidadComprar(3, id, nombre, categoria, precio, existencias);
             //FormMetodosPago form = new FormMetodosPago(panDisp, 3);
             form.ShowDialog();
             verificarProdPan();
@@ -187,7 +187,27 @@ namespace WinFormsProyectoBase
 
         private void btnDescPan1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show($"{FormBaseUsuario.listaPanes[0].Descripcion}");
+            MessageBox.Show($"{FormBaseUsuario.listaPanes[0].Descripcion} \n\t\t Precio: {FormBaseUsuario.listaPanes[0].Precio}");
+        }
+
+        private void btnDescPan2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"{FormBaseUsuario.listaPanes[1].Descripcion} \n\t\t Precio: {FormBaseUsuario.listaPanes[1].Precio}");
+        }
+
+        private void btnDescPan3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"{FormBaseUsuario.listaPanes[2].Descripcion} \n\t\t Precio: {FormBaseUsuario.listaPanes[2].Precio}");
+        }
+
+        private void btnDescPan4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"{FormBaseUsuario.listaPanes[3].Descripcion} \n\t\t Precio: {FormBaseUsuario.listaPanes[3].Precio}");
+        }
+
+        private void btnDescPan5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"{FormBaseUsuario.listaPanes[4].Descripcion} \n\t\t Precio: {FormBaseUsuario.listaPanes[4].Precio}");
         }
     }
 
