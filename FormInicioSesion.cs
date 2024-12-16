@@ -165,19 +165,19 @@ namespace WinFormsProyectoBase
 
         private void btnRedSocial1_Click(object sender, EventArgs e)
         {
-            string url = "https://www.youtube.com/watch?v=vjLAHupuE0k"; // facebook instagram etc
+            string url = "https://www.instagram.com/cafe.placita?igsh=YzljYTk1ODg3Zg=="; 
             abrirEnlace(url);
         }
 
         private void btnRedSocial2_Click(object sender, EventArgs e)
         {
-            string url = "https://www.youtube.com/watch?v=vjLAHupuE0k"; // facebook instagram etc
+            string url = "https://www.facebook.com/share/19VPjX8Haa/"; 
             abrirEnlace(url);
         }
 
         private void btnRedSocial3_Click(object sender, EventArgs e)
         {
-            string url = "https://www.youtube.com/watch?v=vjLAHupuE0k"; // facebook instagram etc
+            string url = "https://www.tiktok.com/@cafe_placita?is_from_webapp=1&sender_device=pc"; 
             abrirEnlace(url);
         }
         private void abrirEnlace(string url)

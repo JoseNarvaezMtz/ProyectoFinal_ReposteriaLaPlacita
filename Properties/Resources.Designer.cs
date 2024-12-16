@@ -273,6 +273,16 @@ namespace WinFormsProyectoBase.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap logoInstagram {
+            get {
+                object obj = ResourceManager.GetObject("logoInstagram", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap logoOscuro {
             get {
                 object obj = ResourceManager.GetObject("logoOscuro", resourceCulture);
