@@ -9,6 +9,7 @@ using System.Runtime.Intrinsics.X86;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Mysqlx.Crud;
 
 
 namespace WinFormsProyectoBase
@@ -20,7 +21,7 @@ namespace WinFormsProyectoBase
         private string nombre;
         private int categoria;
         private string descripcion;
-        private string imagen;
+        private byte[] imagen;
         private float precio;
         private int existencias;
         private bool Modo;
@@ -37,11 +38,11 @@ namespace WinFormsProyectoBase
             Productos productos;
             AdmonBD admon = new AdmonBD();
 
-            int aux=-1;
+            int aux = -1;
             if (this.textBoxId.Text != string.Empty)
                 aux = int.Parse(this.textBoxId.Text);
-
-            productos=admon.consultaUnRegistro(aux);
+            this.id = aux;
+            productos = admon.consultaUnRegistro(aux);
             if (productos != null)
             {
                 this.textBoxOldNom.Text = productos.Nombre;
@@ -49,7 +50,8 @@ namespace WinFormsProyectoBase
                 this.textBoxOldEx.Text = Convert.ToString(productos.Existencias);
                 this.textBoxOldCat.Text = Convert.ToString(productos.Categoria);
                 this.textBoxOldDes.Text = productos.Descripcion;
-                this.pictureBoxOldImg.ImageLocation = productos.Imagen;
+                if (productos.Imagen != null)
+                    this.pictureBoxOldImg.Image = Image.FromStream(new MemoryStream(productos.Imagen));
             }
             else
             {
@@ -64,20 +66,22 @@ namespace WinFormsProyectoBase
 
         private void buttonLoad_Click(object sender, EventArgs e)
         {
+            ImagenConvert convert = new ImagenConvert();
             OpenFileDialog abrirImagen = new OpenFileDialog();
 
             if (abrirImagen.ShowDialog() == DialogResult.OK)
             {
-                pictureBoxNew.ImageLocation = abrirImagen.FileName;
-                pictureBoxNew.SizeMode = PictureBoxSizeMode.StretchImage;
-                this.imagen = abrirImagen.FileName;
+                pictureBoxNew.Image = Image.FromFile(abrirImagen.FileName);
+                pictureBoxNew.BackgroundImage = null;
+                this.imagen = convert.imagenToByte(Image.FromFile(abrirImagen.FileName));
             }
         }
 
         private void buttonMod_Click(object sender, EventArgs e)
         {
             AdmonBD admon = new AdmonBD();
-            int aux=-1;
+            ImagenConvert imagenConvert = new ImagenConvert();
+            int aux = -1;
             if (this.textBoxId.Text != string.Empty)
                 aux = int.Parse(this.textBoxId.Text);
             else
@@ -86,21 +90,21 @@ namespace WinFormsProyectoBase
                 return;
             }
 
-            Productos producto=admon.consultaUnRegistro(aux);
-            
+            Productos producto = admon.consultaUnRegistro(aux);
+
             if (producto == null)
             {
                 MessageBox.Show("El id presentado no es valido, buscar otro");
                 return;
-            } else
+            }
+            else
             {
                 this.nombre = producto.Nombre;
                 this.precio = producto.Precio;
                 this.existencias = producto.Existencias;
                 this.categoria = producto.Categoria;
                 this.descripcion = producto.Descripcion;
-                if (this.imagen==string.Empty)
-                    this.imagen = producto.Imagen;
+                this.imagen = producto.Imagen;
             }
 
             if (this.textBoxNombre.Text != string.Empty)
@@ -110,9 +114,11 @@ namespace WinFormsProyectoBase
             if (this.textBoxEx.Text != string.Empty)
                 this.existencias = Convert.ToInt32(this.textBoxEx.Text);
             if (this.textBoxCat.Text != string.Empty)
-                this.categoria=Convert.ToInt32(this.textBoxCat.Text);
+                this.categoria = Convert.ToInt32(this.textBoxCat.Text);
             if (this.textBoxDes.Text != string.Empty)
                 this.descripcion = this.textBoxDes.Text;
+            if (this.pictureBoxNew.Image != null)
+                this.imagen = imagenConvert.imagenToByte(pictureBoxNew.Image);
 
             AdmonBD admonBD = new AdmonBD();
             admonBD.actualizar(id, nombre, categoria, descripcion, imagen, precio, existencias);
@@ -124,7 +130,7 @@ namespace WinFormsProyectoBase
             this.textBoxEx.Text = string.Empty;
             this.textBoxPrecio.Text = string.Empty;
             this.textBoxDes.Text = string.Empty;
-            this.pictureBoxNew = null;
+            this.pictureBoxNew.Image = null;
         }
 
         public void Fondo()

@@ -35,7 +35,7 @@ namespace WinFormsProyectoBase
             string nombre;
             int categoria;
             string descripcion;
-            string imagen;
+            byte[] imagen;
             float precio;
             int existencias;
             try
@@ -52,11 +52,12 @@ namespace WinFormsProyectoBase
                     nombre = Convert.ToString(reader["nombre"]) ?? "";
                     categoria = Convert.ToInt32(reader["categoria"]);
                     descripcion = Convert.ToString(reader["descripcion"]) ?? "";
-                    imagen = Convert.ToString(reader["imagen"]) ?? "";
+                    imagen = (byte[])reader["imagen"];
                     precio = Convert.ToSingle(reader["precio"]);
                     existencias = Convert.ToInt32(reader["existencias"]);
 
                     item = new Productos(id, nombre, categoria, descripcion, imagen, precio, existencias);
+                    data.Add(item);
                 }
                 reader.Close();
                 data.ForEach((p) =>
@@ -81,7 +82,7 @@ namespace WinFormsProyectoBase
             string nombre;
             int categoria;
             string descripcion;
-            string imagen;
+            byte[] imagen;
             float precio;
             int existencias;
             try
@@ -98,12 +99,12 @@ namespace WinFormsProyectoBase
                     nombre = Convert.ToString(reader["nombre"]) ?? "";
                     categoria = Convert.ToInt32(reader["categoria"]);
                     descripcion = Convert.ToString(reader["descripcion"]) ?? "";
-                    imagen = Convert.ToString(reader["imagen"]) ?? "";
+                    imagen = (byte[])reader["imagen"];
                     precio = Convert.ToSingle(reader["precio"]);
                     existencias = Convert.ToInt32(reader["existencias"]);
 
                     item = new Productos(id, nombre, categoria, descripcion, imagen, precio, existencias);
-                   
+
                     //Agregar a las listas static de panes y postres
                     if (item.Categoria == 1)
                     {
@@ -126,26 +127,31 @@ namespace WinFormsProyectoBase
         }
 
 
-        public void insertar(int idp, string nom, int categ, string descrip, string img, float prec, int exis)
+        public void insertar(int idp, string nom, int categ, string descrip, byte[] img, float prec, int exis)
         {
             string query = "";
             try
             {
 
                 /* Esta forma de insertar es la menos segura en cuanto ataques por mysql pero la mas sencilla por lo pronto*/
-                query = "INSERT INTO productos (id,nombre,categoria,descripcion,imagen,precio,existencias) VALUES ("
-               + "'" + idp + "',"
-               + "'" + nom + "',"
-               + "'" + categ + "',"
-               + "'" + descrip + "',"
-               + "'" + img + "', "
-               + "'" + prec + "',"
-               + "'" + exis + "')";
-
-
-
+                query = "INSERT INTO productos (id, nombre, categoria, descripcion, imagen, precio, existencias) VALUES (@id, @nombre, @categoria, @descripcion, @imagen, @precio, @existencias)";
                 MySqlCommand cmd = new MySqlCommand(query, connection);
+                cmd.Parameters.AddWithValue("@id", idp);
+                cmd.Parameters.AddWithValue("@nombre", nom);
+                cmd.Parameters.AddWithValue("@precio", prec);
+                cmd.Parameters.AddWithValue("@existencias", exis);
+                cmd.Parameters.AddWithValue("@descripcion", descrip);
+                cmd.Parameters.AddWithValue("@categoria", categ);
+                if (img == null)
+                {
+                    cmd.Parameters.AddWithValue("@imagen", DBNull.Value);
+                }
+                else
+                {
+                    cmd.Parameters.AddWithValue("@imagen", img);
+                }
                 cmd.ExecuteNonQuery();
+
                 MessageBox.Show(query + "\nRegistro Agregado");
             }
             catch (Exception ex)
@@ -165,7 +171,7 @@ namespace WinFormsProyectoBase
             string nombre;
             int categoria;
             string descripcion;
-            string imagen;
+            byte[] imagen;
             float precio;
             int existencias;
             try
@@ -182,7 +188,7 @@ namespace WinFormsProyectoBase
                     nombre = Convert.ToString(reader["nombre"]) ?? "";
                     categoria = Convert.ToInt32(reader["categoria"]);
                     descripcion = Convert.ToString(reader["descripcion"]) ?? "";
-                    imagen = Convert.ToString(reader["imagen"]) ?? "";
+                    imagen = (byte[])reader["imagen"];
                     precio = Convert.ToSingle(reader["precio"]);
                     existencias = Convert.ToInt32(reader["existencias"]);
 
@@ -225,18 +231,31 @@ namespace WinFormsProyectoBase
         }
 
 
-        public void actualizar(int idp, string nom, int categ, string descrip, string img, float prec, int exis)
+        public void actualizar(int idp, string nom, int categ, string descrip, byte[] img, float prec, int exis)
         {
             // UPDATE productos SET id= '[value-1]',producto= '[value-2]',imagen= '[value-3]',precio= '[value-4]' WHERE 1
             try
             {
-                string query = "UPDATE productos SET id=" + "'" + idp + "'" + ",nombre=" + "'" + nom + "'" + ",categoria=" + "'" + categ + "'" + ",descripcion=" + "'" + descrip + "'" + ",imagen=" + "'" + img + "'" + ",precio=" + "'" + prec + "'" + ",existencias=" + "'" + exis + "'" + "where id=" + idp + ";";
+                string imagen = Convert.ToString(img);
+                string query = "UPDATE productos SET nombre=@nombre, categoria=@categoria, descripcion=@descripcion, imagen=@imagen, precio=@precio, existencias=@existencias WHERE id=@id";
                 MessageBox.Show(query);
                 MySqlCommand cmd = new MySqlCommand(query, connection);
+                cmd.Parameters.AddWithValue("@id", idp);
+                cmd.Parameters.AddWithValue("@nombre", nom);
+                cmd.Parameters.AddWithValue("@precio", prec);
+                cmd.Parameters.AddWithValue("@existencias", exis);
+                cmd.Parameters.AddWithValue("@descripcion", descrip);
+                cmd.Parameters.AddWithValue("@categoria", categ);
+                if (img == null)
+                {
+                    cmd.Parameters.AddWithValue("@imagen", DBNull.Value);
+                }
+                else
+                {
+                    cmd.Parameters.AddWithValue("@imagen", img);
+                }
                 cmd.ExecuteNonQuery();
                 MessageBox.Show(query + "\nRegistro Actualizado");
-
-
             }
             catch (Exception ex)
             {
@@ -247,7 +266,7 @@ namespace WinFormsProyectoBase
 
         public void Connect()
         {
-            string cadena = "Server=localhost; Port=33068; Database=cafeplacita; User=root; Password=; SslMode=none;";
+            string cadena = "Server=localhost; Port=3306; Database=cafeplacita; User=root; Password=; SslMode=none;";
             try
             {
                 connection = new MySqlConnection(cadena);

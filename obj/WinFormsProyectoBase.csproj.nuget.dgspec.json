@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\josen\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\WinFormsProyectoBase.csproj": {}
+    "C:\\Users\\josen\\Source\\Repos\\ProyectoFinal_ReposteriaLaPlacita\\WinFormsProyectoBase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\josen\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\WinFormsProyectoBase.csproj": {
+    "C:\\Users\\josen\\Source\\Repos\\ProyectoFinal_ReposteriaLaPlacita\\WinFormsProyectoBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josen\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\WinFormsProyectoBase.csproj",
+        "projectUniqueName": "C:\\Users\\josen\\Source\\Repos\\ProyectoFinal_ReposteriaLaPlacita\\WinFormsProyectoBase.csproj",
         "projectName": "WinFormsProyectoBase",
-        "projectPath": "C:\\Users\\josen\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\WinFormsProyectoBase.csproj",
+        "projectPath": "C:\\Users\\josen\\Source\\Repos\\ProyectoFinal_ReposteriaLaPlacita\\WinFormsProyectoBase.csproj",
         "packagesPath": "C:\\Users\\josen\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\josen\\Source\\Repos\\ProyectoFinal_ReposteriaLaPlacita\\obj\\",
         "projectStyle": "PackageReference",

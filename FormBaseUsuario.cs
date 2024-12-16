@@ -10,6 +10,7 @@ namespace WinFormsProyectoBase
         public int[] panDisp; //base de datos
         public int[] postreDisp; //base de datos
         public string nombre; //base de datos
+        public static string nameUser;
 
         Random Musica = new Random();      // Random para seleccionar musica aleatoriamente
         private int cont = 0;              // Contador de Musica
@@ -22,6 +23,7 @@ namespace WinFormsProyectoBase
             cargarForm(new FormInformacion());
             this.labelNomUsuario.Text = nombreUs;
             this.labelNomUsuario.Location = new System.Drawing.Point(930 - ((nombreUs.Length) * 8), 35);
+            FormBaseUsuario.nameUser = nombreUs;
             //this.postreDisp = postreDisp;
             //this.panDisp = panDisp;
             AdmonBD aux = new AdmonBD();
