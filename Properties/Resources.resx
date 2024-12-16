@@ -133,8 +133,8 @@
   <data name="IconoGrafica" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconoGrafica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IconoPan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IconoPan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Empanada1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Empanada1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CupcakeTematica2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CupcakeTematica2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,11 +160,14 @@
   <data name="CupcakeTematica1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CupcakeTematica1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="LogoUAA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LogoUAA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Cupcake" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cupcake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cuernitos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cuernitos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IconoPan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IconoPan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Empanada" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Empanada.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,8 +217,8 @@
   <data name="Sonido1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sonido.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Empanada1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Empanada1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Cuernitos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cuernitos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="OxxoLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OxxoLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -226,7 +229,7 @@
   <data name="ChileMorron" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ChileMorron.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LogoUAA" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LogoUAA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="logoInstagram" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logoInstagram.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

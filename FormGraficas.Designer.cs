@@ -28,70 +28,67 @@
         /// </summary>
         private void InitializeComponent()
         {
-            panel2 = new Panel();
-            panel1 = new Panel();
-            panel3 = new Panel();
-            panel4 = new Panel();
-            panel5 = new Panel();
+            labelEjeX = new Label();
+            labelTituloGrafica = new Label();
+            labelEjeY = new Label();
             panelBase = new Panel();
+            formsPlotGrafica = new ScottPlot.FormsPlot();
             panelBase.SuspendLayout();
             SuspendLayout();
             // 
-            // panel2
+            // labelEjeX
             // 
-            panel2.BackColor = Color.Silver;
-            panel2.Location = new Point(733, 171);
-            panel2.Margin = new Padding(3, 4, 3, 4);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(69, 48);
-            panel2.TabIndex = 2;
+            labelEjeX.AutoSize = true;
+            labelEjeX.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelEjeX.ForeColor = Color.FromArgb(64, 64, 64);
+            labelEjeX.Location = new Point(727, 573);
+            labelEjeX.Name = "labelEjeX";
+            labelEjeX.Size = new Size(94, 23);
+            labelEjeX.TabIndex = 8;
+            labelEjeX.Text = "Encargado";
             // 
-            // panel1
+            // labelTituloGrafica
             // 
-            panel1.BackColor = Color.Silver;
-            panel1.Location = new Point(645, 171);
-            panel1.Margin = new Padding(3, 4, 3, 4);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(50, 49);
-            panel1.TabIndex = 3;
+            labelTituloGrafica.AutoSize = true;
+            labelTituloGrafica.Font = new Font("Segoe UI Black", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelTituloGrafica.ForeColor = Color.SaddleBrown;
+            labelTituloGrafica.Location = new Point(304, 48);
+            labelTituloGrafica.Name = "labelTituloGrafica";
+            labelTituloGrafica.Size = new Size(253, 25);
+            labelTituloGrafica.TabIndex = 0;
+            labelTituloGrafica.Text = "Gráfica del Total de Ventas";
             // 
-            // panel3
+            // labelEjeY
             // 
-            panel3.BackColor = Color.Silver;
-            panel3.Location = new Point(64, 60);
-            panel3.Margin = new Padding(3, 4, 3, 4);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(174, 72);
-            panel3.TabIndex = 4;
-            // 
-            // panel4
-            // 
-            panel4.BackColor = Color.Silver;
-            panel4.Location = new Point(290, 60);
-            panel4.Margin = new Padding(3, 4, 3, 4);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(174, 72);
-            panel4.TabIndex = 5;
-            // 
-            // panel5
-            // 
-            panel5.BackColor = Color.Silver;
-            panel5.Location = new Point(550, 60);
-            panel5.Margin = new Padding(3, 4, 3, 4);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(174, 72);
-            panel5.TabIndex = 5;
+            labelEjeY.AutoSize = true;
+            labelEjeY.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelEjeY.ForeColor = Color.FromArgb(64, 64, 64);
+            labelEjeY.Location = new Point(69, 101);
+            labelEjeY.Name = "labelEjeY";
+            labelEjeY.Size = new Size(62, 23);
+            labelEjeY.TabIndex = 7;
+            labelEjeY.Text = "Ventas";
             // 
             // panelBase
             // 
             panelBase.BackColor = Color.FromArgb(46, 51, 73);
-            panelBase.Controls.Add(panel2);
-            panelBase.Controls.Add(panel1);
+            panelBase.Controls.Add(labelEjeX);
+            panelBase.Controls.Add(labelEjeY);
+            panelBase.Controls.Add(labelTituloGrafica);
+            panelBase.Controls.Add(formsPlotGrafica);
             panelBase.Location = new Point(0, -11);
             panelBase.Margin = new Padding(3, 4, 3, 4);
             panelBase.Name = "panelBase";
             panelBase.Size = new Size(833, 672);
             panelBase.TabIndex = 12;
+            // 
+            // formsPlotGrafica
+            // 
+            formsPlotGrafica.Location = new Point(139, 86);
+            formsPlotGrafica.Margin = new Padding(5, 4, 5, 4);
+            formsPlotGrafica.Name = "formsPlotGrafica";
+            formsPlotGrafica.Size = new Size(565, 519);
+            formsPlotGrafica.TabIndex = 6;
             // 
             // FormGraficas
             // 
@@ -99,25 +96,21 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(46, 51, 73);
             ClientSize = new Size(833, 652);
-            Controls.Add(panel5);
-            Controls.Add(panel4);
-            Controls.Add(panel3);
             Controls.Add(panelBase);
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 4, 3, 4);
             Name = "FormGraficas";
             Text = "FormGraficas";
             panelBase.ResumeLayout(false);
+            panelBase.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
-
-        private Panel panel2;
-        private Panel panel1;
-        private Panel panel3;
-        private Panel panel4;
-        private Panel panel5;
         private Panel panelBase;
+        private ScottPlot.FormsPlot formsPlotGrafica;
+        private Label labelTituloGrafica;
+        private Label labelEjeX;
+        private Label labelEjeY;
     }
 }

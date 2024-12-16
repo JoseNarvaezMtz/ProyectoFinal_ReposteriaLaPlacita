@@ -9,6 +9,7 @@
       "WinFormsProyectoBase/1.0.0": {
         "dependencies": {
           "MySql.Data": "9.1.0",
+          "ScottPlot.WinForms": "4.1.74",
           "System.Windows.Forms.DataVisualization": "1.0.0-prerelease.20110.1",
           "iTextSharp": "5.5.13.4"
         },
@@ -72,8 +73,13 @@
           }
         }
       },
-      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "Microsoft.NETCore.Platforms/3.1.4": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
+      "Microsoft.Win32.SystemEvents/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.4"
+        }
+      },
       "MySql.Data/9.1.0": {
         "dependencies": {
           "BouncyCastle.Cryptography": "2.4.0",
@@ -124,6 +130,29 @@
           }
         }
       },
+      "ScottPlot/4.1.74": {
+        "dependencies": {
+          "System.Drawing.Common": "4.7.2",
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "runtime": {
+          "lib/net8.0/ScottPlot.dll": {
+            "assemblyVersion": "4.1.74.0",
+            "fileVersion": "4.1.74.0"
+          }
+        }
+      },
+      "ScottPlot.WinForms/4.1.74": {
+        "dependencies": {
+          "ScottPlot": "4.1.74"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/ScottPlot.WinForms.dll": {
+            "assemblyVersion": "4.1.74.0",
+            "fileVersion": "4.1.74.0"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {},
       "System.Configuration.ConfigurationManager/8.0.0": {
         "dependencies": {
@@ -133,9 +162,15 @@
       },
       "System.Diagnostics.DiagnosticSource/8.0.1": {},
       "System.Diagnostics.EventLog/8.0.0": {},
+      "System.Drawing.Common/4.7.2": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.4",
+          "Microsoft.Win32.SystemEvents": "4.7.0"
+        }
+      },
       "System.IO/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Platforms": "3.1.4",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0",
           "System.Text.Encoding": "4.3.0",
@@ -150,9 +185,10 @@
           }
         }
       },
+      "System.Numerics.Vectors/4.5.0": {},
       "System.Reflection/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Platforms": "3.1.4",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.IO": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
@@ -161,14 +197,14 @@
       },
       "System.Reflection.Primitives/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Platforms": "3.1.4",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
         }
       },
       "System.Runtime/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Platforms": "3.1.4",
           "Microsoft.NETCore.Targets": "1.1.0"
         }
       },
@@ -188,7 +224,7 @@
       },
       "System.Text.Encoding/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Platforms": "3.1.4",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
         }
@@ -202,7 +238,7 @@
       },
       "System.Threading.Tasks/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Platforms": "3.1.4",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
         }
@@ -275,12 +311,12 @@
       "path": "k4os.hash.xxhash/1.0.8",
       "hashPath": "k4os.hash.xxhash.1.0.8.nupkg.sha512"
     },
-    "Microsoft.NETCore.Platforms/1.1.0": {
+    "Microsoft.NETCore.Platforms/3.1.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
-      "path": "microsoft.netcore.platforms/1.1.0",
-      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+      "sha512": "sha512-9/y05/CuxE+j184Nr4KihhB9KcUkvGojmD4JV4Vt/mHhVZR+eOCD5WCM+CXye9K0OFMsaPXbN+IcaIpjgBGZmg==",
+      "path": "microsoft.netcore.platforms/3.1.4",
+      "hashPath": "microsoft.netcore.platforms.3.1.4.nupkg.sha512"
     },
     "Microsoft.NETCore.Targets/1.1.0": {
       "type": "package",
@@ -289,12 +325,33 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
     },
+    "Microsoft.Win32.SystemEvents/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
+      "path": "microsoft.win32.systemevents/4.7.0",
+      "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
+    },
     "MySql.Data/9.1.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-E4t/IQzcXg4nYGqrGkoGwwSWA1V2L+LKzVddPABAPcj2i6RESP2fcZQ4XFC0Wv+Cq4DlgR3DYhX/fGaZ3VxCPQ==",
       "path": "mysql.data/9.1.0",
       "hashPath": "mysql.data.9.1.0.nupkg.sha512"
+    },
+    "ScottPlot/4.1.74": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1S84ODZxASurBMhBDCHlZAogpg5sJ3X5KuHiAFmUfGBuvLdiv8mc3BYiyFQzBE2tzWWtlOqMw5M3wtjqiA73YQ==",
+      "path": "scottplot/4.1.74",
+      "hashPath": "scottplot.4.1.74.nupkg.sha512"
+    },
+    "ScottPlot.WinForms/4.1.74": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qeZw+rf//x7n2AmKFT033rCQOdQ1rwMtyVojs9+TAFUUmt4euNJqJVJUJK+hGjW3UDShq1sdY+aJrKddBUbexg==",
+      "path": "scottplot.winforms/4.1.74",
+      "hashPath": "scottplot.winforms.4.1.74.nupkg.sha512"
     },
     "System.Buffers/4.5.1": {
       "type": "package",
@@ -324,6 +381,13 @@
       "path": "system.diagnostics.eventlog/8.0.0",
       "hashPath": "system.diagnostics.eventlog.8.0.0.nupkg.sha512"
     },
+    "System.Drawing.Common/4.7.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I2y4KBK3VCvU/WqE2xv7NjQ67maXHttkFSHYKgU2evrG9Yqh0oFjfORXt5hZTk+BVjdyFo2h0/YQZsca33BGmg==",
+      "path": "system.drawing.common/4.7.2",
+      "hashPath": "system.drawing.common.4.7.2.nupkg.sha512"
+    },
     "System.IO/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -337,6 +401,13 @@
       "sha512": "sha512-ryTgF+iFkpGZY1vRQhfCzX0xTdlV3pyaTTqRu2ETbEv+HlV7O6y7hyQURnghNIXvctl5DuZ//Dpks6HdL/Txgw==",
       "path": "system.io.pipelines/6.0.3",
       "hashPath": "system.io.pipelines.6.0.3.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "path": "system.numerics.vectors/4.5.0",
+      "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
     },
     "System.Reflection/4.3.0": {
       "type": "package",
