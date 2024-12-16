@@ -41,12 +41,5 @@ namespace WinFormsProyectoBase
         {
             this.Close();
         }
-        /*private void ReproducirSonido(string nombreArchivo)
-        {
-            SoundPlayer ReproducirSonido = new SoundPlayer();
-            string ruta = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "Music", nombreArchivo);
-            ReproducirSonido.SoundLocation = ruta;
-            ReproducirSonido.Play();
-        }*/
     }
 }

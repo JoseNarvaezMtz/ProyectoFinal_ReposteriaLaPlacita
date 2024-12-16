@@ -48,8 +48,9 @@ namespace WinFormsProyectoBase
             //Validar Información
             if (ValidarNumeroTarjeta(NumTarjeta) && ValidarCodigoSeguridad(codigoSeg) && ValidarFecha(year, month) && NombreTarjeta.Length >= 1)
             {
-                //Entra al siguiente form con los datos que se necesiten para hacer el ticket
-                //osea mandas la lista, si manejas cantidad con un vector tambien y el float total 
+                FormTicket ticket = new FormTicket(this.total);
+                ticket.ShowDialog();
+                this.Close();
             }
             else if (!ValidarNumeroTarjeta(NumTarjeta))
             {
