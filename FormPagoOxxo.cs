@@ -23,15 +23,19 @@ namespace WinFormsProyectoBase
         private void ImprimirDatos()
         {
             Font font = new Font(richTextBoxProductosSelec.Font.FontFamily, 14);
+            float iva;
             richTextBoxProductosSelec.Clear();
             richTextBoxCantidadSelecc.Clear();
             richTextBoxProductosSelec.Font = font;
             richTextBoxCantidadSelecc.Font = font;
+            richTextBoxPrecio.Font = font;
 
             foreach (ClassCompras var in FormBaseUsuario.productosSeleccionados)
             {
                 richTextBoxProductosSelec.AppendText(var.producto.Nombre + Environment.NewLine);
                 richTextBoxCantidadSelecc.AppendText(var.cantidad.ToString() + Environment.NewLine);
+                iva = var.costo() * 1.06f;
+                richTextBoxPrecio.AppendText(iva.ToString() + Environment.NewLine);
                 this.total += var.costo() * 1.06f;
             }
             textBoxTotalCompra.Text = this.total.ToString("F2");
@@ -91,6 +95,13 @@ namespace WinFormsProyectoBase
                 MessageBox.Show("El ticket no se pudo descargar correctamente.");
                 progressBarDescargarTicket.Value = 0;
             }
+        }
+
+        private void buttonPagar_Click(object sender, EventArgs e)
+        {
+            FormTicket ticket = new FormTicket(this.total);
+            ticket.ShowDialog();
+            this.Close();
         }
     }
 }

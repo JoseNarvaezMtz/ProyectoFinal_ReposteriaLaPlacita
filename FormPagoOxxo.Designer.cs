@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             btnSalirUs = new Button();
-            btnInformacion = new Button();
             panel1 = new Panel();
+            pictureBox1 = new PictureBox();
             btnSalir = new Button();
             labelEslogan = new Label();
             buttonDescargar = new Button();
@@ -43,7 +43,14 @@
             labelProductosSelec = new Label();
             labelTotalCompra = new Label();
             textBoxTotalCompra = new TextBox();
+            pictureBoxCodigoBarras = new PictureBox();
+            pictureBox2 = new PictureBox();
+            richTextBoxPrecio = new RichTextBox();
+            labelPrecio = new Label();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxCodigoBarras).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // btnSalirUs
@@ -60,27 +67,12 @@
             btnSalirUs.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnSalirUs.UseVisualStyleBackColor = true;
             // 
-            // btnInformacion
-            // 
-            btnInformacion.FlatStyle = FlatStyle.Flat;
-            btnInformacion.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnInformacion.ForeColor = Color.AntiqueWhite;
-            btnInformacion.Image = Properties.Resources.Logo;
-            btnInformacion.Location = new Point(10, 12);
-            btnInformacion.Name = "btnInformacion";
-            btnInformacion.Size = new Size(291, 64);
-            btnInformacion.TabIndex = 3;
-            btnInformacion.Text = "C a f é   l a   p l a c i t a";
-            btnInformacion.TextAlign = ContentAlignment.MiddleRight;
-            btnInformacion.TextImageRelation = TextImageRelation.TextBeforeImage;
-            btnInformacion.UseVisualStyleBackColor = true;
-            // 
             // panel1
             // 
-            panel1.BackColor = Color.FromArgb(110, 80, 50);
+            panel1.BackColor = Color.FromArgb(64, 64, 64);
+            panel1.Controls.Add(pictureBox1);
             panel1.Controls.Add(btnSalir);
             panel1.Controls.Add(labelEslogan);
-            panel1.Controls.Add(btnInformacion);
             panel1.Controls.Add(btnSalirUs);
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
@@ -88,14 +80,24 @@
             panel1.Size = new Size(914, 95);
             panel1.TabIndex = 1;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.OxxoLogo;
+            pictureBox1.Location = new Point(14, 5);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(222, 81);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 84;
+            pictureBox1.TabStop = false;
+            // 
             // btnSalir
             // 
-            btnSalir.BackColor = Color.FromArgb(110, 80, 50);
+            btnSalir.BackColor = Color.Black;
             btnSalir.FlatAppearance.BorderSize = 0;
             btnSalir.FlatStyle = FlatStyle.Flat;
             btnSalir.Font = new Font("Sans Serif Collection", 10F, FontStyle.Bold);
-            btnSalir.ForeColor = Color.AntiqueWhite;
-            btnSalir.Location = new Point(864, 2);
+            btnSalir.ForeColor = Color.White;
+            btnSalir.Location = new Point(864, 0);
             btnSalir.Margin = new Padding(3, 2, 3, 2);
             btnSalir.Name = "btnSalir";
             btnSalir.Size = new Size(50, 45);
@@ -107,21 +109,21 @@
             // labelEslogan
             // 
             labelEslogan.AutoSize = true;
-            labelEslogan.Font = new Font("Tempus Sans ITC", 21.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            labelEslogan.ForeColor = Color.AntiqueWhite;
-            labelEslogan.Location = new Point(382, 23);
+            labelEslogan.Font = new Font("Tempus Sans ITC", 36F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            labelEslogan.ForeColor = Color.Black;
+            labelEslogan.Location = new Point(305, 9);
             labelEslogan.Name = "labelEslogan";
-            labelEslogan.Size = new Size(390, 38);
+            labelEslogan.Size = new Size(508, 62);
             labelEslogan.TabIndex = 4;
-            labelEslogan.Text = "\"ESLOGAN DE LA TIENDA\"";
+            labelEslogan.Text = "\"A la vuelta de tu vida\"";
             // 
             // buttonDescargar
             // 
-            buttonDescargar.BackColor = Color.FromArgb(110, 80, 50);
+            buttonDescargar.BackColor = Color.Gray;
             buttonDescargar.FlatAppearance.BorderSize = 0;
             buttonDescargar.FlatStyle = FlatStyle.Flat;
             buttonDescargar.Font = new Font("Sans Serif Collection", 12F, FontStyle.Bold);
-            buttonDescargar.ForeColor = Color.AntiqueWhite;
+            buttonDescargar.ForeColor = Color.Black;
             buttonDescargar.Location = new Point(14, 699);
             buttonDescargar.Margin = new Padding(3, 2, 3, 2);
             buttonDescargar.Name = "buttonDescargar";
@@ -140,30 +142,31 @@
             // 
             // buttonPagar
             // 
-            buttonPagar.BackColor = Color.FromArgb(110, 80, 50);
+            buttonPagar.BackColor = Color.Silver;
             buttonPagar.FlatAppearance.BorderSize = 0;
             buttonPagar.FlatStyle = FlatStyle.Flat;
             buttonPagar.Font = new Font("Sans Serif Collection", 12F, FontStyle.Bold);
-            buttonPagar.ForeColor = Color.AntiqueWhite;
+            buttonPagar.ForeColor = Color.Black;
             buttonPagar.Location = new Point(14, 634);
             buttonPagar.Margin = new Padding(3, 2, 3, 2);
             buttonPagar.Name = "buttonPagar";
-            buttonPagar.Size = new Size(276, 44);
+            buttonPagar.Size = new Size(297, 44);
             buttonPagar.TabIndex = 71;
             buttonPagar.Text = "Pagar";
             buttonPagar.UseVisualStyleBackColor = false;
+            buttonPagar.Click += buttonPagar_Click;
             // 
             // buttonCancelar
             // 
-            buttonCancelar.BackColor = Color.FromArgb(110, 80, 50);
+            buttonCancelar.BackColor = Color.Silver;
             buttonCancelar.FlatAppearance.BorderSize = 0;
             buttonCancelar.FlatStyle = FlatStyle.Flat;
             buttonCancelar.Font = new Font("Sans Serif Collection", 12F, FontStyle.Bold);
-            buttonCancelar.ForeColor = Color.AntiqueWhite;
-            buttonCancelar.Location = new Point(609, 634);
+            buttonCancelar.ForeColor = Color.Black;
+            buttonCancelar.Location = new Point(588, 634);
             buttonCancelar.Margin = new Padding(3, 2, 3, 2);
             buttonCancelar.Name = "buttonCancelar";
-            buttonCancelar.Size = new Size(276, 44);
+            buttonCancelar.Size = new Size(297, 44);
             buttonCancelar.TabIndex = 72;
             buttonCancelar.Text = "Cancelar";
             buttonCancelar.UseVisualStyleBackColor = false;
@@ -171,92 +174,140 @@
             // 
             // richTextBoxProductosSelec
             // 
-            richTextBoxProductosSelec.BackColor = Color.AntiqueWhite;
+            richTextBoxProductosSelec.BackColor = Color.FromArgb(224, 224, 224);
             richTextBoxProductosSelec.Enabled = false;
-            richTextBoxProductosSelec.Location = new Point(50, 224);
+            richTextBoxProductosSelec.Location = new Point(44, 167);
             richTextBoxProductosSelec.Name = "richTextBoxProductosSelec";
-            richTextBoxProductosSelec.Size = new Size(551, 240);
+            richTextBoxProductosSelec.Size = new Size(396, 240);
             richTextBoxProductosSelec.TabIndex = 80;
             richTextBoxProductosSelec.Text = "";
             // 
             // richTextBoxCantidadSelecc
             // 
-            richTextBoxCantidadSelecc.BackColor = Color.AntiqueWhite;
+            richTextBoxCantidadSelecc.BackColor = Color.FromArgb(224, 224, 224);
             richTextBoxCantidadSelecc.Enabled = false;
-            richTextBoxCantidadSelecc.Location = new Point(692, 224);
+            richTextBoxCantidadSelecc.Location = new Point(472, 167);
             richTextBoxCantidadSelecc.Name = "richTextBoxCantidadSelecc";
-            richTextBoxCantidadSelecc.Size = new Size(142, 240);
+            richTextBoxCantidadSelecc.Size = new Size(151, 240);
             richTextBoxCantidadSelecc.TabIndex = 79;
             richTextBoxCantidadSelecc.Text = "";
             // 
             // labelCantidad
             // 
             labelCantidad.AutoSize = true;
-            labelCantidad.Font = new Font("Sans Serif Collection", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelCantidad.ForeColor = Color.FromArgb(110, 80, 50);
-            labelCantidad.Location = new Point(703, 189);
+            labelCantidad.Font = new Font("Sans Serif Collection", 14.2499981F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelCantidad.ForeColor = Color.Black;
+            labelCantidad.Location = new Point(472, 107);
             labelCantidad.Name = "labelCantidad";
-            labelCantidad.Size = new Size(108, 32);
+            labelCantidad.Size = new Size(151, 47);
             labelCantidad.TabIndex = 78;
             labelCantidad.Text = "Cantidad";
             // 
             // labelProductosSelec
             // 
             labelProductosSelec.AutoSize = true;
-            labelProductosSelec.Font = new Font("Sans Serif Collection", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelProductosSelec.ForeColor = Color.FromArgb(110, 80, 50);
-            labelProductosSelec.Location = new Point(50, 189);
+            labelProductosSelec.Font = new Font("Sans Serif Collection", 14.2499981F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelProductosSelec.ForeColor = Color.Black;
+            labelProductosSelec.Location = new Point(44, 107);
             labelProductosSelec.Name = "labelProductosSelec";
-            labelProductosSelec.Size = new Size(391, 32);
+            labelProductosSelec.Size = new Size(396, 47);
             labelProductosSelec.TabIndex = 77;
-            labelProductosSelec.Text = "Usted eligió los siguientes productos";
+            labelProductosSelec.Text = "Productos Seleccionados:\r\n";
             // 
             // labelTotalCompra
             // 
             labelTotalCompra.AutoSize = true;
-            labelTotalCompra.Font = new Font("Sans Serif Collection", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelTotalCompra.ForeColor = Color.FromArgb(110, 80, 50);
-            labelTotalCompra.Location = new Point(724, 484);
+            labelTotalCompra.Font = new Font("Sans Serif Collection", 11.9999981F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelTotalCompra.ForeColor = Color.Black;
+            labelTotalCompra.Location = new Point(690, 412);
             labelTotalCompra.Name = "labelTotalCompra";
-            labelTotalCompra.Size = new Size(87, 32);
+            labelTotalCompra.Size = new Size(110, 39);
             labelTotalCompra.TabIndex = 82;
             labelTotalCompra.Text = "TOTAL";
             // 
             // textBoxTotalCompra
             // 
-            textBoxTotalCompra.BackColor = Color.Tan;
+            textBoxTotalCompra.BackColor = Color.Silver;
             textBoxTotalCompra.BorderStyle = BorderStyle.None;
             textBoxTotalCompra.Enabled = false;
             textBoxTotalCompra.Font = new Font("Sans Serif Collection", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBoxTotalCompra.Location = new Point(692, 519);
+            textBoxTotalCompra.Location = new Point(662, 454);
             textBoxTotalCompra.Name = "textBoxTotalCompra";
-            textBoxTotalCompra.Size = new Size(142, 28);
+            textBoxTotalCompra.Size = new Size(151, 28);
             textBoxTotalCompra.TabIndex = 81;
             textBoxTotalCompra.TextAlign = HorizontalAlignment.Center;
+            // 
+            // pictureBoxCodigoBarras
+            // 
+            pictureBoxCodigoBarras.Image = Properties.Resources.CodigoBarras;
+            pictureBoxCodigoBarras.Location = new Point(44, 444);
+            pictureBoxCodigoBarras.Name = "pictureBoxCodigoBarras";
+            pictureBoxCodigoBarras.Size = new Size(237, 156);
+            pictureBoxCodigoBarras.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBoxCodigoBarras.TabIndex = 83;
+            pictureBoxCodigoBarras.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = Properties.Resources.QR;
+            pictureBox2.Location = new Point(317, 444);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(185, 156);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 84;
+            pictureBox2.TabStop = false;
+            // 
+            // richTextBoxPrecio
+            // 
+            richTextBoxPrecio.BackColor = Color.FromArgb(224, 224, 224);
+            richTextBoxPrecio.Enabled = false;
+            richTextBoxPrecio.Location = new Point(662, 169);
+            richTextBoxPrecio.Name = "richTextBoxPrecio";
+            richTextBoxPrecio.Size = new Size(151, 240);
+            richTextBoxPrecio.TabIndex = 85;
+            richTextBoxPrecio.Text = "";
+            // 
+            // labelPrecio
+            // 
+            labelPrecio.AutoSize = true;
+            labelPrecio.Font = new Font("Sans Serif Collection", 14.2499981F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelPrecio.ForeColor = Color.Black;
+            labelPrecio.Location = new Point(686, 107);
+            labelPrecio.Name = "labelPrecio";
+            labelPrecio.Size = new Size(114, 47);
+            labelPrecio.TabIndex = 86;
+            labelPrecio.Text = "Precio";
             // 
             // FormPagoOxxo
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.AntiqueWhite;
+            BackColor = SystemColors.Window;
             ClientSize = new Size(914, 771);
+            Controls.Add(labelPrecio);
+            Controls.Add(richTextBoxPrecio);
+            Controls.Add(pictureBox2);
+            Controls.Add(pictureBoxCodigoBarras);
             Controls.Add(labelTotalCompra);
             Controls.Add(textBoxTotalCompra);
             Controls.Add(richTextBoxProductosSelec);
             Controls.Add(richTextBoxCantidadSelecc);
             Controls.Add(labelCantidad);
-            Controls.Add(labelProductosSelec);
             Controls.Add(buttonCancelar);
             Controls.Add(buttonPagar);
             Controls.Add(progressBarDescargarTicket);
             Controls.Add(buttonDescargar);
             Controls.Add(panel1);
+            Controls.Add(labelProductosSelec);
             FormBorderStyle = FormBorderStyle.None;
             Name = "FormPagoOxxo";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormTicket";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxCodigoBarras).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -264,7 +315,6 @@
         #endregion
 
         private Button btnSalirUs;
-        private Button btnInformacion;
         private Panel panel1;
         private Label labelEslogan;
         private Button buttonDescargar;
@@ -278,5 +328,10 @@
         private Label labelTotalCompra;
         private TextBox textBoxTotalCompra;
         private Button btnSalir;
+        private PictureBox pictureBoxCodigoBarras;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
+        private RichTextBox richTextBoxPrecio;
+        private Label labelPrecio;
     }
 }

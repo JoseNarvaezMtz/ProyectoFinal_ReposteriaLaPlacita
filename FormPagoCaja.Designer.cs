@@ -174,7 +174,7 @@
             panel4.BackColor = Color.SaddleBrown;
             panel4.Location = new Point(884, 29);
             panel4.Name = "panel4";
-            panel4.Size = new Size(15, 624);
+            panel4.Size = new Size(15, 615);
             panel4.TabIndex = 50;
             // 
             // panel3

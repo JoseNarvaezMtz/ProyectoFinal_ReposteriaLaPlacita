@@ -53,3 +53,7 @@ C:\Users\julia\source\repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-w
 C:\Users\julia\source\repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.genruntimeconfig.cache
 C:\Users\julia\source\repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\ref\WinFormsProyectoBase.dll
 C:\Users\julia\source\repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormPagoOxxo.resources
+C:\Users\julia\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormTicket.resources
+C:\Users\julia\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\itextsharp.dll
+C:\Users\julia\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\Resources\logoClaroAdmin.png
+C:\Users\julia\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\Resources\LogoNegro.png

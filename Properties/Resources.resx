@@ -136,11 +136,14 @@
   <data name="IconoGrafica" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconoGrafica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Cuernitos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cuernitos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Empanada1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Empanada1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Sonido" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sonido.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IconoModificaciones" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IconoModificaciones.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PagoTarjeta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PagoTarjeta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,11 +154,11 @@
   <data name="logo_oscuro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo_oscuro.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PanElote" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PanElote.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Pastel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pastel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logoClaro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logoClaro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CupcakeTematica1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CupcakeTematica1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,9 +181,6 @@
   <data name="PagoOxxo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PagoOxxo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IconoModificaciones" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IconoModificaciones.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="BrownieNavidad" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BrownieNavidad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -196,8 +196,14 @@
   <data name="IconoPostre" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconoPostre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Sonido" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sonido.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Pay" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CodigoBarras" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CodigoBarras.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="NoSonido" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NoSonido.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,8 +211,11 @@
   <data name="Sonido1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sonido.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cuernitos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cuernitos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="PanElote" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PanElote.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OxxoLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OxxoLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="logoClaroAdmin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logoClaroAdmin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,7 +223,7 @@
   <data name="ChileMorron" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ChileMorron.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logoClaro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logoClaro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="QR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
