@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\loren\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\loren\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\forminformacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\loren\\source\\repos\\proyectofinal_reposterialaplacita\\forminformacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:forminformacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -82,8 +82,7 @@
               "ToolTip": "C:\\Users\\loren\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormPortada.cs [Dise\u00F1o]",
               "RelativeToolTip": "FormPortada.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T07:23:11.129Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-12-16T07:23:11.129Z"
             },
             {
               "$type": "Document",
@@ -94,8 +93,7 @@
               "ToolTip": "C:\\Users\\loren\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormBaseUsuario.cs [Dise\u00F1o]",
               "RelativeToolTip": "FormBaseUsuario.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T07:21:56.198Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-12-16T07:21:56.198Z"
             },
             {
               "$type": "Document",
@@ -119,8 +117,7 @@
               "ToolTip": "C:\\Users\\loren\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormInicioSesion.cs [Dise\u00F1o]",
               "RelativeToolTip": "FormInicioSesion.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T07:20:54.05Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-12-16T07:20:54.05Z"
             },
             {
               "$type": "Document",
