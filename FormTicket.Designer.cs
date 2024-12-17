@@ -33,7 +33,6 @@
             buttonDescargar = new Button();
             panel1 = new Panel();
             btnSalirUs = new Button();
-            labelSloganTienda = new Label();
             btnInformacion = new Button();
             richTextBoxProductos = new RichTextBox();
             richTextBoxCantidad = new RichTextBox();
@@ -47,6 +46,7 @@
             textBoxTotalCompra = new TextBox();
             timerTicket = new System.Windows.Forms.Timer(components);
             labelFechaHoraTicket = new Label();
+            labelSloganTienda = new Label();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -76,8 +76,8 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(110, 80, 50);
-            panel1.Controls.Add(btnSalirUs);
             panel1.Controls.Add(labelSloganTienda);
+            panel1.Controls.Add(btnSalirUs);
             panel1.Controls.Add(btnInformacion);
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
@@ -99,17 +99,6 @@
             btnSalirUs.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnSalirUs.UseVisualStyleBackColor = true;
             btnSalirUs.Click += btnSalirUs_Click;
-            // 
-            // labelSloganTienda
-            // 
-            labelSloganTienda.AutoSize = true;
-            labelSloganTienda.Font = new Font("Tempus Sans ITC", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelSloganTienda.ForeColor = Color.AntiqueWhite;
-            labelSloganTienda.Location = new Point(264, 22);
-            labelSloganTienda.Name = "labelSloganTienda";
-            labelSloganTienda.Size = new Size(492, 31);
-            labelSloganTienda.TabIndex = 77;
-            labelSloganTienda.Text = "\"Delicia tras delicia para endulzar tu pancita\"";
             // 
             // btnInformacion
             // 
@@ -249,6 +238,17 @@
             labelFechaHoraTicket.Size = new Size(0, 29);
             labelFechaHoraTicket.TabIndex = 87;
             // 
+            // labelSloganTienda
+            // 
+            labelSloganTienda.AutoSize = true;
+            labelSloganTienda.Font = new Font("Tempus Sans ITC", 16F, FontStyle.Bold);
+            labelSloganTienda.ForeColor = Color.AntiqueWhite;
+            labelSloganTienda.Location = new Point(269, 25);
+            labelSloganTienda.Name = "labelSloganTienda";
+            labelSloganTienda.Size = new Size(467, 28);
+            labelSloganTienda.TabIndex = 78;
+            labelSloganTienda.Text = "\"Delicia tras delicia para endulzar tu pancita\"";
+            // 
             // FormTicket
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -284,7 +284,6 @@
         private Button buttonDescargar;
         private Panel panel1;
         private Button btnInformacion;
-        private Label labelSloganTienda;
         private Button btnSalirUs;
         private RichTextBox richTextBoxProductos;
         private RichTextBox richTextBoxCantidad;
@@ -298,5 +297,6 @@
         private TextBox textBoxTotalCompra;
         private System.Windows.Forms.Timer timerTicket;
         private Label labelFechaHoraTicket;
+        private Label labelSloganTienda;
     }
 }

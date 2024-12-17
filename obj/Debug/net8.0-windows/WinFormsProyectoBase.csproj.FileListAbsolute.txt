@@ -298,3 +298,5 @@ C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFina
 C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.pdb
 C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.genruntimeconfig.cache
 C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\ref\WinFormsProyectoBase.dll
+C:\Users\loren\source\repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\ScottPlot.dll
+C:\Users\loren\source\repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\ScottPlot.WinForms.dll
