@@ -25,9 +25,12 @@ namespace WinFormsProyectoBase
         {
             AdmonBD admonBD = new AdmonBD();
             AdmonBDUsuario admonBDUsuario = new AdmonBDUsuario();
-            Usuarios user = admonBDUsuario.consultaUnRegistro(FormBaseUsuario.nameUser);
-            if (user == null)
-                return;
+            Usuarios user = admonBDUsuario.consultaUnRegistro(FormBaseUsuario.account);
+            if (user == null) 
+            {
+                MessageBox.Show("No se encontro al usuario");
+                return; 
+            }
             foreach (ClassCompras obj in FormBaseUsuario.productosSeleccionados)
             {
                 Productos aux = null;
@@ -38,6 +41,8 @@ namespace WinFormsProyectoBase
                 admonBD.actualizar(aux.Id, aux.Nombre, aux.Categoria, aux.Descripcion, aux.Imagen, aux.Precio, aux.Existencias);
                 user.Monto += obj.costo();
             }
+            user.Monto *= 1.06f;
+            FormBaseUsuario.productosSeleccionados.Clear();
             admonBDUsuario.actualizar(user.Id, user.NombreCompleto, user.Categoria, user.Cuenta, user.Contrasena, user.Monto);
             FormTicket ticket = new FormTicket(this.total);
             ticket.ShowDialog();

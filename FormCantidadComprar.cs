@@ -145,7 +145,7 @@ namespace WinFormsProyectoBase
                 FormBaseUsuario.productosSeleccionados.Add(obj);
             }
             FormMetodosPago metodosPago = new FormMetodosPago();
-            metodosPago.Show();
+            metodosPago.ShowDialog();
             this.Close();
         }
 

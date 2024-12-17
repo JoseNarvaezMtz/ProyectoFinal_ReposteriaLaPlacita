@@ -9,7 +9,7 @@ namespace WinFormsProyectoBase
 {
     internal class ImagenConvert
     {
-        // Convert Image to byte[]
+        // Convertir Imagen a byte[]
         public byte[] imagenToByte(Image img)
         {
             if (img == null)
@@ -20,20 +20,11 @@ namespace WinFormsProyectoBase
             MemoryStream memoria = new MemoryStream();
             img.Save(memoria, ImageFormat.Png);
             byte[] byteArray = memoria.ToArray(); 
-            MessageBox.Show("Tamaño de la imagen en bytes: " + byteArray.Length); // Verificación del tamaño
+            //MessageBox.Show("Tamaño de la imagen en bytes: " + byteArray.Length); // Verificación del tamaño
             return byteArray;
-
-            //using (MemoryStream memoria = new MemoryStream()) intentalo con esto
-            //{
-            //    // Aquí se puede especificar el formato de la imagen según sea necesario
-            //    img.Save(memoria, ImageFormat.Png);
-            //    byte[] byteArray = memoria.ToArray();
-            //    MessageBox.Show("Tamaño de la imagen en bytes: " + byteArray.Length); // Verificación del tamaño
-            //    return byteArray;
-            //}
         }
 
-        // Convert Bitmap to Image
+        // Convertir Bitmap a Image
         public Image BitmapToImagen(Bitmap bmp)
         {
             if (bmp == null)
