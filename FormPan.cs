@@ -196,27 +196,27 @@ namespace WinFormsProyectoBase
 
         private void btnDescPan1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show($"{FormBaseUsuario.listaPanes[0].Descripcion} \n\t\t Precio: {FormBaseUsuario.listaPanes[0].Precio}");
+            MessageBox.Show($"\t\t{FormBaseUsuario.listaPanes[0].Nombre} \n {FormBaseUsuario.listaPanes[0].Descripcion} \n\t Existencias: {FormBaseUsuario.listaPanes[0].Existencias} \t Precio: {FormBaseUsuario.listaPanes[0].Precio}");
         }
 
         private void btnDescPan2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show($"{FormBaseUsuario.listaPanes[1].Descripcion} \n\t\t Precio: {FormBaseUsuario.listaPanes[1].Precio}");
+            MessageBox.Show($"\t\t{FormBaseUsuario.listaPanes[1].Nombre} \n {FormBaseUsuario.listaPanes[1].Descripcion} \n\t Existencias: {FormBaseUsuario.listaPanes[1].Existencias} \t Precio: {FormBaseUsuario.listaPanes[1].Precio}");
         }
 
         private void btnDescPan3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show($"{FormBaseUsuario.listaPanes[2].Descripcion} \n\t\t Precio: {FormBaseUsuario.listaPanes[2].Precio}");
+            MessageBox.Show($"\t\t{FormBaseUsuario.listaPanes[2].Nombre} \n {FormBaseUsuario.listaPanes[2].Descripcion} \n\t Existencias: {FormBaseUsuario.listaPanes[2].Existencias} \t Precio: {FormBaseUsuario.listaPanes[2].Precio}");
         }
 
         private void btnDescPan4_Click(object sender, EventArgs e)
         {
-            MessageBox.Show($"{FormBaseUsuario.listaPanes[3].Descripcion} \n\t\t Precio: {FormBaseUsuario.listaPanes[3].Precio}");
+            MessageBox.Show($"\t\t{FormBaseUsuario.listaPanes[3].Nombre} \n {FormBaseUsuario.listaPanes[3].Descripcion} \n\t Existencias: {FormBaseUsuario.listaPanes[3].Existencias} \t Precio: {FormBaseUsuario.listaPanes[3].Precio}");
         }
 
         private void btnDescPan5_Click(object sender, EventArgs e)
         {
-            MessageBox.Show($"{FormBaseUsuario.listaPanes[4].Descripcion} \n\t\t Precio: {FormBaseUsuario.listaPanes[4].Precio}");
+            MessageBox.Show($"\t\t{FormBaseUsuario.listaPanes[4].Nombre} \n {FormBaseUsuario.listaPanes[4].Descripcion} \n\t Existencias: {FormBaseUsuario.listaPanes[4].Existencias} \t Precio: {FormBaseUsuario.listaPanes[4].Precio}");
         }
     }
 
