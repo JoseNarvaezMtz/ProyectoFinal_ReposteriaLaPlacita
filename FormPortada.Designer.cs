@@ -40,7 +40,6 @@
             button3 = new Button();
             btnSalirUs = new Button();
             pictureBox1 = new PictureBox();
-            label6 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -49,7 +48,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI Black", 16F, FontStyle.Bold);
-            label5.Location = new Point(336, 175);
+            label5.Location = new Point(415, 164);
             label5.Name = "label5";
             label5.Size = new Size(168, 30);
             label5.TabIndex = 11;
@@ -183,23 +182,12 @@
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
             // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Segoe UI Black", 16F, FontStyle.Bold);
-            label6.Location = new Point(510, 175);
-            label6.Name = "label6";
-            label6.Size = new Size(163, 30);
-            label6.TabIndex = 18;
-            label6.Text = "Cafe la placita";
-            // 
             // FormPortada
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(998, 567);
-            Controls.Add(label6);
             Controls.Add(pictureBox1);
             Controls.Add(btnSalirUs);
             Controls.Add(panel1);
@@ -232,6 +220,5 @@
         private Button button3;
         private Button btnSalirUs;
         private PictureBox pictureBox1;
-        private Label label6;
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qykcBgSBxwc=",
+  "dgSpecHash": "a7dqNuH6FZo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\analo\\Source\\Repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\WinFormsProyectoBase.csproj",
+  "projectFilePath": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\WinFormsProyectoBase.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\analo\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",
     "C:\\Users\\analo\\.nuget\\packages\\google.protobuf\\3.26.1\\google.protobuf.3.26.1.nupkg.sha512",

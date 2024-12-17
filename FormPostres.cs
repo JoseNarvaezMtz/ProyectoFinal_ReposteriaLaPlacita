@@ -182,27 +182,27 @@ namespace WinFormsProyectoBase
 
         private void btnDescPostre1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show($"\t\t{FormBaseUsuario.listaPostres[0].Nombre} \n {FormBaseUsuario.listaPostres[0].Descripcion} \n\t Existencias: {FormBaseUsuario.listaPostres[0].Existencias} \t Precio: {FormBaseUsuario.listaPostres[0].Precio}");
+            MessageBox.Show($"{FormBaseUsuario.listaPostres[0].Descripcion} \n\t\t Precio: {FormBaseUsuario.listaPostres[0].Precio}");
         }
 
         private void btnDescPostre2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show($"\t\t{FormBaseUsuario.listaPostres[1].Nombre} \n {FormBaseUsuario.listaPostres[1].Descripcion} \n\t Existencias: {FormBaseUsuario.listaPostres[1].Existencias} \t Precio: {FormBaseUsuario.listaPostres[1].Precio}");
+            MessageBox.Show($"{FormBaseUsuario.listaPostres[1].Descripcion} \n\t\t Precio: {FormBaseUsuario.listaPostres[1].Precio}");
         }
 
         private void btnDescPostre3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show($"\t\t{FormBaseUsuario.listaPostres[2].Nombre} \n {FormBaseUsuario.listaPostres[2].Descripcion} \n\t Existencias: {FormBaseUsuario.listaPostres[2].Existencias} \t Precio: {FormBaseUsuario.listaPostres[2].Precio}");
+            MessageBox.Show($"{FormBaseUsuario.listaPostres[2].Descripcion} \n\t\t Precio: {FormBaseUsuario.listaPostres[2].Precio}");
         }
 
         private void btnDescPostre4_Click(object sender, EventArgs e)
         {
-            MessageBox.Show($"\t\t{FormBaseUsuario.listaPostres[3].Nombre} \n {FormBaseUsuario.listaPostres[3].Descripcion} \n\t Existencias: {FormBaseUsuario.listaPostres[3].Existencias} \t Precio: {FormBaseUsuario.listaPostres[3].Precio}");
+            MessageBox.Show($"{FormBaseUsuario.listaPostres[3].Descripcion} \n\t\t Precio: {FormBaseUsuario.listaPostres[3].Precio}");
         }
 
         private void btnDescPostre5_Click(object sender, EventArgs e)
         {
-            MessageBox.Show($"\t\t{FormBaseUsuario.listaPostres[4].Nombre} \n {FormBaseUsuario.listaPostres[4].Descripcion} \n\t Existencias: {FormBaseUsuario.listaPostres[4].Existencias} \t Precio: {FormBaseUsuario.listaPostres[4].Precio}");
+            MessageBox.Show($"{FormBaseUsuario.listaPostres[4].Descripcion} \n\t\t Precio: {FormBaseUsuario.listaPostres[4].Precio}");
         }
     }
 }

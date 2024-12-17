@@ -127,7 +127,7 @@
             btnInformacion.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnInformacion.ForeColor = Color.AntiqueWhite;
             btnInformacion.Image = Properties.Resources.Logo;
-            btnInformacion.Location = new Point(17, 19);
+            btnInformacion.Location = new Point(10, 24);
             btnInformacion.Name = "btnInformacion";
             btnInformacion.Size = new Size(291, 52);
             btnInformacion.TabIndex = 3;
