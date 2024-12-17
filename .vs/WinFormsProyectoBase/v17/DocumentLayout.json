@@ -3,43 +3,43 @@
   "WorkspaceRootPath": "C:\\Users\\loren\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\loren\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\formticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\loren\\source\\repos\\proyectofinal_reposterialaplacita\\formbaseusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formbaseusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\loren\\source\\repos\\proyectofinal_reposterialaplacita\\forminformacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\loren\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\forminformacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:forminformacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\loren\\source\\repos\\proyectofinal_reposterialaplacita\\forminformacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:forminformacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\loren\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\loren\\source\\repos\\proyectofinal_reposterialaplacita\\formbaseusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formbaseusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\loren\\source\\repos\\proyectofinal_reposterialaplacita\\formcantidadcomprar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\loren\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\formcantidadcomprar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formcantidadcomprar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\loren\\source\\repos\\proyectofinal_reposterialaplacita\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\loren\\source\\repos\\proyectofinal_reposterialaplacita\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\loren\\source\\repos\\proyectofinal_reposterialaplacita\\formticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\loren\\source\\repos\\proyectofinal_reposterialaplacita\\formpagotarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formpagotarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\loren\\source\\repos\\proyectofinal_reposterialaplacita\\formpagotarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formpagotarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\loren\\source\\repos\\proyectofinal_reposterialaplacita\\formportada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\loren\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\formportada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formportada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -51,7 +51,7 @@
       "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formpostres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\loren\\source\\repos\\proyectofinal_reposterialaplacita\\formpostres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\loren\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\formpostres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formpostres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -70,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,7 +98,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "FormInformacion.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormInformacion.cs",
+              "RelativeDocumentMoniker": "FormInformacion.cs",
+              "ToolTip": "C:\\Users\\loren\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormInformacion.cs",
+              "RelativeToolTip": "FormInformacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T05:36:44.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "FormInformacion.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormInformacion.cs",
               "RelativeDocumentMoniker": "FormInformacion.cs",
@@ -110,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FormBaseUsuario.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormBaseUsuario.cs",
               "RelativeDocumentMoniker": "FormBaseUsuario.cs",
@@ -122,19 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormCantidadComprar.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormCantidadComprar.cs",
-              "RelativeDocumentMoniker": "FormCantidadComprar.cs",
-              "ToolTip": "C:\\Users\\loren\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormCantidadComprar.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormCantidadComprar.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T04:12:14.013Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "FormBaseUsuario.cs",
               "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormBaseUsuario.cs",
               "RelativeDocumentMoniker": "FormBaseUsuario.cs",
@@ -147,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "FormTicket.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormTicket.cs",
               "RelativeDocumentMoniker": "FormTicket.cs",
@@ -155,18 +156,6 @@
               "RelativeToolTip": "FormTicket.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T04:08:37.288Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FormPagoTarjeta.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormPagoTarjeta.cs",
-              "RelativeDocumentMoniker": "FormPagoTarjeta.cs",
-              "ToolTip": "C:\\Users\\loren\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormPagoTarjeta.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormPagoTarjeta.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T04:08:13.586Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
@@ -183,7 +172,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
+              "Title": "FormCantidadComprar.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormCantidadComprar.cs",
+              "RelativeDocumentMoniker": "FormCantidadComprar.cs",
+              "ToolTip": "C:\\Users\\loren\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormCantidadComprar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormCantidadComprar.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T04:12:14.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "FormInicioSesion.cs",
               "DocumentMoniker": "C:\\Users\\loren\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormInicioSesion.cs",
               "RelativeDocumentMoniker": "FormInicioSesion.cs",
@@ -191,8 +191,7 @@
               "RelativeToolTip": "FormInicioSesion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAMwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T04:05:36.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T04:05:36.779Z"
             },
             {
               "$type": "Document",
@@ -203,8 +202,7 @@
               "ToolTip": "C:\\Users\\loren\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormPortada.cs [Dise\u00F1o]",
               "RelativeToolTip": "FormPortada.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T04:04:01.39Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-12-17T04:04:01.39Z"
             },
             {
               "$type": "Document",
@@ -216,8 +214,7 @@
               "RelativeToolTip": "FormPan.cs",
               "ViewState": "AgIAALoAAAAAAAAAAAAwwNwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T03:54:00.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T03:54:00.426Z"
             },
             {
               "$type": "Document",
@@ -228,8 +225,7 @@
               "ToolTip": "C:\\Users\\loren\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormPostres.cs [Dise\u00F1o]",
               "RelativeToolTip": "FormPostres.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T03:50:59.573Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-12-17T03:50:59.573Z"
             },
             {
               "$type": "Document",
@@ -241,8 +237,7 @@
               "RelativeToolTip": "FormPostres.cs",
               "ViewState": "AgIAAKcAAAAAAAAAAAAIwMsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T03:50:53.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T03:50:53.443Z"
             },
             {
               "$type": "Document",
@@ -254,8 +249,7 @@
               "RelativeToolTip": "FormPagoTarjeta.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAIwEAAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T00:20:48.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T00:20:48.326Z"
             },
             {
               "$type": "Document",
@@ -279,8 +273,7 @@
               "RelativeToolTip": "FormPagoCaja.cs",
               "ViewState": "AgIAAFYAAAAAAAAAAAAIwCwAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T00:20:44.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T00:20:44.068Z"
             }
           ]
         }

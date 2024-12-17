@@ -100,13 +100,13 @@
             // labelSloganTienda
             // 
             labelSloganTienda.AutoSize = true;
-            labelSloganTienda.Font = new Font("Tempus Sans ITC", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelSloganTienda.Font = new Font("Tempus Sans ITC", 16F, FontStyle.Bold);
             labelSloganTienda.ForeColor = Color.AntiqueWhite;
-            labelSloganTienda.Location = new Point(264, 22);
+            labelSloganTienda.Location = new Point(267, 28);
             labelSloganTienda.Name = "labelSloganTienda";
-            labelSloganTienda.Size = new Size(484, 31);
+            labelSloganTienda.Size = new Size(467, 28);
             labelSloganTienda.TabIndex = 77;
-            labelSloganTienda.Text = "\"Delicia tras endulzar para llenar tu pancita\"";
+            labelSloganTienda.Text = "\"Delicia tras delicia para endulzar tu pancita\"";
             // 
             // btnInformacion
             // 
