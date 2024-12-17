@@ -32,6 +32,8 @@
             btnUsuario = new Button();
             btnAdmin = new Button();
             panelInicioSesion = new Panel();
+            label2 = new Label();
+            label1 = new Label();
             btnSalirUs = new Button();
             buttonInvitado = new Button();
             label1FechaHora = new Label();
@@ -48,8 +50,6 @@
             btnRedSocial1 = new Button();
             pictureBox1 = new PictureBox();
             timerHoraFechaInicioSesion = new System.Windows.Forms.Timer(components);
-            label1 = new Label();
-            label2 = new Label();
             panelInicioSesion.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBoxLogoGrande).BeginInit();
             panelFotoYRedes.SuspendLayout();
@@ -97,6 +97,28 @@
             panelInicioSesion.Name = "panelInicioSesion";
             panelInicioSesion.Size = new Size(404, 531);
             panelInicioSesion.TabIndex = 2;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Times New Roman", 14F, FontStyle.Bold);
+            label2.ForeColor = Color.AntiqueWhite;
+            label2.Location = new Point(150, 162);
+            label2.Name = "label2";
+            label2.Size = new Size(110, 22);
+            label2.TabIndex = 14;
+            label2.Text = "¡Bienvenido!";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Times New Roman", 14F, FontStyle.Bold);
+            label1.ForeColor = Color.AntiqueWhite;
+            label1.Location = new Point(124, 84);
+            label1.Name = "label1";
+            label1.Size = new Size(216, 44);
+            label1.TabIndex = 13;
+            label1.Text = "\"Delicia tras delicia para\r\n     endulzar tu pancita\"";
             // 
             // btnSalirUs
             // 
@@ -277,28 +299,6 @@
             timerHoraFechaInicioSesion.Interval = 1000;
             timerHoraFechaInicioSesion.Tag = "timerHoraFechaInicioSesion";
             timerHoraFechaInicioSesion.Tick += timerHoraFechaInicioSesion_Tick;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Times New Roman", 14F, FontStyle.Bold);
-            label1.ForeColor = Color.AntiqueWhite;
-            label1.Location = new Point(124, 84);
-            label1.Name = "label1";
-            label1.Size = new Size(233, 44);
-            label1.TabIndex = 13;
-            label1.Text = "\"Delicia tras endulzar para\r\n        llenar tu pancita\"";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Times New Roman", 14F, FontStyle.Bold);
-            label2.ForeColor = Color.AntiqueWhite;
-            label2.Location = new Point(150, 162);
-            label2.Name = "label2";
-            label2.Size = new Size(110, 22);
-            label2.TabIndex = 14;
-            label2.Text = "¡Bienvenido!";
             // 
             // FormInicioSesion
             // 

@@ -87,9 +87,9 @@
             label2.ForeColor = Color.FromArgb(110, 80, 50);
             label2.Location = new Point(283, 109);
             label2.Name = "label2";
-            label2.Size = new Size(382, 22);
+            label2.Size = new Size(388, 22);
             label2.TabIndex = 14;
-            label2.Text = "\"Delicia tras endulzar para llenar tu pancita\"";
+            label2.Text = "\"Delicia tras delicia para endulzar tu pancita\"";
             // 
             // FormInformacion
             // 
