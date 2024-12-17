@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\josen\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\josen\\source\\repos\\proyectofinal_reposterialaplacita\\formbajas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formbajas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\josen\\source\\repos\\proyectofinal_reposterialaplacita\\formticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\josen\\source\\repos\\proyectofinal_reposterialaplacita\\formaltas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formaltas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\josen\\source\\repos\\proyectofinal_reposterialaplacita\\admonbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:admonbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\josen\\source\\repos\\proyectofinal_reposterialaplacita\\formbaseadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formbaseadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\josen\\source\\repos\\proyectofinal_reposterialaplacita\\formmodificaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formmodificaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\josen\\source\\repos\\proyectofinal_reposterialaplacita\\admonbdusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:admonbdusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormTicket.cs",
+              "DocumentMoniker": "C:\\Users\\josen\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormTicket.cs",
+              "RelativeDocumentMoniker": "FormTicket.cs",
+              "ToolTip": "C:\\Users\\josen\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormTicket.cs",
+              "RelativeToolTip": "FormTicket.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T18:59:36.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdmonBDUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\josen\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\AdmonBDUsuario.cs",
+              "RelativeDocumentMoniker": "AdmonBDUsuario.cs",
+              "ToolTip": "C:\\Users\\josen\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\AdmonBDUsuario.cs",
+              "RelativeToolTip": "AdmonBDUsuario.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAiwL4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T18:57:53.853Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -70,51 +92,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormBajas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\josen\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormBajas.cs",
-              "RelativeDocumentMoniker": "FormBajas.cs",
-              "ToolTip": "C:\\Users\\josen\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormBajas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormBajas.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T15:41:05.308Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FormAltas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\josen\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormAltas.cs",
-              "RelativeDocumentMoniker": "FormAltas.cs",
-              "ToolTip": "C:\\Users\\josen\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormAltas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormAltas.cs [Dise\u00F1o]",
+              "Title": "AdmonBD.cs",
+              "DocumentMoniker": "C:\\Users\\josen\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\AdmonBD.cs",
+              "RelativeDocumentMoniker": "AdmonBD.cs",
+              "ToolTip": "C:\\Users\\josen\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\AdmonBD.cs",
+              "RelativeToolTip": "AdmonBD.cs",
+              "ViewState": "AgIAAPgAAAAAAAAAAAAqwAwBAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T15:41:04.537Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormBaseAdmin.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\josen\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormBaseAdmin.cs",
-              "RelativeDocumentMoniker": "FormBaseAdmin.cs",
-              "ToolTip": "C:\\Users\\josen\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormBaseAdmin.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormBaseAdmin.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T15:32:24.512Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormModificaciones.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\josen\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormModificaciones.cs",
-              "RelativeDocumentMoniker": "FormModificaciones.cs",
-              "ToolTip": "C:\\Users\\josen\\source\\repos\\ProyectoFinal_ReposteriaLaPlacita\\FormModificaciones.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormModificaciones.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T15:29:32.037Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-12-17T18:57:40.239Z",
+              "EditorCaption": ""
             }
           ]
         }
