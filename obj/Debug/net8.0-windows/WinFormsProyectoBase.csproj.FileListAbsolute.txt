@@ -238,3 +238,5 @@ C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-w
 C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinForms.A18AC18A.Up2Date
 C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.genruntimeconfig.cache
 C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\ref\WinFormsProyectoBase.dll
+C:\Users\loren\source\repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\ScottPlot.dll
+C:\Users\loren\source\repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\ScottPlot.WinForms.dll
