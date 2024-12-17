@@ -266,7 +266,7 @@ namespace WinFormsProyectoBase
 
         public void Connect()
         {
-            string cadena = "Server=localhost; Port=33068; Database=cafeplacita; User=root; Password=; SslMode=none;";
+            string cadena = "Server=localhost; Database=cafeplacita; User=root; Password=; SslMode=none;";
             try
             {
                 connection = new MySqlConnection(cadena);

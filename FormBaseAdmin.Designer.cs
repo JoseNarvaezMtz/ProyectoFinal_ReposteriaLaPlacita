@@ -99,7 +99,7 @@
             btnCerrarSesion.FlatAppearance.BorderSize = 0;
             btnCerrarSesion.FlatStyle = FlatStyle.Flat;
             btnCerrarSesion.ForeColor = Color.FromArgb(0, 126, 249);
-            btnCerrarSesion.Location = new Point(6, 140);
+            btnCerrarSesion.Location = new Point(3, 415);
             btnCerrarSesion.Name = "btnCerrarSesion";
             btnCerrarSesion.Size = new Size(216, 27);
             btnCerrarSesion.TabIndex = 0;
@@ -209,7 +209,7 @@
             buttonListado.FlatAppearance.BorderSize = 2;
             buttonListado.FlatStyle = FlatStyle.Flat;
             buttonListado.ForeColor = Color.FromArgb(70, 150, 250);
-            buttonListado.Location = new Point(33, 432);
+            buttonListado.Location = new Point(33, 448);
             buttonListado.Name = "buttonListado";
             buttonListado.Size = new Size(151, 43);
             buttonListado.TabIndex = 9;

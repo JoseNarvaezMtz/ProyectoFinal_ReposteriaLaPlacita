@@ -84,59 +84,65 @@
             // textBoxId
             // 
             textBoxId.AcceptsTab = true;
-            textBoxId.Enabled = false;
+            textBoxId.BackColor = SystemColors.Info;
             textBoxId.Location = new Point(24, 76);
             textBoxId.Multiline = true;
             textBoxId.Name = "textBoxId";
-            textBoxId.Size = new Size(152, 25);
+            textBoxId.ReadOnly = true;
+            textBoxId.Size = new Size(220, 25);
             textBoxId.TabIndex = 5;
             // 
             // pictureBoxListado
             // 
-            pictureBoxListado.Location = new Point(389, 87);
+            pictureBoxListado.Location = new Point(297, 157);
             pictureBoxListado.Name = "pictureBoxListado";
-            pictureBoxListado.Size = new Size(136, 125);
+            pictureBoxListado.Size = new Size(220, 136);
+            pictureBoxListado.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBoxListado.TabIndex = 6;
             pictureBoxListado.TabStop = false;
             // 
             // textBoxNombre
             // 
             textBoxNombre.AcceptsTab = true;
-            textBoxNombre.Enabled = false;
+            textBoxNombre.BackColor = SystemColors.Info;
             textBoxNombre.Location = new Point(24, 112);
             textBoxNombre.Multiline = true;
             textBoxNombre.Name = "textBoxNombre";
-            textBoxNombre.Size = new Size(152, 27);
+            textBoxNombre.ReadOnly = true;
+            textBoxNombre.Size = new Size(220, 27);
             textBoxNombre.TabIndex = 7;
             // 
             // textBoxPrecio
             // 
             textBoxPrecio.AcceptsTab = true;
-            textBoxPrecio.Enabled = false;
-            textBoxPrecio.Location = new Point(201, 76);
+            textBoxPrecio.BackColor = SystemColors.Info;
+            textBoxPrecio.Location = new Point(297, 76);
             textBoxPrecio.Multiline = true;
             textBoxPrecio.Name = "textBoxPrecio";
-            textBoxPrecio.Size = new Size(152, 26);
+            textBoxPrecio.ReadOnly = true;
+            textBoxPrecio.Size = new Size(220, 26);
             textBoxPrecio.TabIndex = 8;
             // 
             // textBoxDescripcion
             // 
             textBoxDescripcion.AcceptsTab = true;
-            textBoxDescripcion.Enabled = false;
-            textBoxDescripcion.Location = new Point(53, 168);
+            textBoxDescripcion.BackColor = SystemColors.Info;
+            textBoxDescripcion.Location = new Point(24, 157);
             textBoxDescripcion.Multiline = true;
             textBoxDescripcion.Name = "textBoxDescripcion";
-            textBoxDescripcion.Size = new Size(267, 136);
+            textBoxDescripcion.ReadOnly = true;
+            textBoxDescripcion.Size = new Size(251, 136);
             textBoxDescripcion.TabIndex = 9;
             // 
             // textBoxExistencias
             // 
             textBoxExistencias.AcceptsTab = true;
-            textBoxExistencias.Enabled = false;
-            textBoxExistencias.Location = new Point(201, 113);
+            textBoxExistencias.BackColor = SystemColors.Info;
+            textBoxExistencias.Location = new Point(297, 113);
             textBoxExistencias.Multiline = true;
             textBoxExistencias.Name = "textBoxExistencias";
-            textBoxExistencias.Size = new Size(152, 26);
+            textBoxExistencias.ReadOnly = true;
+            textBoxExistencias.Size = new Size(220, 26);
             textBoxExistencias.TabIndex = 10;
             // 
             // Bajitas
