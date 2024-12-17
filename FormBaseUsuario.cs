@@ -10,18 +10,20 @@ namespace WinFormsProyectoBase
         public int[] panDisp; //base de datos
         public int[] postreDisp; //base de datos
         public string nombre; //base de datos
+        public static string account;
 
         Random Musica = new Random();      // Random para seleccionar musica aleatoriamente
         private int cont = 0;              // Contador de Musica
         private bool[] reproducida = new bool[4]; // Control de canciones reproducidas
         private bool sonido = false; // variable de control de mute/demute
 
-        public FormBaseUsuario(string nombreUs)
+        public FormBaseUsuario(string nombreUs, string account)
         {
             InitializeComponent();
             cargarForm(new FormInformacion());
             this.labelNomUsuario.Text = nombreUs;
             this.labelNomUsuario.Location = new System.Drawing.Point(930 - ((nombreUs.Length) * 8), 35);
+            FormBaseUsuario.account = account;
             //this.postreDisp = postreDisp;
             //this.panDisp = panDisp;
             AdmonBD aux = new AdmonBD();

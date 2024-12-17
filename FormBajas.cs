@@ -193,7 +193,7 @@ namespace WinFormsProyectoBase
             }
             else
             {
-                if (postres[pos] != null)
+                if (postres[pos % 5] !=null)
                 {
                     id = postres[pos % 5].Id;
                 }
