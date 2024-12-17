@@ -57,7 +57,7 @@ namespace WinFormsProyectoBase
 
             limpiar();
             obj.Disconnect();
-            FormBaseUsuario fU = new FormBaseUsuario(aux.NombreCompleto); //sujeto a cambios por verificacion en base de datos
+            FormBaseUsuario fU = new FormBaseUsuario(aux.NombreCompleto, aux.Cuenta); //sujeto a cambios por verificacion en base de datos
             //FormBaseUsuario fU = new FormBaseUsuario(aux.NombreCompleto, panDisp, postreDisp);
             this.Hide();
             SoundPlayer ReproducirMusica = new SoundPlayer();
@@ -152,7 +152,7 @@ namespace WinFormsProyectoBase
 
             limpiar();
             obj.Disconnect();
-            FormBaseUsuario fU = new FormBaseUsuario(aux.NombreCompleto); //sujeto a cambios por verificacion en base de datos
+            FormBaseUsuario fU = new FormBaseUsuario(aux.NombreCompleto, aux.Cuenta); //sujeto a cambios por verificacion en base de datos
             //FormBaseUsuario fU = new FormBaseUsuario(aux.NombreCompleto, panDisp, postreDisp);
             this.Hide();
             SoundPlayer ReproducirMusica = new SoundPlayer();

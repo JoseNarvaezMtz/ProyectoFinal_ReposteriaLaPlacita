@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Imaging;
+using Microsoft.VisualBasic.ApplicationServices;
 
 namespace WinFormsProyectoBase
 {
@@ -99,8 +100,24 @@ namespace WinFormsProyectoBase
 
         private void buttonPagar_Click(object sender, EventArgs e)
         {
+            AdmonBD admonBD = new AdmonBD();
+            AdmonBDUsuario admonBDUsuario = new AdmonBDUsuario();
+            Usuarios user = admonBDUsuario.consultaUnRegistro(FormBaseUsuario.account);
+            foreach (ClassCompras obj in FormBaseUsuario.productosSeleccionados)
+            {
+                Productos aux;
+                if (obj.producto.Categoria == 1)
+                    aux = FormBaseUsuario.listaPanes[obj.indice];
+                else
+                    aux = FormBaseUsuario.listaPostres[obj.indice];
+                admonBD.actualizar(aux.Id, aux.Nombre, aux.Categoria, aux.Descripcion, aux.Imagen, aux.Precio, aux.Existencias);
+                user.Monto += obj.costo();
+            }
+            user.Monto *= 1.06f;
+            admonBDUsuario.actualizar(user.Id, user.NombreCompleto, user.Categoria, user.Cuenta, user.Contrasena, user.Monto);
             FormTicket ticket = new FormTicket(this.total);
             ticket.ShowDialog();
+            FormBaseUsuario.productosSeleccionados.Clear();
             this.Close();
         }
     }

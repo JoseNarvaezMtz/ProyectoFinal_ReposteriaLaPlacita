@@ -3,6 +3,62 @@
   "WorkspaceRootPath": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\analo\\source\\repos\\josenarvaezmtz\\proyectofinal_reposterialaplacita\\formbaseadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formbaseadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\analo\\source\\repos\\josenarvaezmtz\\proyectofinal_reposterialaplacita\\formgraficas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formgraficas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\formgraficas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formgraficas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\formticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\analo\\source\\repos\\josenarvaezmtz\\proyectofinal_reposterialaplacita\\formpostres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formpostres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\bajitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:bajitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\formpostres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formpostres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\analo\\source\\repos\\josenarvaezmtz\\proyectofinal_reposterialaplacita\\formpan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formpan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\formpan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formpan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\analo\\source\\repos\\josenarvaezmtz\\proyectofinal_reposterialaplacita\\admonbdusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:admonbdusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\analo\\source\\repos\\josenarvaezmtz\\proyectofinal_reposterialaplacita\\bajitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:bajitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\analo\\source\\repos\\josenarvaezmtz\\proyectofinal_reposterialaplacita\\formbaseadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formbaseadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\analo\\source\\repos\\josenarvaezmtz\\proyectofinal_reposterialaplacita\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\analo\\source\\repos\\josenarvaezmtz\\proyectofinal_reposterialaplacita\\formticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\analo\\source\\repos\\josenarvaezmtz\\proyectofinal_reposterialaplacita\\forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,40 +67,68 @@
       "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:forminiciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\formbaseusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formbaseusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\analo\\source\\repos\\josenarvaezmtz\\proyectofinal_reposterialaplacita\\formgraficas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formgraficas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\analo\\source\\repos\\josenarvaezmtz\\proyectofinal_reposterialaplacita\\formgraficas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formgraficas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\analo\\source\\repos\\josenarvaezmtz\\proyectofinal_reposterialaplacita\\formbaseadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formbaseadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\analo\\source\\repos\\josenarvaezmtz\\proyectofinal_reposterialaplacita\\admonbdusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:admonbdusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\analo\\source\\repos\\josenarvaezmtz\\proyectofinal_reposterialaplacita\\admonbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:admonbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\analo\\source\\repos\\josenarvaezmtz\\proyectofinal_reposterialaplacita\\formportada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formportada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\formpagocaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formpagocaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\formportada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formportada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\forminformacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:forminformacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\analo\\source\\repos\\josenarvaezmtz\\proyectofinal_reposterialaplacita\\formpagocaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formpagocaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\analo\\source\\repos\\josenarvaezmtz\\proyectofinal_reposterialaplacita\\formbaseusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formbaseusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\analo\\source\\repos\\josenarvaezmtz\\proyectofinal_reposterialaplacita\\formcantidadcomprar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formcantidadcomprar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\formcantidadcomprar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formcantidadcomprar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\formbaseusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formbaseusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\analo\\source\\repos\\josenarvaezmtz\\proyectofinal_reposterialaplacita\\formbajas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formbajas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\formbajas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formbajas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\analo\\source\\repos\\josenarvaezmtz\\proyectofinal_reposterialaplacita\\admonbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:admonbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\analo\\source\\repos\\josenarvaezmtz\\proyectofinal_reposterialaplacita\\formpagotarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formpagotarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\analo\\source\\repos\\josenarvaezmtz\\proyectofinal_reposterialaplacita\\formpagooxxo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formpagooxxo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\formpagooxxo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formpagooxxo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\formpagotarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:formpagotarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|c:\\users\\analo\\source\\repos\\josenarvaezmtz\\proyectofinal_reposterialaplacita\\altitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:altitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\altitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C3D8429E-D150-4C90-B9EB-8F1CD0B8226F}|WinFormsProyectoBase.csproj|solutionrelative:altitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +138,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,140 +178,384 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormPostres.cs",
+              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormPostres.cs",
+              "RelativeDocumentMoniker": "FormPostres.cs",
+              "ToolTip": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormPostres.cs",
+              "RelativeToolTip": "FormPostres.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T05:26:04.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormPostres.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormPostres.cs",
+              "RelativeDocumentMoniker": "FormPostres.cs",
+              "ToolTip": "C:\\Users\\analo\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormPostres.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormPostres.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T05:26:01.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Bajitas.cs",
+              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\Bajitas.cs",
+              "RelativeDocumentMoniker": "Bajitas.cs",
+              "ToolTip": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\Bajitas.cs",
+              "RelativeToolTip": "Bajitas.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAADAAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T04:43:15.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Bajitas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\Bajitas.cs",
+              "RelativeDocumentMoniker": "Bajitas.cs",
+              "ToolTip": "C:\\Users\\analo\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\Bajitas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\Bajitas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T04:41:04.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Productos.cs",
+              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\Productos.cs",
+              "RelativeDocumentMoniker": "Productos.cs",
+              "ToolTip": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\Productos.cs",
+              "RelativeToolTip": "Productos.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T04:32:52.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormBaseAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormBaseAdmin.cs",
+              "RelativeDocumentMoniker": "FormBaseAdmin.cs",
+              "ToolTip": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormBaseAdmin.cs",
+              "RelativeToolTip": "FormBaseAdmin.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAIAwwMkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T04:23:23.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "FormBaseAdmin.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormBaseAdmin.cs",
               "RelativeDocumentMoniker": "FormBaseAdmin.cs",
               "ToolTip": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormBaseAdmin.cs [Dise\u00F1o]",
               "RelativeToolTip": "FormBaseAdmin.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T08:41:03.565Z",
+              "WhenOpened": "2024-12-17T04:20:17.05Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AdmonBDUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\AdmonBDUsuario.cs",
-              "RelativeDocumentMoniker": "AdmonBDUsuario.cs",
-              "ToolTip": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\AdmonBDUsuario.cs",
-              "RelativeToolTip": "AdmonBDUsuario.cs",
-              "ViewState": "AgIAALUAAAAAAAAAAAAAAMEAAAA5AAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "FormPortada.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormPortada.cs",
+              "RelativeDocumentMoniker": "FormPortada.cs",
+              "ToolTip": "C:\\Users\\analo\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormPortada.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormPortada.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T08:25:47.046Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T04:07:19.64Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "AdmonBD.cs",
-              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\AdmonBD.cs",
-              "RelativeDocumentMoniker": "AdmonBD.cs",
-              "ToolTip": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\AdmonBD.cs",
-              "RelativeToolTip": "AdmonBD.cs",
-              "ViewState": "AgIAAO4AAAAAAAAAAAAAAPkAAAA5AAAAAAAAAA==",
+              "Title": "FormPan.cs",
+              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormPan.cs",
+              "RelativeDocumentMoniker": "FormPan.cs",
+              "ToolTip": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormPan.cs",
+              "RelativeToolTip": "FormPan.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAEkAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T08:25:37.185Z",
+              "WhenOpened": "2024-12-17T03:49:26.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormPan.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormPan.cs",
+              "RelativeDocumentMoniker": "FormPan.cs",
+              "ToolTip": "C:\\Users\\analo\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormPan.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormPan.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T03:49:23.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FormCantidadComprar.cs",
+              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormCantidadComprar.cs",
+              "RelativeDocumentMoniker": "FormCantidadComprar.cs",
+              "ToolTip": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormCantidadComprar.cs",
+              "RelativeToolTip": "FormCantidadComprar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T03:46:54.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FormCantidadComprar.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormCantidadComprar.cs",
+              "RelativeDocumentMoniker": "FormCantidadComprar.cs",
+              "ToolTip": "C:\\Users\\analo\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormCantidadComprar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormCantidadComprar.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T03:46:51.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FormBajas.cs",
+              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormBajas.cs",
+              "RelativeDocumentMoniker": "FormBajas.cs",
+              "ToolTip": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormBajas.cs",
+              "RelativeToolTip": "FormBajas.cs",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAAALoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T03:38:01.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FormBajas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormBajas.cs",
+              "RelativeDocumentMoniker": "FormBajas.cs",
+              "ToolTip": "C:\\Users\\analo\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormBajas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormBajas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T03:37:57.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FormTicket.cs",
+              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormTicket.cs",
+              "RelativeDocumentMoniker": "FormTicket.cs",
+              "ToolTip": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormTicket.cs",
+              "RelativeToolTip": "FormTicket.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAD4v7AAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T03:22:54.146Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "FormGraficas.cs",
-              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormGraficas.cs",
-              "RelativeDocumentMoniker": "FormGraficas.cs",
-              "ToolTip": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormGraficas.cs",
-              "RelativeToolTip": "FormGraficas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
+              "Title": "FormTicket.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormTicket.cs",
+              "RelativeDocumentMoniker": "FormTicket.cs",
+              "ToolTip": "C:\\Users\\analo\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormTicket.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormTicket.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T08:17:24.576Z",
+              "WhenOpened": "2024-12-17T03:22:50.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FormPagoCaja.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormPagoCaja.cs",
+              "RelativeDocumentMoniker": "FormPagoCaja.cs",
+              "ToolTip": "C:\\Users\\analo\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormPagoCaja.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormPagoCaja.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T03:19:58.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FormPagoTarjeta.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormPagoTarjeta.cs",
+              "RelativeDocumentMoniker": "FormPagoTarjeta.cs",
+              "ToolTip": "C:\\Users\\analo\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormPagoTarjeta.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormPagoTarjeta.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T03:19:42.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FormPagoOxxo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormPagoOxxo.cs",
+              "RelativeDocumentMoniker": "FormPagoOxxo.cs",
+              "ToolTip": "C:\\Users\\analo\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormPagoOxxo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormPagoOxxo.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T03:19:14.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FormBaseUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormBaseUsuario.cs",
+              "RelativeDocumentMoniker": "FormBaseUsuario.cs",
+              "ToolTip": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormBaseUsuario.cs",
+              "RelativeToolTip": "FormBaseUsuario.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T03:04:25.932Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormGraficas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormGraficas.cs",
-              "RelativeDocumentMoniker": "FormGraficas.cs",
-              "ToolTip": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormGraficas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormGraficas.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T08:17:13.356Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FormPortada.cs",
-              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormPortada.cs",
-              "RelativeDocumentMoniker": "FormPortada.cs",
-              "ToolTip": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormPortada.cs",
-              "RelativeToolTip": "FormPortada.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAcwEgAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T07:23:12.972Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FormPortada.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormPortada.cs",
-              "RelativeDocumentMoniker": "FormPortada.cs",
-              "ToolTip": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormPortada.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormPortada.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T07:23:11.129Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 22,
               "Title": "FormBaseUsuario.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormBaseUsuario.cs",
               "RelativeDocumentMoniker": "FormBaseUsuario.cs",
-              "ToolTip": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormBaseUsuario.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormBaseUsuario.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\analo\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormBaseUsuario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormBaseUsuario.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T07:21:56.198Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-12-17T03:04:22.368Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 30,
+              "Title": "Altitas.cs",
+              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\Altitas.cs",
+              "RelativeDocumentMoniker": "Altitas.cs",
+              "ToolTip": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\Altitas.cs",
+              "RelativeToolTip": "Altitas.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T02:55:50.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Altitas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\Altitas.cs",
+              "RelativeDocumentMoniker": "Altitas.cs",
+              "ToolTip": "C:\\Users\\analo\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\Altitas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\Altitas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T02:55:41.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "FormInicioSesion.cs",
               "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormInicioSesion.cs",
               "RelativeDocumentMoniker": "FormInicioSesion.cs",
               "ToolTip": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormInicioSesion.cs",
               "RelativeToolTip": "FormInicioSesion.cs",
-              "ViewState": "AgIAAKUAAAAAAAAAAAAwwK4AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAlwHcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T07:20:56.65Z",
+              "WhenOpened": "2024-12-17T02:36:45.152Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 15,
               "Title": "FormInicioSesion.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormInicioSesion.cs",
               "RelativeDocumentMoniker": "FormInicioSesion.cs",
-              "ToolTip": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormInicioSesion.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormInicioSesion.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\analo\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormInicioSesion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormInicioSesion.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T07:20:54.05Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-12-17T02:36:40.845Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FormInformacion.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormInformacion.cs",
-              "RelativeDocumentMoniker": "FormInformacion.cs",
-              "ToolTip": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormInformacion.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormInformacion.cs [Dise\u00F1o]",
+              "DocumentIndex": 9,
+              "Title": "AdmonBDUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\AdmonBDUsuario.cs",
+              "RelativeDocumentMoniker": "AdmonBDUsuario.cs",
+              "ToolTip": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\AdmonBDUsuario.cs",
+              "RelativeToolTip": "AdmonBDUsuario.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAALMAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T07:20:46.469Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-12-17T02:28:19.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AdmonBD.cs",
+              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\AdmonBD.cs",
+              "RelativeDocumentMoniker": "AdmonBD.cs",
+              "ToolTip": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\AdmonBD.cs",
+              "RelativeToolTip": "AdmonBD.cs",
+              "ViewState": "AgIAAOIAAAAAAAAAAAAAAI4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T02:28:13.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormGraficas.cs",
+              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormGraficas.cs",
+              "RelativeDocumentMoniker": "FormGraficas.cs",
+              "ToolTip": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormGraficas.cs",
+              "RelativeToolTip": "FormGraficas.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T02:14:43.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormGraficas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormGraficas.cs",
+              "RelativeDocumentMoniker": "FormGraficas.cs",
+              "ToolTip": "C:\\Users\\analo\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormGraficas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\ProyectoFinal_ReposteriaLaPlacita-main (1)\\ProyectoFinal_ReposteriaLaPlacita-main\\FormGraficas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T02:14:28.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FormPagoTarjeta.cs",
+              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormPagoTarjeta.cs",
+              "RelativeDocumentMoniker": "FormPagoTarjeta.cs",
+              "ToolTip": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormPagoTarjeta.cs",
+              "RelativeToolTip": "FormPagoTarjeta.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEMAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T00:20:48.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FormPagoOxxo.cs",
+              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormPagoOxxo.cs",
+              "RelativeDocumentMoniker": "FormPagoOxxo.cs",
+              "ToolTip": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormPagoOxxo.cs",
+              "RelativeToolTip": "FormPagoOxxo.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAHcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T00:20:46.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FormPagoCaja.cs",
+              "DocumentMoniker": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormPagoCaja.cs",
+              "RelativeDocumentMoniker": "FormPagoCaja.cs",
+              "ToolTip": "C:\\Users\\analo\\source\\repos\\JoseNarvaezMtz\\ProyectoFinal_ReposteriaLaPlacita\\FormPagoCaja.cs",
+              "RelativeToolTip": "FormPagoCaja.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T00:20:44.068Z"
             }
           ]
         }

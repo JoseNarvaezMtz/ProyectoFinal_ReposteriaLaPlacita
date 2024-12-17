@@ -12,12 +12,12 @@ namespace WinFormsProyectoBase
         string nombre;
         int categoria;
         string descripcion;
-        string imagen;
+        byte[] imagen;
         float precio;
         int existencias;
 
         public Productos() { }
-        public Productos(int id, string nombre, int categoria, string descripcion, string imagen, float precio, int existencias)
+        public Productos(int id, string nombre, int categoria, string descripcion, byte[] imagen, float precio, int existencias)
         {
             this.id = id;
             this.nombre = nombre;
@@ -32,8 +32,13 @@ namespace WinFormsProyectoBase
         public string Nombre { get => nombre; set => nombre = value; }
         public int Categoria { get => categoria; set => categoria = value; }
         public string Descripcion { get => descripcion; set => descripcion = value; }
-        public string Imagen { get => imagen; set => imagen = value; }
+        public byte[] Imagen { get => imagen; set => imagen = value; }
         public float Precio { get => precio; set => precio = value; }
         public int Existencias { get => existencias; set => existencias = value; }
+
+        public static int Comparar(Productos obj1, Productos obj2)
+        {
+            return obj1.existencias.CompareTo(obj2.existencias);
+        }
     }
 }

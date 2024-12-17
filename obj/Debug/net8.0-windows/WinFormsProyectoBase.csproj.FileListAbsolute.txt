@@ -177,3 +177,124 @@ C:\Users\analo\Source\Repos\JoseNarvaezMtz\ProyectoFinal_ReposteriaLaPlacita\obj
 C:\Users\analo\Source\Repos\JoseNarvaezMtz\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.pdb
 C:\Users\analo\Source\Repos\JoseNarvaezMtz\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.genruntimeconfig.cache
 C:\Users\analo\Source\Repos\JoseNarvaezMtz\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\ref\WinFormsProyectoBase.dll
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.csproj.AssemblyReference.cache
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.Altitas.resources
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.Bajitas.resources
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormAltas.resources
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormBajas.resources
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormBaseAdmin.resources
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormBaseUsuario.resources
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormCantidadComprar.resources
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormGraficas.resources
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormInformacion.resources
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormInicioSesion.resources
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormMetodosPago.resources
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormModificaciones.resources
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormPagoCaja.resources
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormPagoOxxo.resources
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormPagoTarjeta.resources
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormPan.resources
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormPortada.resources
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormPostres.resources
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormTicket.resources
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.Properties.Resources.resources
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.csproj.GenerateResource.cache
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.AssemblyInfoInputs.cache
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.AssemblyInfo.cs
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.csproj.CoreCompileInputs.cache
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.sourcelink.json
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.dll
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\refint\WinFormsProyectoBase.dll
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.pdb
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\Resources\Music\Musica1.wav
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\Resources\Music\Musica2.wav
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\Resources\Music\Musica3.wav
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\Resources\Music\Tecla.wav
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\WinFormsProyectoBase.exe
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\Resources\logoClaroAdmin.png
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\Resources\LogoNegro.png
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\WinFormsProyectoBase.deps.json
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\WinFormsProyectoBase.runtimeconfig.json
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\WinFormsProyectoBase.dll
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\WinFormsProyectoBase.pdb
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\itextsharp.dll
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\ScottPlot.dll
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\ScottPlot.WinForms.dll
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\System.Windows.Forms.DataVisualization.dll
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinForms.A18AC18A.Up2Date
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\WinFormsProyectoBase.genruntimeconfig.cache
+C:\Users\josen\Source\Repos\ProyectoFinal_ReposteriaLaPlacita\obj\Debug\net8.0-windows\ref\WinFormsProyectoBase.dll
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\bin\Debug\net8.0-windows\Resources\Music\Musica1.wav
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\bin\Debug\net8.0-windows\Resources\Music\Musica2.wav
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\bin\Debug\net8.0-windows\Resources\Music\Musica3.wav
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\bin\Debug\net8.0-windows\Resources\Music\Tecla.wav
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\bin\Debug\net8.0-windows\WinFormsProyectoBase.exe
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\bin\Debug\net8.0-windows\Resources\logoClaroAdmin.png
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\bin\Debug\net8.0-windows\Resources\LogoNegro.png
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\bin\Debug\net8.0-windows\WinFormsProyectoBase.deps.json
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\bin\Debug\net8.0-windows\WinFormsProyectoBase.runtimeconfig.json
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\bin\Debug\net8.0-windows\WinFormsProyectoBase.dll
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\bin\Debug\net8.0-windows\WinFormsProyectoBase.pdb
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\bin\Debug\net8.0-windows\itextsharp.dll
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\bin\Debug\net8.0-windows\ScottPlot.dll
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\bin\Debug\net8.0-windows\ScottPlot.WinForms.dll
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\bin\Debug\net8.0-windows\System.Windows.Forms.DataVisualization.dll
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.csproj.AssemblyReference.cache
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.Altitas.resources
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.Bajitas.resources
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormAltas.resources
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormBajas.resources
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormBaseAdmin.resources
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormBaseUsuario.resources
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormCantidadComprar.resources
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormGraficas.resources
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormInformacion.resources
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormInicioSesion.resources
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormMetodosPago.resources
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormModificaciones.resources
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormPagoCaja.resources
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormPagoOxxo.resources
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormPagoTarjeta.resources
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormPan.resources
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormPortada.resources
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormPostres.resources
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.FormTicket.resources
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.Properties.Resources.resources
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.csproj.GenerateResource.cache
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.AssemblyInfoInputs.cache
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.AssemblyInfo.cs
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.csproj.CoreCompileInputs.cache
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinForms.A18AC18A.Up2Date
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.dll
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\refint\WinFormsProyectoBase.dll
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.pdb
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\WinFormsProyectoBase.genruntimeconfig.cache
+C:\Users\analo\Downloads\ProyectoFinal_ReposteriaLaPlacita-main (1)\ProyectoFinal_ReposteriaLaPlacita-main\obj\Debug\net8.0-windows\ref\WinFormsProyectoBase.dll

@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.Intrinsics.X86;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -18,6 +19,7 @@ namespace WinFormsProyectoBase
         {
             InitializeComponent();
             this.id = id;
+            this.info();
         }
 
         private void buttonCancel_Click(object sender, EventArgs e)
@@ -32,6 +34,20 @@ namespace WinFormsProyectoBase
             admonBD.eliminar(this.id);
             MessageBox.Show("El producto ha sido removido de la base de datos :)");
             this.Close();
+        }
+
+        private void info()
+        {
+            AdmonBD admonBD = new AdmonBD();
+            Productos p = admonBD.consultaUnRegistro(id);
+            string aux = string.Empty;
+
+            this.pictureBoxListado.Image = Image.FromStream(new MemoryStream(p.Imagen));
+            this.textBoxId.Text = "Id: " + Convert.ToString(p.Id);
+            this.textBoxNombre.Text = "Nombre: " + (p.Nombre);
+            this.textBoxPrecio.Text = "Precio: " + Convert.ToString(p.Precio);
+            this.textBoxExistencias.Text = "Existencias: " + Convert.ToString(p.Existencias);
+            this.textBoxDescripcion.Text = "Descripción: " + (p.Descripcion);
         }
     }
 }

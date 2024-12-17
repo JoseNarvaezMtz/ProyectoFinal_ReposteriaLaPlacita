@@ -146,7 +146,6 @@ namespace WinFormsProyectoBase
             return item;
         }
 
-
         public void eliminar(int idp)
         {
             string query = "";
@@ -174,13 +173,11 @@ namespace WinFormsProyectoBase
             // UPDATE `usuarios` SET `id`= '[value-1]',`producto`= '[value-2]',`imagen`= '[value-3]',`precio`= '[value-4]' WHERE 1
             try
             {
-                string query = "UPDATE usuarios SET id=" + "'" + idp + "'" + ",nombre=" + "'" + nom + "'" + ",categoria=" + "'" + categ + "'" + ",cuenta=" + "'" + cuenta + "'" + ",contrasena=" + "'" + contrasena + "'" + ",monto=" + "'" + monto + "'" + "where id=" + idp + ";";
+                string query = "UPDATE usuarios SET id=" + "'" + idp + "'" + ",nombreCompleto=" + "'" + nom + "'" + ",categoria=" + "'" + categ + "'" + ",cuenta=" + "'" + cuenta + "'" + ",contrasena=" + "'" + contrasena + "'" + ",monto=" + "'" + monto + "'" + "where id=" + idp + ";";
                 MessageBox.Show(query);
                 MySqlCommand cmd = new MySqlCommand(query, connection);
                 cmd.ExecuteNonQuery();
                 MessageBox.Show(query + "\nRegistro Actualizado");
-
-
             }
             catch (Exception ex)
             {

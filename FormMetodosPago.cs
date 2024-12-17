@@ -20,22 +20,22 @@ namespace WinFormsProyectoBase
         private void buttonPagoCaja_Click(object sender, EventArgs e)
         {
             FormPagoCaja caja = new FormPagoCaja();
+            caja.ShowDialog();
             this.Close();
-            caja.Show();
         }
 
         private void buttonPagoTarjeta_Click(object sender, EventArgs e)
         {
             FormPagoTarjeta tarjeta = new FormPagoTarjeta();
+            tarjeta.ShowDialog();
             this.Close();
-            tarjeta.Show();
         }
 
         private void buttonPagoOxxo_Click(object sender, EventArgs e)
         {
             FormPagoOxxo oxxo = new FormPagoOxxo();
+            oxxo.ShowDialog();
             this.Close();
-            oxxo.Show();
         }
         private void btnSalirMetPago_Click(object sender, EventArgs e)
         {

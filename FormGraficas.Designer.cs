@@ -32,6 +32,8 @@
             labelTituloGrafica = new Label();
             labelEjeY = new Label();
             panelBase = new Panel();
+            labelSumaVentas = new Label();
+            label1 = new Label();
             formsPlotGrafica = new ScottPlot.FormsPlot();
             panelBase.SuspendLayout();
             SuspendLayout();
@@ -41,9 +43,9 @@
             labelEjeX.AutoSize = true;
             labelEjeX.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             labelEjeX.ForeColor = Color.FromArgb(64, 64, 64);
-            labelEjeX.Location = new Point(727, 573);
+            labelEjeX.Location = new Point(636, 430);
             labelEjeX.Name = "labelEjeX";
-            labelEjeX.Size = new Size(94, 23);
+            labelEjeX.Size = new Size(80, 19);
             labelEjeX.TabIndex = 8;
             labelEjeX.Text = "Encargado";
             // 
@@ -52,53 +54,75 @@
             labelTituloGrafica.AutoSize = true;
             labelTituloGrafica.Font = new Font("Segoe UI Black", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             labelTituloGrafica.ForeColor = Color.SaddleBrown;
-            labelTituloGrafica.Location = new Point(304, 48);
+            labelTituloGrafica.Location = new Point(266, 36);
             labelTituloGrafica.Name = "labelTituloGrafica";
-            labelTituloGrafica.Size = new Size(253, 25);
+            labelTituloGrafica.Size = new Size(205, 20);
             labelTituloGrafica.TabIndex = 0;
-            labelTituloGrafica.Text = "Gráfica del Total de Ventas";
+            labelTituloGrafica.Text = "Consulta de Ventas Totales";
             // 
             // labelEjeY
             // 
             labelEjeY.AutoSize = true;
             labelEjeY.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             labelEjeY.ForeColor = Color.FromArgb(64, 64, 64);
-            labelEjeY.Location = new Point(69, 101);
+            labelEjeY.Location = new Point(60, 76);
             labelEjeY.Name = "labelEjeY";
-            labelEjeY.Size = new Size(62, 23);
+            labelEjeY.Size = new Size(52, 19);
             labelEjeY.TabIndex = 7;
             labelEjeY.Text = "Ventas";
             // 
             // panelBase
             // 
             panelBase.BackColor = Color.FromArgb(46, 51, 73);
+            panelBase.Controls.Add(labelSumaVentas);
+            panelBase.Controls.Add(label1);
             panelBase.Controls.Add(labelEjeX);
             panelBase.Controls.Add(labelEjeY);
             panelBase.Controls.Add(labelTituloGrafica);
             panelBase.Controls.Add(formsPlotGrafica);
-            panelBase.Location = new Point(0, -11);
-            panelBase.Margin = new Padding(3, 4, 3, 4);
+            panelBase.Location = new Point(0, -8);
             panelBase.Name = "panelBase";
-            panelBase.Size = new Size(833, 672);
+            panelBase.Size = new Size(729, 504);
             panelBase.TabIndex = 12;
+            // 
+            // labelSumaVentas
+            // 
+            labelSumaVentas.AutoSize = true;
+            labelSumaVentas.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelSumaVentas.ForeColor = Color.White;
+            labelSumaVentas.Location = new Point(123, 469);
+            labelSumaVentas.Name = "labelSumaVentas";
+            labelSumaVentas.Size = new Size(17, 19);
+            labelSumaVentas.TabIndex = 10;
+            labelSumaVentas.Text = "$";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(3, 469);
+            label1.Name = "label1";
+            label1.Size = new Size(114, 19);
+            label1.TabIndex = 9;
+            label1.Text = "Total de Ventas:";
             // 
             // formsPlotGrafica
             // 
-            formsPlotGrafica.Location = new Point(139, 86);
-            formsPlotGrafica.Margin = new Padding(5, 4, 5, 4);
+            formsPlotGrafica.Location = new Point(122, 64);
+            formsPlotGrafica.Margin = new Padding(4, 3, 4, 3);
             formsPlotGrafica.Name = "formsPlotGrafica";
-            formsPlotGrafica.Size = new Size(565, 519);
+            formsPlotGrafica.Size = new Size(494, 389);
             formsPlotGrafica.TabIndex = 6;
             // 
             // FormGraficas
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(46, 51, 73);
-            ClientSize = new Size(833, 652);
+            ClientSize = new Size(729, 489);
             Controls.Add(panelBase);
             FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(3, 4, 3, 4);
             Name = "FormGraficas";
             Text = "FormGraficas";
             panelBase.ResumeLayout(false);
@@ -112,5 +136,7 @@
         private Label labelTituloGrafica;
         private Label labelEjeX;
         private Label labelEjeY;
+        private Label label1;
+        private Label labelSumaVentas;
     }
 }

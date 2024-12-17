@@ -86,6 +86,11 @@ namespace WinFormsProyectoBase
                     logo.ScaleAbsoluteHeight(100);
                     logo.ScaleAbsoluteWidth(100);
                     doc.Add(logo);
+                    //Título
+                    Paragraph CafeteriaParagraph = new Paragraph("Cafetería la placita", slogan);
+                    CafeteriaParagraph.Alignment = Element.ALIGN_CENTER;
+                    doc.Add(CafeteriaParagraph);
+                    doc.Add(Chunk.NEWLINE);
                     //Encabezado
                     Paragraph centro = new Paragraph("\"Delicia tras delicia para endulzar tu pancita\"", slogan);
                     centro.Alignment = Element.ALIGN_CENTER;
@@ -165,6 +170,11 @@ namespace WinFormsProyectoBase
         private void btnSalirUs_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void timerTicket_Tick(object sender, EventArgs e)
+        {
+            labelFechaHoraTicket.Text = DateTime.Now.ToString();
         }
     }
 }
