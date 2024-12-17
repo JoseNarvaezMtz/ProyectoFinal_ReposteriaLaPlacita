@@ -39,6 +39,7 @@ namespace WinFormsProyectoBase
                             //this.posicion[0] = i;
                             //cargar la imagen desde el dato de la lista
                             pictureBoxPostre1.Image = Image.FromStream(new MemoryStream(FormBaseUsuario.listaPostres[0].Imagen));
+                            pictureBoxPostre1.SizeMode = PictureBoxSizeMode.StretchImage;
                             break;
                         case 2:
                             panelPostre2.Visible = true;
@@ -47,6 +48,7 @@ namespace WinFormsProyectoBase
                             pictureBoxPostre2.Visible = true;
                             //cargar la imagen desde el dato de la lista
                             pictureBoxPostre2.Image = Image.FromStream(new MemoryStream(FormBaseUsuario.listaPostres[1].Imagen));
+                            pictureBoxPostre2.SizeMode = PictureBoxSizeMode.StretchImage;
                             break;
                         case 3:
                             panelPostre3.Visible = true;
@@ -55,6 +57,7 @@ namespace WinFormsProyectoBase
                             pictureBoxPostre3.Visible = true;
                             //cargar la imagen desde el dato de la lista
                             pictureBoxPostre3.Image = Image.FromStream(new MemoryStream(FormBaseUsuario.listaPostres[2].Imagen));
+                            pictureBoxPostre3.SizeMode = PictureBoxSizeMode.StretchImage;
                             break;
                         case 4:
                             panelPostre4.Visible = true;
@@ -63,6 +66,7 @@ namespace WinFormsProyectoBase
                             pictureBoxPostre4.Visible = true;
                             //cargar la imagen desde el dato de la lista
                             pictureBoxPostre4.Image = Image.FromStream(new MemoryStream(FormBaseUsuario.listaPostres[3].Imagen));
+                            pictureBoxPostre4.SizeMode = PictureBoxSizeMode.StretchImage;
                             break;
                         case 5:
                             panelPostre5.Visible = true;
@@ -71,6 +75,7 @@ namespace WinFormsProyectoBase
                             pictureBoxPostre5.Visible = true;
                             //cargar la imagen desde el dato de la lista
                             pictureBoxPostre5.Image = Image.FromStream(new MemoryStream(FormBaseUsuario.listaPostres[4].Imagen));
+                            pictureBoxPostre5.SizeMode = PictureBoxSizeMode.StretchImage;
                             break;
                     }
                 }

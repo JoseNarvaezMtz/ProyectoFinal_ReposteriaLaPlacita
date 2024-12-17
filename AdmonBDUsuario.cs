@@ -178,8 +178,6 @@ namespace WinFormsProyectoBase
                 MySqlCommand cmd = new MySqlCommand(query, connection);
                 cmd.ExecuteNonQuery();
                 MessageBox.Show(query + "\nRegistro Actualizado");
-
-
             }
             catch (Exception ex)
             {

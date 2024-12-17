@@ -26,15 +26,16 @@ namespace WinFormsProyectoBase
             this.Modo = Modo;
             InitializeComponent();
             Fondo();
+            totalVentas();
 
             AdmonBDUsuario aux = new AdmonBDUsuario();
             List<Usuarios> listaAux = aux.consulta();
 
-            // Listas temporales para los datos
+            //Listas temporales para los datos
             List<double> montosTemp = new List<double>();
             List<string> nombresTemp = new List<string>();
 
-            // Filtrar los usuarios y llenar las listas
+            //Almacenar en las listas los nombres y montos de usuarios e invitado (excluir al administrador)
             foreach (var usuario in listaAux)
             {
                 if (usuario.Categoria != 1)
@@ -44,40 +45,36 @@ namespace WinFormsProyectoBase
                 }
             }
 
-            // Convertir las listas dinámicas a arreglos
+            //Convertir las listas dinámicas a arreglos
             double[] montos = montosTemp.ToArray();
             string[] nombres = nombresTemp.ToArray();
 
-            // Agregar las barras al gráfico
+            //Agregar las barras al gráfico
             var bars = formsPlotGrafica.Plot.AddBar(montos);
 
-            // Crear un arreglo de posiciones de tipo double
-            double[] posiciones = new double[nombres.Length];
+            double[] posiciones = new double[nombres.Length]; //Posiciones
 
-            // Rellenar el arreglo con valores usando un bucle for
+            //Asignar al arreglo una posición
             for (int i = 0; i < nombres.Length; i++)
             {
                 posiciones[i] = (double)i;
             }
 
-            // Agregar las barras al gráfico
-            formsPlotGrafica.Plot.XTicks(positions: posiciones, labels: nombres);
+            formsPlotGrafica.Plot.XTicks(positions: posiciones, labels: nombres);   //Agregar las barras al gráfico
 
-            formsPlotGrafica.Plot.XAxis.TickLabelStyle(rotation: 90);
-            // Cambiar el color de las etiquetas en el eje X
+            formsPlotGrafica.Plot.XAxis.TickLabelStyle(rotation: 90); //Rotar las etiquetas
 
-            formsPlotGrafica.Plot.XAxis.TickLabelStyle(color: System.Drawing.Color.FromArgb(252, 251, 241));
+            formsPlotGrafica.Plot.XAxis.TickLabelStyle(color: System.Drawing.Color.FromArgb(252, 251, 241));  //Cambiar el color de las etiquetas
 
-            // Cambiar el color de las etiquetas en el eje Y
-            formsPlotGrafica.Plot.YAxis.TickLabelStyle(color: System.Drawing.Color.FromArgb(252, 251, 241));
+            formsPlotGrafica.Plot.YAxis.TickLabelStyle(color: System.Drawing.Color.FromArgb(252, 251, 241)); //Cambiar el color de las etiquetas
 
-            bars.FillColor = System.Drawing.Color.CadetBlue;
+            bars.FillColor = System.Drawing.Color.CadetBlue;    //Color de las barras
 
-            // Ajustar los márgenes para que no haya espacio debajo de las barras
-            formsPlotGrafica.Plot.SetAxisLimits(yMin: 0);
+            bars.FillColor = System.Drawing.Color.CadetBlue;    //Color de las barras
 
-            // Actualizar la gráfica
-            formsPlotGrafica.Refresh();
+            formsPlotGrafica.Plot.SetAxisLimits(yMin: 0); //Ajustar los márgenes para que no haya espacio debajo de las barras
+
+            formsPlotGrafica.Refresh(); //Se actualiza la gráfica
         }
 
         public void Fondo()
@@ -100,5 +97,21 @@ namespace WinFormsProyectoBase
                 this.labelEjeY.ForeColor = Color.FromArgb(70, 150, 250);
             }
         }
+
+        private void totalVentas()
+        {
+            string aux = string.Empty;
+            AdmonBDUsuario admonBDUsuario = new AdmonBDUsuario();
+            List<Usuarios> usuarios = admonBDUsuario.consulta();
+            float suma = 0;
+            foreach (Usuarios var in usuarios)
+                suma += var.Monto;
+            aux = Convert.ToString(suma);
+            labelSumaVentas.Text = aux;
+           
+        }
     }
 }
+
+
+

@@ -40,6 +40,7 @@ namespace WinFormsProyectoBase
                             //this.posicion[0] = i;
                             //cargar la imagen desde el dato de la lista
                             pictureBoxPan1.Image = Image.FromStream(new MemoryStream(FormBaseUsuario.listaPanes[0].Imagen));
+                            pictureBoxPan1.SizeMode = PictureBoxSizeMode.StretchImage;
                             break;
                         case 2:
                             panelPan2.Visible = true;
@@ -48,6 +49,7 @@ namespace WinFormsProyectoBase
                             pictureBoxPan2.Visible = true;
                             //cargar la imagen desde el dato de la lista
                             pictureBoxPan2.Image = Image.FromStream(new MemoryStream(FormBaseUsuario.listaPanes[1].Imagen));
+                            pictureBoxPan2.SizeMode = PictureBoxSizeMode.StretchImage;
                             break;
                         case 3:
                             panelPan3.Visible = true;
@@ -56,6 +58,7 @@ namespace WinFormsProyectoBase
                             pictureBoxPan3.Visible = true;
                             //cargar la imagen desde el dato de la lista
                             pictureBoxPan3.Image = Image.FromStream(new MemoryStream(FormBaseUsuario.listaPanes[2].Imagen));
+                            pictureBoxPan3.SizeMode = PictureBoxSizeMode.StretchImage;
                             break;
                         case 4:
                             panelPan4.Visible = true;
@@ -64,6 +67,7 @@ namespace WinFormsProyectoBase
                             pictureBoxPan4.Visible = true;
                             //cargar la imagen desde el dato de la lista
                             pictureBoxPan4.Image = Image.FromStream(new MemoryStream(FormBaseUsuario.listaPanes[3].Imagen));
+                            pictureBoxPan4.SizeMode = PictureBoxSizeMode.StretchImage;
                             break;
                         case 5:
                             panelPan5.Visible = true;
@@ -72,6 +76,7 @@ namespace WinFormsProyectoBase
                             pictureBoxPan5.Visible = true;
                             //cargar la imagen desde el dato de la lista
                             pictureBoxPan5.Image = Image.FromStream(new MemoryStream(FormBaseUsuario.listaPanes[4].Imagen));
+                            pictureBoxPan5.SizeMode = PictureBoxSizeMode.StretchImage;
                             break;
                     }
                 }
@@ -116,8 +121,6 @@ namespace WinFormsProyectoBase
                 }
             }
         }
-
-
 
         private void btnComprarPanElote_Click(object sender, EventArgs e)
         {

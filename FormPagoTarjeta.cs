@@ -62,10 +62,10 @@ namespace WinFormsProyectoBase
                     user.Monto += obj.costo();
                 }
                 user.Monto *= 1.06f;
-                FormBaseUsuario.productosSeleccionados.Clear();
                 admonBDUsuario.actualizar(user.Id, user.NombreCompleto, user.Categoria, user.Cuenta, user.Contrasena, user.Monto);
                 FormTicket ticket = new FormTicket(this.total);
                 ticket.ShowDialog();
+                FormBaseUsuario.productosSeleccionados.Clear();
                 this.Close();
             }
             else if (!ValidarNumeroTarjeta(NumTarjeta))

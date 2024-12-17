@@ -32,6 +32,7 @@
             components = new System.ComponentModel.Container();
             btnSalir = new Button();
             panelSalir = new Panel();
+            label3FechaHoraAdmin = new Label();
             btnCerrarSesion = new Button();
             btnAltas = new Button();
             btnBajas = new Button();
@@ -39,19 +40,20 @@
             panelBotones = new Panel();
             btnModificaciones = new Button();
             panelUsuario = new Panel();
-            pictureBoxLogo = new PictureBox();
-            label3FechaHoraAdmin = new Label();
-            btnModoImagen = new Button();
-            labelCorreo = new Label();
-            labelNomAdm = new Label();
+            buttonListado = new Button();
+            labelEsloganAdmin = new Label();
+            labelNombreTiendaAdmin = new Label();
             pictureBoxAdmin = new PictureBox();
+            pictureBoxLogo = new PictureBox();
+            btnModoImagen = new Button();
+            labelNomAdm = new Label();
             panelBase = new Panel();
             timer3FechaHoraAdmin = new System.Windows.Forms.Timer(components);
             panelSalir.SuspendLayout();
             panelBotones.SuspendLayout();
             panelUsuario.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBoxLogo).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxAdmin).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxLogo).BeginInit();
             SuspendLayout();
             // 
             // btnSalir
@@ -74,11 +76,21 @@
             // 
             panelSalir.BackColor = Color.FromArgb(24, 30, 54);
             panelSalir.Controls.Add(btnSalir);
+            panelSalir.Controls.Add(label3FechaHoraAdmin);
             panelSalir.Dock = DockStyle.Top;
             panelSalir.Location = new Point(0, 0);
             panelSalir.Name = "panelSalir";
             panelSalir.Size = new Size(951, 27);
             panelSalir.TabIndex = 4;
+            // 
+            // label3FechaHoraAdmin
+            // 
+            label3FechaHoraAdmin.AutoSize = true;
+            label3FechaHoraAdmin.ForeColor = Color.FromArgb(0, 126, 249);
+            label3FechaHoraAdmin.Location = new Point(12, 5);
+            label3FechaHoraAdmin.Name = "label3FechaHoraAdmin";
+            label3FechaHoraAdmin.Size = new Size(0, 15);
+            label3FechaHoraAdmin.TabIndex = 5;
             // 
             // btnCerrarSesion
             // 
@@ -87,7 +99,7 @@
             btnCerrarSesion.FlatAppearance.BorderSize = 0;
             btnCerrarSesion.FlatStyle = FlatStyle.Flat;
             btnCerrarSesion.ForeColor = Color.FromArgb(0, 126, 249);
-            btnCerrarSesion.Location = new Point(3, 211);
+            btnCerrarSesion.Location = new Point(6, 140);
             btnCerrarSesion.Name = "btnCerrarSesion";
             btnCerrarSesion.Size = new Size(216, 27);
             btnCerrarSesion.TabIndex = 0;
@@ -176,12 +188,13 @@
             // panelUsuario
             // 
             panelUsuario.BackColor = Color.FromArgb(24, 30, 54);
-            panelUsuario.Controls.Add(pictureBoxLogo);
-            panelUsuario.Controls.Add(label3FechaHoraAdmin);
-            panelUsuario.Controls.Add(btnModoImagen);
-            panelUsuario.Controls.Add(labelCorreo);
-            panelUsuario.Controls.Add(labelNomAdm);
+            panelUsuario.Controls.Add(buttonListado);
+            panelUsuario.Controls.Add(labelEsloganAdmin);
+            panelUsuario.Controls.Add(labelNombreTiendaAdmin);
             panelUsuario.Controls.Add(pictureBoxAdmin);
+            panelUsuario.Controls.Add(pictureBoxLogo);
+            panelUsuario.Controls.Add(btnModoImagen);
+            panelUsuario.Controls.Add(labelNomAdm);
             panelUsuario.Controls.Add(btnCerrarSesion);
             panelUsuario.Dock = DockStyle.Left;
             panelUsuario.Location = new Point(0, 27);
@@ -189,26 +202,63 @@
             panelUsuario.Size = new Size(222, 550);
             panelUsuario.TabIndex = 7;
             // 
+            // buttonListado
+            // 
+            buttonListado.BackColor = Color.FromArgb(24, 30, 54);
+            buttonListado.BackgroundImageLayout = ImageLayout.None;
+            buttonListado.FlatAppearance.BorderSize = 2;
+            buttonListado.FlatStyle = FlatStyle.Flat;
+            buttonListado.ForeColor = Color.FromArgb(70, 150, 250);
+            buttonListado.Location = new Point(33, 432);
+            buttonListado.Name = "buttonListado";
+            buttonListado.Size = new Size(151, 43);
+            buttonListado.TabIndex = 9;
+            buttonListado.Text = "Listado";
+            buttonListado.UseVisualStyleBackColor = false;
+            buttonListado.Click += buttonListado_Click;
+            // 
+            // labelEsloganAdmin
+            // 
+            labelEsloganAdmin.AutoSize = true;
+            labelEsloganAdmin.ForeColor = Color.FromArgb(0, 126, 249);
+            labelEsloganAdmin.Location = new Point(49, 378);
+            labelEsloganAdmin.Name = "labelEsloganAdmin";
+            labelEsloganAdmin.Size = new Size(135, 30);
+            labelEsloganAdmin.TabIndex = 8;
+            labelEsloganAdmin.Text = "\"Delicia tras delicia para \r\nendulzar tu pancita\"";
+            labelEsloganAdmin.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // labelNombreTiendaAdmin
+            // 
+            labelNombreTiendaAdmin.AutoSize = true;
+            labelNombreTiendaAdmin.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelNombreTiendaAdmin.ForeColor = Color.FromArgb(70, 150, 250);
+            labelNombreTiendaAdmin.Location = new Point(54, 187);
+            labelNombreTiendaAdmin.Name = "labelNombreTiendaAdmin";
+            labelNombreTiendaAdmin.Size = new Size(121, 21);
+            labelNombreTiendaAdmin.TabIndex = 7;
+            labelNombreTiendaAdmin.Text = "Café La Placita";
+            // 
+            // pictureBoxAdmin
+            // 
+            pictureBoxAdmin.Image = Properties.Resources.IconoAdmin;
+            pictureBoxAdmin.Location = new Point(54, 0);
+            pictureBoxAdmin.Name = "pictureBoxAdmin";
+            pictureBoxAdmin.Size = new Size(115, 113);
+            pictureBoxAdmin.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBoxAdmin.TabIndex = 1;
+            pictureBoxAdmin.TabStop = false;
+            // 
             // pictureBoxLogo
             // 
             pictureBoxLogo.Image = Properties.Resources.logoOscuro;
-            pictureBoxLogo.Location = new Point(54, 267);
+            pictureBoxLogo.Location = new Point(51, 221);
             pictureBoxLogo.Name = "pictureBoxLogo";
             pictureBoxLogo.Size = new Size(118, 145);
             pictureBoxLogo.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBoxLogo.TabIndex = 6;
             pictureBoxLogo.TabStop = false;
             pictureBoxLogo.Click += pictureBoxLogo_Click;
-            // 
-            // label3FechaHoraAdmin
-            // 
-            label3FechaHoraAdmin.AutoSize = true;
-            label3FechaHoraAdmin.ForeColor = Color.FromArgb(0, 126, 249);
-            label3FechaHoraAdmin.Location = new Point(43, 446);
-            label3FechaHoraAdmin.Name = "label3FechaHoraAdmin";
-            label3FechaHoraAdmin.Size = new Size(38, 15);
-            label3FechaHoraAdmin.TabIndex = 5;
-            label3FechaHoraAdmin.Text = "Fecha";
             // 
             // btnModoImagen
             // 
@@ -225,37 +275,16 @@
             btnModoImagen.UseVisualStyleBackColor = false;
             btnModoImagen.Click += btnModoImagen_Click;
             // 
-            // labelCorreo
-            // 
-            labelCorreo.AutoSize = true;
-            labelCorreo.Font = new Font("Segoe UI", 9F);
-            labelCorreo.ForeColor = Color.FromArgb(100, 130, 250);
-            labelCorreo.Location = new Point(33, 175);
-            labelCorreo.Name = "labelCorreo";
-            labelCorreo.Size = new Size(160, 15);
-            labelCorreo.TabIndex = 3;
-            labelCorreo.Text = "Correo Electronico (Revision)";
-            // 
             // labelNomAdm
             // 
             labelNomAdm.AutoSize = true;
             labelNomAdm.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             labelNomAdm.ForeColor = Color.FromArgb(70, 150, 250);
-            labelNomAdm.Location = new Point(78, 143);
+            labelNomAdm.Location = new Point(78, 116);
             labelNomAdm.Name = "labelNomAdm";
             labelNomAdm.Size = new Size(69, 21);
             labelNomAdm.TabIndex = 2;
             labelNomAdm.Text = "Usuario";
-            // 
-            // pictureBoxAdmin
-            // 
-            pictureBoxAdmin.Image = Properties.Resources.IconoAdmin;
-            pictureBoxAdmin.Location = new Point(43, 6);
-            pictureBoxAdmin.Name = "pictureBoxAdmin";
-            pictureBoxAdmin.Size = new Size(140, 134);
-            pictureBoxAdmin.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBoxAdmin.TabIndex = 1;
-            pictureBoxAdmin.TabStop = false;
             // 
             // panelBase
             // 
@@ -287,11 +316,12 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             panelSalir.ResumeLayout(false);
+            panelSalir.PerformLayout();
             panelBotones.ResumeLayout(false);
             panelUsuario.ResumeLayout(false);
             panelUsuario.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBoxLogo).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxAdmin).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxLogo).EndInit();
             ResumeLayout(false);
         }
 
@@ -307,12 +337,14 @@
         private Button btnModificaciones;
         private Panel panelUsuario;
         private Panel panelBase;
-        private Label labelCorreo;
         private Label labelNomAdm;
         private PictureBox pictureBoxAdmin;
         private Button btnModoImagen;
         private Label label3FechaHoraAdmin;
         private System.Windows.Forms.Timer timer3FechaHoraAdmin;
         private PictureBox pictureBoxLogo;
+        private Label labelNombreTiendaAdmin;
+        private Button buttonListado;
+        private Label labelEsloganAdmin;
     }
 }

@@ -35,5 +35,10 @@ namespace WinFormsProyectoBase
         public byte[] Imagen { get => imagen; set => imagen = value; }
         public float Precio { get => precio; set => precio = value; }
         public int Existencias { get => existencias; set => existencias = value; }
+
+        public static int Comparar(Productos obj1, Productos obj2)
+        {
+            return obj1.existencias.CompareTo(obj2.existencias);
+        }
     }
 }

@@ -171,6 +171,11 @@ namespace WinFormsProyectoBase
         {
             this.Close();
         }
+
+        private void timerTicket_Tick(object sender, EventArgs e)
+        {
+            labelFechaHoraTicket.Text = DateTime.Now.ToString();
+        }
     }
 }
 

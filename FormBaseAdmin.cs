@@ -13,8 +13,8 @@ namespace WinFormsProyectoBase
 {
     public partial class FormBaseAdmin : Form
     {
-       /* public int[] panDisp;           //base de datos
-        public int[] postreDisp;*/        //base de datos
+        /* public int[] panDisp;           //base de datos
+         public int[] postreDisp;*/        //base de datos
         private bool Modo = false;      //Variable para cambiar el Modo claro/oscuro del tema
         public FormBaseAdmin()
         {
@@ -28,7 +28,7 @@ namespace WinFormsProyectoBase
             InitializeComponent();
             this.labelNomAdm.Text = nombreUs;
             this.labelNomAdm.Location = new System.Drawing.Point(108 - (((nombreUs.Length) * 8) / 2), 145);
-           // this.panDisp = panDisp;
+            // this.panDisp = panDisp;
             //this.postreDisp = postreDisp;
             //cargarForm(new FormAltas());
         }
@@ -105,10 +105,13 @@ namespace WinFormsProyectoBase
                 this.btnSalir.ForeColor = Color.FromArgb(78, 78, 78);
                 this.btnModoImagen.BackColor = Color.FromArgb(212, 200, 175);
                 this.btnModoImagen.ForeColor = Color.FromArgb(78, 78, 78);
+                this.buttonListado.BackColor = Color.FromArgb(212, 200, 175);
+                this.buttonListado.ForeColor = Color.FromArgb(78, 78, 78);
                 this.btnModoImagen.Text = "Cambiar a modo oscuro";
                 //Labels
-                this.labelCorreo.ForeColor = Color.FromArgb(78, 78, 78);
                 this.labelNomAdm.ForeColor = Color.FromArgb(78, 78, 78);
+                this.labelEsloganAdmin.ForeColor = Color.FromArgb(78, 78, 78);
+                this.labelNombreTiendaAdmin.ForeColor = Color.FromArgb(78, 78, 78);
                 this.label3FechaHoraAdmin.ForeColor = Color.FromArgb(110, 80, 50);
                 //PictureBox
                 pictureBoxLogo.Image = Resources.logoClaro;
@@ -136,9 +139,12 @@ namespace WinFormsProyectoBase
                 this.btnSalir.ForeColor = Color.FromArgb(70, 150, 250);
                 this.btnModoImagen.BackColor = Color.FromArgb(24, 30, 54);
                 this.btnModoImagen.ForeColor = Color.FromArgb(70, 150, 250);
+                this.buttonListado.BackColor = Color.FromArgb(24, 30, 54);
+                this.buttonListado.ForeColor = Color.FromArgb(70, 150, 250);
                 this.btnModoImagen.Text = "Cambiar a modo claro";
                 //Labels
-                this.labelCorreo.ForeColor = Color.FromArgb(70, 150, 250);
+                this.labelNombreTiendaAdmin.ForeColor = Color.FromArgb(70, 150, 250);
+                this.labelEsloganAdmin.ForeColor = Color.FromArgb(70, 150, 250);
                 this.labelNomAdm.ForeColor = Color.FromArgb(70, 150, 250);
                 this.label3FechaHoraAdmin.ForeColor = Color.FromArgb(0, 126, 249);
                 //Cambiar picture box picturebox.properties.image=cadena; -->cambiar a la clara
@@ -184,6 +190,21 @@ namespace WinFormsProyectoBase
         private void pictureBoxLogo_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void buttonListado_Click(object sender, EventArgs e)
+        {
+           AdmonBD admonBD = new AdmonBD();
+            List<Productos> lista = admonBD.consulta();
+            lista.Sort(Productos.Comparar);
+            string aux = string.Empty;
+            foreach (Productos p in lista) {    
+                aux += "Id: " + Convert.ToString(p.Id) + ", ";
+                aux += "Nombre: " + (p.Nombre) + ", ";
+                aux += "Precio: " + Convert.ToString(p.Precio) + ", ";
+                aux += "Existencias: " + Convert.ToString(p.Existencias) + "\n";
+            }
+            MessageBox.Show(aux);
         }
     }
 }

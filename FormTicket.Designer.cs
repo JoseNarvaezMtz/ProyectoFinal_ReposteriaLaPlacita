@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             progressBarDescargarTicket = new ProgressBar();
             buttonDescargar = new Button();
             panel1 = new Panel();
@@ -44,6 +45,8 @@
             labelProducto = new Label();
             labelTotalCompra = new Label();
             textBoxTotalCompra = new TextBox();
+            timerTicket = new System.Windows.Forms.Timer(components);
+            labelFechaHoraTicket = new Label();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -104,7 +107,7 @@
             labelSloganTienda.ForeColor = Color.AntiqueWhite;
             labelSloganTienda.Location = new Point(267, 28);
             labelSloganTienda.Name = "labelSloganTienda";
-            labelSloganTienda.Size = new Size(467, 28);
+            labelSloganTienda.Size = new Size(492, 31);
             labelSloganTienda.TabIndex = 77;
             labelSloganTienda.Text = "\"Delicia tras delicia para endulzar tu pancita\"";
             // 
@@ -230,12 +233,29 @@
             textBoxTotalCompra.TabIndex = 85;
             textBoxTotalCompra.TextAlign = HorizontalAlignment.Center;
             // 
+            // timerTicket
+            // 
+            timerTicket.Enabled = true;
+            timerTicket.Interval = 1000;
+            timerTicket.Tick += timerTicket_Tick;
+            // 
+            // labelFechaHoraTicket
+            // 
+            labelFechaHoraTicket.AutoSize = true;
+            labelFechaHoraTicket.Font = new Font("Sans Serif Collection", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            labelFechaHoraTicket.ForeColor = Color.FromArgb(110, 80, 50);
+            labelFechaHoraTicket.Location = new Point(531, 416);
+            labelFechaHoraTicket.Name = "labelFechaHoraTicket";
+            labelFechaHoraTicket.Size = new Size(0, 29);
+            labelFechaHoraTicket.TabIndex = 87;
+            // 
             // FormTicket
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.AntiqueWhite;
             ClientSize = new Size(779, 577);
+            Controls.Add(labelFechaHoraTicket);
             Controls.Add(labelTotalCompra);
             Controls.Add(textBoxTotalCompra);
             Controls.Add(labelProducto);
@@ -276,5 +296,7 @@
         private Label labelProducto;
         private Label labelTotalCompra;
         private TextBox textBoxTotalCompra;
+        private System.Windows.Forms.Timer timerTicket;
+        private Label labelFechaHoraTicket;
     }
 }

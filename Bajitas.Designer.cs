@@ -32,31 +32,39 @@
             label2 = new Label();
             buttonCancel = new Button();
             buttonConfirm = new Button();
+            textBoxId = new TextBox();
+            pictureBoxListado = new PictureBox();
+            textBoxNombre = new TextBox();
+            textBoxPrecio = new TextBox();
+            textBoxDescripcion = new TextBox();
+            textBoxExistencias = new TextBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxListado).BeginInit();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(211, 27);
+            label1.Location = new Point(213, 9);
             label1.Name = "label1";
-            label1.Size = new Size(176, 20);
+            label1.Size = new Size(140, 15);
             label1.TabIndex = 1;
             label1.Text = "Eliminacion del producto";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(42, 80);
+            label2.Location = new Point(86, 44);
             label2.Name = "label2";
-            label2.Size = new Size(384, 20);
+            label2.Size = new Size(326, 15);
             label2.TabIndex = 2;
-            label2.Text = "Esta usted seguro que desea eliminar el producto con id:";
+            label2.Text = "¿Está usted seguro que desea eliminar el siguiente producto?";
             // 
             // buttonCancel
             // 
-            buttonCancel.Location = new Point(74, 153);
+            buttonCancel.Location = new Point(97, 329);
+            buttonCancel.Margin = new Padding(3, 2, 3, 2);
             buttonCancel.Name = "buttonCancel";
-            buttonCancel.Size = new Size(179, 85);
+            buttonCancel.Size = new Size(121, 42);
             buttonCancel.TabIndex = 3;
             buttonCancel.Text = "No";
             buttonCancel.UseVisualStyleBackColor = true;
@@ -64,26 +72,93 @@
             // 
             // buttonConfirm
             // 
-            buttonConfirm.Location = new Point(366, 153);
+            buttonConfirm.Location = new Point(290, 329);
+            buttonConfirm.Margin = new Padding(3, 2, 3, 2);
             buttonConfirm.Name = "buttonConfirm";
-            buttonConfirm.Size = new Size(179, 85);
+            buttonConfirm.Size = new Size(122, 42);
             buttonConfirm.TabIndex = 4;
             buttonConfirm.Text = "Si";
             buttonConfirm.UseVisualStyleBackColor = true;
             buttonConfirm.Click += buttonConfirm_Click;
             // 
+            // textBoxId
+            // 
+            textBoxId.AcceptsTab = true;
+            textBoxId.Enabled = false;
+            textBoxId.Location = new Point(24, 76);
+            textBoxId.Multiline = true;
+            textBoxId.Name = "textBoxId";
+            textBoxId.Size = new Size(152, 25);
+            textBoxId.TabIndex = 5;
+            // 
+            // pictureBoxListado
+            // 
+            pictureBoxListado.Location = new Point(389, 87);
+            pictureBoxListado.Name = "pictureBoxListado";
+            pictureBoxListado.Size = new Size(136, 125);
+            pictureBoxListado.TabIndex = 6;
+            pictureBoxListado.TabStop = false;
+            // 
+            // textBoxNombre
+            // 
+            textBoxNombre.AcceptsTab = true;
+            textBoxNombre.Enabled = false;
+            textBoxNombre.Location = new Point(24, 112);
+            textBoxNombre.Multiline = true;
+            textBoxNombre.Name = "textBoxNombre";
+            textBoxNombre.Size = new Size(152, 27);
+            textBoxNombre.TabIndex = 7;
+            // 
+            // textBoxPrecio
+            // 
+            textBoxPrecio.AcceptsTab = true;
+            textBoxPrecio.Enabled = false;
+            textBoxPrecio.Location = new Point(201, 76);
+            textBoxPrecio.Multiline = true;
+            textBoxPrecio.Name = "textBoxPrecio";
+            textBoxPrecio.Size = new Size(152, 26);
+            textBoxPrecio.TabIndex = 8;
+            // 
+            // textBoxDescripcion
+            // 
+            textBoxDescripcion.AcceptsTab = true;
+            textBoxDescripcion.Enabled = false;
+            textBoxDescripcion.Location = new Point(53, 168);
+            textBoxDescripcion.Multiline = true;
+            textBoxDescripcion.Name = "textBoxDescripcion";
+            textBoxDescripcion.Size = new Size(267, 136);
+            textBoxDescripcion.TabIndex = 9;
+            // 
+            // textBoxExistencias
+            // 
+            textBoxExistencias.AcceptsTab = true;
+            textBoxExistencias.Enabled = false;
+            textBoxExistencias.Location = new Point(201, 113);
+            textBoxExistencias.Multiline = true;
+            textBoxExistencias.Name = "textBoxExistencias";
+            textBoxExistencias.Size = new Size(152, 26);
+            textBoxExistencias.TabIndex = 10;
+            // 
             // Bajitas
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(614, 295);
+            ClientSize = new Size(537, 391);
+            Controls.Add(textBoxExistencias);
+            Controls.Add(textBoxDescripcion);
+            Controls.Add(textBoxPrecio);
+            Controls.Add(textBoxNombre);
+            Controls.Add(pictureBoxListado);
+            Controls.Add(textBoxId);
             Controls.Add(buttonConfirm);
             Controls.Add(buttonCancel);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Bajitas";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Bajitas";
+            ((System.ComponentModel.ISupportInitialize)pictureBoxListado).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -94,5 +169,11 @@
         private Label label2;
         private Button buttonCancel;
         private Button buttonConfirm;
+        private TextBox textBoxId;
+        private PictureBox pictureBoxListado;
+        private TextBox textBoxNombre;
+        private TextBox textBoxPrecio;
+        private TextBox textBoxDescripcion;
+        private TextBox textBoxExistencias;
     }
 }

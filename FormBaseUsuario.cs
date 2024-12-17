@@ -29,6 +29,12 @@ namespace WinFormsProyectoBase
             AdmonBD aux = new AdmonBD();
             if (FormBaseUsuario.listaPanes.Count == 0 || FormBaseUsuario.listaPostres.Count == 0)
                 aux.agregarListas();
+            else
+            {
+                FormBaseUsuario.listaPanes.Clear();
+                FormBaseUsuario.listaPostres.Clear();
+                aux.agregarListas();
+            }
         }
         public void cargarForm(object Form)
         {
