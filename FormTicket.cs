@@ -47,7 +47,6 @@ namespace WinFormsProyectoBase
                 richTextBoxPrecio.AppendText(var.producto.Precio + Environment.NewLine);
                 iva = var.costo() * 1.06f;
                 richTextBoxPrecioImp.AppendText(iva.ToString() + Environment.NewLine);
-                this.total += var.costo() * 1.06f;
             }
             textBoxTotalCompra.Text = this.total.ToString("F2");
         }
