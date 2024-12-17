@@ -33,6 +33,7 @@
             pictureBox2 = new PictureBox();
             labelBienvenida = new Label();
             label1 = new Label();
+            label2 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -61,7 +62,7 @@
             labelBienvenida.AutoSize = true;
             labelBienvenida.Font = new Font("Script MT Bold", 30F, FontStyle.Bold, GraphicsUnit.Point, 0);
             labelBienvenida.ForeColor = Color.FromArgb(110, 80, 50);
-            labelBienvenida.Location = new Point(158, 43);
+            labelBienvenida.Location = new Point(158, 42);
             labelBienvenida.Name = "labelBienvenida";
             labelBienvenida.Size = new Size(636, 48);
             labelBienvenida.TabIndex = 8;
@@ -73,11 +74,22 @@
             label1.BackColor = Color.SeaShell;
             label1.Font = new Font("Script MT Bold", 20F, FontStyle.Bold);
             label1.ForeColor = Color.FromArgb(110, 80, 50);
-            label1.Location = new Point(215, 140);
+            label1.Location = new Point(214, 158);
             label1.Name = "label1";
             label1.Size = new Size(520, 165);
             label1.TabIndex = 12;
             label1.Text = resources.GetString("label1.Text");
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Times New Roman", 14F, FontStyle.Bold);
+            label2.ForeColor = Color.FromArgb(110, 80, 50);
+            label2.Location = new Point(283, 109);
+            label2.Name = "label2";
+            label2.Size = new Size(388, 22);
+            label2.TabIndex = 14;
+            label2.Text = "\"Delicia tras delicia para endulzar tu pancita\"";
             // 
             // FormInformacion
             // 
@@ -85,6 +97,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.AntiqueWhite;
             ClientSize = new Size(951, 444);
+            Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(pictureBox3);
             Controls.Add(pictureBox2);
@@ -104,5 +117,6 @@
         private PictureBox pictureBox2;
         private Label labelBienvenida;
         private Label label1;
+        private Label label2;
     }
 }
